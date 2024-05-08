@@ -1,0 +1,2640 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.3.14)  6 MAY 2024 17:15
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**d:/workspace/RapportPFE/main.tex
+(d:/workspace/RapportPFE/main.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+(tpl/isipfe.cls
+
+LaTeX Warning: You have requested document class `./tpl/isipfe',
+               but the document class provides `isipfe'.
+
+Document Class: isipfe 15/04/2016 ISI PFE LaTeX Class
+(C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/base\book.cls
+Document Class: book 2023/05/17 v1.4n Standard LaTeX document class
+(C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/base\bk11.clo
+File: bk11.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count188
+\c@chapter=\count189
+\c@section=\count190
+\c@subsection=\count191
+\c@subsubsection=\count192
+\c@paragraph=\count193
+\c@subparagraph=\count194
+\c@figure=\count195
+\c@table=\count196
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count197
+\Gm@cntv=\count198
+\c@Gm@tempcnt=\count199
+\Gm@bindingoffset=\dimen141
+\Gm@wd@mp=\dimen142
+\Gm@odd@mp=\dimen143
+\Gm@even@mp=\dimen144
+\Gm@layoutwidth=\dimen145
+\Gm@layoutheight=\dimen146
+\Gm@layouthoffset=\dimen147
+\Gm@layoutvoffset=\dimen148
+\Gm@dimlist=\toks18
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/hyphenat\hyphenat.sty
+Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
+\langwohyphens=\language79
+LaTeX Info: Redefining \_ on input line 43.
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
+Package: titlesec 2023/10/27 v2.16 Sectioning titles
+\ttl@box=\box51
+\beforetitleunit=\skip50
+\aftertitleunit=\skip51
+\ttl@plus=\dimen149
+\ttl@minus=\dimen150
+\ttl@toksa=\toks19
+\titlewidth=\dimen151
+\titlewidthlast=\dimen152
+\titlewidthfirst=\dimen153
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
+\f@nch@headwidth=\skip52
+\f@nch@O@elh=\skip53
+\f@nch@O@erh=\skip54
+\f@nch@O@olh=\skip55
+\f@nch@O@orh=\skip56
+\f@nch@O@elf=\skip57
+\f@nch@O@erf=\skip58
+\f@nch@O@olf=\skip59
+\f@nch@O@orf=\skip60
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/tools\xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks20
+\inpenc@posthook=\toks21
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2024/02/07 v24.2 The Babel package
+\babel@savecnt=\count266
+\U@D=\dimen154
+\l@unhyphenated=\language80
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count267
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
+(babel)             (\language73). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
+(babel)             (\language73). Reported on input line 108.
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/arabi\arabic.ldf
+File: arabic.ldf 
+Language: arabic 2006/01/01 v0.1 Arabic support for the babel system
+
+
+Package babel Warning: No hyphenation patterns were preloaded for
+(babel)                the language 'Arabic' into the format.
+(babel)                Please, configure your TeX system to add them and
+(babel)                rebuild the format. Now I will use the patterns
+(babel)                preloaded for \language=0 instead on input line 35.
+
+Package babel Info: Hyphen rules for 'arabic' set to \l@english
+(babel)             (\language0). Reported on input line 36.
+Loading the definitions for the LaTeX{} Arabic encoding (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/arabi\laeenc.def
+File: laeenc.def 2006/01/01 v0.1 Local Arabic font encoding (test version: may change)
+Now handling font encoding LAE ...
+... processing UTF-8 mapping file for font encoding LAE
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/arabi\laeenc.dfu
+File: laeenc.dfu 2006/01/01 v1.0 UTF-8 support for Arabic and Farsi for use with inputenc
+   defining Unicode char U+066A (decimal 1642)
+   defining Unicode char U+060C (decimal 1548)
+   defining Unicode char U+0660 (decimal 1632)
+   defining Unicode char U+0661 (decimal 1633)
+   defining Unicode char U+0662 (decimal 1634)
+   defining Unicode char U+0663 (decimal 1635)
+   defining Unicode char U+0664 (decimal 1636)
+   defining Unicode char U+0665 (decimal 1637)
+   defining Unicode char U+0666 (decimal 1638)
+   defining Unicode char U+0667 (decimal 1639)
+   defining Unicode char U+0668 (decimal 1640)
+   defining Unicode char U+0669 (decimal 1641)
+   defining Unicode char U+061B (decimal 1563)
+   defining Unicode char U+061F (decimal 1567)
+   defining Unicode char U+0621 (decimal 1569)
+   defining Unicode char U+0622 (decimal 1570)
+   defining Unicode char U+0623 (decimal 1571)
+   defining Unicode char U+0624 (decimal 1572)
+   defining Unicode char U+0625 (decimal 1573)
+   defining Unicode char U+0626 (decimal 1574)
+   defining Unicode char U+0627 (decimal 1575)
+   defining Unicode char U+0628 (decimal 1576)
+   defining Unicode char U+0629 (decimal 1577)
+   defining Unicode char U+062A (decimal 1578)
+   defining Unicode char U+062B (decimal 1579)
+   defining Unicode char U+062C (decimal 1580)
+   defining Unicode char U+062D (decimal 1581)
+   defining Unicode char U+062E (decimal 1582)
+   defining Unicode char U+062F (decimal 1583)
+   defining Unicode char U+0630 (decimal 1584)
+   defining Unicode char U+0631 (decimal 1585)
+   defining Unicode char U+0632 (decimal 1586)
+   defining Unicode char U+0633 (decimal 1587)
+   defining Unicode char U+0634 (decimal 1588)
+   defining Unicode char U+0635 (decimal 1589)
+   defining Unicode char U+0636 (decimal 1590)
+   defining Unicode char U+0637 (decimal 1591)
+   defining Unicode char U+0638 (decimal 1592)
+   defining Unicode char U+0639 (decimal 1593)
+   defining Unicode char U+063A (decimal 1594)
+   defining Unicode char U+0640 (decimal 1600)
+   defining Unicode char U+0641 (decimal 1601)
+   defining Unicode char U+0642 (decimal 1602)
+   defining Unicode char U+0643 (decimal 1603)
+   defining Unicode char U+0644 (decimal 1604)
+   defining Unicode char U+0645 (decimal 1605)
+   defining Unicode char U+0646 (decimal 1606)
+   defining Unicode char U+0647 (decimal 1607)
+   defining Unicode char U+0648 (decimal 1608)
+   defining Unicode char U+0649 (decimal 1609)
+   defining Unicode char U+064A (decimal 1610)
+   defining Unicode char U+064B (decimal 1611)
+   defining Unicode char U+064C (decimal 1612)
+   defining Unicode char U+064D (decimal 1613)
+   defining Unicode char U+064E (decimal 1614)
+   defining Unicode char U+064F (decimal 1615)
+   defining Unicode char U+0650 (decimal 1616)
+   defining Unicode char U+0651 (decimal 1617)
+   defining Unicode char U+0652 (decimal 1618)
+   defining Unicode char U+067E (decimal 1662)
+   defining Unicode char U+0686 (decimal 1670)
+   defining Unicode char U+0698 (decimal 1688)
+   defining Unicode char U+06A9 (decimal 1705)
+   defining Unicode char U+06AF (decimal 1711)
+   defining Unicode char U+06CC (decimal 1740)
+   defining Unicode char U+06F0 (decimal 1776)
+   defining Unicode char U+06F1 (decimal 1777)
+   defining Unicode char U+06F2 (decimal 1778)
+   defining Unicode char U+06F3 (decimal 1779)
+   defining Unicode char U+06F4 (decimal 1780)
+   defining Unicode char U+06F5 (decimal 1781)
+   defining Unicode char U+06F6 (decimal 1782)
+   defining Unicode char U+06F7 (decimal 1783)
+   defining Unicode char U+06F8 (decimal 1784)
+   defining Unicode char U+06F9 (decimal 1785)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+06D5 (decimal 1749)
+)) Loading the Common definitions for Arabic and Farsi (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/arabi\arabicore.sty   Arabi Core switching commands v1.0  2006/01/01   (may still change)  
+\n@everypar=\toks22
+\@Arabitempboxa=\box52
+\llahheight=\skip61
+\Decimalheight=\skip62
+)
+LaTeX Font Info:    Redeclaring font encoding LAE on input line 144.
+ Loading the Arabi fonts definitions for Arabic (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/arabi\arabicfnt.sty   Arabic font switching commands v1.0  2006/01/01   (may still change)  
+LaTeX Info: Redefining \texttimes on input line 101.
+LaTeX Info: Redefining \times on input line 102.
+LaTeX Info: Redefining \omega on input line 137.
+) Loading the Common definitions for Arabic and Farsi (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/arabi\arabnovowel.sty
+File: arabnovowel.sty 2005/09/07 v0.1 Arabic dummy vowel slots when needed
+\ArabiStruthightOFF=\skip63
+\ArabiStrutdepthOFF=\skip64
+\ArabiStruthightON=\skip65
+\ArabiStrutdepthON=\skip66
+LaTeX Font Info:    Trying to load font information for LAE+cmr on input line 133.
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/arabi\laecmr.fd
+File: laecmr.fd 2006/01/01 v0.1 LaTeX Arabic default font description (test version: may change)
+)
+LaTeX Font Info:    Font shape `LAE/cmr/m/n' will be
+(Font)              scaled to size 13.68748pt on input line 133.
+)
+*************************************
+* Local config file arabic.cfg used
+*
+(C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/arabi\arabic.cfg)) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/babel-french\french.ldf
+Language: french 2024-02-29 v3.5s French support from the babel system
+Package babel Info: Hyphen rules for 'acadian' set to \l@french
+(babel)             (\language22). Reported on input line 91.
+Package babel Info: Hyphen rules for 'canadien' set to \l@french
+(babel)             (\language22). Reported on input line 92.
+\FB@stdchar=\count268
+Package babel Info: Making : an active character on input line 420.
+Package babel Info: Making ; an active character on input line 421.
+Package babel Info: Making ! an active character on input line 422.
+Package babel Info: Making ? an active character on input line 423.
+\FBguill@level=\count269
+\FBold@everypar=\toks23
+\FB@Mht=\dimen155
+\mc@charclass=\count270
+\mc@charfam=\count271
+\mc@charslot=\count272
+\std@mcc=\count273
+\dec@mcc=\count274
+\FB@parskip=\dimen156
+\listindentFB=\dimen157
+\descindentFB=\dimen158
+\labelindentFB=\dimen159
+\labelwidthFB=\dimen160
+\leftmarginFB=\dimen161
+\parindentFFN=\dimen162
+\FBfnindent=\dimen163
+)) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/fr\babel-french.tex
+Package babel Info: Importing font and identification data for french
+(babel)             from babel-fr.ini. Reported on input line 11.
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/en\babel-english.tex
+Package babel Info: Importing font and identification data for english
+(babel)             from babel-en.ini. Reported on input line 11.
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/carlisle\scalefnt.sty) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.sty
+Package: csquotes 2022-09-14 v5.2n context-sensitive quotations (JAW)
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count275
+)
+\csq@reset=\count276
+\csq@gtype=\count277
+\csq@glevel=\count278
+\csq@qlevel=\count279
+\csq@maxlvl=\count280
+\csq@tshold=\count281
+\csq@ltx@everypar=\toks24
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.def
+File: csquotes.def 2022-09-14 v5.2n csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.cfg
+File: csquotes.cfg 
+)) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
+Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count282
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+)) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+\c@tabx@nest=\count283
+\c@listtotal=\count284
+\c@listcount=\count285
+\c@liststart=\count286
+\c@liststop=\count287
+\c@citecount=\count288
+\c@citetotal=\count289
+\c@multicitecount=\count290
+\c@multicitetotal=\count291
+\c@instcount=\count292
+\c@maxnames=\count293
+\c@minnames=\count294
+\c@maxitems=\count295
+\c@minitems=\count296
+\c@citecounter=\count297
+\c@maxcitecounter=\count298
+\c@savedcitecounter=\count299
+\c@uniquelist=\count300
+\c@uniquename=\count301
+\c@refsection=\count302
+\c@refsegment=\count303
+\c@maxextratitle=\count304
+\c@maxextratitleyear=\count305
+\c@maxextraname=\count306
+\c@maxextradate=\count307
+\c@maxextraalpha=\count308
+\c@abbrvpenalty=\count309
+\c@highnamepenalty=\count310
+\c@lownamepenalty=\count311
+\c@maxparens=\count312
+\c@parenlevel=\count313
+\blx@tempcnta=\count314
+\blx@tempcntb=\count315
+\blx@tempcntc=\count316
+\c@blx@maxsection=\count317
+\blx@maxsegment@0=\count318
+\blx@notetype=\count319
+\blx@parenlevel@text=\count320
+\blx@parenlevel@foot=\count321
+\blx@sectionciteorder@0=\count322
+\blx@sectionciteorderinternal@0=\count323
+\blx@entrysetcounter=\count324
+\blx@biblioinstance=\count325
+\labelnumberwidth=\skip67
+\labelalphawidth=\skip68
+\biblabelsep=\skip69
+\bibitemsep=\skip70
+\bibnamesep=\skip71
+\bibinitsep=\skip72
+\bibparsep=\skip73
+\bibhang=\skip74
+\blx@bcfin=\read3
+\blx@bcfout=\write3
+\blx@langwohyphens=\language81
+\c@mincomprange=\count326
+\c@maxcomprange=\count327
+\c@mincompwidth=\count328
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
+File: blx-dm.def 2023/03/05 v3.19 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'ieee.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count329
+\c@savedafterword=\count330
+\c@annotator=\count331
+\c@savedannotator=\count332
+\c@author=\count333
+\c@savedauthor=\count334
+\c@bookauthor=\count335
+\c@savedbookauthor=\count336
+\c@commentator=\count337
+\c@savedcommentator=\count338
+\c@editor=\count339
+\c@savededitor=\count340
+\c@editora=\count341
+\c@savededitora=\count342
+\c@editorb=\count343
+\c@savededitorb=\count344
+\c@editorc=\count345
+\c@savededitorc=\count346
+\c@foreword=\count347
+\c@savedforeword=\count348
+\c@holder=\count349
+\c@savedholder=\count350
+\c@introduction=\count351
+\c@savedintroduction=\count352
+\c@namea=\count353
+\c@savednamea=\count354
+\c@nameb=\count355
+\c@savednameb=\count356
+\c@namec=\count357
+\c@savednamec=\count358
+\c@translator=\count359
+\c@savedtranslator=\count360
+\c@shortauthor=\count361
+\c@savedshortauthor=\count362
+\c@shorteditor=\count363
+\c@savedshorteditor=\count364
+\c@labelname=\count365
+\c@savedlabelname=\count366
+\c@institution=\count367
+\c@savedinstitution=\count368
+\c@lista=\count369
+\c@savedlista=\count370
+\c@listb=\count371
+\c@savedlistb=\count372
+\c@listc=\count373
+\c@savedlistc=\count374
+\c@listd=\count375
+\c@savedlistd=\count376
+\c@liste=\count377
+\c@savedliste=\count378
+\c@listf=\count379
+\c@savedlistf=\count380
+\c@location=\count381
+\c@savedlocation=\count382
+\c@organization=\count383
+\c@savedorganization=\count384
+\c@origlocation=\count385
+\c@savedoriglocation=\count386
+\c@origpublisher=\count387
+\c@savedorigpublisher=\count388
+\c@publisher=\count389
+\c@savedpublisher=\count390
+\c@language=\count391
+\c@savedlanguage=\count392
+\c@origlanguage=\count393
+\c@savedoriglanguage=\count394
+\c@pageref=\count395
+\c@savedpageref=\count396
+\shorthandwidth=\skip75
+\shortjournalwidth=\skip76
+\shortserieswidth=\skip77
+\shorttitlewidth=\skip78
+\shortauthorwidth=\skip79
+\shorteditorwidth=\skip80
+\locallabelnumberwidth=\skip81
+\locallabelalphawidth=\skip82
+\localshorthandwidth=\skip83
+\localshortjournalwidth=\skip84
+\localshortserieswidth=\skip85
+\localshorttitlewidth=\skip86
+\localshortauthorwidth=\skip87
+\localshorteditorwidth=\skip88
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
+File: blx-compat.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load BibTeX backend compatibility...
+Package biblatex Info: ... file 'blx-bibtex.def' found.
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-bibtex.def
+File: blx-bibtex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
+
+
+Package biblatex Warning: Using fall-back bibtex backend:
+(biblatex)                functionality may be reduced/unavailable.
+
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
+File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
+\c@textcitecount=\count397
+\c@textcitetotal=\count398
+\c@textcitemaxnames=\count399
+\c@biburlbigbreakpenalty=\count400
+\c@biburlbreakpenalty=\count401
+\c@biburlnumpenalty=\count402
+\c@biburlucpenalty=\count403
+\c@biburllcpenalty=\count404
+\biburlbigskip=\muskip17
+\biburlnumskip=\muskip18
+\biburlucskip=\muskip19
+\biburllcskip=\muskip20
+\c@smartand=\count405
+)
+Package biblatex Info: Trying to load bibliography style 'ieee'...
+Package biblatex Info: ... file 'ieee.bbx' found.
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-ieee\ieee.bbx
+File: ieee.bbx 2021/12/06 v1.3f biblatex bibliography style
+Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.bbx' found.
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\numeric-comp.bbx
+File: numeric-comp.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\numeric.bbx
+File: numeric.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
+File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count406
+\c@bbx:relatedtotal=\count407
+))))
+Package biblatex Info: Trying to load citation style 'ieee'...
+Package biblatex Info: ... file 'ieee.cbx' found.
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-ieee\ieee.cbx
+File: ieee.cbx 2021/12/06 v1.3f biblatex citation style
+Package biblatex Info: Trying to load citation style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.cbx' found.
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\numeric-comp.cbx
+File: numeric-comp.cbx 2023/03/05 v3.19 biblatex citation style (PK/MW)
+\c@cbx@tempcnta=\count408
+\c@cbx@tempcntb=\count409
+\c@cbx@tempcntc=\count410
+\c@cbx@tempcntd=\count411
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\cites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.cfg
+File: biblatex.cfg 
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Document encoding is UTF8 ....
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2024-02-20 L3 programming layer (loader) 
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count412
+\l__pdf_internal_box=\box53
+))
+Package biblatex Info: ... and expl3
+(biblatex)             2024-02-20 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl3.sty (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.sty
+Package: xparse 2024-02-18 L3 Experimental document command parser
+)
+Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
+)) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip89
+\enit@outerparindent=\dimen164
+\enit@toks=\toks25
+\enit@inbox=\box54
+\enit@count@id=\count413
+\enitdp@description=\count414
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datatool.sty
+Package: datatool 2019/09/27 v2.32 (NLCT)
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks26
+\XKV@tempa@toks=\toks27
+)
+\XKV@depth=\count415
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/xfor\xfor.sty
+Package: xfor 2009/02/05 v1.05 (NLCT)
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/substr\substr.sty
+Package: substr 2009/10/20 v1.2 Handle substrings
+\c@su@anzahl=\count416
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datatool-base.sty
+Package: datatool-base 2019/09/27 v2.32 (NLCT)
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2023/05/13 v2.17o AMS math features
+\@mathmargin=\skip90
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks28
+\ex@=\dimen165
+)) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen166
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count417
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count418
+\leftroot@=\count419
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count420
+\DOTSCASE@=\count421
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box55
+\strutbox@=\box56
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen167
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count422
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count423
+\dotsspace@=\muskip21
+\c@parentequation=\count424
+\dspbrk@lvl=\count425
+\tag@help=\toks29
+\row@=\count426
+\column@=\count427
+\maxfields@=\count428
+\andhelp@=\toks30
+\eqnshift@=\dimen168
+\alignsep@=\dimen169
+\tagshift@=\dimen170
+\tagwidth@=\dimen171
+\totwidth@=\dimen172
+\lineht@=\dimen173
+\@envbody=\toks31
+\multlinegap=\skip91
+\multlinetaggap=\skip92
+\mathdisplay@stack=\toks32
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datatool-fp.sty
+Package: datatool-fp 2019/09/27 v2.32 (NLCT)
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp.sty
+Package: fp 1995/04/02
+ `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/fp\defpattern.sty
+Package: defpattern 1994/10/12
+\actioncount=\count429
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-basic.sty
+Package: fp-basic 1996/05/13
+\FP@xs=\count430
+\FP@xia=\count431
+\FP@xib=\count432
+\FP@xfa=\count433
+\FP@xfb=\count434
+\FP@rega=\count435
+\FP@regb=\count436
+\FP@regs=\count437
+\FP@times=\count438
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-addons.sty
+Package: fp-addons 1995/03/15
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-snap.sty
+Package: fp-snap 1995/04/05
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-exp.sty
+Package: fp-exp 1995/04/03
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-trigo.sty
+Package: fp-trigo 1995/04/14
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-pas.sty
+Package: fp-pas 1994/08/29
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-random.sty
+Package: fp-random 1995/02/23
+\FPseed=\count439
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-eqn.sty
+Package: fp-eqn 1995/04/03
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-upn.sty
+Package: fp-upn 1996/10/21
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-eval.sty
+Package: fp-eval 1995/04/03
+)))
+\@dtl@toks=\toks33
+\@dtl@tmpcount=\count440
+\dtl@tmplength=\skip93
+\dtl@sortresult=\count441
+\@dtl@numgrpsepcount=\count442
+\@dtl@datatype=\count443
+\dtl@codeA=\count444
+\dtl@codeB=\count445
+\@dtl@foreach@level=\count446
+)
+\dtlcolumnnum=\count447
+\dtlrownum=\count448
+\@dtl@before=\toks34
+\@dtl@after=\toks35
+\@dtl@colhead=\toks36
+\dtlcurrentrow=\toks37
+\dtlbeforerow=\toks38
+\dtlafterrow=\toks39
+\dtlforeachlevel=\count449
+\c@DTLrowi=\count450
+\c@DTLrowii=\count451
+\c@DTLrowiii=\count452
+\c@DTLrow=\count453
+\dtl@rowi=\count454
+\dtl@rowii=\count455
+\dtl@rowiii=\count456
+\@dtl@curi=\toks40
+\@dtl@previ=\toks41
+\@dtl@nexti=\toks42
+\@dtl@curii=\toks43
+\@dtl@previi=\toks44
+\@dtl@nextii=\toks45
+\@dtl@curiii=\toks46
+\@dtl@previii=\toks47
+\@dtl@nextiii=\toks48
+\@dtl@elements=\count457
+\@dtl@list=\toks49
+\@dtl@rowa=\toks50
+\@dtl@rowb=\toks51
+\@dtl@toksA=\toks52
+\@dtl@toksB=\toks53
+\@dtl@write=\write4
+\@dtl@read=\read4
+\dtl@entrycr=\count458
+\dtl@omitlines=\count459
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
+Package xcolor Info: Model `RGB' extended on input line 1366.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
+Package: colortbl 2024/02/20 v1.0g Color table columns (DPC)
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen174
+\ar@mcellbox=\box57
+\extrarowheight=\dimen175
+\NC@list=\toks54
+\extratabsurround=\skip94
+\backup@length=\skip95
+\ar@cellbox=\box58
+)
+\everycr=\toks55
+\minrowclearance=\skip96
+\rownum=\count460
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/minitoc\minitoc.sty
+Package: minitoc 2018/07/12 v62 Package minitoc
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/minitoc\mtcmess.sty
+Package: mtcmess 2006/03/14
+)
+Package minitoc Info: I0001
+(minitoc)             *** minitoc package, version 62 ***.
+\tf@mtc=\write5
+\mtcindent=\skip97
+\mtcskipamount=\skip98
+Package minitoc Info: I0005
+(minitoc)             compatible with hyperref.
+Package minitoc Info: I0023
+(minitoc)             part level macros available.
+Package minitoc Info: I0003
+(minitoc)             chapter level macros available.
+\mtc@toks=\toks56
+\mtc@strutbox=\box59
+\mtc@hstrutbox=\box60
+Package minitoc Info: I0002
+(minitoc)             Autoconfiguration of extensions.
+\openout5 = `main.mtc0'.
+
+\openout5 = `main.mtc'.
+
+ (main.mtc0)
+Package minitoc Info: I0012
+(minitoc)             Long extensions (Unix-like) will be used.
+Package minitoc Info: I0031
+(minitoc)             ==> this version is configured for UNIX-like 
+(minitoc)                 (long extensions) file names.
+\openout5 = `main.mtc'.
+
+\openout5 = `main.mtc0'.
+
+\c@mtc=\count461
+\c@minitocdepth=\count462
+\c@ptc=\count463
+\c@parttocdepth=\count464
+\ptcindent=\skip99
+Package minitoc Info: I0010
+(minitoc)             The english language is selected.
+(minitoc)              on input line 4910.
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/minitoc\english.mld
+File: english.mld 2006/01/13
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/minitoc\english.mld
+File: english.mld 2006/01/13
+)
+Package minitoc Info: I0010
+(minitoc)             The french language is selected.
+(minitoc)              on input line 4911.
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/minitoc\french.mld
+File: french.mld 2006/03/21
+))
+Package minitoc Info: I0017
+(minitoc)             \mtcsettitle redefines the macro 
+(minitoc)             "mtctitle" as 
+(minitoc)             "Plan" on input line 187.
+Package minitoc Info: I0008
+(minitoc)             Horizontal rules are inhibited 
+(minitoc)             for the minitocs on input line 189.
+Package minitoc Info: I0052
+(minitoc)             \mtcsetoffset redefines 
+(minitoc)             "mtcoffset" as "-1.0em" on input line 190.
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/pstricks\pstricks.sty
+Package: pstricks 2024/02/02 v0.75 LaTeX wrapper for `PSTricks' (RN,HV)
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\pst-xkey.tex
+File: pst-xkey.tex 2005/11/25 v1.6 PSTricks specialization of xkeyval (HA)
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/pstricks\pstricks.tex (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/pstricks\pst-fp.tex `pst-fp' v0.06, 2020/11/20 (hv)
+\pstFP@xs=\count465
+\pstFP@xia=\count466
+\pstFP@xib=\count467
+\pstFP@xfa=\count468
+\pstFP@xfb=\count469
+\pstFP@rega=\count470
+\pstFP@regb=\count471
+\pstFP@regs=\count472
+\pstFP@times=\count473
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.sty (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
+\pgfutil@everybye=\toks57
+\pgfutil@tempdima=\dimen176
+\pgfutil@tempdimb=\dimen177
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def
+\pgfutil@abb=\box61
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+)) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.sty (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks58
+\pgfkeys@temptoks=\toks59
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeyslibraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks60
+))) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex
+\pgf@x=\dimen178
+\pgf@xa=\dimen179
+\pgf@xb=\dimen180
+\pgf@xc=\dimen181
+\pgf@y=\dimen182
+\pgf@ya=\dimen183
+\pgf@yb=\dimen184
+\pgf@yc=\dimen185
+\c@pgf@counta=\count474
+\c@pgf@countb=\count475
+\c@pgf@countc=\count476
+\c@pgf@countd=\count477
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex
+\pgfmath@dimen=\dimen186
+\pgfmath@count=\count478
+\pgfmath@box=\box62
+\pgfmath@toks=\toks61
+\pgfmath@stack@operand=\toks62
+\pgfmath@stack@operation=\toks63
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.random.code.tex) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.base.code.tex) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.round.code.tex) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count479
+))) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen187
+\pgffor@skip=\dimen188
+\pgffor@stack=\toks64
+\pgffor@toks=\toks65
+))
+\psLoopIndex=\count480
+
+`PSTricks' v3.19c  <2024/02/02> (tvz,hv)
+\pst@dima=\dimen189
+\pst@dimb=\dimen190
+\pst@dimc=\dimen191
+\pst@dimd=\dimen192
+\pst@dimg=\dimen193
+\pst@dimh=\dimen194
+\pst@dimm=\dimen195
+\pst@dimn=\dimen196
+\pst@dimo=\dimen197
+\pst@dimp=\dimen198
+\pst@hbox=\box63
+\pst@ibox=\box64
+\pst@boxg=\box65
+\pst@cnta=\count481
+\pst@cntb=\count482
+\pst@cntc=\count483
+\pst@cntd=\count484
+\pst@cntg=\count485
+\pst@cnth=\count486
+\pst@cntm=\count487
+\pst@cntn=\count488
+\pst@cnto=\count489
+\pst@cntp=\count490
+\@zero=\count491
+\pst@toks=\toks66
+--- We are running latex or xelatex ---
+(C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/pstricks\pstricks.con) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/pstricks\pstricks-color.tex)
+\psunit=\dimen199
+\psxunit=\dimen256
+\psyunit=\dimen257
+\pst@C@@rType=\count492
+\pslinewidth=\dimen258
+\psk@startLW=\dimen259
+\psk@endLW=\dimen260
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/pstricks\pstricks-arrows.tex
+\pshooklength=\dimen261
+\pshookwidth=\dimen262
+)
+\pst@customdefs=\toks67
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/pstricks\pstricks-dots.tex)
+\pslinearc=\dimen263
+\pst@symbolStep=\dimen264
+\pst@symbolWidth=\dimen265
+\pst@symbolLinewidth=\dimen266
+\everypsbox=\toks68
+\psframesep=\dimen267
+\pslabelsep=\dimen268
+\sh@wgridXunit=\dimen269
+\sh@wgridYunit=\dimen270
+\pst@shift=\dimen271
+\ps@imagectr=\count493
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/pstricks\pstricks.con))
+File: pstricks.tex 2024/02/02 v3.19c `PSTricks' (tvz,hv)
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/pstricks\pst-fp.tex `pst-fp' v0.06, 2020/11/20 (hv))
+File: pst-fp.tex 2020/11/20 v0.06 `PST-fp' (hv)
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen272
+\captionmargin=\dimen273
+\caption@leftmargin=\dimen274
+\caption@rightmargin=\dimen275
+\caption@width=\dimen276
+\caption@indent=\dimen277
+\caption@parindent=\dimen278
+\caption@hangindent=\dimen279
+Package caption Info: arabic babel option detected.
+Package caption Info: arabi babel package is loaded.
+Package caption Info: french babel package is loaded.
+)
+\c@caption@flags=\count494
+\c@continuedfloat=\count495
+Package caption Info: arabi babel package is loaded.
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+)
+\Gin@req@height=\dimen280
+\Gin@req@width=\dimen281
+)) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count496
+\float@exts=\toks69
+\float@box=\box66
+\@float@everytoks=\toks70
+\@floatcapt=\box67
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/acronym\acronym.sty
+Package: acronym 2020/04/17 v1.47 Support for acronyms (Tobias Oetiker)
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/bigfoot\suffix.sty
+Package: suffix 2006/07/15 1.5a Variant command support
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/xstring\xstring.sty (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/xstring\xstring.tex
+\xs_counta=\count497
+\xs_countb=\count498
+)
+Package: xstring 2023/08/22 v1.86 String manipulations (CT)
+)
+\AC@clearlist=\toks71
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/subfig\subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+\c@KVtest=\count499
+\sf@farskip=\skip100
+\sf@captopadj=\dimen282
+\sf@capskip=\skip101
+\sf@nearskip=\skip102
+\c@subfigure=\count500
+\c@subfigure@save=\count501
+\c@lofdepth=\count502
+\c@subtable=\count503
+\c@subtable@save=\count504
+\c@lotdepth=\count505
+\sf@top=\skip103
+\sf@bottom=\skip104
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/pgfgantt\pgfgantt.sty
+Package: pgfgantt 2018/01/10 v5.0 Draw Gantt diagrams with TikZ
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.sty (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.sty (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+\pgf@x=\dimen283
+\pgf@y=\dimen284
+\pgf@xa=\dimen285
+\pgf@ya=\dimen286
+\pgf@xb=\dimen287
+\pgf@yb=\dimen288
+\pgf@xc=\dimen289
+\pgf@yc=\dimen290
+\pgf@xd=\dimen291
+\pgf@yd=\dimen292
+\w@pgf@writea=\write6
+\r@pgf@reada=\read5
+\c@pgf@counta=\count506
+\c@pgf@countb=\count507
+\c@pgf@countc=\count508
+\c@pgf@countd=\count509
+\t@pgf@toka=\toks72
+\t@pgf@tokb=\toks73
+\t@pgf@tokc=\toks74
+\pgf@sys@id@count=\count510
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-pdftex.def
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+))) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count511
+\pgfsyssoftpath@bigbuffer@items=\count512
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.tex) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen293
+\pgf@picmaxx=\dimen294
+\pgf@picminy=\dimen295
+\pgf@picmaxy=\dimen296
+\pgf@pathminx=\dimen297
+\pgf@pathmaxx=\dimen298
+\pgf@pathminy=\dimen299
+\pgf@pathmaxy=\dimen300
+\pgf@xx=\dimen301
+\pgf@xy=\dimen302
+\pgf@yx=\dimen303
+\pgf@yy=\dimen304
+\pgf@zx=\dimen305
+\pgf@zy=\dimen306
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen307
+\pgf@path@lasty=\dimen308
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen309
+\pgf@shorten@start@additional=\dimen310
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box68
+\pgf@hbox=\box69
+\pgf@layerbox@main=\box70
+\pgf@picture@serial@count=\count513
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen311
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen312
+\pgf@pt@y=\dimen313
+\pgf@pt@temp=\dimen314
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen315
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen316
+\pgf@sys@shading@range@num=\count514
+\pgf@shadingcount=\count515
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box71
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box72
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen317
+\pgf@nodesepend=\dimen318
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+)) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count516
+\pgfplotmarksize=\dimen319
+)
+\tikz@lastx=\dimen320
+\tikz@lasty=\dimen321
+\tikz@lastxsaved=\dimen322
+\tikz@lastysaved=\dimen323
+\tikz@lastmovetox=\dimen324
+\tikz@lastmovetoy=\dimen325
+\tikzleveldistance=\dimen326
+\tikzsiblingdistance=\dimen327
+\tikz@figbox=\box73
+\tikz@figbox@bg=\box74
+\tikz@tempbox=\box75
+\tikz@tempbox@bg=\box76
+\tikztreelevel=\count517
+\tikznumberofchildren=\count518
+\tikznumberofcurrentchild=\count519
+\tikz@fig@count=\count520
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count521
+\pgfmatrixcurrentcolumn=\count522
+\pgf@matrix@numberofcolumns=\count523
+)
+\tikz@expandcount=\count524
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryarrows.code.tex
+File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\arrowsize=\dimen328
+)) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarybackgrounds.code.tex
+File: tikzlibrarybackgrounds.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@layerbox@background=\box77
+\pgf@layerboxsaved@background=\box78
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarypatterns.code.tex
+File: tikzlibrarypatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibrarypatterns.code.tex
+File: pgflibrarypatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfcalendar.sty (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfcalendar.code.tex
+File: pgfcalendar.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfcalendarcurrentjulian=\count525
+\pgf@cal@easter@Y=\count526
+\pgf@cal@easter@G=\count527
+\pgf@cal@easter@C=\count528
+\pgf@cal@easter@X=\count529
+\pgf@cal@easter@Z=\count530
+\pgf@cal@easter@D=\count531
+\pgf@cal@easter@E=\count532
+\pgf@cal@easter@N=\count533
+\pgf@cal@easter@M=\count534
+\pgf@cal@easter@julianday=\count535
+))
+\gtt@currentline=\count536
+\gtt@lasttitleline=\count537
+\gtt@currgrid=\count538
+\gtt@chartwidth=\count539
+\gtt@lasttitleslot=\count540
+\gtt@elementid=\count541
+\gtt@today@slot=\count542
+\gtt@startjulian=\count543
+\gtt@endjulian=\count544
+\gtt@chartid=\count545
+\gtt@vrule@slot=\count546
+\gtt@calendar@slots=\count547
+\gtt@calendar@weeknumber=\count548
+\gtt@calendar@startofweek=\count549
+\gtt@left@slot=\count550
+\gtt@right@slot=\count551
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+) (tpl/new_commands.tex (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcolorbox.sty
+Package: tcolorbox 2024/01/10 version 6.2.0 text color boxes
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbatim.sty
+Package: verbatim 2023-11-06 v1.5v LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks75
+\verbatim@line=\toks76
+\verbatim@in@stream=\read6
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/environ\environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/trimspaces\trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+\tcb@titlebox=\box79
+\tcb@upperbox=\box80
+\tcb@lowerbox=\box81
+\tcb@phantombox=\box82
+\c@tcbbreakpart=\count552
+\c@tcblayer=\count553
+\c@tcolorbox@number=\count554
+\l__tcobox_tmpa_box=\box83
+\l__tcobox_tmpa_dim=\dimen329
+\tcb@temp=\box84
+\tcb@temp=\box85
+\tcb@temp=\box86
+\tcb@temp=\box87
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/tools\afterpage.sty
+Package: afterpage 2023/07/04 v1.08 After-Page Package (DPC)
+\AP@output=\toks77
+\AP@partial=\box88
+\AP@footins=\box89
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
+Package: longtable 2023-11-01 v4.19 Multi-page Table package (DPC)
+\LTleft=\skip105
+\LTright=\skip106
+\LTpre=\skip107
+\LTpost=\skip108
+\LTchunksize=\count555
+\LTcapwidth=\dimen330
+\LT@head=\box90
+\LT@firsthead=\box91
+\LT@foot=\box92
+\LT@lastfoot=\box93
+\LT@gbox=\box94
+\LT@cols=\count556
+\LT@rows=\count557
+\c@LT@tables=\count558
+\c@LT@chunks=\count559
+\LT@p@ftn=\toks78
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip109
+\multirow@cntb=\count560
+\multirow@dima=\skip110
+\bigstrutjot=\dimen331
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\pifont.sty
+Package: pifont 2020/03/25 PSNFSS-v9.3 Pi font support (SPQR) 
+LaTeX Font Info:    Trying to load font information for U+pzd on input line 63.
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\upzd.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Trying to load font information for U+psy on input line 64.
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\upsy.fd
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+)) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape-nometadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PDF (HO)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/graphics\rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+\c@r@tfl@t=\count561
+\rotFPtop=\skip111
+\rotFPbot=\skip112
+\rot@float@box=\box95
+\rot@mess@toks=\toks79
+)) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.sty
+\wrapoverhang=\dimen332
+\WF@size=\dimen333
+\c@WF@wrappedlines=\count562
+\WF@box=\box96
+\WF@everypar=\toks80
+Package: wrapfig 2003/01/31  v 3.6
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2024-01-20 v7.01h Hypertext links for LaTeX
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count563
+)
+\@linkdim=\dimen334
+\Hy@linkcounter=\count564
+\Hy@pagecounter=\count565
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2024-01-20 v7.01h Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count566
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2024-01-20 v7.01h Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4179.
+Package hyperref Info: Link nesting OFF on input line 4184.
+Package hyperref Info: Hyper index ON on input line 4187.
+Package hyperref Info: Plain pages OFF on input line 4194.
+Package hyperref Info: Backreferencing OFF on input line 4199.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4446.
+\c@Hy@tempcnt=\count567
+LaTeX Info: Redefining \url on input line 4784.
+\XeTeXLinkMargin=\dimen335
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count568
+\Field@Width=\dimen336
+\Fld@charsize=\dimen337
+Package hyperref Info: Hyper figures OFF on input line 6063.
+Package hyperref Info: Link nesting OFF on input line 6068.
+Package hyperref Info: Hyper index ON on input line 6071.
+Package hyperref Info: backreferencing OFF on input line 6078.
+Package hyperref Info: Link coloring OFF on input line 6083.
+Package hyperref Info: Link coloring with OCG OFF on input line 6088.
+Package hyperref Info: PDF/A mode OFF on input line 6093.
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count569
+\c@Item=\count570
+\c@Hfootnote=\count571
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2024-01-20 v7.01h Hyperref driver for pdfTeX
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
+with kernel methods
+)
+\Fld@listcount=\count572
+\c@bookmark@seq@number=\count573
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
+)
+\Hy@SectionHShift=\skip113
+)
+\@indexfile=\write7
+\openout7 = `main.idx'.
+
+
+Writing index file main.idx
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+Package csquotes Info: Adjusting default style.
+Package csquotes Info: Redefining alias 'default' -> 'french'.
+(main.aux (tpl/cover_page_black.aux)
+
+LaTeX Warning: Label `fig:login' multiply defined.
+
+
+LaTeX Warning: Label `fig:login' multiply defined.
+
+
+LaTeX Warning: Label `fig:login' multiply defined.
+
+(C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/ar\babel-arabic.tex
+Package babel Info: Importing font and identification data for arabic
+(babel)             from babel-ar.ini. Reported on input line 11.
+))
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for LAE/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(89.62709pt, 418.25368pt, 89.6271pt)
+* v-part:(T,H,B)=(101.40665pt, 591.5302pt, 152.11pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=472.31575pt
+* \textheight=683.35493pt
+* \oddsidemargin=-9.67393pt
+* \evensidemargin=-9.67393pt
+* \topmargin=-15.36449pt
+* \headheight=14.5pt
+* \headsep=14.45377pt
+* \topskip=11.0pt
+* \footskip=27.46295pt
+* \marginparwidth=40.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Info: Redefining \degres on input line 27.
+Package french.ldf Info: Setting StandardItemizeEnv=true for
+(french.ldf)             compatibility with enumitem package,
+(french.ldf)             reported on input line 27.
+Package french.ldf Info: Setting StandardEnumerateEnv=true for
+(french.ldf)             compatibility with enumitem package,
+(french.ldf)             reported on input line 27.
+LaTeX Info: Redefining \up on input line 27.
+Package biblatex Info: Trying to load language 'french'...
+Package biblatex Info: ... file 'french.lbx' found.
+(C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\french.lbx
+File: french.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\english.lbx
+File: english.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load language 'arabic'...
+Package biblatex Info: ... file 'arabic.lbx' not found.
+
+
+Package biblatex Warning: Language 'arabic' not supported.
+(biblatex)                Using dummy definitions on input line 27.
+
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Data encoding 'utf8' specified.
+(biblatex)             No need to reencode data.
+\openout3 = `main-blx.bib'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'main.bbl' found.
+(main.bbl)
+Package biblatex Info: Reference section=0 on input line 27.
+Package biblatex Info: Reference segment=0 on input line 27.
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count574
+\scratchdimen=\dimen338
+\scratchbox=\box97
+\nofMPsegments=\count575
+\nofMParguments=\count576
+\everyMPshowfont=\toks81
+\MPscratchCnt=\count577
+\MPscratchDim=\dimen339
+\MPnumerator=\count578
+\makeMPintoPDFobject=\count579
+\everyMPtoPDFconversion=\toks82
+) (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+\c@minilofdepth=\count580
+\c@minilotdepth=\count581
+\c@partlofdepth=\count582
+\c@partlotdepth=\count583
+\c@sectlofdepth=\count584
+\c@sectlotdepth=\count585
+Package minitoc(hints) Info: I0049
+(minitoc(hints))             ==> You requested the hints option. 
+(minitoc(hints))             Some hints are eventually given below.
+
+
+Package minitoc(hints) Warning: W0099
+(minitoc(hints))                --- The titlesec package is loaded. 
+(minitoc(hints))                It is incompatible 
+(minitoc(hints))                with the minitoc package.
+
+
+Package minitoc(hints) Warning: W0030
+(minitoc(hints))                --- The \part command is altered 
+(minitoc(hints))                after minitoc.
+
+
+Package minitoc(hints) Warning: W0023
+(minitoc(hints))                --- It may be the consequence 
+(minitoc(hints))                of loading the ``hyperref'' package.
+
+
+Package minitoc(hints) Warning: W0028
+(minitoc(hints))                --- The \chapter command is altered 
+(minitoc(hints))                after minitoc.
+
+
+Package minitoc(hints) Warning: W0023
+(minitoc(hints))                --- It may be the consequence 
+(minitoc(hints))                of loading the ``hyperref'' package.
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: longtable package is loaded.
+(C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+)
+Package caption Info: rotating package is loaded.
+Package caption Info: wrapfig package is loaded.
+Package caption Info: End \AtBeginDocument code.
+Package hyperref Info: Link coloring OFF on input line 27.
+ (main.out) (main.out)
+\@outlinefile=\write8
+\openout8 = `main.out'.
+
+ (global_config.tex) (tpl/cover_page.tex
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
+* v-part:(T,H,B)=(42.67912pt, 731.23584pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=483.69687pt
+* \textheight=731.23584pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-58.54463pt
+* \headheight=14.5pt
+* \headsep=14.45377pt
+* \topskip=11.0pt
+* \footskip=27.46295pt
+* \marginparwidth=40.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+<./img/LogoISI.png, id=177, 120.45pt x 75.28125pt>
+File: ./img/LogoISI.png Graphic file (type png)
+<use ./img/LogoISI.png>
+Package pdftex.def Info: ./img/LogoISI.png  used on input line 21.
+(pdftex.def)             Requested size: 106.41226pt x 66.50958pt.
+
+Overfull \hbox (9.67438pt too wide) in paragraph at lines 21--22
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+
+ []
+
+<./img/Logo_UTM.png, id=179, 426.59375pt x 401.5pt>
+File: ./img/Logo_UTM.png Graphic file (type png)
+<use ./img/Logo_UTM.png>
+Package pdftex.def Info: ./img/Logo_UTM.png  used on input line 42.
+(pdftex.def)             Requested size: 78.35516pt x 73.74333pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
+
+ []
+
+
+Overfull \hbox (22.76517pt too wide) in paragraph at lines 75--84
+[]$[]$ 
+ []
+
+<./img/Logo_Entreprise.png, id=180, 483.8075pt x 104.39pt>
+File: ./img/Logo_Entreprise.png Graphic file (type png)
+<use ./img/Logo_Entreprise.png>
+Package pdftex.def Info: ./img/Logo_Entreprise.png  used on input line 114.
+(pdftex.def)             Requested size: 145.11053pt x 31.30927pt.
+)
+Overfull \hbox (11.38112pt too wide) has occurred while \output is active
+ [][]| 
+ []
+
+[1
+Non-PDF special ignored!
+<special> header=pstricks.pro
+Non-PDF special ignored!
+<special> header=pst-algparser.pro
+Non-PDF special ignored!
+<special> header=pst-tools.pro
+Non-PDF special ignored!
+<special> header=pst-dots.pro
+
+Non-PDF special ignored!
+<special> ps: /pssetRGBcolor /setrgbcolor load def /pssetCMYKcolor /setcmyk...
+Non-PDF special ignored!
+<special> ps:tx@Dict begin  gsave STV CP T /ps@rot 0 def grestore  end
+Non-PDF special ignored!
+<special> ps:tx@Dict begin  gsave STV CP T /ps@refangle 0.  def grestore  e...
+
+
+{C:/Users/Ons CHAHED/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./img/LogoISI.png> <./img/Logo_UTM.png> <./img/Logo_Entreprise.png>]
+pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.32         \include{tpl/cover_page_black}
+                                            [1
+
+]
+\openout2 = `tpl/cover_page_black.aux'.
+
+ (tpl/cover_page_black.tex
+<./img/Logo_ISI_Black.png, id=200, 120.45pt x 75.28125pt>
+File: ./img/Logo_ISI_Black.png Graphic file (type png)
+<use ./img/Logo_ISI_Black.png>
+Package pdftex.def Info: ./img/Logo_ISI_Black.png  used on input line 20.
+(pdftex.def)             Requested size: 106.41226pt x 66.50958pt.
+
+Overfull \hbox (9.67438pt too wide) in paragraph at lines 20--21
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
+
+ []
+
+<./img/Logo_UTM_Black.png, id=201, 426.59375pt x 401.5pt>
+File: ./img/Logo_UTM_Black.png Graphic file (type png)
+<use ./img/Logo_UTM_Black.png>
+Package pdftex.def Info: ./img/Logo_UTM_Black.png  used on input line 41.
+(pdftex.def)             Requested size: 78.35516pt x 73.74333pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+
+ []
+
+
+Overfull \hbox (22.76517pt too wide) in paragraph at lines 72--81
+[]$[]$ 
+ []
+
+<./img/Logo_Entreprise_Black.png, id=202, 483.8075pt x 104.39pt>
+File: ./img/Logo_Entreprise_Black.png Graphic file (type png)
+<use ./img/Logo_Entreprise_Black.png>
+Package pdftex.def Info: ./img/Logo_Entreprise_Black.png  used on input line 111.
+(pdftex.def)             Requested size: 145.11053pt x 31.30927pt.
+
+Overfull \hbox (11.38112pt too wide) has occurred while \output is active
+ [][]| 
+ []
+
+[2 <./img/Logo_ISI_Black.png> <./img/Logo_UTM_Black.png> <./img/Logo_Entreprise_Black.png>]) (tpl/signatures.tex) (dedicaces.tex
+pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1 \chapter
+            *{DÃ©dicaces} [1
+
+
+
+]) (remerciement.tex
+pdfTeX warning (ext4): destination with the same identifier (name{page.ii}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1 \chapter
+            *{Remerciement} [2
+
+])
+Package minitoc Info: I0024
+(minitoc)             PREPARING MINITOCS FROM main.toc on input line 44.
+Package minitoc Info: I0033
+(minitoc)             Writing main.mtc1.
+\openout5 = `main.mtc1'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing main.mtc2.
+\openout5 = `main.mtc2'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing main.mtc3.
+\openout5 = `main.mtc3'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing main.mtc4.
+\openout5 = `main.mtc4'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing main.mtc5.
+\openout5 = `main.mtc5'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing main.mtc6.
+\openout5 = `main.mtc6'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing main.mtc7.
+\openout5 = `main.mtc7'.
+
+ [3
+
+] (main.toc [4
+
+])
+\tf@toc=\write9
+\openout9 = `main.toc'.
+
+ [5] (main.lof [6
+
+])
+\tf@lof=\write10
+\openout10 = `main.lof'.
+
+ [7] (main.lot)
+\tf@lot=\write11
+\openout11 = `main.lot'.
+
+ (acronymes.tex [8
+
+]
+\dtldb@list=\toks83
+\dtlkeys@list=\toks84
+\dtlrows@list=\count586
+\dtlcols@list=\count587
+
+Overfull \hbox (32.22548pt too wide) in paragraph at lines 23--23
+[]$[]$ $[]$ $[]$
+ []
+
+
+Overfull \hbox (32.22548pt too wide) in paragraph at lines 23--23
+[]$[]$ $[]$ $[]$
+ []
+
+
+Overfull \hbox (32.22548pt too wide) in paragraph at lines 23--23
+[]$[]$ $[]$ $[]$
+ []
+
+
+Overfull \hbox (32.22548pt too wide) in paragraph at lines 23--23
+[]$[]$ $[]$ $[]$ 
+ []
+
+) [9
+
+] (introduction.tex
+Overfull \hbox (1.42422pt too wide) in paragraph at lines 6--8
+\T1/cmr/m/n/10.95 im-pé-ra-tif pour la com-pé-ti-ti-vité des en-tre-prises. Avec l'avè-ne-ment des pla-te-formes de data wa-re-hou-sing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--8
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--14
+
+ []
+
+) [1
+
+
+] (chap_01.tex
+Chapitre \textLR{1}.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 1.
+
+
+LaTeX Font Warning: Font shape `T1/cmr/bx/scit' undefined
+(Font)              using `T1/cmr/bx/scsl' instead on input line 1.
+
+\openout5 = `main.mtc'.
+
+\openout5 = `main.mtc'.
+
+(main.mtc2) [2
+
+
+]
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\cite' on input line 18.
+
+[3]
+Overfull \hbox (6.85698pt too wide) in paragraph at lines 55--57
+[]\T1/cmr/m/n/10.95 Création et dé-ploie-ment de so-lu-tions lo-gi-cielles d'en-tre-prise en uti-li-sant les der-nières tech-no-lo-gies,
+ []
+
+[4]
+Overfull \hbox (3.94374pt too wide) in paragraph at lines 74--75
+\T1/cmr/m/n/10.95 pro-lon-gés lors de l'uti-li-sa-tion de Snow-flake. Ces pro-blèmes im-pactent di-rec-te-ment la pro-duc-ti-vité
+ []
+
+
+Overfull \hbox (2.19246pt too wide) in paragraph at lines 77--78
+\T1/cmr/m/n/10.95 so-lu-tion de sur-veillance avan-cée pour dé-tec-ter les ano-ma-lies, iden-ti-fier les gou-lets d'étran-gle-ment
+ []
+
+[5]
+<img/captures/account_usage.png, id=451, 1416.04031pt x 653.44125pt>
+File: img/captures/account_usage.png Graphic file (type png)
+<use img/captures/account_usage.png>
+Package pdftex.def Info: img/captures/account_usage.png  used on input line 94.
+(pdftex.def)             Requested size: 369.86876pt x 213.39287pt.
+
+Overfull \hbox (20.54276pt too wide) in paragraph at lines 99--101
+\T1/cmr/m/n/10.95 offrent une gra-nu-la-rité éle-vée pour exa-mi-ner les dé-tails des re-quêtes SQL exé-cu-tées, les per-for-mances
+ []
+
+<img/captures/info.png, id=453, 963.6pt x 516.12825pt>
+File: img/captures/info.png Graphic file (type png)
+<use img/captures/info.png>
+Package pdftex.def Info: img/captures/info.png  used on input line 105.
+(pdftex.def)             Requested size: 369.87704pt x 213.3938pt.
+[6 <./img/captures/account_usage.png>]
+<img/captures/bigquery.png, id=462, 2890.8pt x 2206.2425pt>
+File: img/captures/bigquery.png Graphic file (type png)
+<use img/captures/bigquery.png>
+Package pdftex.def Info: img/captures/bigquery.png  used on input line 116.
+(pdftex.def)             Requested size: 369.86235pt x 213.36563pt.
+<img/captures/redshift.jpg, id=464, 1191.45125pt x 536.0025pt>
+File: img/captures/redshift.jpg Graphic file (type jpg)
+<use img/captures/redshift.jpg>
+Package pdftex.def Info: img/captures/redshift.jpg  used on input line 128.
+(pdftex.def)             Requested size: 369.87329pt x 213.39122pt.
+ [7 <./img/captures/info.png> <./img/captures/bigquery.png>]
+Overfull \hbox (7.11438pt too wide) in paragraph at lines 137--139
+[]\T1/cmr/bx/n/10.95 Manque d'ana-lyse pré-dic-tive : \T1/cmr/m/n/10.95 l'un des prin-ci-paux dé-fauts des ou-tils ac-tuel-le-ment dis-po-nibles
+ []
+
+[8 <./img/captures/redshift.jpg>]
+Overfull \hbox (6.4198pt too wide) in paragraph at lines 147--148
+\T1/cmr/m/n/10.95 des res-sources peut ra-pi-de-ment aug-men-ter, sur-tout si les en-tre-prises ne sur-veillent pas ac-ti-ve-ment
+ []
+
+
+Overfull \hbox (3.87227pt too wide) in paragraph at lines 156--157
+\T1/cmr/m/n/10.95 uti-li-sa-teurs fi-naux à mieux com-prendre ses dé-penses et à trou-ver des op-por-tu-ni-tés d'op-ti-mi-sa-tion
+ []
+
+
+Overfull \hbox (0.20024pt too wide) in paragraph at lines 157--158
+[]\T1/cmr/m/n/10.95 la mise en place de po-li-tiques de ges-tion des res-sources pour op-ti-mi-ser l'uti-li-sa-tion des res-sources
+ []
+
+[9]
+Overfull \hbox (10.87354pt too wide) in paragraph at lines 167--170
+\T1/cmr/m/n/10.95 mé-thode per-met une ges-tion vi-suelle et en temps réel des tâches et des flux de tra-vail, une ca-rac-té-ris-tique
+ []
+
+) [10] (chap_02.tex
+Chapitre \textLR{2}.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 1.
+
+
+LaTeX Font Warning: Font shape `T1/cmr/bx/scit' undefined
+(Font)              using `T1/cmr/bx/scsl' instead on input line 1.
+
+\openout5 = `main.mtc'.
+
+\openout5 = `main.mtc'.
+
+(main.mtc3) [11
+
+
+]
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 4.
+
+
+Overfull \hbox (6.3312pt too wide) in paragraph at lines 12--15
+[]\T1/cmr/m/n/10.95 Cette sec-tion dé-crit en dé-tail les be-soins fonc-tion-nels du pro-jet de mo-ni-to-ring des opé-ra-tions Snow-flake.
+ []
+
+[12]
+Overfull \hbox (0.74754pt too wide) in paragraph at lines 51--52
+[]\T1/cmr/bx/n/10.95 Temps de ré-ponse \T1/cmr/m/n/10.95 : Le sys-tème doit four-nir des temps de ré-ponse ra-pides pour l'af-fi-chage
+ []
+
+[13]
+Overfull \hbox (33.01434pt too wide) in paragraph at lines 67--68
+[]\T1/cmr/bx/n/10.95 Disponibilité \T1/cmr/m/n/10.95 : Le sys-tème doit être dis-po-nible en per-ma-nence, avec un temps de fonc-tion-ne-ment
+ []
+
+<img/conception/BPMN.png, id=505, 1115.16624pt x 203.76125pt>
+File: img/conception/BPMN.png Graphic file (type png)
+<use img/conception/BPMN.png>
+Package pdftex.def Info: img/conception/BPMN.png  used on input line 88.
+(pdftex.def)             Requested size: 472.31436pt x 99.58582pt.
+[14 <./img/conception/BPMN.png>]
+Overfull \hbox (10.08008pt too wide) in paragraph at lines 108--109
+[]\T1/cmr/m/n/10.95 Ces phases consti-tuent un flux de tra-vail com-plet pour gé-rer les don-nées, les trans-for-mer en in-for-ma-tions
+ []
+
+[15]
+Overfull \hbox (2.85977pt too wide) in paragraph at lines 120--121
+[]|\T1/cmr/bx/n/10.95 Estimation
+ []
+
+
+Overfull \hbox (21.65495pt too wide) in alignment at lines 118--122
+ [] [] [] [] 
+ []
+
+
+Underfull \hbox (badness 1132) in paragraph at lines 135--135
+[]|\T1/cmr/m/n/10.95 En tant qu'ad-mi-nis-tra-teur, je veux re-ce-voir des alertes en
+ []
+
+
+Underfull \hbox (badness 4543) in paragraph at lines 143--143
+[]|\T1/cmr/m/n/10.95 En tant qu'ad-mi-nis-tra-teur, je veux suivre l'ac-ti-vité des
+ []
+
+
+Overfull \hbox (1.48009pt too wide) in paragraph at lines 159--159
+[]|\T1/cmr/m/n/10.95 US10| 
+ []
+
+
+Overfull \hbox (1.48009pt too wide) in paragraph at lines 163--163
+[]|\T1/cmr/m/n/10.95 US11| 
+ []
+
+
+Overfull \hbox (1.48009pt too wide) in paragraph at lines 167--167
+[]|\T1/cmr/m/n/10.95 US12| 
+ []
+
+
+Overfull \hbox (1.48009pt too wide) in paragraph at lines 170--170
+[]|\T1/cmr/m/n/10.95 US13| 
+ []
+
+
+Underfull \hbox (badness 1297) in paragraph at lines 170--170
+[]|\T1/cmr/m/n/10.95 En tant qu'ad-mi-nis-tra-teur, je veux suivre en temps réelle
+ []
+
+
+Overfull \hbox (21.65495pt too wide) in alignment at lines 122--176
+ [] [] [] [] 
+ []
+
+[16])
+Overfull \hbox (0.50119pt too wide) in paragraph at lines 185--64
+\T1/cmr/m/n/10.95 d'Avaxia Group. Dans le pro-chain cha-pitre, nous ex-plo-re-rons les as-pects ar-chi-tec-tu-raux et concep-tuels
+ []
+
+[17] [18] (chap_03.tex
+Chapitre \textLR{3}.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 1.
+
+
+LaTeX Font Warning: Font shape `T1/cmr/bx/scit' undefined
+(Font)              using `T1/cmr/bx/scsl' instead on input line 1.
+
+\openout5 = `main.mtc'.
+
+\openout5 = `main.mtc'.
+
+(main.mtc4) [19
+
+
+]
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 4.
+
+
+Overfull \hbox (14.16843pt too wide) in paragraph at lines 8--12
+\T1/cmr/m/n/10.95 concep-tion d'un pro-jet. Le choix de l'ar-chi-tec-ture dé-ter-mine com-ment les di-verses par-ties de l'ap-pli-ca-tion
+ []
+
+
+Overfull \hbox (13.26646pt too wide) in paragraph at lines 15--16
+\T1/cmr/m/n/10.95 uti-li-sa-teur, la couche de lo-gique mé-tier, la couche d'ac-cès aux don-nées et la couche d'in-fra-struc-ture. 
+ []
+
+
+Overfull \hbox (1.80002pt too wide) in paragraph at lines 19--20
+\T1/cmr/m/n/10.95 conti-nue et l'évo-lu-tion du pro-jet. En cas de mo-di-fi-ca-tions né-ces-saires dans une couche spé-ci-fique,
+ []
+
+[20]
+<img/techno/archi_log.png, id=552, 567.11874pt x 653.44125pt>
+File: img/techno/archi_log.png Graphic file (type png)
+<use img/techno/archi_log.png>
+Package pdftex.def Info: img/techno/archi_log.png  used on input line 28.
+(pdftex.def)             Requested size: 341.4421pt x 284.52382pt.
+ [21 <./img/techno/archi_log.png>]
+Overfull \hbox (2.60475pt too wide) in paragraph at lines 65--66
+\T1/cmr/m/n/10.95 Elle se consacre aux as-pects ma-té-riels et aux res-sources né-ces-saires pour as-su-rer le bon fonc-tion-ne-ment
+ []
+
+
+Overfull \hbox (1.71014pt too wide) in paragraph at lines 65--66
+\T1/cmr/m/n/10.95 de l'ap-pli-ca-tion[[]8[]]. Dans notre cas, l'ar-chi-tec-ture phy-sique re-vêt une im-por-tance cru-ciale pour ga-ran-tir
+ []
+
+[22]
+<img/techno/archi_phy.png, id=564, 666.49pt x 620.3175pt>
+File: img/techno/archi_phy.png Graphic file (type png)
+<use img/techno/archi_phy.png>
+Package pdftex.def Info: img/techno/archi_phy.png  used on input line 72.
+(pdftex.def)             Requested size: 483.70645pt x 426.78906pt.
+
+Overfull \hbox (11.3907pt too wide) in paragraph at lines 72--73
+ [][] 
+ []
+
+[23 <./img/techno/archi_phy.png>]
+Overfull \hbox (15.44269pt too wide) in paragraph at lines 82--83
+\T1/cmr/m/n/10.95 Py-thon, ac-com-pa-gné des bi-blio-thèques NumPy et Pan-das, pour ef-fec-tuer les opé-ra-tions sta-tis-tiques
+ []
+
+
+Overfull \hbox (4.21527pt too wide) in paragraph at lines 82--83
+\T1/cmr/m/n/10.95 et de cal-cul sur les don-nées. Il est es-sen-tiel pour la col-lecte, le net-toyage, l'ana-lyse des cor-ré-la-tions
+ []
+
+[24]
+<img/conception/E_a.png, id=577, 1348.03625pt x 1091.07625pt>
+File: img/conception/E_a.png Graphic file (type png)
+<use img/conception/E_a.png>
+Package pdftex.def Info: img/conception/E_a.png  used on input line 99.
+(pdftex.def)             Requested size: 483.68828pt x 398.33109pt.
+
+Overfull \hbox (11.37253pt too wide) in paragraph at lines 99--100
+ [][] 
+ []
+
+[25 <./img/conception/E_a.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 114--114
+[]|\T1/cmr/bx/n/12 Nom
+ []
+
+
+Overfull \hbox (20.52829pt too wide) in alignment at lines 111--119
+ [] [] [] 
+ []
+
+
+Overfull \hbox (20.5283pt too wide) in alignment at lines 127--135
+ [] [] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--145
+[]|\T1/cmr/bx/n/12 Nom
+ []
+
+
+Overfull \hbox (20.52829pt too wide) in alignment at lines 142--157
+ [] [] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
+[]|\T1/cmr/bx/n/12 Nom
+ []
+
+
+Overfull \hbox (20.52829pt too wide) in alignment at lines 164--176
+ [] [] [] 
+ []
+
+[26]
+Underfull \hbox (badness 10000) in paragraph at lines 186--186
+[]|\T1/cmr/bx/n/12 Nom
+ []
+
+
+Overfull \hbox (20.52829pt too wide) in alignment at lines 183--193
+ [] [] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--203
+[]|\T1/cmr/bx/n/12 Nom
+ []
+
+
+Overfull \hbox (20.52829pt too wide) in alignment at lines 200--211
+ [] [] [] 
+ []
+
+[27]
+Underfull \hbox (badness 10000) in paragraph at lines 221--221
+[]|\T1/cmr/bx/n/12 Nom
+ []
+
+
+Overfull \hbox (20.52829pt too wide) in alignment at lines 218--232
+ [] [] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 241--241
+[]|\T1/cmr/bx/n/12 Nom
+ []
+
+
+Overfull \hbox (20.52829pt too wide) in alignment at lines 238--259
+ [] [] [] 
+ []
+
+[28]
+Underfull \hbox (badness 10000) in paragraph at lines 268--268
+[]|\T1/cmr/bx/n/12 Nom
+ []
+
+
+Overfull \hbox (20.52829pt too wide) in alignment at lines 265--276
+ [] [] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 285--285
+[]|\T1/cmr/bx/n/12 Nom
+ []
+
+
+Overfull \hbox (20.52829pt too wide) in alignment at lines 282--292
+ [] [] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 301--301
+[]|\T1/cmr/bx/n/12 Nom
+ []
+
+
+Overfull \hbox (20.52829pt too wide) in alignment at lines 298--308
+ [] [] [] 
+ []
+
+[29]
+Underfull \hbox (badness 10000) in paragraph at lines 317--317
+[]|\T1/cmr/bx/n/12 Nom
+ []
+
+
+Overfull \hbox (20.52829pt too wide) in alignment at lines 314--325
+ [] [] [] 
+ []
+
+)
+Overfull \hbox (3.64317pt too wide) in paragraph at lines 333--67
+[]\T1/cmr/m/n/10.95 Ce cha-pitre a éta-bli les bases pour la mise en ÷uvre tech-nique de notre pro-jet. Les choix ar-chi-tec-tu-raux
+ []
+
+[30] (chap_04.tex
+Chapitre \textLR{4}.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 1.
+
+
+LaTeX Font Warning: Font shape `T1/cmr/bx/scit' undefined
+(Font)              using `T1/cmr/bx/scsl' instead on input line 1.
+
+\openout5 = `main.mtc'.
+
+\openout5 = `main.mtc'.
+
+(main.mtc5) [31
+
+
+]
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 4.
+
+<img/techno/Talend.png, id=616, 417.81094pt x 417.05812pt>
+File: img/techno/Talend.png Graphic file (type png)
+<use img/techno/Talend.png>
+Package pdftex.def Info: img/techno/Talend.png  used on input line 15.
+(pdftex.def)             Requested size: 113.81137pt x 113.80995pt.
+
+Overfull \hbox (10.54147pt too wide) in paragraph at lines 11--18
+[]\T1/cmr/m/n/10.95 Talend est un ou-til d'in-té-gra-tion de don-nées open source qui fa-ci-lite l'ex-trac-tion, la trans-for-ma-tion
+ []
+
+
+LaTeX Warning: Citation 'pq' on page 32 undefined on input line 22.
+
+<img/techno/postgresql.png, id=619, 361.35pt x 362.35374pt>
+File: img/techno/postgresql.png Graphic file (type png)
+<use img/techno/postgresql.png>
+Package pdftex.def Info: img/techno/postgresql.png  used on input line 26.
+(pdftex.def)             Requested size: 113.80931pt x 113.81029pt.
+[32 <./img/techno/Talend.png> <./img/techno/postgresql.png>]
+<img/techno/streamlit.png, id=629, 2931.95375pt x 814.04124pt>
+File: img/techno/streamlit.png Graphic file (type png)
+<use img/techno/streamlit.png>
+Package pdftex.def Info: img/techno/streamlit.png  used on input line 38.
+(pdftex.def)             Requested size: 113.76862pt x 113.80351pt.
+<img/techno/jira.png, id=633, 242.9075pt x 121.45375pt>
+File: img/techno/jira.png Graphic file (type png)
+<use img/techno/jira.png>
+Package pdftex.def Info: img/techno/jira.png  used on input line 48.
+(pdftex.def)             Requested size: 113.8107pt x 113.8107pt.
+<img/techno/gitlab.png, id=637, 315.1775pt x 121.45375pt>
+File: img/techno/gitlab.png Graphic file (type png)
+<use img/techno/gitlab.png>
+Package pdftex.def Info: img/techno/gitlab.png  used on input line 59.
+(pdftex.def)             Requested size: 113.81007pt x 113.8107pt.
+ [33 <./img/techno/streamlit.png> <./img/techno/jira.png>]
+<img/techno/sonarqube.png, id=647, 2509.375pt x 614.295pt>
+File: img/techno/sonarqube.png Graphic file (type png)
+<use img/techno/sonarqube.png>
+Package pdftex.def Info: img/techno/sonarqube.png  used on input line 70.
+(pdftex.def)             Requested size: 113.79767pt x 71.12515pt.
+
+Overfull \hbox (0.74918pt too wide) in paragraph at lines 66--73
+\T1/cmr/m/n/10.95 l'ana-lyse de la qua-lité du code dans le pro-ces-sus, ren-for-çant ainsi la sur-veillance et l'amé-lio-ra-tion
+ []
+
+<img/techno/numpy.png, id=651, 1284.8pt x 578.16pt>
+File: img/techno/numpy.png Graphic file (type png)
+<use img/techno/numpy.png>
+Package pdftex.def Info: img/techno/numpy.png  used on input line 81.
+(pdftex.def)             Requested size: 113.80379pt x 71.13177pt.
+<img/techno/pandas.png, id=655, 1284.8pt x 518.93875pt>
+File: img/techno/pandas.png Graphic file (type png)
+<use img/techno/pandas.png>
+Package pdftex.def Info: img/techno/pandas.png  used on input line 91.
+(pdftex.def)             Requested size: 113.80379pt x 71.1306pt.
+[34 <./img/techno/gitlab.png> <./img/techno/sonarqube.png> <./img/techno/numpy.png>]
+Overfull \hbox (16.9586pt too wide) in paragraph at lines 106--107
+\T1/cmr/m/n/10.95 pour pré-ser-ver l'in-té-grité des in-for-ma-tions sen-sibles. Cela en-glo-bait des pro-ces-sus d'au-then-ti-fi-ca-tion
+ []
+
+[35 <./img/techno/pandas.png>] [36]
+Overfull \hbox (11.66292pt too wide) in paragraph at lines 140--155
+[]\T1/cmr/m/n/10.95 Les don-nées re-pré-sen-tées dans la fi-gure [][]\T1/cmr/bx/n/10.95 4.11[][] \T1/cmr/m/n/10.95 sui-vante illustres une par-tie des ta-bleaux Jira(boards)
+ []
+
+
+Overfull \hbox (7.20372pt too wide) in paragraph at lines 189--190
+[]\T1/cmr/m/n/10.95 L'extraction des don-nées consti-tue une phase cru-ciale, car elle four-nit la ma-tière pre-mière fon-da-men-tale
+ []
+
+[37]
+Overfull \hbox (12.12651pt too wide) in paragraph at lines 197--198
+[]\T1/cmr/bx/n/10.95 Filtrage des don-nées : \T1/cmr/m/n/10.95 cer-taines don-nées étaient ex-ces-si-ve-ment vo-lu-mi-neuses ou non per-ti-nentes
+ []
+
+<img/captures/sprints.png, id=684, 416.757pt x 534.19576pt>
+File: img/captures/sprints.png Graphic file (type png)
+<use img/captures/sprints.png>
+Package pdftex.def Info: img/captures/sprints.png  used on input line 206.
+(pdftex.def)             Requested size: 472.31624pt x 256.07686pt.
+<img//captures/sprintsafter.png, id=685, 908.193pt x 486.01575pt>
+File: img//captures/sprintsafter.png Graphic file (type png)
+<use img//captures/sprintsafter.png>
+Package pdftex.def Info: img//captures/sprintsafter.png  used on input line 212.
+(pdftex.def)             Requested size: 472.30466pt x 256.08167pt.
+[38 <./img/captures/sprints.png>]
+Overfull \hbox (2.57425pt too wide) in paragraph at lines 221--223
+[]\T1/cmr/m/n/10.95 Après avoir ex-trait et trans-formé les don-nées, la pro-chaine phase de notre work-flow était le char-ge-ment
+ []
+
+<img//captures/benchmarking.png, id=692, 807.015pt x 516.12825pt>
+File: img//captures/benchmarking.png Graphic file (type png)
+<use img//captures/benchmarking.png>
+Package pdftex.def Info: img//captures/benchmarking.png  used on input line 227.
+(pdftex.def)             Requested size: 472.31737pt x 227.61691pt.
+[39 <./img//captures/sprintsafter.png>]
+<report_bench.png, id=699, 674.52pt x 132.495pt>
+File: report_bench.png Graphic file (type png)
+<use report_bench.png>
+Package pdftex.def Info: report_bench.png  used on input line 234.
+(pdftex.def)             Requested size: 472.32545pt x 85.35854pt.
+<img//captures/postgres.png, id=701, 1153.911pt x 486.618pt>
+File: img//captures/postgres.png Graphic file (type png)
+<use img//captures/postgres.png>
+Package pdftex.def Info: img//captures/postgres.png  used on input line 243.
+(pdftex.def)             Requested size: 483.68852pt x 256.07971pt.
+
+Overfull \hbox (11.37277pt too wide) in paragraph at lines 243--244
+ [][] 
+ []
+
+[40 <./img//captures/benchmarking.png> <./report_bench.png>]
+<img//conception/issues.png, id=709, 1020.81375pt x 504.08325pt>
+File: img//conception/issues.png Graphic file (type png)
+<use img//conception/issues.png>
+Package pdftex.def Info: img//conception/issues.png  used on input line 255.
+(pdftex.def)             Requested size: 472.31575pt x 233.23483pt.
+ [41 <./img//captures/postgres.png>]
+<img//captures/user_status.png, id=717, 682.34924pt x 409.53pt>
+File: img//captures/user_status.png Graphic file (type png)
+<use img//captures/user_status.png>
+Package pdftex.def Info: img//captures/user_status.png  used on input line 268.
+(pdftex.def)             Requested size: 472.31575pt x 283.46959pt.
+<img/captures/table_users.png, id=718, 578.76225pt x 171.64125pt>
+File: img/captures/table_users.png Graphic file (type png)
+<use img/captures/table_users.png>
+Package pdftex.def Info: img/captures/table_users.png  used on input line 274.
+(pdftex.def)             Requested size: 472.31575pt x 140.07362pt.
+ [42 <./img//conception/issues.png>]
+<img/captures/averge_cycle.png, id=725, 1517.67pt x 1084.05pt>
+File: img/captures/averge_cycle.png Graphic file (type png)
+<use img/captures/averge_cycle.png>
+Package pdftex.def Info: img/captures/averge_cycle.png  used on input line 283.
+(pdftex.def)             Requested size: 472.3023pt x 227.60759pt.
+ [43 <./img//captures/user_status.png> <./img/captures/table_users.png>]
+<img/captures/tickets_count.png, id=734, 1517.67pt x 1084.05pt>
+File: img/captures/tickets_count.png Graphic file (type png)
+<use img/captures/tickets_count.png>
+Package pdftex.def Info: img/captures/tickets_count.png  used on input line 291.
+(pdftex.def)             Requested size: 472.3023pt x 227.60759pt.
+ [44 <./img/captures/averge_cycle.png>]
+<img/captures/extractKPI.png, id=741, 856.3995pt x 439.6425pt>
+File: img/captures/extractKPI.png Graphic file (type png)
+<use img/captures/extractKPI.png>
+Package pdftex.def Info: img/captures/extractKPI.png  used on input line 299.
+(pdftex.def)             Requested size: 472.31575pt x 242.47496pt.
+
+Overfull \hbox (16.15225pt too wide) in paragraph at lines 304--305
+[]\T1/cmr/m/n/10.95 L'étape d'ana-lyse des don-nées s'est ré-vé-lée cru-ciale pour trans-for-mer des don-nées brutes en connais-sances
+ []
+
+[45 <./img/captures/tickets_count.png> <./img/captures/extractKPI.png>] [46]) [47] (conclusion.tex [48
+
+
+]
+Overfull \hbox (18.59883pt too wide) in paragraph at lines 15--16
+\T1/cmr/m/n/10.95 Notre en-ga-ge-ment en-vers l'ex-cel-lence et l'in-no-va-tion nous en-cou-rage à ex-plo-rer da-van-tage ces pers-pec-tives
+ []
+
+) [49]
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 79.
+ (C:\Users\Ons CHAHED\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
+File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+Overfull \hbox (1.28397pt too wide) in paragraph at lines 79--79
+[]\T1/cmr/m/it/10.95 Services Avaxia\T1/cmr/m/n/10.95 , []$\T1/cmtt/m/n/10.95 https : / / www . avaxiagroup . com / fr / services$[]\T1/cmr/m/n/10.95 , [En ligne ;Ac-cès le 2-sep-2023],
+ []
+
+
+Overfull \hbox (1.46576pt too wide) in paragraph at lines 79--79
+[]\T1/cmr/m/n/10.95 O. []\T1/cmr/m/sc/10.95 Vogel[]\T1/cmr/m/n/10.95 , \T1/cmr/m/it/10.95 "Soft-ware Ar-chi-tec-ture : A Com-pre-hen-sive Fra-me-work and Guide for Prac-ti-tio-ners."
+ []
+
+
+Overfull \hbox (23.11845pt too wide) in paragraph at lines 79--79
+[]\T1/cmr/m/n/10.95 L. []\T1/cmr/m/sc/10.95 Bass[]\T1/cmr/m/n/10.95 , \T1/cmr/m/it/10.95 "Soft-ware Ar-chi-tec-ture in Prac-tice"\T1/cmr/m/n/10.95 . Addison-Wesley Pro-fes-sio-nal, 2021, \T1/cmr/m/sc/10.95 isbn \T1/cmr/m/n/10.95 : 0136886094. 
+ []
+
+
+Overfull \hbox (8.2927pt too wide) in paragraph at lines 79--79
+[]\T1/cmr/m/n/10.95 E. []\T1/cmr/m/sc/10.95 Gamma[]\T1/cmr/m/n/10.95 , \T1/cmr/m/it/10.95 "De-sign Pat-terns : Ele-ments of Reu-sable Object-Oriented Soft-ware"\T1/cmr/m/n/10.95 . Addison-Wesley
+ []
+
+[50
+
+
+] [51] (tpl/resume.tex
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(42.67912pt, 512.14963pt, 42.67912pt)
+* v-part:(T,H,B)=(56.9055pt, 717.00946pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=512.14963pt
+* \textheight=717.00946pt
+* \oddsidemargin=-29.59087pt
+* \evensidemargin=-29.59087pt
+* \topmargin=-44.31825pt
+* \headheight=14.5pt
+* \headsep=14.45377pt
+* \topskip=11.0pt
+* \footskip=27.46295pt
+* \marginparwidth=40.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Font Info:    Font shape `LAE/cmr/m/n' will be
+(Font)              scaled to size 21.59999pt on input line 23.
+LaTeX Font Info:    Font shape `LAE/cmr/bx/n' in size <17.28> not available
+(Font)              Font shape `LAE/cmr/b/n' tried instead on input line 23.
+LaTeX Font Info:    Font shape `LAE/cmr/b/n' will be
+(Font)              scaled to size 21.59999pt on input line 23.
+LaTeX Font Info:    Font shape `LAE/cmr/m/n' will be
+(Font)              scaled to size 12.5pt on input line 26.
+LaTeX Font Info:    Font shape `LAE/cmr/bx/n' in size <10.95> not available
+(Font)              Font shape `LAE/cmr/b/n' tried instead on input line 30.
+LaTeX Font Info:    Font shape `LAE/cmr/b/n' will be
+(Font)              scaled to size 13.68748pt on input line 30.
+)
+Package minitoc Info: I0009
+(minitoc)             Listing minitoc auxiliary files. 
+(minitoc)             Creating the main.maf file.
+\openout5 = `main.maf'.
+
+
+
+Package minitoc(hints) Warning: W0033
+(minitoc(hints))                The caption package should be 
+(minitoc(hints))                loaded BEFORE the minitoc package.
+
+Package minitoc(hints) Info: I0053
+(minitoc(hints))             You have loaded the float package; 
+(minitoc(hints))             please be aware that the minitoc package 
+(minitoc(hints))             facilities can not be used for new types 
+(minitoc(hints))             of floats defined by the float package.
+
+Package minitoc(hints) Warning: W0024
+(minitoc(hints))                Some hints have been written 
+(minitoc(hints))                in the main.log file.
+
+LaTeX Font Info:    Font shape `LAE/cmr/m/n' will be
+(Font)              scaled to size 11.25pt on input line 85.
+
+LaTeX Warning: No \companyFax given.
+
+
+LaTeX Warning: No \companyFax given.
+
+
+Overfull \hbox (39.83388pt too wide) has occurred while \output is active
+ [][][] 
+ []
+
+
+Overfull \hbox (39.83388pt too wide) has occurred while \output is active
+ [] 
+ []
+
+
+Overfull \hbox (39.83388pt too wide) has occurred while \output is active
+ [] 
+ []
+
+
+Overfull \hbox (42.2555pt too wide) has occurred while \output is active
+  [] 
+ []
+
+
+Overfull \hbox (39.83388pt too wide) has occurred while \output is active
+ [] 
+ []
+
+
+Overfull \hbox (39.83388pt too wide) has occurred while \output is active
+ [] 
+ []
+
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 5.08003pt, for example:
+(fancyhdr)                \setlength{\footskip}{5.08003pt}.
+
+[52
+
+
+
+{C:/Users/Ons CHAHED/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/arabi/ararabeyes.enc}] (main.aux (tpl/cover_page_black.aux))
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+ ***********
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 4744ACAC3687534D5D2A12115167C19D;7339.
+
+Package biblatex Warning: Please (re)run BibTeX on the file(s):
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
+Package logreq Info: Writing requests to 'main.run.xml'.
+\openout1 = `main.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 45098 strings out of 474436
+ 864434 string characters out of 5739558
+ 1957190 words of memory out of 5000000
+ 66439 multiletter control sequences out of 15000+600000
+ 605107 words of font info for 83 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 109i,12n,131p,1925b,4426s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\Ons CHAHED\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\Ons CHAHED\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\Ons CHAHED\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1095.pk> <C:\Users\Ons CHAHED\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1095.pk> <C:\Users\Ons CHAHED\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1095.pk> <C:\Users\Ons CHAHED\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecxc1095.pk> <C:\Users\Ons CHAHED\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\Ons CHAHED\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecxc2488.pk> <C:\Users\Ons CHAHED\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecoc1095.pk> <C:\Users\Ons CHAHED\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0900.pk> <C:\Users\Ons CHAHED\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk> <C:\Users\Ons CHAHED\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk> <C:\Users\Ons CHAHED\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\Ons CHAHED\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\Ons CHAHED\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk> <C:\Users\Ons CHAHED\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\Ons CHAHED\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\Ons CHAHED\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\Ons CHAHED\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecxc1728.pk> <C:\Users\Ons CHAHED\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx0900.pk><C:/Users/Ons CHAHED/AppData/Local/Programs/MiKTeX/fonts/type1/public/arabi/ae_almateen.pfb><C:/Users/Ons CHAHED/AppData/Local/Programs/MiKTeX/fonts/type1/public/arabi/ae_almohanad_bold.pfb><C:/Users/Ons CHAHED/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on main.pdf (64 pages, 2481900 bytes).
+PDF statistics:
+ 1639 PDF objects out of 1728 (max. 8388607)
+ 181 named destinations out of 1000 (max. 500000)
+ 522 words of extra memory for PDF output out of 10000 (max. 10000000)
+

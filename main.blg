@@ -1,0 +1,72 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+The style file: biblatex.bst
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+Reallocating 'name_of_file' (item size: 1) to 7 items.
+Reallocating 'name_of_file' (item size: 1) to 25 items.
+A level-1 auxiliary file: tpl/cover_page_black.aux
+Reallocating 'glb_str_end' (item size: 4) to 20 items.
+Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
+Reallocating 'global_strs' (item size: 1) to 4000000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Database file #1: main-blx.bib
+Database file #2: biblio.bib
+Warning--I didn't find a database entry for "pq"
+Biblatex version: 3.19
+Reallocating 'wiz_functions' (item size: 4) to 9000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+You've used 18 entries,
+            6399 wiz_defined-function locations,
+            1275 strings with 10506 characters,
+and the built_in function-call counts, 43199 in all, are:
+= -- 2160
+> -- 643
+< -- 264
++ -- 639
+- -- 177
+* -- 2017
+:= -- 2949
+add.period$ -- 0
+call.type$ -- 18
+change.case$ -- 144
+chr.to.int$ -- 42
+cite$ -- 34
+duplicate$ -- 5323
+empty$ -- 5261
+format.name$ -- 314
+if$ -- 9623
+int.to.chr$ -- 0
+int.to.str$ -- 29
+missing$ -- 0
+newline$ -- 236
+num.names$ -- 343
+pop$ -- 5546
+preamble$ -- 1
+purify$ -- 165
+quote$ -- 0
+skip$ -- 1917
+stack$ -- 0
+substring$ -- 2514
+swap$ -- 1417
+text.length$ -- 228
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 600
+warning$ -- 0
+while$ -- 375
+width$ -- 0
+write$ -- 219
+(There was 1 warning)
