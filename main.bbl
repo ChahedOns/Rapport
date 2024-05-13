@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.2 $
+% $ biblatex bbl format version 3.3 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -16,8 +16,8 @@
   {}
 \endgroup
 
-\datalist[entry]{none/global//global/global}
-  \entry{avaxia}{misc}{}
+\datalist[entry]{none/global//global/global/global}
+  \entry{avaxia}{misc}{}{}
     \field{labeltitlesource}{title}
     \field{howpublished}{\url{https://www.avaxiagroup.com/fr/}}
     \field{note}{[En ligne;Accès le 2-sep-2023]}
@@ -25,7 +25,7 @@
     \field{year}{2023}
   \endentry
 
-  \entry{serAvaxia}{misc}{}
+  \entry{serAvaxia}{misc}{}{}
     \field{labeltitlesource}{title}
     \field{howpublished}{\url{https://www.avaxiagroup.com/fr/services}}
     \field{note}{[En ligne;Accès le 2-sep-2023]}
@@ -33,7 +33,7 @@
     \field{year}{2023}
   \endentry
 
-  \entry{blog}{misc}{}
+  \entry{blog}{misc}{}{}
     \name{author}{1}{}{%
       {{hash=n}{%
          family={nutcache},
@@ -50,7 +50,7 @@
     \field{year}{2019}
   \endentry
 
-  \entry{BPK}{misc}{}
+  \entry{BPK}{misc}{}{}
     \name{author}{1}{}{%
       {{hash=PJ}{%
          family={Paquet},
@@ -69,7 +69,7 @@
     \field{year}{2017}
   \endentry
 
-  \entry{sep}{book}{}
+  \entry{sep}{book}{}{}
     \name{author}{1}{}{%
       {{hash=VO}{%
          family={Vogel},
@@ -92,7 +92,7 @@
     \field{year}{2011}
   \endentry
 
-  \entry{module}{book}{}
+  \entry{module}{book}{}{}
     \name{author}{1}{}{%
       {{hash=BL}{%
          family={Bass},
@@ -114,7 +114,7 @@
     \field{year}{2021}
   \endentry
 
-  \entry{facilite}{book}{}
+  \entry{facilite}{book}{}{}
     \name{author}{1}{}{%
       {{hash=GE}{%
          family={Gamma},
@@ -137,7 +137,7 @@
     \field{year}{1994}
   \endentry
 
-  \entry{archi_phy}{misc}{}
+  \entry{archi_phy}{misc}{}{}
     \name{author}{1}{}{%
       {{hash=R}{%
          family={RedHat},
@@ -154,7 +154,7 @@
     \field{year}{2023}
   \endentry
 
-  \entry{E_A}{misc}{}
+  \entry{E_A}{misc}{}{}
     \name{author}{1}{}{%
       {{hash=R}{%
          family={RedHat},
@@ -171,7 +171,7 @@
     \field{year}{2023}
   \endentry
 
-  \entry{talend}{misc}{}
+  \entry{talend}{misc}{}{}
     \field{labeltitlesource}{title}
     \field{howpublished}{\url{https://www.talend.com/}}
     \field{note}{[En ligne;Accès le 19-sep-2023]}
@@ -179,7 +179,7 @@
     \field{year}{2023}
   \endentry
 
-  \entry{pg}{misc}{}
+  \entry{pg}{misc}{}{}
     \field{labeltitlesource}{title}
     \field{howpublished}{\url{https://www.postgresql.org/}}
     \field{note}{[En ligne;Accès le 19-sep-2023]}
@@ -187,7 +187,7 @@
     \field{year}{2023}
   \endentry
 
-  \entry{streamlit}{misc}{}
+  \entry{streamlit}{misc}{}{}
     \field{labeltitlesource}{title}
     \field{howpublished}{\url{https://streamlit.io/}}
     \field{note}{[En ligne;Accès le 19-sep-2023]}
@@ -195,7 +195,7 @@
     \field{year}{2023}
   \endentry
 
-  \entry{JiraRestAPI}{misc}{}
+  \entry{JiraRestAPI}{misc}{}{}
     \field{labeltitlesource}{title}
   \field{howpublished}{\url{https://developer.atlassian.com/cloud/jira/platform/rest/v3/intro}}
     \field{note}{[En ligne;Accès le 19-sep-2023]}
@@ -203,7 +203,7 @@
     \field{year}{2023}
   \endentry
 
-  \entry{GitlabRestAPI}{misc}{}
+  \entry{GitlabRestAPI}{misc}{}{}
     \field{labeltitlesource}{title}
     \field{howpublished}{\url{https://docs.gitlab.com/ee/api/}}
     \field{note}{[En ligne;Accès le 19-sep-2023]}
@@ -211,7 +211,7 @@
     \field{year}{2023}
   \endentry
 
-  \entry{SonarQube}{misc}{}
+  \entry{SonarQube}{misc}{}{}
     \field{labeltitlesource}{title}
   \field{howpublished}{\url{https://docs.sonarsource.com/sonarqube/latest/web-api/}}
     \field{note}{[En ligne;Accès le 19-sep-2023]}
@@ -219,7 +219,7 @@
     \field{year}{2023}
   \endentry
 
-  \entry{numpy}{misc}{}
+  \entry{numpy}{misc}{}{}
     \field{labeltitlesource}{title}
     \field{howpublished}{\url{https://docs.gitlab.com/ee/api/}}
     \field{note}{[En ligne;Accès le 19-sep-2023]}
@@ -227,7 +227,7 @@
     \field{year}{2023}
   \endentry
 
-  \entry{pandas}{misc}{}
+  \entry{pandas}{misc}{}{}
     \field{labeltitlesource}{title}
     \field{howpublished}{\url{https://pandas.pydata.org/}}
     \field{note}{[En ligne;Accès le 19-sep-2023]}

@@ -25,35 +25,35 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: main-blx.bib
 Database file #2: biblio.bib
 Warning--I didn't find a database entry for "pq"
-Biblatex version: 3.19
+Biblatex version: 3.20
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 You've used 18 entries,
-            6399 wiz_defined-function locations,
-            1275 strings with 10506 characters,
-and the built_in function-call counts, 43199 in all, are:
+            6402 wiz_defined-function locations,
+            1275 strings with 10513 characters,
+and the built_in function-call counts, 43284 in all, are:
 = -- 2160
 > -- 643
 < -- 264
 + -- 639
 - -- 177
-* -- 2017
+* -- 2034
 := -- 2949
 add.period$ -- 0
 call.type$ -- 18
 change.case$ -- 144
 chr.to.int$ -- 42
 cite$ -- 34
-duplicate$ -- 5323
-empty$ -- 5261
+duplicate$ -- 5340
+empty$ -- 5278
 format.name$ -- 314
-if$ -- 9623
+if$ -- 9640
 int.to.chr$ -- 0
 int.to.str$ -- 29
 missing$ -- 0
 newline$ -- 236
 num.names$ -- 343
-pop$ -- 5546
+pop$ -- 5563
 preamble$ -- 1
 purify$ -- 165
 quote$ -- 0
