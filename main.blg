@@ -25,48 +25,48 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: main-blx.bib
 Database file #2: biblio.bib
 Warning--I didn't find a database entry for "pq"
-Biblatex version: 3.19
+Biblatex version: 3.20
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
-You've used 18 entries,
-            6399 wiz_defined-function locations,
-            1275 strings with 10506 characters,
-and the built_in function-call counts, 43199 in all, are:
-= -- 2160
-> -- 643
-< -- 264
-+ -- 639
-- -- 177
-* -- 2017
-:= -- 2949
+You've used 27 entries,
+            6402 wiz_defined-function locations,
+            1312 strings with 11434 characters,
+and the built_in function-call counts, 74473 in all, are:
+= -- 4014
+> -- 1222
+< -- 400
++ -- 1248
+- -- 347
+* -- 3856
+:= -- 5693
 add.period$ -- 0
-call.type$ -- 18
-change.case$ -- 144
+call.type$ -- 27
+change.case$ -- 203
 chr.to.int$ -- 42
-cite$ -- 34
-duplicate$ -- 5323
-empty$ -- 5261
-format.name$ -- 314
-if$ -- 9623
+cite$ -- 52
+duplicate$ -- 9069
+empty$ -- 8570
+format.name$ -- 669
+if$ -- 16317
 int.to.chr$ -- 0
-int.to.str$ -- 29
+int.to.str$ -- 48
 missing$ -- 0
-newline$ -- 236
-num.names$ -- 343
-pop$ -- 5546
+newline$ -- 390
+num.names$ -- 653
+pop$ -- 8533
 preamble$ -- 1
-purify$ -- 165
+purify$ -- 248
 quote$ -- 0
-skip$ -- 1917
+skip$ -- 3155
 stack$ -- 0
-substring$ -- 2514
-swap$ -- 1417
-text.length$ -- 228
+substring$ -- 5077
+swap$ -- 2272
+text.length$ -- 372
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 600
+type$ -- 906
 warning$ -- 0
-while$ -- 375
+while$ -- 724
 width$ -- 0
-write$ -- 219
+write$ -- 364
 (There was 1 warning)

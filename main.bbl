@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.2 $
+% $ biblatex bbl format version 3.3 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -16,8 +16,8 @@
   {}
 \endgroup
 
-\datalist[entry]{none/global//global/global}
-  \entry{avaxia}{misc}{}
+\datalist[entry]{none/global//global/global/global}
+  \entry{avaxia}{misc}{}{}
     \field{labeltitlesource}{title}
     \field{howpublished}{\url{https://www.avaxiagroup.com/fr/}}
     \field{note}{[En ligne;Accès le 2-sep-2023]}
@@ -25,7 +25,7 @@
     \field{year}{2023}
   \endentry
 
-  \entry{serAvaxia}{misc}{}
+  \entry{serAvaxia}{misc}{}{}
     \field{labeltitlesource}{title}
     \field{howpublished}{\url{https://www.avaxiagroup.com/fr/services}}
     \field{note}{[En ligne;Accès le 2-sep-2023]}
@@ -33,7 +33,7 @@
     \field{year}{2023}
   \endentry
 
-  \entry{blog}{misc}{}
+  \entry{blog}{misc}{}{}
     \name{author}{1}{}{%
       {{hash=n}{%
          family={nutcache},
@@ -50,7 +50,7 @@
     \field{year}{2019}
   \endentry
 
-  \entry{BPK}{misc}{}
+  \entry{BPK}{misc}{}{}
     \name{author}{1}{}{%
       {{hash=PJ}{%
          family={Paquet},
@@ -69,7 +69,259 @@
     \field{year}{2017}
   \endentry
 
-  \entry{sep}{book}{}
+  \entry{archi_log}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=TM}{%
+         family={Touhtouh},
+         familyi={T\bibinitperiod},
+         given={Meriem},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TM1}
+    \strng{fullhash}{TM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+  \field{howpublished}{\url{https://www.softfluent.fr/blog/architecture-logicielle-pour-application}}
+    \field{note}{[En ligne;Accès le 21-Mars-2024]}
+    \field{title}{Architecture Logique des systémes}
+    \field{year}{2023}
+  \endentry
+
+  \entry{design_pattern}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=ZD}{%
+         family={Zhart},
+         familyi={Z\bibinitperiod},
+         given={Dmitry},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ZD1}
+    \strng{fullhash}{ZD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+  \field{howpublished}{\url{https://refactoring.guru/fr/design-patterns/what-is-pattern}}
+    \field{note}{[En ligne;Accès le 21-Mars-2024]}
+    \field{title}{Patrons de conception}
+    \field{year}{2023}
+  \endentry
+
+  \entry{CQRS}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=KG}{%
+         family={Kheriji},
+         familyi={K\bibinitperiod},
+         given={Gnaoui},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KG1}
+    \strng{fullhash}{KG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{\url{https://www.invivoo.com/le-pattern-cqrs/}}
+    \field{note}{[En ligne;Accès le 21-Mars-2024]}
+    \field{title}{CQRS}
+    \field{year}{2023}
+  \endentry
+
+  \entry{facade}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=SA}{%
+         family={Schevts},
+         familyi={S\bibinitperiod},
+         given={Alexander},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SA1}
+    \strng{fullhash}{SA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+  \field{howpublished}{\url{https://refactoring.guru/fr/design-patterns/facade}}
+    \field{note}{[En ligne;Accès le 21-Mars-2024]}
+    \field{title}{Patron façade}
+    \field{year}{2023}
+  \endentry
+
+  \entry{observer}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=SA}{%
+         family={Schevts},
+         familyi={S\bibinitperiod},
+         given={Alexander},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SA1}
+    \strng{fullhash}{SA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+  \field{howpublished}{\url{https://refactoring.guru/fr/design-patterns/observer}}
+    \field{note}{[En ligne;Accès le 21-Mars-2024]}
+    \field{title}{Patron observer}
+    \field{year}{2023}
+  \endentry
+
+  \entry{SRP}{misc}{}{}
+    \field{labeltitlesource}{title}
+  \field{howpublished}{\url{https://www.ionos.fr/digitalguide/sites-internet/developpement-web/quest-ce-que-le-factory-pattern/}}
+    \field{note}{[En ligne;Accès le 21-Mars-2024]}
+    \field{title}{Single Responsability Principal}
+    \field{year}{2022}
+  \endentry
+
+  \entry{DAO}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=g}{%
+         family={geeksforgeeks},
+         familyi={g\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{g1}
+    \strng{fullhash}{g1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+  \field{howpublished}{\url{https://www.geeksforgeeks.org/data-access-object-pattern/}}
+    \field{note}{[En ligne;Accès le 21-Mars-2024]}
+    \field{title}{Data Access Object}
+    \field{year}{2024}
+  \endentry
+
+  \entry{archi_phy}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=R}{%
+         family={RedHat},
+         familyi={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{R1}
+    \strng{fullhash}{R1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+  \field{howpublished}{\url{https://www.redhat.com/fr/topics/cloud-native-apps/what-is-an-application-architecture}}
+    \field{note}{[En ligne;Accès le 22-Mars-2024]}
+    \field{title}{architecture physique}
+    \field{year}{2023}
+  \endentry
+
+  \entry{diag_pack}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=l}{%
+         family={lucidchart},
+         familyi={l\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{l1}
+    \strng{fullhash}{l1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+  \field{howpublished}{\url{https://www.lucidchart.com/pages/fr/diagramme-package-uml}}
+    \field{note}{[En ligne;Accès le 22-Mars-2024]}
+    \field{title}{Diagramme de package}
+    \field{year}{2024}
+  \endentry
+
+  \entry{diag_class}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=l}{%
+         family={lucidchart},
+         familyi={l\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{l1}
+    \strng{fullhash}{l1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+  \field{howpublished}{\url{https://www.lucidchart.com/pages/fr/diagramme-de-classes-uml}}
+    \field{note}{[En ligne;Accès le 22-Mars-2024]}
+    \field{title}{Diagramme de package}
+    \field{year}{2024}
+  \endentry
+
+  \entry{diag_act}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=I}{%
+         family={IBM},
+         familyi={I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{I1}
+    \strng{fullhash}{I1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+  \field{howpublished}{\url{https://www.ibm.com/docs/fr/dmrt/9.5?topic=diagrams-activity}}
+    \field{note}{[En ligne;Accès le 22-Mars-2024]}
+    \field{title}{Diagramme d'activité'}
+    \field{year}{2021}
+  \endentry
+
+  \entry{talend}{misc}{}{}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{\url{https://www.talend.com/}}
+    \field{note}{[En ligne;Accès le 19-sep-2023]}
+    \field{title}{Talend}
+    \field{year}{2023}
+  \endentry
+
+  \entry{pg}{misc}{}{}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{\url{https://www.postgresql.org/}}
+    \field{note}{[En ligne;Accès le 19-sep-2023]}
+    \field{title}{postgresql}
+    \field{year}{2023}
+  \endentry
+
+  \entry{streamlit}{misc}{}{}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{\url{https://streamlit.io/}}
+    \field{note}{[En ligne;Accès le 19-sep-2023]}
+    \field{title}{streamlit}
+    \field{year}{2023}
+  \endentry
+
+  \entry{JiraRestAPI}{misc}{}{}
+    \field{labeltitlesource}{title}
+  \field{howpublished}{\url{https://developer.atlassian.com/cloud/jira/platform/rest/v3/intro}}
+    \field{note}{[En ligne;Accès le 19-sep-2023]}
+    \field{title}{Jira REST API}
+    \field{year}{2023}
+  \endentry
+
+  \entry{GitlabRestAPI}{misc}{}{}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{\url{https://docs.gitlab.com/ee/api/}}
+    \field{note}{[En ligne;Accès le 19-sep-2023]}
+    \field{title}{Gitlab REST API}
+    \field{year}{2023}
+  \endentry
+
+  \entry{SonarQube}{misc}{}{}
+    \field{labeltitlesource}{title}
+  \field{howpublished}{\url{https://docs.sonarsource.com/sonarqube/latest/web-api/}}
+    \field{note}{[En ligne;Accès le 19-sep-2023]}
+    \field{title}{SonarQube}
+    \field{year}{2023}
+  \endentry
+
+  \entry{numpy}{misc}{}{}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{\url{https://docs.gitlab.com/ee/api/}}
+    \field{note}{[En ligne;Accès le 19-sep-2023]}
+    \field{title}{numpy}
+    \field{year}{2023}
+  \endentry
+
+  \entry{pandas}{misc}{}{}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{\url{https://pandas.pydata.org/}}
+    \field{note}{[En ligne;Accès le 19-sep-2023]}
+    \field{title}{pandas}
+    \field{year}{2023}
+  \endentry
+
+  \entry{sep}{book}{}{}
     \name{author}{1}{}{%
       {{hash=VO}{%
          family={Vogel},
@@ -92,7 +344,7 @@
     \field{year}{2011}
   \endentry
 
-  \entry{module}{book}{}
+  \entry{module}{book}{}{}
     \name{author}{1}{}{%
       {{hash=BL}{%
          family={Bass},
@@ -114,7 +366,7 @@
     \field{year}{2021}
   \endentry
 
-  \entry{facilite}{book}{}
+  \entry{facilite}{book}{}{}
     \name{author}{1}{}{%
       {{hash=GE}{%
          family={Gamma},
@@ -135,104 +387,6 @@
     \field{title}{"Design Patterns: Elements of Reusable Object-Oriented
   Software"}
     \field{year}{1994}
-  \endentry
-
-  \entry{archi_phy}{misc}{}
-    \name{author}{1}{}{%
-      {{hash=R}{%
-         family={RedHat},
-         familyi={R\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{R1}
-    \strng{fullhash}{R1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-  \field{howpublished}{\url{https://www.redhat.com/fr/topics/cloud-native-apps/what-is-an-application-architecture}}
-    \field{note}{[En ligne;Accès le 25-sep-2023]}
-    \field{title}{architecture physique}
-    \field{year}{2023}
-  \endentry
-
-  \entry{E_A}{misc}{}
-    \name{author}{1}{}{%
-      {{hash=R}{%
-         family={RedHat},
-         familyi={R\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{R1}
-    \strng{fullhash}{R1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-  \field{howpublished}{\url{https://www.maxicours.com/se/cours/comprendre-le-modele-relationnel-d-une-base-de-donnees/}}
-    \field{note}{[En ligne;Accès le 25-sep-2023]}
-    \field{title}{Modéle entité-association}
-    \field{year}{2023}
-  \endentry
-
-  \entry{talend}{misc}{}
-    \field{labeltitlesource}{title}
-    \field{howpublished}{\url{https://www.talend.com/}}
-    \field{note}{[En ligne;Accès le 19-sep-2023]}
-    \field{title}{Talend}
-    \field{year}{2023}
-  \endentry
-
-  \entry{pg}{misc}{}
-    \field{labeltitlesource}{title}
-    \field{howpublished}{\url{https://www.postgresql.org/}}
-    \field{note}{[En ligne;Accès le 19-sep-2023]}
-    \field{title}{postgresql}
-    \field{year}{2023}
-  \endentry
-
-  \entry{streamlit}{misc}{}
-    \field{labeltitlesource}{title}
-    \field{howpublished}{\url{https://streamlit.io/}}
-    \field{note}{[En ligne;Accès le 19-sep-2023]}
-    \field{title}{streamlit}
-    \field{year}{2023}
-  \endentry
-
-  \entry{JiraRestAPI}{misc}{}
-    \field{labeltitlesource}{title}
-  \field{howpublished}{\url{https://developer.atlassian.com/cloud/jira/platform/rest/v3/intro}}
-    \field{note}{[En ligne;Accès le 19-sep-2023]}
-    \field{title}{Jira REST API}
-    \field{year}{2023}
-  \endentry
-
-  \entry{GitlabRestAPI}{misc}{}
-    \field{labeltitlesource}{title}
-    \field{howpublished}{\url{https://docs.gitlab.com/ee/api/}}
-    \field{note}{[En ligne;Accès le 19-sep-2023]}
-    \field{title}{Gitlab REST API}
-    \field{year}{2023}
-  \endentry
-
-  \entry{SonarQube}{misc}{}
-    \field{labeltitlesource}{title}
-  \field{howpublished}{\url{https://docs.sonarsource.com/sonarqube/latest/web-api/}}
-    \field{note}{[En ligne;Accès le 19-sep-2023]}
-    \field{title}{SonarQube}
-    \field{year}{2023}
-  \endentry
-
-  \entry{numpy}{misc}{}
-    \field{labeltitlesource}{title}
-    \field{howpublished}{\url{https://docs.gitlab.com/ee/api/}}
-    \field{note}{[En ligne;Accès le 19-sep-2023]}
-    \field{title}{numpy}
-    \field{year}{2023}
-  \endentry
-
-  \entry{pandas}{misc}{}
-    \field{labeltitlesource}{title}
-    \field{howpublished}{\url{https://pandas.pydata.org/}}
-    \field{note}{[En ligne;Accès le 19-sep-2023]}
-    \field{title}{pandas}
-    \field{year}{2023}
   \endentry
 \enddatalist
 \endinput

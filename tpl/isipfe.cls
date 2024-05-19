@@ -84,7 +84,6 @@
 
 %% Disable hyphenation
 \usepackage[none]{hyphenat}
-
 %% Defining section, subsection and subsubsection spacing
 \usepackage{titlesec}
 \titlespacing*{\section}{7mm}{12pt}{8pt}
@@ -240,7 +239,7 @@
   labelsep = newline,
   name = Tableau,
   justification=justified,
-  singlelinecheck=false,%%%%%%% a single line is centered by default
+  singlelinecheck=true,%%%%%%% a single line is centered by default
   labelsep=colon,
   skip = \medskipamount}
 
@@ -249,7 +248,7 @@
   labelsep = newline,
   name = Figure,
   justification=centering,
-  singlelinecheck=false,
+  singlelinecheck=true,
   labelsep=colon,
   skip = \medskipamount}
 
