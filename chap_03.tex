@@ -32,24 +32,26 @@ Elle nous permet de répondre efficacement aux besoins changeants de nos utilisa
 \subsubsection{Architecture logique adoptée} 
 \par Comme nous avons déja mentionner, l'architecture logique de notre solution adopte une approche modulaire reposant sur
  les microservices, afin de constitue le socle sur lequel repose la réalisation de l'objectif du projet. 
- Elle met en lumière les différents composantes fonctionnelles et explique comment ces composantes interagissent pour fournir une expérience utilisateur fluide et des analyses précises \cite{archi_log}. 
+ Elle met en lumière les différents composantes fonctionnelles et explique comment ces composantes interagissent pour fournir une expérience utilisateur fluide et des analyses précises\cite{archi_log}. 
  \par Notre architecture est illustrée par la figure \textbf{\ref{fig:arch_log}} suivante:
 %code image
         \begin{figure}[H]
         \centering
-        \includegraphics[width = 1\linewidth ,height=10cm]{img/conception/archi.png}
+        \includegraphics[width = 1\linewidth ,height=11cm]{img/conception/archi.png}
         \caption{Architecture logique de <<Snowflake Monitoring Application>>}
-        \label{fig:arch_log}
+    \label{fig:arch_log}
         \end{figure}
         %fin
     \par Notre architecture est repartie comme suit: 
     \begin{enumerate}
 
-        \item[1.] \textbf{Couche des données: } 
+        \item[1.] \textbf{Couche des données:} 
                 \begin{itemize}
                 \item \textbf{Snowflake}: ce composant représente les vues sytémes de Snowflake telque <<Account\_ussage>> et <<information\_schema>> qui regroupent tous les données à monitorer.
                 %\item \textbf{Monitoring_DB_Snowflake}: elle garantit une transformation et une intégration harmonieuse des données pour une analyse ultérieure.
-                \item \textbf{Monitoring\_DB\_pg}: c'est une base de données PostgreSQL stockant les données de monitoring collectées.
+                \item \textbf{Monitoring\_DB}: c'est une base de données PostgreSQL stockant les données de monitoring collectées.
+                \item \textbf{BACKUP\_DB}: c'est une base de données PostgreSQL qui permet de garantir la durabilité et la redondance des données, en cas de panne ou de besoin de restauration des données de MONITORING\_DB principale.
+
             \end{itemize}
             
          \item[2.] \textbf{Couche applicative << micro-services >>:}
@@ -60,7 +62,10 @@ Elle nous permet de répondre efficacement aux besoins changeants de nos utilisa
                 \item \textbf{Query\_Performance\_Service }: service d'analyse des performances des requêtes Snowflake,
                 \item \textbf{Databases\_Stats\_Service}: service de collecte des statistiques sur les bases de données Snowflake,
                 \item \textbf{Access\_Stats\_Service}: service de collecte des statistiques sur les access au diffrenets comptes et entrepôts de données Snowflake,
+                \item \textbf{notification\_launcher }:service responsable de la gestion des notifications.ll s'abonne aux événements publiés par le service ETL\_service via le système MQTT, et se charge ensuite de transmettre ces notifications aux utilisateurs finaux par les canaux de communication appropriés,
                 \item \textbf{Authentification\_service }: service d'authentification et d'autorisation basé sur OAuth 2.0.
+                \item \textbf{AI\_ASSISTANT\_service }: un service d'assistance IA intégré dans l'architecture pour apporter une dimension d'intelligence artificielle aux fonctionnalités de surveillance et d'analyse.
+
             \end{itemize}
                 \par Cette couche assure la gestion de la logique métier de l'application en traitant et examinant les données collectées.
                 Elle interagit avec l'interface utilisateur pour fournir des informations pertinentes, des fonctionnalités d'analyse, et des résultats.
@@ -68,6 +73,7 @@ Elle nous permet de répondre efficacement aux besoins changeants de nos utilisa
                 \begin{itemize}
                     \item \textbf{MQTT}: système de messagerie basé sur le protocole MQTT, utilisé pour la communication asynchrone et découplée entre les différents services.
                     \item \textbf{MQTT Broker}: composant central du système MQTT, chargé de la distribution des événements publiés par les services.
+                    \item \textbf{REST}: la communication entre les microservices ce fait via des API REST.
                 \end{itemize}
             
         \item[4.] \textbf{Couche de Présentation:}
@@ -94,24 +100,22 @@ Elle nous permet de répondre efficacement aux besoins changeants de nos utilisa
     \item \textbf{Le pricipe <<de responsabilité unique (SRP)>>}: ce principe dénance que chaque qu'un composant (classe, service, module, etc.) ne doit avoir qu'une seule raison de changer. 
     Cela se traduit par une séparation claire des responsabilités au sein de l'architecture\cite{SRP}.
     \par Chaque microservice (DAGS\ MONITOR, WAREHOUSE\_USAGE, QUERY\_PERFORMANCE, etc.) est responsable d'une fonctionnalité spécifique du monitoring.
-   \par De plus, la séparation entre la base de données Snowflake (données  surveiller) et la base de données Monitoring\_DB (données de monitoring) respecte le SRP.
-    \item \textbf{Le patron <<Objet d'accès aux données (DAO)>>}: ce moàdéle représente une façon d'organiser le code pour gérer la communication entre votre programme et une base de données.
+   \par De plus, la séparation entre la base de données Snowflake (données surveiller) et la base de données Monitoring\_DB (données de monitoring) respecte le SRP.
+    \item \textbf{Le patron <<Objet d'accès aux données (DAO)>>}: ce moàdéle représente une façon d'organiser le code pour gérer la communication entre le programme et la base de données.
     Il permet de conserver un code propre et de séparer la logique d'interaction avec les données du reste de l'application\cite{DAO}.
     \par L'accès à la base de données de monitoring (Monitoring\_DB) est géré via un modèle DAO, séparant la logique d'accès aux données du reste de l'application.
     Cela améliore la maintenabilité et permet une indépendance entre la couche de données et la logique métier.
 \end{itemize}
 
-    \subsection{Architecture physique}
+\subsection{Architecture physique}
     \par L'architecture physique d'un projet constitue la matérialisation concrète de son architecture logique. Elle se consacre aux aspects matériels et aux ressources nécessaires pour assurer le bon fonctionnement de l'application\cite{archi_phy}.
-    \par Dans ce projet, nous avons adapter l'architecture n-tiers 
-    \par L'architecture physique du système de monitoring Snowflake suit une approche en n-tiers afin de garantir une séparation claire des responsabilités, 
-    une meilleure évolutivité et une plus grande résilience de l'ensemble du système.
-    \par Cette conception en couches distinctes permet une gestion efficace des ressources, une répartition optimale des charges de travail et une sécurisation renforcée de l'infrastructure. 
-\par la figure \textbf{\ref{fig:arch_phy}} suivante illustre l'architecture adopté dans ce projet : 
+    \par Pour la mise en place de ce système de monitoring Snowflake, nous avons suivi une approche en n-tiers afin de garantir une séparation claire des responsabilités, 
+    une meilleure évolutivité et une plus grande résilience de l'ensemble du système. Elle permet une gestion efficace des ressources, une répartition optimale des charges de travail et une sécurisation renforcée de l'infrastructure. 
+    \par la figure \textbf{\ref{fig:arch_phy}} suivante illustre l'architecture adopté dans ce projet : 
 %code image
         \begin{figure}[H]
         \centering
-        \includegraphics[width = 17cm , height=15cm]{img/techno/archi_phy.png}
+        \includegraphics[width = 17cm , height=10cm]{img/techno/archi_phy.png}
         \caption{Architecture physique de <<Snowflake Monitoring Application>>}
         \label{fig:arch_phy}
         \end{figure}
@@ -119,20 +123,19 @@ Elle nous permet de répondre efficacement aux besoins changeants de nos utilisa
         \par Notre architecture physique est composée de plusieurs éléments essentiels qui travaillent en tandem pour permettre la collecte, le traitement, le stockage et la présentation des données de manière optimale. Voici un aperçu détaillé de ces composants :
         \begin{enumerate}
             \item[1-] \textbf{Tier des Services (Tier Application): } 
-            \par Ce tier comprend les différents serveurs d'application hébergeant les microservices du système.
-            \par Il inclut les serveurs pour les services DAGS\_MONITOR, WAREHOUSE\_USAGE, QUERY\_PERFORMANCE, ETL\_service, AUTH\_service, etc.
+            cet tier comprend les différents serveurs d'application hébergeant les microservices du système.
+            \par Il inclut des serveurs pour les services DAGS\_MONITOR, WAREHOUSE\_USAGE, QUERY\_PERFORMANCE, ETL\_service, AUTH\_service, etc.
             \par Ces serveurs sont responsables de la logique métier et du traitement des données.
             \item [2-] \textbf{Tier des Données:} 
-            \par Ce tier est composé du serveur de base de données hébergeant la base de données MONITORING\_DB.
+            cet tier est composé du serveur de base de données hébergeant la base de données MONITORING\_DB.
             \par Il est chargé du stockage et de la gestion des données de monitoring collectées.
-             Le serveur Snowflake, hébergeant la base de données SNOWFLAKE\_SYSTEM\_DB, fait également partie de ce tier des données.
+            \par Le serveur Snowflake, hébergeant la base de données SNOWFLAKE\_SYSTEM\_DB, fait également partie de ce tier des données.
              
             \item[3-]  \textbf{Tier de présentation: }
-            \par Ce tier comprend le serveur frontend hébergeant la couche FRONTEND LAYER.
+            cet tier comprend le serveur frontend hébergeant le service ui\_service (Frontend).
             \par Il est responsable de la présentation des données de monitoring aux utilisateurs via les tableaux de bord et les interfaces.
-            \item[4-] \textbf{Tier de Communication:}
-            \par Ce tier est représenté par le serveur MQTT, qui héberge le broker MQTT. Il gère la communication asynchrone et découplée entre le systéme de notifications et
-             le service ETL à l'aide du protocole MQTT.
+            \item[4-] \textbf{inter-communication:}
+            la communication est represente modes de communication utilisés entre les composants de l'architecture, via les requêtes SQL, les API REST, les connecteurs Snowflake et le système de messagerie MQTT.
 
         \end{enumerate}
     \par Cette architecture en n-tiers offre plusieurs avantages clés, tels que la séparation des préoccupations, l'évolutivité, la résilience et la sécurité renforcée du système. 
@@ -148,7 +151,7 @@ Elle nous permet de répondre efficacement aux besoins changeants de nos utilisa
         %code image
             \begin{figure}[H]
             \centering
-            \includegraphics[width =1\linewidth , height=10cm]{img/conception/diag_pack.png}
+            \includegraphics[width =1\linewidth, height=10cm]{img/conception/diag_pack.png}
             \caption{Diagramme de paquetages de <<Snowflake Monitoring Application>>}
             \label{fig:e_a}
             \end{figure}
@@ -167,17 +170,110 @@ Elle nous permet de répondre efficacement aux besoins changeants de nos utilisa
             \label{fig:class}
             \end{figure}
         %fin
+    \subsubsection{Diagramme de cas d'utilisation global}
+    \par Le but fondamental d'un diagramme de cas d'utilisation UML consiste à illustrer les diverses interactions entre un utilisateur et un système \cite{use_case}.
+    \par  \par La figure \textbf{\ref{fig:use}} qui suit représente le diagramme de cas d'utilisation global de notre système:     
+    %code image
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width =1\linewidth, height=17cm]{img/conception/use_case.png}
+            \caption{Diagramme de cas d'utilisation globale <<Snowflake Monitoring Application>>}
+            \label{fig:use}
+            \end{figure}
+        %fin
 \subsection{Conception detaillée}
-\par Les diagrammes d'activités démontrent la logique d'un algorithme 
+    \par Dans cette section, nous allons s'intéresser à présenter les diagrammes illustant la conception détaillée de chaque micro-service présent dans solution.
+        
+\subsubsection{Description textuelle des cas d'utilisation}
+\par c'est une description claire et précise des interactions entre les acteurs et le système pour mener à bien le cas d'utilisation. Cette description identifie les acteurs impliqués ainsi que les autres cas d'utilisation pertinents\cite{descp}.
+\begin{enumerate}
+    \item[1.] \textbf{Description textuelle du cas d'utilisation <<Lister les entrepôts de données>>:}
+    \begin{table}[H]
+        \centering
+            \begin{tabular}{|p{3.5cm}|p{12cm}|}
+                \hline \textbf{Titre} &  Lister les entrepôts de données \\
+                \hline \textbf{Résumé} & L'utilisateur souhaite de lister les données de ses entrepôts de données' \\
+                \hline \textbf{Acteurs} & Utilisateur\\
+                \hline \textbf{Pré conditions }& L'utilisateur est authentifié et autorisé, via une token, à accéder à cette fonctionnalité\\
+                \hline \textbf{Scénarios Nominaux} &
+                    \begin{enumerate}
+                        \item [1.] L'utilisateur sélectionne l'option <<Warehouses>>,
+                        \item [2.] l'application récupère la liste des entrepôts et leurs données de la base de données Monitoring\_DB,
+                        \item [3.] l'application affiche les informations détaillées sur chaque entrepôt (nom, taille, performances, etc.),
+                        \item [4.] l'utilisateur peut consulter les détails de chaque entrepôt.      
+                    \end{enumerate}\\
+                        \hline \textbf{Scénario alternatif} & 
+                   3.a. \hspace{0.3cm} [«Pas de warehouses»]: Le système retourne un tableaux indiquant que la liste est vide \newline                             \\
+                \hline  \textbf{Scénarios d'exceptions} & 
+                    [«Token éxpirée»]: Le système signale l'erreur et redirecte l'utilisateur vers la page de <<login>>.\\
+                \hline \textbf{Post conditions} & L'utilisateur a accès à la liste des entrepôts de données et peut consulter leurs informations détaillées.
+         \\
+                \hline
+            \end{tabular}
+            \caption{description textuelle de cas d'utilisation <<Lister les entrepôts de données>>}
+        \end{table}
+        \item[2.] \textbf{Description textuelle du cas d'utilisation <<Visualiser DAG>>:}
+    \begin{table}[H]
+        \centering
+            \begin{tabular}{|p{3.5cm}|p{12cm}|}
+                \hline \textbf{Titre} &  Lister les entrepôts de données \\
+                \hline \textbf{Résumé} & L'utilisateur souhaite de lister les données de ses entrepôts de données' \\
+                \hline \textbf{Acteurs} & Utilisateur\\
+                \hline \textbf{Pré conditions }& L'utilisateur est authentifié et autorisé, via une token, à accéder à cette fonctionnalité\\
+                \hline \textbf{Scénarios Nominaux} &
+                    \begin{enumerate}
+                        \item [1.] L'utilisateur sélectionne l'option <<DAG monitoring>>,
+                        \item [3.] Le système effectue une connexion directe au compte snowflake à partir du service d'authentification en utilisant le nom d'utilisateur fourni dans la token,
+                        \item [2.] Le système récupère la configuration des tâches,
+                        \item [4.] Le système effectue un parcours en profondeur (DFS) du DAG pour identifier les nœuds racines, les nœuds feuilles et les liens entre les nœuds,
+                        \item [5.] Le système prépare tout les informations récupérées sous le format d'une arbre,
+                        \item [6.] Le systéme affiche chaque tâche ainsi que son état et ces liens avec les autres tâches.
+                    \end{enumerate}\\
+                        \hline \textbf{Scénario alternatif} & 
+                   4.a. \hspace{0.3cm} [«Aucune DAG signalée»]: Le système retourne le repére en indiquant que il y aucune DAG.\\
+                \hline  \textbf{Scénarios d'exceptions} & 
+                  [«Token éxpirée»]: Le système signale l'erreur et redirecte l'utilisateur vers la page de <<login>>.\\
+                \hline \textbf{Post conditions} & L'utilisateur reçoit les informations détaillées sur le DAG des tâches Snowflake, lui permettant de visualiser et d'analyser la structure du workflow.\\
+                \hline 
+            \end{tabular}
+        \caption{description textuelle de cas d'utilisation <<Visualiser DAG>>}
+        \end{table}
+        \item[2.] \textbf{Description textuelle du cas d'utilisation <<Visualiser DAG>>:}
+    \begin{table}[H]
+        \centering
+            \begin{tabular}{|p{3.5cm}|p{12cm}|}
+                \hline \textbf{Titre} &  Lister les entrepôts de données \\
+                \hline \textbf{Résumé} & L'utilisateur souhaite de lister les données de ses entrepôts de données' \\
+                \hline \textbf{Acteurs} & Utilisateur\\
+                \hline \textbf{Pré conditions }& L'utilisateur est authentifié et autorisé, via une token, à accéder à cette fonctionnalité\\
+                \hline \textbf{Scénarios Nominaux} &
+                    \begin{enumerate}
+                        \item [1.] L'utilisateur sélectionne l'option <<DAG monitoring>>,
+                        \item [3.] Le système effectue une connexion directe au compte snowflake à partir du service d'authentification en utilisant le nom d'utilisateur fourni dans la token,
+                        \item [2.] Le système récupère la configuration des tâches,
+                        \item [4.] Le système effectue un parcours en profondeur (DFS) du DAG pour identifier les nœuds racines, les nœuds feuilles et les liens entre les nœuds,
+                        \item [5.] Le système prépare tout les informations récupérées sous le format d'une arbre,
+                        \item [6.] Le systéme affiche chaque tâche ainsi que son état et ces liens avec les autres tâches.
+                    \end{enumerate}\\
+                        \hline \textbf{Scénario alternatif} & 
+                   4.a. \hspace{0.3cm} [«Aucune DAG signalée»]: Le système retourne le repére en indiquant que il y aucune DAG.\\
+                \hline  \textbf{Scénarios d'exceptions} & 
+                  [«Token éxpirée»]: Le système signale l'erreur et redirecte l'utilisateur vers la page de <<login>>.\\
+                \hline \textbf{Post conditions} & L'utilisateur reçoit les informations détaillées sur le DAG des tâches Snowflake, lui permettant de visualiser et d'analyser la structure du workflow.\\
+                \hline 
+            \end{tabular}
+        \caption{description textuelle de cas d'utilisation <<Visualiser DAG>>}
+        \end{table}
+\end{enumerate}
 \subsubsection{Diagrammme d'activité du micro-service <<ETL-service>>:}
-\par Un diagramme d'activité fournit une vue détaillée du comportement d'un système en décrivant la séquence d'actions au sein d'un processus\cite{diag_act}.
+\par Les diagrammes d'activités démontrent la logique d'un algorithme. De plus, ils fournissent une vue détaillée du comportement d'un système en décrivant la séquence d'actions au sein d'un processus\cite{diag_act}.
 \par Le diagramme d'activité du micro-service ETL-service est représenté dans la figure \textbf{\ref{fig:act}} suivante:
     %code image
     \begin{figure}[H]
         \centering
-        \includegraphics[width =1\linewidth, height=17cm]{img/conception/diag_act_1.png}
+        \includegraphics[width =1\linewidth, height=16cm]{img/conception/diag_act_1.png}
         \caption{Diagramme d'activité du micro-service <<ETL-service>>}
-        \label{fig:act}
+            \label{fig:act}
         \end{figure}
     %fin
 \par Le traitement du micro-service ETL commence par l'appele la méthode \textbf{<<start\_background\_task()>>}, qui est une méthode programmée automatiquement chaque 24 heurs.
@@ -188,15 +284,110 @@ qui à ca part connecte notre service avec le compte Snowflake dont nous souhait
 \par Si il y des changements détectés, la méthode \textbf{<<execute\_fetch\_data(table)>>} est exécutée pour récupérer les nouvelles données de la table Snowflake.
 \par Les nouvelles données récupérées sont ensuite transmises à l'étape de formatage des données \newline \textbf{<<Data\_Formatting()>>}, où elles sont mises en forme(typage, longeur, format etc.). 
 Après cela, l'étape de nettoyage des données \textbf{<<Data\_Cleaning()>>} intervient pour préparer et nettoyer les données formatées. 
-\par postérieurement, l'étape d'archivage des données dans PostgreSQL \textbf{<<Preform\_Data\_archiving>>}, là où nous allons transformer les anciennes données de cette table vers une base de données d'archivage afin d'avoir toujours une traçabilité des données. 
+\par Postérieurement, l'étape d'archivage des données dans PostgreSQL \textbf{<<Preform\_Data\_archiving>>}, là où nous allons transformer les anciennes données de cette table vers une base de données d'archivage afin d'avoir toujours une traçabilité des données. 
 \par Parallèlement, le connecteur PostgreSQL établit une connexion avec les base de données PostgreSQL, \textbf{monitoring\_db} et la base d'archive \textbf{backup\_db}, via la méthode \textbf{<<establish\_connection()>>}. 
 tout en éxécutant la méthode \textbf{<<execute\_insert\_archive(table, data)>>}. 
 \par Par la suite,le système déclanche la methode \textbf{<<Preform\_newData(table,data)>>} pour insérer les nouveaux données nettoyées dans la base de données de monitoring. 
 Après l'insertion des données, le microservice effectue un commit des changements dans la base de données.
 \par il faut notez bien que, ce flux de travail ce repéte éventuellement pour chaque table, séparament ou/et séquentiellement pour les tables qui on une relation entre eux, dans un \textbf{<<thread>>} à part.
-\par Aprés la mise à jour de tout les tables, il publie un message MQTT via la méthode \newline \textbf{<<publish\_mqtt\_message()>>} afin de notifier les autres composants de l'ajout de nouvelles données. 
+\par Aprés la mise à jour de tout les tables, il publie un message MQTT via la méthode \newline \textbf{<<publish\_mqtt\_message()>>} afin de notifier le systéme de l'ajout de nouvelles données. 
 \par Cette approche garantit que toutes les étapes sont correctement coordonnées et que chaque composant est informé des mises à jour de manière efficace et en temps réel.
 \par Enfin, le microservice ETL-service termine son traitement en attendant son prochain déclanchement.
-\section*{Conclusion}
+\subsubsection{Diagrammme de séquence de cas d'utilisation <<Visualiser DAG>>:}
+\par Les diagrammes d'activités démontrent la logique d'un algorithme. De plus, ils fournissent une vue détaillée du comportement d'un système en décrivant la séquence d'actions au sein d'un processus\cite{diag_act}.
+\par Le diagramme de séquence de cas d'utilisation <<Visualiser DAG>> est représenté dans la figure \textbf{\ref{fig:seq1}} suivante:
+    %code image
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width =1\linewidth, height=23.5cm]{img/conception/seq1.png}
+        \caption{Diagrammme de séquence de cas d'utilisation <<Visualiser DAG>> }
+            \label{fig:seq1}
+    \end{figure}
+    \par Ce diagramme de séquence décrit le cas d'utilisation \textbf{<<Visualiser le DAG>>} où 
+    un utilisateur souhaite visualiser les détails du Directed Acyclic Graph (DAG) des tâches Snowflake en temps réel.
+    \par Le traitement ce lance lorsque l'utilisateur clique sur le bouton <<Task\&Dag Monitoring>> de l'interface, 
+    cette action lance un appel au contrôleur du micro service <<DAG\_monitoring>> pour récupérer les DAGs.
+    Une fois l'appel est lancé, le contrôleur en question envoit à son tour une requête au micro-service d'authentification pour avoir les configurations de compte Snowflake assosiés au nom d'utilisateur avec la token d'autorization.
+    \par Le contrôleur snowflake config\_ctr du service d'authentification renvoit les configurations néssesaires au contrôleur principal.
+    \par Une fois les configurations sont retournées, le contrôleur de DAG\_monitoring fait appel au snowflake\_connector, qui est le point de communication direct entre l'application et Snowflake, pour accéder au compte Snowflake de l'utilisateur et récupérer la liste des tâches qui lui sont associées.
+    \par le contrôleur snowflake\_ctr effectue les opérations nécessaires sur Snowflake et retourne la liste des tâches au DAG\_ctr:
+    \begin{itemize}
+        \item \textbf{Si [la liste est vide];} le contrôleur DAG\_ctr renvoit un message au service du frontend en indiquant qu'il y a aucune DAG pour cette utilisateur,
+        \item \textbf{Sinon;} \parindent=1.5em \par -le contrôleur DAG\_ctr commance le traitement sur les tâches retournées, en récupérant la liste des prédécesseurs de chaque tâches.
+       
+        \parindent=1.5em \par -Parallèlement, dans un autre thread séparament, il recupére:les noeuds (nodes), les arêtes (edges), les noeuds sources (source\_nodes), les routes principales (main\_roots). 
+        \parindent=1.5em \par -Ensuite, pour chaque route il fait un parcours en profondeur (DFS\_transfersal) afin marquer les noeuds visités et collecter les successeurs. 
+        \parindent=1.5em \par -Puis, il verife pour chaque arête, si l'arête part de la racine actuelle et si c'est le cas, il ajoute le noeud de destination au new\_roots qui sera l'ensemble des nouvelles racines pour la prochaine itération de la boucle principale.
+        \parindent=1.5em \par -Aprés tout cela, il parcourt tout les noeuds pour identifier les noeuds feuilles, ceux qui ne sont pas dans new\_root.
+        \parindent=1.5em \par -Finalement, il renvoit tout les informations traitées aux service frontend comme etant un objet JSON.
+                
+    \end{itemize}
+    \par Enfin, le service frontend va lui même parcourue les noeudes de l'objet retourné, en dessinant le DAG finale en faisant appel aux controleur Task\_details inclus du même service pour afficher en details chaque noeud du DAG.
+    \par \textbf{NB:} Il faut bien préciser que le declanchement de cet cas d'utilisation nécessite l'authentification de l'utilisateur et qu'il a les permissons et les roles qui lui permet de visualiser les DAG.
+    \subsubsection{Diagramme de séquence du cas d'utilisation <<Lister les détaills d'une tâche>>:}
+    \par La figure \textbf{\ref*{fig:seq2}} illustre le diagramme de séquence du cas d'utilisation <<Lister les détaills d'une tâche>>:
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width =1\linewidth, height=17cm]{img/conception/seq2.png}
+        \caption{Diagrammme de séquence de cas d'utilisation <<Lister les détaills d'une tâche>> }
+        \label{fig:seq2}
+    \end{figure}
+    \par Pour Lister les details d'une tâche, et aprés avoir vérifier que l'utilisateur est authentifié, le service du frontend lance un appel au contrôleur task\_details 
+    pour récupérer les données souhaitées. 
+    \par En lançant cet contrôleur, il envoit à son tour une requête au micro-service d'authentification pour avoir les configurations de compte Snowflake assosiés au nom d'utilisateur avec la token d'autorization.
+    \par Le contrôleur snowflake config\_ctr du service d'authentification renvoit les configurations néssesaires au contrôleur principal.
+    \par Une fois les configurations sont retournées, le contrôleur de DAG\_monitoring fait appel au \par snowflake\_connector, qui est le point de communication direct entre l'application et Snowflake, 
+    pour accéder au compte Snowflake de l'utilisateur et récupérer les détailles de tâche en question de la vue \textbf{Task\_History} du schéma système de snowflake \textbf{Account\_Ussage}, qui a des informations global sur les tâches.
+    \par le contrôleur snowflake\_ctr effectue les opérations nécessaires sur Snowflake et retourne les détailles du task demandé sous le format JSON.
+    \par Le contrôleur task\_details traite le résultat retourné; 
+    \begin{itemize}
+        \item \textbf{Si [L'état du tâche est <<Started>>]:} 
+        \par - le contrôleur task\_details relance un autre appel au snowflake\_connector,
+        \par - ce dernier il va accéder à nouveau à Snowflake mais cette fois si il va opérer la vue \textbf{Task\_History} du schéma \textbf{Information\_schema} de Snowflake, qui est la vue qui à les informations sur les tâches commencées en temps rélle,pour récupérer l'êtat de cette tâche en temps rélle qui peut être ( plannifiée, entrain de s'éxécuter ou échouée),
+        \par - une fois le nouveau état est retourner task\_details met à jour les données en modifiant l'état <<Started>> par le nouveau ètat du tâche et l'envoyer au service du frontend en fomat JSON.
+        \item \textbf{Sinon ( L'état sera <<suspended>>):} le controleur va retourner directement les données du tâche au service de frontend sans faire aucune modification.
+    \end{itemize}
+
+    \subsubsection{Diagramme de séquence du cas d'utilisation <<Créer un compte>>:}
+    \par La figure \textbf{\ref*{fig:seq3}} illustre le diagramme de séquence du cas d'utilisation <<Créer un compte>>:
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width =1\linewidth, height=17cm]{img/conception/signup.png}
+        \caption{Diagrammme de séquence de cas d'utilisation <<Créer un compte>> }
+        \label{fig:seq3}
+    \end{figure}
+    \par Afin de pouvoir inscrire dans <<Snowflake Monitoring Application>>, l'utilisateur accéde à l'interface de creation de compte de l'application en saisisant son username, mot de passe, 
+    ainsi que l'URL d'accés à son compte Snowflake.
+    \par En cliquant sur <<signup>>, le contrôleur signup\_ctr récupére les données saisites du frontend et décrypte le mot de passe.
+    \par Ensuite, il emettre un appel au contrôleur de snowflake pour que ce dernier vérifie l'existance de ce compte dans Snowflake en retournant une réponse vers le contrôleur principal. 
+    \begin{itemize}
+        \item \textbf{[ok == True]}:
+       \par -le contrôleur lance une recherche dans la table de monitoring\_DB \textbf{accounts}
+       \par -\textbf{si l'account existe}, le contrôleur renvoit une erreur au frontend.
+       \par -\textbf{sinon}, le contrôleur va encrypter le mot de passe et crée un compte dans la table \textbf{accounts} avec les données saisies.
+       \par Enfin, il va renvoyer un message de succéss au frontend qui va à son tour rediger l'utilisateur vers la page de l'authentification. 
+       \item \textbf{[Sinon]}: 
+       \par -Le contrôleur renvoit un message d'erreur au frontend en indiquant que les données saisites n'appartient à aucun compte Snowflake.
+    \end{itemize}
+    \subsubsection{Diagramme de séquence du cas d'utilisation <<S'authentifier>>:}
+    \par La figure \textbf{\ref*{fig:seq4}} illustre le diagramme de séquence du cas d'utilisation <<S'authentifier>>:
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width =1\linewidth, height=12cm]{img/conception/login.png}
+        \caption{Diagrammme de séquence de cas d'utilisation <<S'authentifier>> }
+        \label{fig:seq4}
+    \end{figure}
+    \par Pour accéder à l'application, l'utilisateur accéde à l'interface de <<login>> en saisisant les données d'authentification (username,mot de passe).
+    \par En cliquant sur <<login>>, le contrôleur login\_ctr récupére les données saisies du frontend et décrypte le mot de passe saisie. 
+    \par Ensuite, il lance une recherche dans la table \textbf{Accounts} pour vérifier l'existance du compte; 
+    \begin{itemize}
+        \item \textbf{[ok == True]}: cela signifie que le compte existe déjà, et là le contrôleur crée une instance de l'objet \textbf{JWT Token}, qui est le moyen d'accés à toutes les informations et parties de l'application.
+         Une fois l'instance est crée et retourné le contrôleur active la session de connexion de l'utilisateur et retourne la token ainsi que un message de succés au frontend.
+        \par Finalement, le frontend redirige l'utilisateur vers la page d'acceuil de l'application.
+        \item \textbf{[Sinon (compte inexistant)]}: le contrôleur renvoit un message d'erreur vers le frontend en indiquant que les données saisites sont invalides.
+    \end{itemize}
+    \section*{Conclusion}
 \addcontentsline{toc}{section}{Conclusion }
 \par Ce chapitre a établi les bases pour la mise en œuvre technique de notre projet. Les choix architecturaux et conceptuels s'avèrent essentiels pour assurer la stabilité et la performance de notre solution. Dans le prochain chapitre, nous plongerons dans la réalisation concrète de notre projet.

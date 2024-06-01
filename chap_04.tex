@@ -2,362 +2,571 @@
 	
 \section*{Introduction}
 \addcontentsline{toc}{section}{Introduction }
-    Le quatrième chapitre se consacre à la mise en œuvre concrète du projet. Nous explorons les choix techniques que nous avons adoptés et détaillons le travail effectué pour donner vie à notre solution. De plus, nous parcourons notre workflow en cinq étapes, de l'extraction à la visualisation des données.
+    Le quatrième chapitre se consacre à la mise en œuvre concrète du projet. Nous explorons les choix techniques que nous avons adoptés et détaillons le travail effectué pour donner vie à notre solution.
 
 \section{Choix technologiques}
 \par  Dans cette partie, nous explorerons les décisions stratégiques que nous avons prises concernant les technologies et les outils que nous avons choisis pour la réalisation de notre solution.     
-   \begin{itemize}
-    \item \textbf{Talend : }
-       \par Talend est un outil d'intégration de données open source qui facilite l'extraction, la transformation et le chargement (ETL) des données\cite{talend},Son logo est représenté par la figure \textbf{\ref{fig:talend}}. Il a été utilisé pour gérer le flux de données, les transformations et l'intégration des données dans la base de données. 
-          %code image
-        \begin{figure}[H]
-        \centering
-        \includegraphics[width = 4cm , height=4cm]{img/techno/Talend.png}
-        \caption{Logo du Talend\cite{talend}}
-        \label{fig:talend}
+\subsection {Frameworks}   
+    \begin{itemize}
+        \item \textbf{FastAPI: }
+        %code image
+        \begin{figure}[!htb]\centering
+            \begin{minipage}{0.30\textwidth}
+            \centering
+              {\includegraphics[width = 2cm , height=2cm]{img/techno/fast.png}}
+              \caption{ \\ FastAPI logo \cite{fastapi}}\label{Fig:Data1}
+            \end{minipage}
+            \begin {minipage}{0.60\textwidth}
+            \par FastAPI est un framework web moderne et rapide (à haute performance) pour la création d'API avec Python,
+            basé sur les annotations de type standard de Python\cite{fastapi}. \\
+            \par Dans la réalisation de ce projet, nous avons opté pour le choix de FastApi comme notre backend framework vue ces performances extrêmement élevées, comparables à celles de NodeJS et Go, grâce à l'utilisation de Starlette et Pydantic.
+            FastAPI est l'un des frameworks Python les plus rapides.\\
+            \par Sa Robustesse aussi, car il permet de produire un code prêt pour la production avec une documentation interactive et automatique.
+            
+            \end{minipage}
         \end{figure}
         %fin
-    \item \textbf{PostgreSQL : }
+        \item \textbf{React: }
+            %code image
+            \begin{figure}[!htb]\centering
+                \begin{minipage}{0.30\textwidth}
+                \centering
+                {\includegraphics[width = 2cm , height=2cm]{img/techno/react.png}}
+                \caption{\\ React logo \cite{react}}\label{Fig:Data1}
+                \end{minipage}
+                \begin{minipage}{0.60\textwidth}
+                    \par React est une bibliothèque JavaScript destinée à la création d'interfaces utilisateur (UI) \cite{react}. \\
+                    \par Dans la réalisation de ce projet, nous avons opté pour React comme étant notre frontend framework car il  permet de créer des interfaces utilisateur dynamiques et réactives avec une efficacité accrue grâce à sa gestion intelligente des mises à jour via le DOM virtuel.
+                \end{minipage}
+
+            \end{figure}
+        %fin
+    \end{itemize}
+    \subsection {Bases de données}
+    \newpage
+    \begin{itemize}
+        \item \textbf{PostgreSQL: }
     
-       \par PostgreSQL est un SGBDR open source \cite{pq}, Son logo est représenté par la figure \textbf{\ref{fig:post}}. Il a été choisi pour stocker et gérer les données collectées dans le projet.
-                 %code image
-        \begin{figure}[H]
-        \centering
-        \includegraphics[width = 4cm , height=4cm]{img/techno/postgresql.png}
-        \caption{Logo du PostgreSQL\cite{pg}}
-        \label{fig:post}
-        \end{figure}
-        %fin
+        %code image
+        \begin{figure}[!htb]\centering
+           \begin{minipage}{0.30\textwidth}
+           \centering
+             {\includegraphics[width = 3cm , height=3cm]{img/techno/postgresql.png}}
+             \caption{ \\ PostgreSQL logo \cite{pg}}\label{Fig:Data2}
+           \end{minipage}
+           \begin {minipage}{0.60\textwidth}
+           \par PostgreSQL est un puissant système de base de données relationnelle objet open source, développé activement depuis plus de 35 ans, qui lui a valu une solide réputation en termes de fiabilité, de robustesse des fonctionnalités et de performances\cite{pg}. \\
+           \par Dans la réalisation de ce projet, nous avons opté pour le choix de PostgreSQL comme étant notre SGBD vue qu'il est est souvent perçu comme un système plus fiable et plus robuste que MySQL pour gérer de grands volumes de données sans risque de corruption.\\
+           \par De plus, il permet de stocker des informations de manière plus structurée grâce à une meilleure gestion des relations et des contraintes.
+           \end{minipage}
+       \end{figure}
+    
+\end{itemize}
+\subsection{Outils de communication}
+\begin{itemize}
 
-    \item \textbf{Streamlit : }
-     
-       \par Streamlit est un framework Python qui facilite la création d'applications web interactives pour la visualisation de données\cite{streamlit}. Il a été choisi pour concevoir des tableaux de bord interactifs permettant de visualiser les résultats de l'analyse de données de manière conviviale. Son logo est représenté par la figure \textbf{\ref{fig:streamlit}}.
-                %code image
-        \begin{figure}[H]
+    \item \textbf{MQTT: }
+        %code image
+            \begin{figure}[!htb]\centering
+            \begin{minipage}{0.30\textwidth}
+            \centering
+                {\includegraphics[width = 2cm , height=2cm]{img/techno/mqtt.png}}
+                \caption{\\ MQTT logo \cite{mqtt}}\label{Fig:Data1}
+            \end{minipage}
+            \begin{minipage}{0.60\textwidth}
+                \par MQTT est un protocole de messagerie basé sur des normes, ou un ensemble de règles, utilisé pour la communication de machine à machine \cite{mqtt}. \\
+                \par Dans la réalisation de ce projet, nous avons opté pour MQTT comme étant un systéme de notification car il MQTT facilite le chiffrement des messages 
+                via TLS et l'authentification des clients à l'aide de protocoles d'authentification modernes, tels que OAuth. \\
+                \par De plus, sa Légèreté et efficacité car les clients MQTT sont très petits, ils nécessitent peu de ressources. Les en-têtes des messages MQTT sont de petite taille afin d'optimiser la bande passante du réseau.
+            \end{minipage}
+    \end{figure}
+    \item\textbf{RESTful APIs:}
+    %code image 
+     \begin{figure}[!htb]\centering
+        \begin{minipage}{0.30\textwidth}
         \centering
-        \includegraphics[width = 4cm , height=4cm]{img/techno/streamlit.png}
-        \caption{Logo du Streamlit\cite{streamlit}}
-        \label{fig:streamlit}
-        \end{figure}
-        %fin
-    \item \textbf{Jira REST API : }
-       \par Jira REST API était nécessaire pour extraire des données de Jira. Cela a automatisé la collecte de données, assuré la cohérence et amélioré l'efficacité de l'analyse\cite{JiraRestAPI}. Son logo est représenté par la figure \textbf{\ref{fig:jira}}.
-                     %code image
-        \begin{figure}[H]
-        \centering
-        \includegraphics[width = 4cm , height=4cm]{img/techno/jira.png}
-        \caption{Logo du Jira \cite{JiraRestAPI}}
-        \label{fig:jira}
-        \end{figure}
-        %fin
-    \item \textbf{Gitlab REST API : }
+            {\includegraphics[width = 2cm , height=2cm]{img/techno/rest.png}}
+            \caption{\\ REST logo \cite{rest}}\label{Fig:Data1}
+        \end{minipage}
+        \begin{minipage}{0.60\textwidth}
+            \par REST (REpresentational State Transfer) constitue un style architectural et un mode de communication fréquemment utilisé dans le développement de services Web \cite{rest}. \\
+            \par Dans la réalisation de ce projet, nous avons opté pour RESTful API comme étant le mode de communiction entre les différents microservices du systéme car ils sont faciles à utiliser avec la plupart des outils. 
+            \par De plus REST s'impose progressivement comme le standard pour l'interaction entre systèmes. 
+          
+        \end{minipage}
+    \end{figure}
 
-       \par l'API Gitlab REST a été utilisée pour extraire des données du système de gestion de versions Gitlab. Elle a permis d'automatiser la collecte de données liées au code source, aux commits et aux mesures de performance de l'équipe, renforçant ainsi l'efficacité de l'analyse\cite{GitlabRestAPI}. Son logo est représenté par la figure \textbf{\ref{fig:gitlab}}.
-                     %code image
-        \begin{figure}[H]
-        \centering
-        \includegraphics[width = 4cm , height=4cm]{img/techno/gitlab.png}
-        \caption{Logo du Gitlab \cite{GitlabRestAPI}}
-        \label{fig:gitlab}
-        \end{figure}
-        %fin
-    \item \textbf{SonarQube REST API : }
+    \end{itemize}
+
+    \subsection{Bibliothèques pour l'analyse et la manipulation des données}
+    \begin{itemize}
+        \item \textbf{Snowflake-connector-python: }
        
-       \par SonarQube est un outil d'analyse statique du code qui identifie et corrige les problèmes de qualité du code \cite{SonarQube}, son logo est représenté par la figure \textbf{\ref{fig:sonar}}. Son API a permis d'intégrer l'analyse de la qualité du code dans le processus, renforçant ainsi la surveillance et l'amélioration continues.
-                   %code image
-        \begin{figure}[H]
-        \centering
-        \includegraphics[width = 4cm , height=2.5cm]{img/techno/sonarqube.png}
-        \caption{Logo du sonarQube \cite{SonarQube}}
-        \label{fig:sonar}
-        \end{figure}
-        %fin
-    \item \textbf{Numpy: }
+        %code image 
+         \begin{figure}[!htb]\centering
+             \begin{minipage}{0.30\textwidth}
+             \centering
+                 {\includegraphics[width = 2cm , height=2cm]{img/techno/snowflake.png}}
+                 \caption{\\ Snowflake logo \cite{sncn}}\label{Fig:Data1}
+             \end{minipage}
+             \begin{minipage}{0.60\textwidth}
+                 \par Le connecteur Snowflake pour Python fournit une interface pour le développement d'applications Python
+                  qui peuvent se connecter à Snowflake et effectuer toutes les opérations standard.\cite{sncn}. \\
+                 \par Il a été conçu pour pour gérer les ressources principales de Snowflake, y compris les bases de données, les schémas, les tables, les tâches et les entrepôts, sans utiliser le langage SQL.
         
-       \par NumPy est une bibliothèque essentielle pour le calcul numérique en Python \cite{numpy}, son logo est représenté par la figure \textbf{\ref{fig:numpy}}. Elle offre des structures de données et des fonctions pour effectuer des opérations mathématiques et statistiques sur des tableaux, ce qui est précieux pour la manipulation et l'analyse des données dans le projet.
-             %code image
-        \begin{figure}[H]
-        \centering
-        \includegraphics[width = 4cm , height=2.5cm]{img/techno/numpy.png}
-        \caption{Logo du Numpy\cite{numpy}}
-        \label{fig:numpy}
+             \end{minipage}
+         \end{figure}
+    \item \textbf{psycopg: }
+       
+       %code image 
+        \begin{figure}[!htb]\centering
+            \begin{minipage}{0.30\textwidth}
+            \centering
+                {\includegraphics[width = 2cm , height=2cm]{img/techno/psycopg.png}}
+                \caption{\\ Psycopg logo \cite{psycopg}}\label{Fig:Data1}
+            \end{minipage}
+            \begin{minipage}{0.60\textwidth}
+                \par Psycopg est l'adaptateur de base de données PostgreSQL le plus populaire pour le langage de programmation Python. 
+                Il est écrit en C et fournit un moyen d'effectuer toute la gamme des opérations SQL sur les bases de données PostgreSQL\cite{psycopg}. \\
+                \par Il a été conçu pour les applications fortement multithreadées qui créent et détruisent de nombreux curseurs et effectuent un grand nombre d'« INSERT “s ou d” »UPDATE « s simultanés. C'est le principal raison pour lequel nous avons choisi cet librairie pour toute interaction avec postgresql.
+            
+            \end{minipage}
         \end{figure}
         %fin
+
     \item \textbf{Pandas: }
-       \par Pandas est une bibliothèque de manipulation de données  Python qui fournit des structures de données flexibles pour l'analyse des données\cite{pandas} , son logo est représenté par la figure \textbf{\ref{fig:pandas}}. Elle facilite l'importation, la manipulation et l'analyse des données provenant de diverses sources, ce qui en fait un choix idéal pour votre projet.
+       
              %code image
-        \begin{figure}[H]
-        \centering
-        \includegraphics[width = 4cm , height=2.5cm]{img/techno/pandas.png}
-        \caption{Logo du Pandas\cite{pandas}}
-        \label{fig:pandas}
-        \end{figure}
+             \begin{figure}[!htb]\centering
+                \begin{minipage}{0.30\textwidth}
+                \centering
+                    {\includegraphics[width = 2cm , height=2cm]{img/techno/pandas.png}}
+                    \caption{\\ Pandas logo \cite{pandas}}\label{Fig:Data1}
+                \end{minipage}
+                \begin{minipage}{0.60\textwidth}
+                    \par  Pandas est une bibliothèque de manipulation de données Python qui fournit des structures de données flexibles pour l'analyse des données\cite{pandas}. \\
+                    \par Il a été conçu pour facilite l'importation, la manipulation et l'analyse des données, ce qui en fait un choix idéal pour notre projet.
+                
+                \end{minipage}
+            \end{figure}
         %fin
+    \item \textbf{GMQTT: }
+       
+        \par Gmqtt est une bibliothèque de broker MQTT flexible et performante qui implémente entièrement le protocole MQTT V3.x et V5 en golang \cite{gmqtt}. 
+   %fin
        
    \end{itemize}
+\subsection{Bibliothèques d'interaction avec le système d'exploitation}
+\begin{itemize}
+    \item \textbf{OS: }
+        \par Un module intégré à Python qui permet d'interagir avec le système d'exploitation sous-jacent sur lequel Python est exécuté. 
+        Il peut être utilisé pour manipuler le système de fichiers, gérer les variables d'environnement, contrôler les processus, et bien plus encore\cite{os}.
 
-\section{Exécution du workflow }
-    \par Gérer efficacement le flux de travail est d'une importance capitale pour notre projet, car il guide chacune des étapes du processus, depuis l'extraction initiale des données jusqu'à leur transformation, leur stockage intérimaire et leur analyse.
-    \par Dans cette section, nous plongerons en profondeur dans chacune des étapes du flux de travail, exposant les méthodes, les outils et les solutions pour relever les défis qui se présentent. Notre objectif est de présenter un processus fluide et cohérent, démontrant comment chaque phase contribue à la qualité des données et à l'évaluation de la performance de l'équipe Avaxia.
-        \subsection{Exctraction des données }
+    \item \textbf{Scheduler: }
+        \par C'est une bibliothèque simple d'ordonnancement en python avec asyncio, threading ainsi que la prise en charge des fuseaux horaires.\\
+         Elle permet de planifiez des tâches en fonction de leurs cycles temporels, d'heures fixes, de jours de la semaine,
+         de dates, de poids, de décalages et de comptes d'exécution, et automatisez les tâches\cite{scheduler}.
+    \item \textbf{Requests: }
+        \par est un standard Python permettant d'effectuer des requêtes HTTP.
+         Elle dissimule les subtilités des requêtes derrière une API simple, ce qui vous permet de vous concentrer sur l'interaction avec les services et la consommation de données dans votre application\cite{requests}.
     
-        \par Dans la phase initiale de notre projet, nous avons commencé par extraire des données à partir de plusieurs sources essentielles, dont Jira et GitHub. Cette extraction de données s'est effectuée en utilisant des REST API dédiées à chaque plateforme, ce qui a permis une collecte systématique et automatisée des informations et nous avons procédé comme suit:
-        \begin{itemize}
-            \item \par\textbf{ Gestion de la sécurité des données:} la sécurité des données a constitué une préoccupation majeure durant cette étape initiale. Nous avons mis en place des mesures de sécurité rigoureuses pour préserver l'intégrité des informations sensibles. Cela englobait des processus d'authentification et d'autorisation d'accès aux API, ainsi que des protocoles de stockage des données extraites garantissant leur confidentialité.
-             \item \par\textbf{Défi de la diversité des sources de données: }un défi significatif auquel nous avons fait face était la disparité des formats de données entre les différentes plateformes. Chacune d'entre elles présentait sa propre structure et ses schémas de données distincts. Pour s'assurer de la cohérence et de la comparabilité des données extraites, nous avons dû les normaliser. Cela impliquait de les convertir dans un format standardisé et compatible avec notre système de gestion de base de données.
-        \end{itemize}
-        \par À la fin de cette étape, nous avons disposé d'une quantité considérable de données brutes provenant de diverses sources. Ces données représentaient la base sur laquelle nous allions construire nos analyses ultérieures.
+\end{itemize}
+\subsection{Outils de test}
+\begin{itemize}
 
-
-        \begin{figure}[H]
+    \item \textbf{Postman: }
+        %code image
+            \begin{figure}[!htb]\centering
+            \begin{minipage}{0.30\textwidth}
             \centering
-            %\subfloat{\includegraphics[width=1\linewidth, height=9cm]{img/captures/2.png}} \hspace{0.1cm}
-            \caption{Exemple d'extraction des données "Project Extractions"}
-            \label{fig:extract}
-
-        \end{figure}
-
-        \par Les figures qui suit projette des exemples des données extraites:
-    \begin{itemize}
-            
-       \item  Les données représentées dans la figure \textbf{\ref{fig:projects}} suivante illustres une partie de la liste des projets de Avaxia:
-        \begin{figure}[H]
-             \begin{minipage}{1\linewidth}
-                \centering
-               % \subfloat{\includegraphics[width=7.5cm , height=8.5cm]{img/captures/projects.png}}\hspace{0.5cm} 
-                %\subfloat{\includegraphics[width=7.5cm , height=8.5cm]{img/captures/projects2.png}}
-                \caption{Extrait des données collectés des projects}
-                             \label{fig:projects}
-
-            \end{minipage}\hfill 
-            \begin{minipage}{1\linewidth}
-                \centering
- 
+                {\includegraphics[width = 2cm , height=2cm]{img/techno/postman.png}}
+                \caption{\\ Postman logo \cite{postman}}\label{Fig:Data1}
             \end{minipage}
-             \label{fig:login}
-        \end{figure}
-        \newpage
-        \item  Les données représentées dans la figure \textbf{\ref{fig:boards}} suivante illustres une partie des tableaux Jira(boards) dont les projets sont affectés.
-        \begin{figure}[H]
-            
-             \begin{minipage}{1\linewidth}
-                \centering
-                %\subfloat{\includegraphics[width=1\linewidth, height=9cm]{img/captures/boards.png}}
-                \caption{Extrait des données collectées des tableaux jira}
-                    \label{fig:boards}
-
-            \end{minipage}\hfill 
-            \begin{minipage}{1\linewidth}
-                \centering
+            \begin{minipage}{0.60\textwidth}
+                \par  Postman agit en tant que client et constitue un excellent outil pour tester des API RESTful. Il offre une interface utilisateur élégante pour effectuer des requêtes HTTP,
+                 sans avoir à écrire beaucoup de code uniquement pour tester les fonctionnalités d'une API. \\
+                 Postman permet également d'analyser les réponses et de visualiser clairement les en-têtes, le corps et le statut HTTP \cite{postman}. \\
                 
             \end{minipage}
-             \label{fig:login}
-        \end{figure}
-        \item  Les données représentées dans la figure \textbf{\ref{fig:users}} suivante illustres une partie des la liste des utilisateurs(collaborateurs).
-        \begin{figure}[H]
-            
-             \begin{minipage}{1\linewidth}
-                \centering
-                %\subfloat{\includegraphics[width=1\linewidth, height=9cm]{img/captures/users.png}}
-                \caption{Extrait des données collectées des utilisateurs}
-                \label{fig:users}
-
-            \end{minipage}\hfill 
-            \begin{minipage}{1\linewidth}
-                \centering
-                
-            \end{minipage}
-             \label{fig:login}
-        \end{figure}
-        \item  Les données représentées dans la figure \textbf{\ref{fig:issues}} suivante une partie des la liste des tickets jira(issues).
-        \begin{figure}[H]
-            
-             \begin{minipage}{1\linewidth}
-                \centering
-                %\subfloat{\includegraphics[width=1\linewidth , height=10cm]{img/captures/issues.png}}
-                \caption{Extrait des données collectées des tickets}
-                \label{fig:issues}
-
-            \end{minipage}\hfill 
-            \begin{minipage}{1\linewidth}
-                \centering
-                
-            \end{minipage}
-             \label{fig:login}
-        \end{figure}
+    \end{figure}
+    \item\textbf{MQTTX:}
+    %code image 
+     \begin{figure}[!htb]\centering
+        \begin{minipage}{0.30\textwidth}
+        \centering
+            {\includegraphics[width = 2cm , height=2cm]{img/techno/mqttx.png}}
+            \caption{\\ MQTTX logo \cite{mqttx}}\label{Fig:Data1}
+        \end{minipage}
+        \begin{minipage}{0.60\textwidth}
+            \par MQTTX est un client de bureau MQTT 5.0 open-source et multiplateforme initialement développé par EMQ, qui peut fonctionner sur n'importe quel systéme d'exploitation.\\
+            \par il rend le développement et le test d'applications MQTT plus rapides et plus faciles\cite{mqttx}.
+        \end{minipage}
+    \end{figure}
     \end{itemize}
-        \par L'extraction des données constitue une phase cruciale, car elle fournit la matière première fondamentale pour notre projet. Ces données brutes forment la base de notre analyse ultérieure. Il est toutefois important de noter que cette étape ne représente que le point de départ de notre workflow. Les données extraites nécessitent encore une préparation, un nettoyage et une analyse approfondie pour en extraire des informations significatives, un aspect que nous explorerons en détail dans les prochaines phases.
-        \subsection{Transformation des données}
-        \par Au cours de cette étape cruciale, nous avons traité les données brutes extraites de diverses sources pour les préparer à l'analyse ultérieure. Cette phase de transformation était essentielle pour s'assurer que les données étaient cohérentes, complètes et prêtes à être exploitées. Voici comment nous avons procédé avec plus de détails:
-        \begin{itemize}
-            \item \textbf{Exploration des données:} nous avons commencé par explorer les données brutes pour comprendre leur structure et leur qualité. Cela incluait l'examen des différents formats, des types de données, des valeurs manquantes, des doublons et d'autres caractéristiques.
-        
-            \item \textbf{Nettoyage des données:} pour garantir la qualité des données, nous avons entrepris un processus de nettoyage rigoureux. Cela impliquait la correction des valeurs incorrectes, la suppression des doublons, le comblement des valeurs manquantes, et la normalisation des données lorsque cela était nécessaire.
-            \item \textbf{Transformation et structuration:} Les données brutes étant souvent non structurées, nous les avons transformées en une forme structurée. Cela comprenait la création de schémas de données cohérents et l'organisation des informations en fonction de nos besoins d'analyse.
-            \item \textbf{Filtrage des données:} certaines données étaient excessivement volumineuses ou non pertinentes pour notre objectif d'analyse. Nous avons donc appliqué des filtres pour ne conserver que les données pertinentes et significatives.
-
-            \item \textbf{Enrichissement des données:} dans certains cas, nous avons enrichi les données en ajoutant des informations supplémentaires à partir d'autres sources. Cela visait à renforcer la qualité et la pertinence des données.
-            \item \textbf{Stockage intermédiaire:} les données transformées ont été stockées de manière sécurisée dans des fichiers CSV, prêtes à être utilisées pour l'analyse ultérieure.
-
-            \par les figures \textbf{\ref{fig:avant}} et \textbf{\ref{fig:apres}} suivantes illustre des exemples des données brutes et redondantes avant  et après la phase de transformation des données qui sont stocker dans des fichiers CSV.
-            
-            \begin{figure}[H]
+    \newpage
+    \subsection{Outils de versionning}
+    \begin{itemize}
+    
+        \item \textbf{Git: }
+            %code image
+                \begin{figure}[!htb]\centering
+                \begin{minipage}{0.30\textwidth}
                 \centering
-                \includegraphics[width=1\linewidth, height=9cm]{img/captures/sprints.png}
-                \caption{Exemple des données brutes et erronées avec doublements des valeurs}
-                \label{fig:avant}
-            \end{figure}
-            \begin{figure}[H]
+                    {\includegraphics[width = 2cm , height=2cm]{img/techno/git.png}}
+                    \caption{\\ Git logo \cite{git}}\label{Fig:Data1}
+                \end{minipage}
+                \begin{minipage}{0.60\textwidth}
+                    \par Git est, de loin, le système de contrôle de version le plus largement utilisé aujourd'hui. C'est un projet open source avancé, activement maintenu. \\
+                     Grâce à sa structure décentralisée, Git illustre parfaitement ce qu'est un système de contrôle de version décentralisé (DVCS)\cite{git}.\\
+                    
+                \end{minipage}
+        \end{figure}
+        \item\textbf{Github:}
+        %code image 
+         \begin{figure}[!htb]\centering
+            \begin{minipage}{0.30\textwidth}
+            \centering
+                {\includegraphics[width = 2cm , height=2cm]{img/techno/github.png}}
+                \caption{\\ Github logo \cite{github}}\label{Fig:Data1}
+            \end{minipage}
+            \begin{minipage}{0.60\textwidth}
+                \par GitHub est un service d’hébergement Open-Source, permettant aux programmeurs et aux développeurs de partager le code informatique de leurs projets afin de travailler dessus de façon collaborative. On peut le considérer comme un Cloud dédié au code informatique\cite{github}.
+            \end{minipage}
+        \end{figure}
+        \end{itemize}
+    \subsection{Outils de documentation}
+        \begin{itemize}
+        
+            \item \textbf{Swagger: }
+                %code image
+                    \begin{figure}[!htb]\centering
+                    \begin{minipage}{0.30\textwidth}
                     \centering
-                    \includegraphics[width=1\linewidth, height=9cm]{img//captures/sprintsafter.png}
-                    \caption{Exemple des données des sprints après la phase de transformation}
-                \label{fig:apres}
-
+                        {\includegraphics[width = 2cm , height=2cm]{img/techno/swagger.png}}
+                        \caption{\\ Swagger logo \cite{swagger}}\label{Fig:Data1}
+                    \end{minipage}
+                    \begin{minipage}{0.60\textwidth}
+                        \par Swagger est un outil spécialisé qui génère automatiquement la documentation des API RESTful de votre application. \\ 
+                        Son principal avantage réside dans la possibilité de consulter tous les points de terminaison de l'application et de les tester immédiatement en envoyant des requêtes et en recevant des réponses\cite{swagger}.\\
+                        
+                    \end{minipage}
             \end{figure}
-        \end{itemize}
-        \par L'étape de transformation des données était une étape cruciale pour garantir que les informations extraites étaient fiables et prêtes pour l'analyse. Elle exigeait une attention méticuleuse aux détails, un processus systématique de nettoyage et de structuration, et une compréhension approfondie des spécificités des données de votre projet.
-        
-        \subsection{Chargement des Données}
-        \par Après avoir extrait et transformé les données, la prochaine phase de notre workflow était le chargement des données. Au cours de cette étape, nous avons acheminé les données nettoyées et transformées vers notre système de gestion de base de données, en l'occurrence PostgreSQL. Voici un aperçu détaillé de cette étape cruciale :
-        \begin{itemize}
-            \item \textbf{Benchmarking et choix de PostgreSQl}: avant de prendre notre décision, nous avons effectué un benchmarking minutieux en comparant plusieurs systèmes de gestion de bases de données. PostgreSQL a émergé comme le choix optimal en raison de sa flexibilité, de ses performances exceptionnelles et de sa capacité à gérer des charges de travail complexes. Cette étape a jeté les bases pour une intégration réussie.
-            \par la figure \textbf{\ref{fig:bench}} illustre le benchmarking effectué par le code ci-dessous: 
-            \begin{figure}[H]
+            \item\textbf{Latex:}
+            %code image 
+             \begin{figure}[!htb]\centering
+                \begin{minipage}{0.30\textwidth}
                 \centering
-                \includegraphics[width=1\linewidth, height=8cm]{img//captures/benchmarking.png}
-                \caption{Code de benchmarking d'une base de donné secondaire}
-                \label{fig:bench}
+                    {\includegraphics[width = 2cm , height=2cm]{img/techno/latex.png}}
+                    \caption{\\ Latex logo \cite{latex}}\label{Fig:Data1}
+                \end{minipage}
+                \begin{minipage}{0.60\textwidth}
+                    \par LaTeX est à la fois un langage de balisage et un logiciel de composition de documents,
+                     largement utilisé par la communauté scientifique.\\
+                      il facilite la rédaction de documents volumineux comme les mémoires et les thèses\cite{latex}.
+                \end{minipage}
             \end{figure}
-            \par la figure \textbf{\ref{fig:report}} suivante donne le rapport de benchmarking qui illustre la perfermance de la base de données postgreSQL en terme d'accés aux données : 
-            \begin{figure}[H]
+            \item\textbf{Draw.io:}
+            %code image 
+             \begin{figure}[!htb]\centering
+                \begin{minipage}{0.30\textwidth}
                 \centering
-                \includegraphics[width=1\linewidth, height=3cm]{report_bench.png}
-                \caption{Rapport de benchmarking PostgreSQL}
-                \label{fig:report}
+                    {\includegraphics[width = 2cm , height=2cm]{img/techno/draw.png}}
+                    \caption{\\ Draw.io logo \cite{draw}}\label{Fig:Data1}
+                \end{minipage}
+                \begin{minipage}{0.60\textwidth}
+                    \par Draw.io est une application en ligne gratuite, accessible via un navigateur web (protocole https), permettant de dessiner des diagrammes et des organigrammes. \\
+                    Cet outil offre la possibilité de concevoir toutes sortes de diagrammes et de dessins vectoriels, de les enregistrer au format XML, puis de les exporter \cite{draw}.
+                    \end{minipage}
             \end{figure}
-            
-            \item \textbf{Intégration avec PostgreSQL}: nous avons créé des flux de données pour transférer les données transformées vers notre base de données PostgreSQL. Cette intégration a permis de stocker de manière centralisée toutes les informations nécessaires à nos analyses.
-            \par la figure \textbf{\ref{fig:database}} suivante illustre le dshboard de la base de données sur PgAdmin( qui est l'outil de gestion de base de données PostgreSQL) :
-            \begin{figure}[H]
-            \centering
-            \includegraphics[width=17cm , height=9cm]{img//captures/postgres.png}
-            \caption{Enter Caption}
-            \label{fig:database}
-            \end{figure}
-            \item \textbf{Garantie de la cohérence}: lors du chargement des données, il était essentiel de veiller à la cohérence et à l'intégrité des données. Des mécanismes de validation ont été mis en place pour éviter toute altération ou perte de données lors du transfert.
-            \item \textbf{Sécurité des données}: la sécurité des données était une priorité constante. Nous avons mis en place des mesures de sécurité pour protéger les données sensibles tout au long de leur trajet vers la base de données.
-            \item \textbf{Sauvegarde et récupération}: des procédures de sauvegarde régulières ont été mises en place pour garantir la disponibilité des données en cas de sinistre ou de défaillance du système.
-        \end{itemize}
-        \par les figures qui suit illustrent des échantillons des données stockées dans les différents tables de la base:
-        \par la figure \textbf{\ref{fig:issue_table}} projette une partie des données de la table <<JiraIssues>>
+            \end{itemize}
+\section{Réalisation}
+\par Dans cette section, nous allons présenter la réalisation de ce projet en illustant chaque partie avec des captures explicatifs.
+\subsection{Micro-service << Authentification\_Service >>}
+\par Le micro-service << Authentification\_Service >> est responsable du système d'authentification de notre application 
+\begin{itemize}
+    \item \textbf{La liste des APIs:}
+        \par La liste des APIs présents dans le micro-service d'authentification, documentée par Swagger, sont representés par la figure \textbf{\ref{fig:apiAuth}} suivante:
         \begin{figure}[H]
             \centering
-            \includegraphics[width=1\linewidth]{img//conception/issues.png}
-            \caption{Lignes de la table <<JiraIssues>>}
-            \label{fig:issue_table}
+            \includegraphics[width =1\linewidth, height=11cm]{img/captures/auth_apis.PNG}
+            \caption{Liste des APIs du microservice <<Athentification\_service>> }
+                \label{fig:apiAuth}
         \end{figure}
-        
-        \par L'étape de chargement des données était fondamentale pour centraliser nos informations dans une base de données prête à être consultée et analysée. Ces données étaient maintenant accessibles de manière efficace, ce qui a constitué la base de notre workflow d'analyse des performances de l'équipe Avaxia.
-        \subsection{Analyse des données}
-        \par Une fois les données extraites, transformées et chargées dans notre base de données, nous avons progressé vers la phase cruciale de l'analyse des données. L'objectif était de tirer des enseignements concrets à partir des données brutes que nous avions recueillies. Voici comment cette étape s'est déroulée en détail :
-        \begin{itemize}
-            \item \textbf{Exploration des données:} nous avons initié cette phase par une exploration méticuleuse des données. Notre démarche consistait à visualiser les données sous différentes perspectives, à identifier les tendances et les valeurs aberrantes, et à acquérir une compréhension profonde de la structure des informations disponibles. Cette exploration initiale a fourni des indications cruciales sur la nature des données, orientant ainsi nos futures analyses.
-            \par Les figures \textbf{\ref{fig:user_status}} et \textbf{\ref{fig:user_table}} suivantes représentent quelques fonctions utilisées pour l'extraction des corrélations et à identifier les tendances et les valeurs aberrantes:
+        \item \textbf{Interface de Création de compte <<Sign up>>:}
+        \par L'interface de << Sign up>> est representée par la figure \textbf{\ref{fig:signup}} suivante:
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width =1\linewidth]{img/captures/auth/signup.png}
+            \caption{Interface de Création de compte <<Sign up>> }
+                \label{fig:signup}
+            \end{figure}
+            \par Afin de créer un compte, l'utilisateur accède à cette interface en remplissant un formulaire d'inscription avec les données spécifiques à son compte Snowflake (username,mot de passe,l'url de connexion de son compte snowflake).
+            Une fois l'utilisateur clique sur le bouton <<SINGUP>>, si les données sont valides: le système redirige l'utilisateur vers la page d'authentification. Sinon, il relance cette interface.
+            \item \textbf{Interface d'authentification  <<Login>>:}
+            \par L'interface de <<Login>> est representée par la figure \textbf{\ref{fig:login}} suivante:
             \begin{figure}[H]
                 \centering
-                \includegraphics[width=1\linewidth]{img//captures/user_status.png}
-                \caption{Un bout de code qui traite les status des utilisateurs selon leurs affectations aux tickets  <<USER>>}
-                \label{fig:user_status}
+                \includegraphics[width =1\linewidth]{img/captures/auth/login.png}
+                \caption{Interface d'authentification  <<Login>>}
+                    \label{fig:login}
+                \end{figure}
+                \par Pour accéder a son compte, l'utilisateur remplit le formulaire avec son <<username>> et <<mot de passe>>. Une fois les données sont valides, le système attribut une token d'accées à cet utilisateur et le redirige vers la page d'acceuil. Sinon, il relance la page de <<login>> en indiquant l'erreur.
+                \par Si l'utilisateur est authentifié et clique sur le bouton <<Logout>>, indiqué dans la figure \textbf{\ref{fig:logout}}, il est redirigé vers l'interface de login automatiquement.
+                \begin{figure}[H]
+                    \centering
+                    \includegraphics[width =0.8\linewidth]{img/captures/auth/logout.png}
+                    \caption{ <<Logout>>}
+                        \label{fig:logout}
+                    \end{figure}
+            \end{itemize}
+\subsection{Micro-service << Warehouse\_Monitoring >>}
+\par Le micro-service << Monitoring\_Service >> est le service chargé de la surveillance de l'utilisation des entrepôts de données Snowflake.
+\begin{itemize}
+    \item \textbf{La liste des APIs:}
+        \par La liste des APIs présents dans ce micro-service, documentée par Swagger, sont representés par la figure \textbf{\ref{fig:apiWare}} suivante:
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width =1\linewidth]{img/captures/warehouses_apis.PNG}
+            \caption{Liste des APIs du microservice <<Warehouse\_Monitoring>> }
+                \label{fig:apiWare}
+        \end{figure}
+
+        \item \textbf{Interface de la liste des entrepôts de données:}
+        \par L'interface de  de la liste des entrepôts de données est representée par la figure \textbf{\ref{fig:warehouse1}} suivante:
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width =1\linewidth]{img/captures/warehouse/liste.png}
+            \caption{Interface de la liste des entrepôts de données}
+                \label{fig:warehouse1}
             \end{figure}
+            \par Le tableau présente des informations détaillées sur les différents entrepôts surveillés, notamment leur ID, leur nom, leurs métriques de performance (débit moyen, charge moyenne, file d'attente de provisionnement, temps bloqué, crédits utilisés, coût total) ainsi que le nombre total de requêtes. \\
+            \item \textbf{Tableau de bord du surveillance des entrepôts des données}
+            \par Les deux tableaux de bord du surveillance des entrepôts des données \textbf{<<Monitoring\_warehouse>>} et \textbf{<<Compute\_WH>>} sont representées par les deux figures \textbf{\ref{fig:warehouse2}} et \textbf{\ref{fig:warehouse3}}:
+                \begin{figure}[H]
+                    \centering
+                    \includegraphics[width =1\linewidth]{img/captures/warehouse/warehouse_dash.png}
+                    \caption{Tableau de bord du surveillance d l'entrepôts des données <<Monitoring\_warehouse>>}
+                        \label{fig:warehouse2}
+                \end{figure}
+                \begin{figure}[H]
+                    \centering
+                    \includegraphics[width =1\linewidth]{img/captures/warehouse/compute.png}
+                    \caption{Tableau de bord du surveillance d l'entrepôts des données <<Compute\_WH>>}
+                        \label{fig:warehouse3}
+                \end{figure}
+                \par Ces tableaux de bord des entrepôts Snowflake offrent un aperçu complet des activités et de l'utilisation de l'infrastructure de données. Ils présentent des informations clés sur la taille, la composition et l'utilisation des entrepôts, notamment le nombre de bases de données, nombre des evenments effectuées dans l'entrepôt ainsi que le nombre de rôles et d'utilisateurs.
+                
+                 
+            \item \textbf{Changement des variables globaux}
+            \par Le changement des paramétres globaux peut reflecter les vues de ce micro service une fenêtre s'affiche lorsque on clique sur le bouton <<Settings>> du topbar. Selon les besoins de l'utilisateur/administrateur  :
+                \begin{enumerate}
+                    \item[-] \textbf{Changement du rôle d'utilisateur/Administrateur:}
+                    \begin{figure}[H]
+                        \centering
+                        \begin{tabular}[b]{c}
+                        \includegraphics[width=.3\linewidth, height=5cm]{img/captures/warehouse/global_set_role.png} \\
+                        
+                        \end{tabular} 
+                        \begin{tabular}[b]{c}
+                        \includegraphics[width=.6\linewidth, height=5cm]{img/captures/warehouse/sysorg.png} \\
+                        
+                        \end{tabular}
+                        \caption{Changement du role de l'utilisateur de <<ACCOUNT ADMIN>> vers <<ORGADMIN>>                    }
+                    \end{figure}
+                    \par Lorsque l'utilisateur  modifit les paramètres globaux, telque le rôle de compte utilisateur, les journaux d'accès aux entrepôts ne sont plus affichés dans cette interface. Cela signifie que les administrateurs doivent être conscients que certaines informations peuvent ne pas être visibles dans certaines configurations.
+                    \item[-] \textbf{Changement du seuil maximum des crédits d'utilisation:}
+                    \begin{figure}[H]
+                        \centering
+                        \begin{tabular}[b]{c}
+                        \includegraphics[width=.2\linewidth, height=5.5cm]{img/captures/warehouse/global_set_credits.png} \\
+                        
+                        \end{tabular} 
+                        \begin{tabular}[b]{c}
+                        \includegraphics[width=.7\linewidth, height=5.5cm]{img/captures/warehouse/90.png} \\
+                        
+                        \end{tabular}
+                        \caption{Changement de seuil de credits vers <<90\$>>                    }
+                    \end{figure}
+                    \par Lorsque l'utilisateur modifie les paramètres globaux, notamment le seuil de crédits maximum utilisés, une notification permanente devrait être affichée si les crédits utilisées de l'un des entrepôt de donneés à depacer cette seuil pour informer l'utilisateur de cette malveuillance.
+            \end{enumerate}
+
+\end{itemize}
+\par Dans l'ensemble, cet microservice offre une visibilité essentielle sur les performances et l'utilisation des entrepôts, facilitant la prise de décisions éclairées pour l'infrastructure de données.
+\subsection{Micro-service << Query\_Performance >>}
+\par Le micro-service << Monitoring\_Service >> est le service chargé de la surveillance des requêtes SQL effectuées au sein du compte Snowflake.
+\begin{itemize}
+    \item \textbf{La liste des APIs:}
+        \par La liste des APIs présents dans ce micro-service, documentée par Swagger, sont representés par la figure \textbf{\ref{fig:apiquery}} suivante:
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width =1\linewidth]{img/captures/queries_apis.PNG}
+            \caption{Liste des APIs du microservice <<Warehouse\_Monitoring>> }
+                \label{fig:apiquery}
+        \end{figure}
+
+        \item \textbf{Interface de historique des requêtes de l'utilisateur:}
+        \par L'interface de la liste des entrepôts de données est representée par la figure \textbf{\ref{fig:listqueries}} suivante:
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width =1\linewidth]{img/captures/queries/queries_list.png}
+            \caption{Interface de la liste des entrepôts de données}
+                \label{fig:listqueries}
+            \end{figure}
+            \par Cette vue représente l'historique des requêtes dans l'application de surveillance Snowflake.
+             Elle fournit un aperçu détaillé de chaque requête exécutée. \\ 
+             Cet l'historique permet aux administrateurs de surveiller en détail les requêtes exécutées afin de pouvoir identifier les éventuels problèmes liés aux ces derniers dans le compte Snowflake en question.
+            \item \textbf{Tableaux de bord du surveillance des Requêtes SQL}
+            \begin{enumerate}
+                \item[-] \textbf{Les informations générale sur la totalité des requêtes dans le compte de l'utilisateur:  }
+                    \par La figure \textbf{\ref{fig:queriesglob}} illustre le tableau de bord global des requêtes SQL du compte Snowflake:
+                    \begin{figure}[H]
+                        \centering
+                        \includegraphics[width =1\linewidth]{img/captures/queries/global_queries_dash.png}
+                        \caption{Tableau de bord du surveillance des entrepôts des données}
+                            \label{fig:queriesglob}
+                    \end{figure}
+                    \item[-] \textbf{Selection  de l'entrepôts des données appriori:}
+                    
+                    \par Une fois l'utilisateur selectionne un entrepôt de données, depuis la liste de ces entrepôts, qui s'affiche en cliquant sur la liste déroulante <<select warehouse>> comme l'indique la figure \textbf{\ref{fig:select}}, les données spécifique à cet entrepôt vont être affichées.
+                    \begin{figure}[H]
+                        \centering
+                        \includegraphics[width =1\linewidth]{img/captures/queries/queries_selection_warehouse.png}
+                        \caption{Tableau de bord du surveillance des entrepôts des données}
+                            \label{fig:select}
+                    \end{figure}
+                    \par La figure \textbf{\ref{fig:queriesdash1}} illustre le tableau de bord de l'entrepôt <<Monitoring\_Warehouse>>:
+                    \begin{figure}[H]
+                        \centering
+                        \includegraphics[width =1\linewidth]{img/captures/queries/monitoring_dash.png}
+                        \caption{Tableau de bord du surveillance de l'entrepôt des données <<Monitoring\_Warehouse>> }
+                            \label{fig:queriesdash1}
+                    \end{figure}
+                    \par La figure \textbf{\ref{fig:queriesdash2}} illustre le tableau de bord de l'entrepôt <<Compute\_WH>>:
+                    \begin{figure}[H]
+                        \centering
+                        \includegraphics[width =1\linewidth]{img/captures/queries/compute_dash.png}
+                        \caption{Tableau de bord du surveillance de l'entrepôt des données <<Compute\_WH>>}
+                            \label{fig:queriesdash2}
+                    \end{figure}
+                    \par ces tableaux de bord présentent des indicateurs clés sur les requêtes exécutées, tels que le nombre total de requêtes, le coût total, le temps d'exécution moyen et le taux de requêtes en échec. Cette vision synthétique permet aux administrateurs d'avoir une compréhension globale des performances.
+                    \\ Les graphiques complémentaires apportent une analyse approfondie des tendances par type de requête. Ils montrent la variation du temps d'exécution et de compilation, ainsi que la répartition du nombre total de requêtes et du temps d'exécution par type de requête. Cette granularité permet d'identifier les domaines à optimiser pour améliorer l'efficacité du système.
+            \end{enumerate}
+
+\end{itemize}
+\par Le service  << Query\_Performance >> constitue un outil essentiel pour les équipes en charge de l'exploitation et de l'optimisation de l'infrastructure Snowflake. Il offre une visibilité complète sur les activités de requêtes, permettant de prendre des décisions éclairées afin d'améliorer la fiabilité, les performances et la rentabilité globale du système.
+\subsection{Micro-service << Databases\_Statistics >>}
+\par Le micro-service << Databases\_Statistics >> est le service chargé de la surveillance des base de données créees au sein du compte Snowflake.
+\begin{itemize}
+    \item \textbf{La liste des APIs:}
+        \par La liste des APIs présents dans ce micro-service, documentée par Swagger, sont representés par la figure \textbf{\ref{fig:apiData}} suivante:
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width =1\linewidth]{img/captures/database_apis.PNG}
+            \caption{Liste des APIs du microservice<< Databases\_Statistics >> }
+                \label{fig:apiData}
+        \end{figure}
+
+        \item \textbf{La liste des bases de données et ces diffrents schémas:}
+        \par L'interface de la liste des bases de données et ces diffrents schémas est representée par la figure \textbf{\ref{fig:dblist}} suivante:
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width =1\linewidth]{img/captures/database/1.png}
+            \caption{La liste des bases de données}
+                \label{fig:dblist}
+            \end{figure}
+            \par La section "List of Databases" affiche les détails des différentes bases de données, y compris leur ID, leur nom, leur propriétaire et leurs dates de création et de dernière modification.\\ 
+            Une fois l'utilisateur selectionne une base de données, La liste des schémas d'affiche comme l'indique la figure \textbf{\ref{fig:schemas}} suivante:
+                \begin{figure}[H]
+                \centering
+                \includegraphics[width =1\linewidth]{img/captures/database/2.png}
+                \caption{Liste des schémas de base de données}
+                    \label{fig:schemas}
+                \end{figure}
+
+             Ensuite, pour qu'on puisse lister les objets présents et créeés dans cette base de données, l'utilisateur selectionne le schéma appriori pour lister ces objets.
+            \par La figure \textbf{\ref{fig:objects}} ilusstre cette action:
             \begin{figure}[H]
                 \centering
-                \includegraphics[width=\linewidth]{img/captures/table_users.png}
-                \caption{Un bout de code qui traite la table de données <<USER>>}
-                \label{fig:user_table}
-            \end{figure}
-            \item \textbf{Analyse statistique:} une fois que nous avons sondé en profondeur les données, nous avons entrepris des analyses statistiques approfondies. Ces analyses ont fait appel à des techniques de calcul, des méthodes statistiques et des modèles prédictifs pour extraire des informations significatives. Nous avons effectué des calculs de corrélation, des tests statistiques et développé des modèles prédictifs pour évaluer la performance de l'équipe Avaxia.
-            \par Grâce à ces modelés développer, nous avons réussi à extraire des corrélations entre les données de notre base qui ont été représenté ultérieurement par des graphes de corrélation.
-            \par La figure \textbf{\ref{fig:cycle}}représente le graphe de corrélation entre le temps des resolution des tickets et le nombres des tickets affectés à chaque collaborateur:
-            \begin{figure}[H]
-                \centering
-                \includegraphics[width=1\linewidth,height=8cm]{img/captures/averge_cycle.png}
-                \caption{Graphe de temps moyen de résolution des tickets par utilisateur}
-                \label{fig:cycle}
-            \end{figure}
-            \par D'une part, on a constaté que cette corrélation a un impact important sur le temps de résolution des tickets et à la qualité du travail de ce collaborateur, de tel façon que: plus un utilisateur a de tickets assignés, plus son temps de résolution moyen est long, ce qui suggère une charge de travail plus lourde.
-            \par D'une autre part, ces modelés aussi ont relevé une autre corrélation entre le nombres des tickets assignées à chaque collaborateur et sa productivité. En effet, les utilisateurs qui ont un grand nombre de tickets assignés sont également les plus productifs, ce qui pourrait indiquer une efficacité dans la gestion de leur charge de travail qui est représenté par la figure \textbf{\ref{fig:count}}. 
+                \includegraphics[width =1\linewidth]{img/captures/database/3.png}
+                \caption{Liste des objets dans la base de données}
+                    \label{fig:objects}
+                \end{figure}
+            \par Ces informations permettent aux administrateurs de l'application de surveiller et de gérer son compte Snowflake, en ayant une vue d'ensemble des bases de données, des schémas et des objets utilisés dans le système de surveillance.
+             \item \textbf{Tableaux de bord du surveillance des bases de données:}
+             \par La figure \textbf{\ref{fig:dashdata}} représente le tableau de bord du surveillance des bases de données:
              \begin{figure}[H]
                 \centering
-                \includegraphics[width=1\linewidth,height=8cm]{img/captures/tickets_count.png}
-                \caption{Graphe de productivité par rapport au nombre de tickets assignés à chaque collaborateur}
-                \label{fig:count}
+                \includegraphics[width =1\linewidth]{img/captures/database/database_dash.png}
+                \caption{Tableaux de bord du surveillance des bases de données}
+                    \label{fig:objects}
+                \end{figure}
+                \par Cette interface de tableau de bord des statistiques des bases de données fournit une vue d'ensemble complète des principales métriques liées à l'utilisation et à la gestion des données dans l'environnement Snowflake. 
+                Elle présente des indicateurs clés tels que le nombre de tables, le coût total des bases de données, le stockage total utilisé et le nombre total de requêtes affectées.
+                Les graphiques détaillés complètent ces informations en montrant l'évolution de l'utilisation du stockage, la répartition des types d'objets de base de données, la distribution des bases de données par rôle et par type, ainsi que l'évolution du coût quotidien des requêtes. \\ 
+                
+\end{itemize}
+\par Ce microservice  offre aux administrateurs un outil complet et puissant pour surveiller les performances des bases de données, identifier les tendances clés et prendre des décisions éclairées afin d'optimiser l'utilisation et la gestion des coûts de leurs comptes.
+\subsection{Micro-service << Access\_Statistics >>}
+\par Le micro-service << Access\_Statistics >>  est le service chargé de la surveillance des access aux comptes Snowflake.
+\begin{itemize}
+    \item \textbf{La liste des APIs:}
+        \par La liste des APIs présents dans ce micro-service, documentée par Swagger, sont representés par la figure \textbf{\ref{fig:apiAccess}} suivante:
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width =1\linewidth]{img/captures/access_apis.PNG}
+            \caption{Liste des APIs du microservice << Access\_Statistics >> }
+                \label{fig:apiAccess}
+        \end{figure}
+
+        \item \textbf{L'historique des accées de l'utilisateur ONS CHAHED:}
+        \par L'interface de l'historique d'accées est representée par la figure \textbf{\ref{fig:accesslist}} suivante:
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width =1\linewidth]{img/captures/user/history.png}
+            \caption{Historique des accées}
+                \label{fig:accesslist}
             \end{figure}
-            \item \textbf{Identification des tendances et des axes d'amélioration:} l'analyse des données a mis en lumière des tendances dans les performances de l'équipe. Nous avons identifié les domaines où l'équipe excellait, ainsi que ceux qui nécessitaient des améliorations. Ces constats ont été partagés avec l'équipe pour orienter les décisions et les actions futures.
-            \par la figure \textbf{\ref{fig:KPI}} suivante montre une partie de la fonction qui aide à étudier les KPI de l'équipe dont on va utilisé ultérieurement dans le dashbord. 
+            \par Cette interface d'historique des accès fournit une traçabilité complète des activités dans l'environnement Snowflake. 
+            Elle enregistre de manière détaillée chaque événement d'accès, capturant des informations clés telles que l'identité de l'utilisateur, l'heure d'accès et les méthodes d'authentification utilisées. \\
+            Ce journal d'activité exhaustif représente un outil de gouvernance et de surveillance essentiel pour les administrateurs. 
+            Il leur permet de suivre les mouvements des différents acteurs au sein du système, de détecter d'éventuelles activités suspectes et d'assurer la sécurité globale de l'infrastructure.
+            \item \textbf{Tableaux de bord du surveillance des accéess des utilisateurs:}
+             \par Les figures \textbf{\ref{fig:acess1}} et \textbf{\ref{fig:acess2}} représentent les tableaux de bord du surveillance des accées de l'utilisateur <<ONS CHAHED>> et l'utilisateur système <<Snowflake>>:
              \begin{figure}[H]
                 \centering
-                \includegraphics[width=1\linewidth]{img/captures/extractKPI.png}
-                \caption{Fonction de l'extraction des KPI des collaborateurs}
-                \label{fig:KPI}
-            \end{figure}
-        \end{itemize}
-        \par L'étape d'analyse des données s'est révélée cruciale pour transformer des données brutes en connaissances exploitables. Elle a joué un rôle central dans la prise de décisions éclairées visant à améliorer les performances de l'équipe et à atteindre les objectifs du projet.
-        \subsection{Visualisation des données}
-        \par Suite à l'analyse des données et à l'identification de tendances significatives, il devenait impératif de présenter les résultats de manière claire et concise à l'équipe Avaxia. Cette phase consistait à élaborer des rapports et des visualisations dans le but d'informer et de guider les membres de l'équipe dans leurs actions. Voici comment nous avons abordé cette dernière étape :
-        \begin{itemize}
-            \item \textbf{Élaboration de tableaux de bord:} nous avons utilisé l'outil Streamlit pour créer des tableaux de bord interactifs mettant en évidence les principales conclusions de notre analyse. Ces tableaux de bord offraient une vue synthétique des performances de l'équipe, en mettant en avant les tendances clés, et permettaient une exploration interactive des données.
-            \item \textbf{Utilisation de visualisations graphiques: }les visualisations graphiques ont revêtu une importance capitale dans la présentation des résultats. Nous avons employé divers types de graphiques, de diagrammes et de représentations visuelles pour illustrer les données. Cela incluait des graphiques de tendance, des histogrammes, des diagrammes circulaires, ainsi que d'autres formes graphiques pertinentes.
-           
-        
-            \item \textbf{Présentation aux membres de l'équipe:} nous avons organisé une réunion de présentation pour communiquer les résultats à l'équipe Avaxia. Lors de cette réunion, nous avons mis en évidence les conclusions majeures, répondu aux questions et entamé des discussions sur les implications pour l'équipe.
-            \item \textbf{Feedback et échanges:} après la présentation, nous avons encouragé les membres de l'équipe à partager leurs retours, poser des questions et discuter des prochaines étapes. Cette interaction était cruciale pour garantir une bonne compréhension des résultats et la prise de décisions éclairées.
-        \end{itemize}
-        \newpage
-         \par La figure \textbf{\ref{fig:cap0}}, représente des captures d'écrans extraites du page tableau de bord principale de notre solution dont chaqune d'eux affiches des représenataions graphiques des différents analyses globales d'Avaxia.
-
-        \begin{figure}[H]
-
-            \begin{minipage}{1\linewidth}
+                \includegraphics[width =1\linewidth]{img/captures/user/1.png}
+                \caption{Tableau de bord du surveillance des accéess de l'utilisateur <<ONS CHAHED>>}
+                    \label{fig:acess1}
+                \end{figure}
+                \begin{figure}[H]
+                    \centering
+                    \includegraphics[width =1\linewidth]{img/captures/user/2.png}
+                    \caption{Tableau de bord du surveillance des accéess de l'utilisateur <<SNOWFLAKE>>}
+                        \label{fig:acess1}
+                    \end{figure}
+                \par Ces tableaux de bord offrent une visibilité complète sur l'activité des différents utilisateurs au sein de l'environnement Snowflake. Ils permettent de suivre des indicateurs clés tels que le nombre de sessions, de requêtes exécutées, d'applications utilisées et les coûts associés. Ces données quantitatives fournissent une image détaillée de l'utilisation du système par chaque utilisateur.
+                \\ L'historique détaillé des sessions et des requêtes autorisées complète ce tableau, donnant aux administrateurs une traçabilité exhaustive des actions entreprises par chaque utilisateur. Cet outil de suivi leur permet de détecter les éventuelles anomalies et de s'assurer du respect des politiques d'accès.
+                Ils fournissent aux équipes opérationnelles les informations nécessaires pour prendre des décisions éclairées en matière de sécurité, de contrôle d'accès et d'utilisation des ressources.
+\end{itemize}
+\par Ce microservice de surveillance des accès est bien plus qu'un simple registre. C'est un levier puissant pour les équipes en charge de la gouvernance et de l'exploitation des systèmes de données, leur permettant de prendre des décisions éclairées et de maintenir la fiabilité et la résilience de l'environnement Snowflake dans le temps.
+\subsection{Micro-service << DAG\_Monitoring >>}
+\par C'est le service responsable du suivi et de la surveillance en temps réelle des flux de taches (<<DAG>>) exécutés et programmées dans Snowflake. 
+\par Dans cette section, nous allons surveiller l'éxécution d'un ensemble des tâches en temps réelle. 
+\\ Ces tâches la sont deja crées dans notre compte Snowflake de test,La figure \textbf{\ref{fig:show}} illustre la liste des tâches, dont nous allons monitorer, dans snowflake qui apparâitre en exécutant la command << Show TASKS >>:
+    \begin{figure}[H]
             \centering
-           % \subfloat{\includegraphics[width=1\linewidth , height=6.75cm]{img//captures/cap0.png}}\hspace{0.5cm}
-           % \subfloat{\includegraphics[width=1\linewidth, height=6.75cm]{img//captures/cap1.png}}\hspace{0.5cm}
-            %\subfloat{\includegraphics[width=1\linewidth , height=6.75cm]{img//captures/cap3.png}}
-
-            \caption{Interface d'acceuil du tableau de bord}
-            \label{fig:cap0}
-             \end{minipage}\hfill 
+            \includegraphics[width =1\linewidth]{img/captures/dag/show.PNG}
+            \caption{Résultat du command <<Show tasks>> }
+                \label{fig:show}
         \end{figure}
-         \par Les figures \textbf{\ref{fig:cap1}} représente des captures d'écrans extraites du page tableau de bord du section \textbf{<<Projects Insghits>>} dont on a choisi le projet \textbf{<<AeroSimEx Project>>}, son tableau \textbf{<<jira AeroSimEx Board>>} et le \textbf{<<sprint 13>>} pour afficher les différents statistiques de ces tickets.
+    \par Simultanément, dans notre application, les tâches sont illustrés par la figure \textbf{\ref{fig:sus}} dans le même état <<SUSPENDED>> que dans snowflake:
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width =1\linewidth]{img/captures/dag/1/ok/0.png}
+        \caption{Etat initial du DAG}
+            \label{fig:sus}
+    \end{figure}
 
-        \begin{figure}[H]
-
-            \begin{minipage}{1\linewidth}
-            \centering
-            %\subfloat{\includegraphics[width=1\linewidth , height=5cm]{img//captures/aero1.png}}\hspace{0.5cm}
-           % \subfloat{\includegraphics[width=1\linewidth, height=5cm]{img//captures/aero2.png}}\hspace{0.5cm}
-            %\subfloat{\includegraphics[width=1\linewidth , height=5cm]{img//captures/aero3.png}}\hspace{0.5cm}
-            %\subfloat{\includegraphics[width=1\linewidth , height=5cm]{img//captures/aero4.png}}
-
-            \caption{Interface des statistiques du projet <<AeroSimEx Project>>}
-       \label{fig:cap1}
-             \end{minipage}\hfill 
-        \end{figure}
-         \par La figure \textbf{\ref{fig:cap2}} représente des captures d'écrans extraites du page tableau de bord du section \textbf{<<Users Insghits>>} dont on a choisi l'utilisateur \textbf{<<Nassim JALLOUD>>} pour afficher ces différents statistiques.
-
-        \begin{figure}[H]
-
-            \begin{minipage}{1\linewidth}
-            \centering
-           % \subfloat{\includegraphics[width=1\linewidth , height=6.75cm]{img//captures/user1.png}}\hspace{0.5cm}
-            %\subfloat{\includegraphics[width=1\linewidth, height=6.75cm]{img//captures/user2.png}}\hspace{0.5cm}
-            %\subfloat{\includegraphics[width=1\linewidth , height=6.75cm]{img//captures/user3.png}}
-
-            \caption{Interface des statistiques de l'utilisateur <<Nassim JALLOUD>>}
-            \label{fig:cap2}
-             \end{minipage}\hfill 
-        \end{figure}
-        \par L'étape de communication des constatations était essentielle pour s'assurer que les informations et les recommandations découlant de l'analyse des données étaient pertinentes et actionnables. Elle a fourni à l'équipe Avaxia une vue nette de ses performances et des domaines nécessitant des améliorations, contribuant ainsi à la réalisation des objectifs du projet.
-        
 \section*{Conclusion}
 \addcontentsline{toc}{section}{Conclusion }
     Ce chapitre résume le travail accompli pour donner forme à notre projet. Les choix techniques et le workflow nous ont fourni un cadre solide pour concrétiser notre vision. Chaque étape de ce processus s'avère cruciale pour l'atteinte de nos objectifs.

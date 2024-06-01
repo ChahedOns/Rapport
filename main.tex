@@ -1,7 +1,21 @@
 
-% \documentcl<ass[pfe]{./tpl/isipfe}
+%========= File containing the main LaTex document ========%
+%                                                          %
+% Copyright (C) ISI - All Rights Reserved                  %
+% Proprietary                                              %
+% Written by Med Hossam <med.hossam@gmail.com>, April 2016 %
+%                                                          %
+% @author: HEDHILI Med Houssemeddine                       %
+% @linkedin: http://tn.linkedin.com/in/medhossam           %
+%==========================================================%
+
+%\documentclass[pfe]{./tpl/isipfe}
 \documentclass[]{./tpl/isipfe}
 \graphicspath{{./img/}}
+
+\usepackage{hyperref}
+\usepackage{acronym}
+\usepackage{subfig}
 \input{./tpl/new_commands}
 \setlength{\parskip}{0pt} % Espacement vertical entre les paragraphes (par exemple, 12pt)
 \setlength{\parindent}{0pt}
@@ -34,7 +48,7 @@
         \thispagestyle{frontmatter}
         \listoftables
         \thispagestyle{frontmatter}
-
+        
         \input{acronymes}
         \thispagestyle{frontmatter}
     
@@ -61,9 +75,8 @@
 		% the command `\nocite{*}` is mandatory to avoid the “no \citation commands” error
         % https://tex.stackexchange.com/questions/18045/problem-with-compiling-bibtex-no-citation-commands-error
         \nocite{*}
-
         \printbibliography[heading=bibintoc]
-
+        
         \clearpage
 
     \backmatter

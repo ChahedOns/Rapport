@@ -84,6 +84,7 @@
 
 %% Disable hyphenation
 \usepackage[none]{hyphenat}
+
 %% Defining section, subsection and subsubsection spacing
 \usepackage{titlesec}
 \titlespacing*{\section}{7mm}{12pt}{8pt}
@@ -248,7 +249,7 @@
   labelsep = newline,
   name = Figure,
   justification=centering,
-  singlelinecheck=true,
+  singlelinecheck=false,
   labelsep=colon,
   skip = \medskipamount}
 
@@ -350,3 +351,5 @@
 \usepackage{graphicx}
 \usepackage{graphics}
 \usepackage{float}
+\usepackage{subfig}
+\usepackage{hyperref}

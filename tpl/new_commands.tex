@@ -1,14 +1,4 @@
 
-%=========== File containing some new commands ============%
-%                                                          %
-% Copyright (C) ISI - All Rights Reserved                  %
-% Proprietary                                              %
-% Written by Med Hossam <med.hossam@gmail.com>, April 2016 %
-%                                                          %
-% @author: HEDHILI Med Houssemeddine                       %
-% @linkedin: http://tn.linkedin.com/in/medhossam           %
-%==========================================================%
-
 \newenvironment{changemargin}[2]{%
 \begin{list}{}{%
 \setlength{\leftmargin}{#1}%
@@ -99,8 +89,9 @@
     \newpage}
 
 %================ document main language ================%
-%\selectlanguage{english}
-\selectlanguage{french}
+\selectlanguage{english}
+
+
 
 %================== required packages ===================%
 
@@ -108,10 +99,26 @@
 \usepackage{afterpage}
 \usepackage{array,longtable,multirow}% http://ctan.org/pkg/{array,longtable,multirow}
 \usepackage{pifont}
-\usepackage{hyperref}
 \usepackage{pdflscape}
 \usepackage{rotating}
 \usepackage{wrapfig}
-\usepackage{acronym}
-\usepackage{subfig}
-\usepackage{lscape}
+\usepackage{verse} % For typesetting poems
+\usepackage[T1]{fontenc} % For using non-standard fonts
+\usepackage{calligra} % For calligraphy fonts
+\usepackage{oldstyle} % For old-style fonts
+\usepackage{lipsum} % For generating filler text
+\usepackage{titlesec} % For setting section titles
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{makecell}
+
+% Command to handle dedication
+\newcommand{\dedication}[1]{{\centering\Large\itshape\calligra #1\par}}
+
+\newcommand{\dedicationtext}[1]{%
+\begin{center}%
+{\fontfamily{pzc}\selectfont\small #1}%
+\end{center}%
+}
+
+
