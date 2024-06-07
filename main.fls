@@ -751,6 +751,15 @@ INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
 INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
 INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\tex\latex\subfig\subfig.sty
 INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\tex\latex\subfig\subfig.sty
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\times.sty
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\times.sty
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\tex\latex\acronym\acronym.sty
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\tex\latex\acronym\acronym.sty
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\tex\latex\bigfoot\suffix.sty
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\tex\latex\bigfoot\suffix.sty
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\tex\latex\xstring\xstring.sty
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\tex\latex\xstring\xstring.sty
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\tex\generic\xstring\xstring.tex
 INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\hyperref.sty
 INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\hyperref.sty
 INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\tex\generic\kvdefinekeys\kvdefinekeys.sty
@@ -792,13 +801,6 @@ INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\tex\latex\rerunfilecheck\re
 INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\tex\latex\rerunfilecheck\rerunfilecheck.sty
 INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\tex\generic\uniquecounter\uniquecounter.sty
 INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\tex\generic\uniquecounter\uniquecounter.sty
-INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\tex\latex\acronym\acronym.sty
-INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\tex\latex\acronym\acronym.sty
-INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\tex\latex\bigfoot\suffix.sty
-INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\tex\latex\bigfoot\suffix.sty
-INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\tex\latex\xstring\xstring.sty
-INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\tex\latex\xstring\xstring.sty
-INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\tex\generic\xstring\xstring.tex
 INPUT .\tpl\new_commands.tex
 INPUT .\tpl\new_commands.tex
 INPUT .\tpl\new_commands.tex
@@ -887,6 +889,10 @@ INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\tex\latex\wrapfig\wrapfig.s
 INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\tex\latex\verse\verse.sty
 INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\tex\latex\verse\verse.sty
 INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\tex\latex\base\fontenc.sty
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\t1ptm.fd
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\t1ptm.fd
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\t1ptm.fd
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8t.tfm
 INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\tex\latex\fundus-calligra\calligra.sty
 INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\tex\latex\fundus-calligra\calligra.sty
 INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\tex\latex\oldstyle\oldstyle.sty
@@ -968,23 +974,23 @@ INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy6.t
 INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
 INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
 INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
-INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm0900.tfm
-INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx0900.tfm
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8t.tfm
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8t.tfm
 INPUT .\img\Logo_UTM.png
 INPUT .\img\Logo_UTM.png
 INPUT .\img\Logo_UTM.png
 INPUT .\img\Logo_UTM.png
 INPUT .\img\Logo_UTM.png
 INPUT .\img\Logo_UTM.png
-INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm1728.tfm
-INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx1728.tfm
-INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecxc1728.tfm
-INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm1200.tfm
-INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx1200.tfm
-INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm1440.tfm
-INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx1440.tfm
-INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm2074.tfm
-INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx2074.tfm
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8t.tfm
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8t.tfm
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbc8t.tfm
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8t.tfm
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8t.tfm
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8t.tfm
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8t.tfm
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8t.tfm
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8t.tfm
 INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
 INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
@@ -997,7 +1003,23 @@ INPUT .\img\Logo_Entreprise.png
 INPUT .\img\Logo_Entreprise.png
 INPUT .\tpl\cover_page_black.tex
 INPUT .\tpl\cover_page_black.tex
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb8t.vf
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT C:\Users\hp omen\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\base\8r.enc
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmbc8t.vf
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb8t.vf
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8t.vf
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb8t.vf
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb8t.vf
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8t.vf
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
 OUTPUT tpl\cover_page_black.aux
 INPUT .\tpl\cover_page_black.tex
 INPUT .\tpl\cover_page_black.tex
@@ -1030,12 +1052,20 @@ INPUT .\dedicaces.tex
 INPUT .\dedicaces.tex
 INPUT .\dedicaces.tex
 INPUT dedicaces.tex
-INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx1095.tfm
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8t.vf
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8t.tfm
 INPUT .\remerciement.tex
 INPUT .\remerciement.tex
 INPUT .\remerciement.tex
 INPUT .\remerciement.tex
 INPUT remerciement.tex
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb8t.vf
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8t.vf
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8t.vf
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT main.toc
 OUTPUT main.mtc1
 OUTPUT main.mtc2
@@ -1071,10 +1101,10 @@ INPUT .\chap_01.tex
 INPUT .\chap_01.tex
 INPUT .\chap_01.tex
 INPUT chap_01.tex
-INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\eccc1095.tfm
-INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecxc1095.tfm
-INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecoc1095.tfm
-INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecxc2488.tfm
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmrc8t.tfm
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbc8t.tfm
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbi8t.tfm
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbc8t.tfm
 INPUT .\main.mtc2
 INPUT .\main.mtc2
 INPUT main.mtc2
@@ -1083,11 +1113,20 @@ INPUT .\main.mtc
 INPUT .\main.mtc
 INPUT main.mtc
 OUTPUT main.mtc
-INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm1000.tfm
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8t.tfm
 INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT main.mtc2
-INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx1000.tfm
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8t.tfm
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmbi8t.vf
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbi8r.tfm
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmbc8t.vf
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb8t.vf
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8t.vf
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT .\img\captures\account_usage.png
 INPUT .\img\captures\account_usage.png
 INPUT .\img\captures\account_usage.png
@@ -1100,6 +1139,8 @@ INPUT .\img\captures\info.png
 INPUT .\img\captures\info.png
 INPUT .\img\captures\info.png
 INPUT .\img\captures\info.png
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmbc8t.vf
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT .\img\captures\bigquery.png
 INPUT .\img\captures\bigquery.png
 INPUT .\img\captures\bigquery.png
@@ -1126,6 +1167,9 @@ INPUT .\main.mtc
 INPUT main.mtc
 OUTPUT main.mtc
 INPUT main.mtc3
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri8t.tfm
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmri8t.vf
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
 INPUT .\img\conception\BPMN.png
 INPUT .\img\conception\BPMN.png
 INPUT .\img\conception\BPMN.png
@@ -1154,13 +1198,13 @@ INPUT .\img\conception\archi.png
 INPUT .\img\conception\archi.png
 INPUT .\img\conception\archi.png
 INPUT .\img\conception\archi.png
-INPUT .\img\techno\archi_phy.png
-INPUT .\img\techno\archi_phy.png
-INPUT .\img\techno\archi_phy.png
-INPUT .\img\techno\archi_phy.png
-INPUT .\img\techno\archi_phy.png
-INPUT .\img\techno\archi_phy.png
-INPUT .\img\techno\archi_phy.png
+INPUT .\img\conception\archi_phy.png
+INPUT .\img\conception\archi_phy.png
+INPUT .\img\conception\archi_phy.png
+INPUT .\img\conception\archi_phy.png
+INPUT .\img\conception\archi_phy.png
+INPUT .\img\conception\archi_phy.png
+INPUT .\img\conception\archi_phy.png
 INPUT .\img\conception\diag_pack.png
 INPUT .\img\conception\diag_pack.png
 INPUT .\img\conception\diag_pack.png
@@ -1231,111 +1275,20 @@ INPUT .\main.mtc
 INPUT main.mtc
 OUTPUT main.mtc
 INPUT main.mtc5
-INPUT .\img\techno\fast.png
-INPUT .\img\techno\fast.png
-INPUT .\img\techno\fast.png
-INPUT .\img\techno\fast.png
-INPUT .\img\techno\fast.png
-INPUT .\img\techno\fast.png
-INPUT .\img\techno\fast.png
-INPUT .\img\techno\react.png
-INPUT .\img\techno\react.png
-INPUT .\img\techno\react.png
-INPUT .\img\techno\react.png
-INPUT .\img\techno\react.png
-INPUT .\img\techno\react.png
-INPUT .\img\techno\react.png
-INPUT .\img\techno\postgresql.png
-INPUT .\img\techno\postgresql.png
-INPUT .\img\techno\postgresql.png
-INPUT .\img\techno\postgresql.png
-INPUT .\img\techno\postgresql.png
-INPUT .\img\techno\postgresql.png
-INPUT .\img\techno\postgresql.png
-INPUT .\img\techno\mqtt.png
-INPUT .\img\techno\mqtt.png
-INPUT .\img\techno\mqtt.png
-INPUT .\img\techno\mqtt.png
-INPUT .\img\techno\mqtt.png
-INPUT .\img\techno\mqtt.png
-INPUT .\img\techno\mqtt.png
-INPUT .\img\techno\rest.png
-INPUT .\img\techno\rest.png
-INPUT .\img\techno\rest.png
-INPUT .\img\techno\rest.png
-INPUT .\img\techno\rest.png
-INPUT .\img\techno\rest.png
-INPUT .\img\techno\rest.png
-INPUT .\img\techno\snowflake.png
-INPUT .\img\techno\snowflake.png
-INPUT .\img\techno\snowflake.png
-INPUT .\img\techno\snowflake.png
-INPUT .\img\techno\snowflake.png
-INPUT .\img\techno\snowflake.png
-INPUT .\img\techno\snowflake.png
-INPUT .\img\techno\psycopg.png
-INPUT .\img\techno\psycopg.png
-INPUT .\img\techno\psycopg.png
-INPUT .\img\techno\psycopg.png
-INPUT .\img\techno\psycopg.png
-INPUT .\img\techno\psycopg.png
-INPUT .\img\techno\psycopg.png
-INPUT .\img\techno\pandas.png
-INPUT .\img\techno\pandas.png
-INPUT .\img\techno\pandas.png
-INPUT .\img\techno\pandas.png
-INPUT .\img\techno\pandas.png
-INPUT .\img\techno\pandas.png
-INPUT .\img\techno\pandas.png
-INPUT .\img\techno\postman.png
-INPUT .\img\techno\postman.png
-INPUT .\img\techno\postman.png
-INPUT .\img\techno\postman.png
-INPUT .\img\techno\postman.png
-INPUT .\img\techno\postman.png
-INPUT .\img\techno\postman.png
-INPUT .\img\techno\mqttx.png
-INPUT .\img\techno\mqttx.png
-INPUT .\img\techno\mqttx.png
-INPUT .\img\techno\mqttx.png
-INPUT .\img\techno\mqttx.png
-INPUT .\img\techno\mqttx.png
-INPUT .\img\techno\mqttx.png
-INPUT .\img\techno\git.png
-INPUT .\img\techno\git.png
-INPUT .\img\techno\git.png
-INPUT .\img\techno\git.png
-INPUT .\img\techno\git.png
-INPUT .\img\techno\git.png
-INPUT .\img\techno\git.png
-INPUT .\img\techno\github.png
-INPUT .\img\techno\github.png
-INPUT .\img\techno\github.png
-INPUT .\img\techno\github.png
-INPUT .\img\techno\github.png
-INPUT .\img\techno\github.png
-INPUT .\img\techno\github.png
-INPUT .\img\techno\swagger.png
-INPUT .\img\techno\swagger.png
-INPUT .\img\techno\swagger.png
-INPUT .\img\techno\swagger.png
-INPUT .\img\techno\swagger.png
-INPUT .\img\techno\swagger.png
-INPUT .\img\techno\swagger.png
-INPUT .\img\techno\latex.png
-INPUT .\img\techno\latex.png
-INPUT .\img\techno\latex.png
-INPUT .\img\techno\latex.png
-INPUT .\img\techno\latex.png
-INPUT .\img\techno\latex.png
-INPUT .\img\techno\latex.png
-INPUT .\img\techno\draw.png
-INPUT .\img\techno\draw.png
-INPUT .\img\techno\draw.png
-INPUT .\img\techno\draw.png
-INPUT .\img\techno\draw.png
-INPUT .\img\techno\draw.png
-INPUT .\img\techno\draw.png
+INPUT .\img\captures\etl\results.PNG
+INPUT .\img\captures\etl\results.PNG
+INPUT .\img\captures\etl\results.PNG
+INPUT .\img\captures\etl\results.PNG
+INPUT .\img\captures\etl\results.PNG
+INPUT .\img\captures\etl\results.PNG
+INPUT .\img\captures\etl\results.PNG
+INPUT .\img\captures\etl\mqtt.PNG
+INPUT .\img\captures\etl\mqtt.PNG
+INPUT .\img\captures\etl\mqtt.PNG
+INPUT .\img\captures\etl\mqtt.PNG
+INPUT .\img\captures\etl\mqtt.PNG
+INPUT .\img\captures\etl\mqtt.PNG
+INPUT .\img\captures\etl\mqtt.PNG
 INPUT .\img\captures\auth_apis.PNG
 INPUT .\img\captures\auth_apis.PNG
 INPUT .\img\captures\auth_apis.PNG
@@ -1539,25 +1492,166 @@ INPUT .\img\captures\dag\1\ok\0.png
 INPUT .\img\captures\dag\1\ok\0.png
 INPUT .\img\captures\dag\1\ok\0.png
 INPUT .\img\captures\dag\1\ok\0.png
+INPUT .\img\captures\dag\resume.png
+INPUT .\img\captures\dag\resume.png
+INPUT .\img\captures\dag\resume.png
+INPUT .\img\captures\dag\resume.png
+INPUT .\img\captures\dag\resume.png
+INPUT .\img\captures\dag\resume.png
+INPUT .\img\captures\dag\resume.png
+INPUT .\img\captures\dag\scheduled.png
+INPUT .\img\captures\dag\scheduled.png
+INPUT .\img\captures\dag\scheduled.png
+INPUT .\img\captures\dag\scheduled.png
+INPUT .\img\captures\dag\scheduled.png
+INPUT .\img\captures\dag\scheduled.png
+INPUT .\img\captures\dag\scheduled.png
+INPUT .\img\captures\dag\final\1.png
+INPUT .\img\captures\dag\final\1.png
+INPUT .\img\captures\dag\final\1.png
+INPUT .\img\captures\dag\final\1.png
+INPUT .\img\captures\dag\final\1.png
+INPUT .\img\captures\dag\final\1.png
+INPUT .\img\captures\dag\final\1.png
+INPUT .\img\captures\dag\final\2.jpg
+INPUT .\img\captures\dag\final\2.jpg
+INPUT .\img\captures\dag\final\2.jpg
+INPUT .\img\captures\dag\final\2.jpg
+INPUT .\img\captures\dag\final\2.jpg
+INPUT .\img\captures\dag\final\2.jpg
+INPUT .\img\captures\dag\final\2.jpg
+INPUT .\img\captures\dag\final\failed.png
+INPUT .\img\captures\dag\final\failed.png
+INPUT .\img\captures\dag\final\failed.png
+INPUT .\img\captures\dag\final\failed.png
+INPUT .\img\captures\dag\final\failed.png
+INPUT .\img\captures\dag\final\failed.png
+INPUT .\img\captures\dag\final\failed.png
+INPUT .\img\captures\dag\final\reason.png
+INPUT .\img\captures\dag\final\reason.png
+INPUT .\img\captures\dag\final\reason.png
+INPUT .\img\captures\dag\final\reason.png
+INPUT .\img\captures\dag\final\reason.png
+INPUT .\img\captures\dag\final\reason.png
+INPUT .\img\captures\dag\final\reason.png
+INPUT .\img\captures\dag\final\error.png
+INPUT .\img\captures\dag\final\error.png
+INPUT .\img\captures\dag\final\error.png
+INPUT .\img\captures\dag\final\error.png
+INPUT .\img\captures\dag\final\error.png
+INPUT .\img\captures\dag\final\error.png
+INPUT .\img\captures\dag\final\error.png
+INPUT .\img\captures\dag\final\schemaerror.png
+INPUT .\img\captures\dag\final\schemaerror.png
+INPUT .\img\captures\dag\final\schemaerror.png
+INPUT .\img\captures\dag\final\schemaerror.png
+INPUT .\img\captures\dag\final\schemaerror.png
+INPUT .\img\captures\dag\final\schemaerror.png
+INPUT .\img\captures\dag\final\schemaerror.png
+INPUT .\img\captures\dag\final\auto_suspend_root.png
+INPUT .\img\captures\dag\final\auto_suspend_root.png
+INPUT .\img\captures\dag\final\auto_suspend_root.png
+INPUT .\img\captures\dag\final\auto_suspend_root.png
+INPUT .\img\captures\dag\final\auto_suspend_root.png
+INPUT .\img\captures\dag\final\auto_suspend_root.png
+INPUT .\img\captures\dag\final\auto_suspend_root.png
+INPUT .\img\captures\dag\final\roles.png
+INPUT .\img\captures\dag\final\roles.png
+INPUT .\img\captures\dag\final\roles.png
+INPUT .\img\captures\dag\final\roles.png
+INPUT .\img\captures\dag\final\roles.png
+INPUT .\img\captures\dag\final\roles.png
+INPUT .\img\captures\dag\final\roles.png
+INPUT .\img\captures\notifications\updatelaunch.png
+INPUT .\img\captures\notifications\updatelaunch.png
+INPUT .\img\captures\notifications\updatelaunch.png
+INPUT .\img\captures\notifications\updatelaunch.png
+INPUT .\img\captures\notifications\updatelaunch.png
+INPUT .\img\captures\notifications\updatelaunch.png
+INPUT .\img\captures\notifications\updatelaunch.png
+INPUT .\img\captures\notifications\mqtt.png
+INPUT .\img\captures\notifications\mqtt.png
+INPUT .\img\captures\notifications\mqtt.png
+INPUT .\img\captures\notifications\mqtt.png
+INPUT .\img\captures\notifications\mqtt.png
+INPUT .\img\captures\notifications\mqtt.png
+INPUT .\img\captures\notifications\mqtt.png
+INPUT .\img\captures\notifications\new_update.png
+INPUT .\img\captures\notifications\new_update.png
+INPUT .\img\captures\notifications\new_update.png
+INPUT .\img\captures\notifications\new_update.png
+INPUT .\img\captures\notifications\new_update.png
+INPUT .\img\captures\notifications\new_update.png
+INPUT .\img\captures\notifications\new_update.png
+INPUT .\img\captures\notifications\notif.png
+INPUT .\img\captures\notifications\notif.png
+INPUT .\img\captures\notifications\notif.png
+INPUT .\img\captures\notifications\notif.png
+INPUT .\img\captures\notifications\notif.png
+INPUT .\img\captures\notifications\notif.png
+INPUT .\img\captures\notifications\notif.png
+INPUT .\img\captures\notifications\update2.png
+INPUT .\img\captures\notifications\update2.png
+INPUT .\img\captures\notifications\update2.png
+INPUT .\img\captures\notifications\update2.png
+INPUT .\img\captures\notifications\update2.png
+INPUT .\img\captures\notifications\update2.png
+INPUT .\img\captures\notifications\update2.png
+INPUT .\img\captures\notifications\settings.png
+INPUT .\img\captures\notifications\settings.png
+INPUT .\img\captures\notifications\settings.png
+INPUT .\img\captures\notifications\settings.png
+INPUT .\img\captures\notifications\settings.png
+INPUT .\img\captures\notifications\settings.png
+INPUT .\img\captures\notifications\settings.png
+INPUT .\img\captures\notifications\mqtt_global.png
+INPUT .\img\captures\notifications\mqtt_global.png
+INPUT .\img\captures\notifications\mqtt_global.png
+INPUT .\img\captures\notifications\mqtt_global.png
+INPUT .\img\captures\notifications\mqtt_global.png
+INPUT .\img\captures\notifications\mqtt_global.png
+INPUT .\img\captures\notifications\mqtt_global.png
+INPUT .\img\captures\notifications\newglobal.png
+INPUT .\img\captures\notifications\newglobal.png
+INPUT .\img\captures\notifications\newglobal.png
+INPUT .\img\captures\notifications\newglobal.png
+INPUT .\img\captures\notifications\newglobal.png
+INPUT .\img\captures\notifications\newglobal.png
+INPUT .\img\captures\notifications\newglobal.png
+INPUT .\img\captures\notifications\newLimit.png
+INPUT .\img\captures\notifications\newLimit.png
+INPUT .\img\captures\notifications\newLimit.png
+INPUT .\img\captures\notifications\newLimit.png
+INPUT .\img\captures\notifications\newLimit.png
+INPUT .\img\captures\notifications\newLimit.png
+INPUT .\img\captures\notifications\newLimit.png
+INPUT .\img\captures\notifications\notifglobal.png
+INPUT .\img\captures\notifications\notifglobal.png
+INPUT .\img\captures\notifications\notifglobal.png
+INPUT .\img\captures\notifications\notifglobal.png
+INPUT .\img\captures\notifications\notifglobal.png
+INPUT .\img\captures\notifications\notifglobal.png
+INPUT .\img\captures\notifications\notifglobal.png
 INPUT .\conclusion.tex
 INPUT .\conclusion.tex
 INPUT .\conclusion.tex
 INPUT .\conclusion.tex
 INPUT conclusion.tex
-INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecti1095.tfm
-INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\tex\latex\base\t1cmtt.fd
-INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\tex\latex\base\t1cmtt.fd
-INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\tex\latex\base\t1cmtt.fd
-INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ectt1095.tfm
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\t1pcr.fd
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\t1pcr.fd
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\t1pcr.fd
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\courier\pcrr8t.tfm
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\courier\pcrr8t.vf
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\courier\pcrr8r.tfm
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmrc8t.vf
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT .\tpl\resume.tex
 INPUT .\tpl\resume.tex
 INPUT .\tpl\resume.tex
 INPUT .\tpl\resume.tex
 INPUT tpl\resume.tex
 INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\public\arabi\aealmohanadb.tfm
-INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\public\arabi\aealmateen.tfm
 INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\public\arabi\aealmohanadb.tfm
-INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\public\arabi\aealmateen.tfm
 OUTPUT main.maf
 INPUT .\main.mtc
 INPUT .\main.mtc
@@ -1573,6 +1667,9 @@ INPUT .\main.mtc1
 INPUT .\main.mtc1
 INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\public\arabi\aealmohanadb.tfm
 INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\arabi\ararabeyes.enc
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8t.vf
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb8t.vf
 INPUT main.aux
 INPUT .\tpl\cover_page_black.aux
 INPUT .\tpl\cover_page_black.aux
@@ -1581,49 +1678,17 @@ INPUT .\main.out
 INPUT .\main.out
 INPUT main.run.xml
 OUTPUT main.run.xml
-INPUT C:\Users\hp omen\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk
-INPUT C:\Users\hp omen\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk
-INPUT C:\Users\hp omen\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk
-INPUT C:\Users\hp omen\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk
-INPUT C:\Users\hp omen\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1095.pk
-INPUT C:\Users\hp omen\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1095.pk
-INPUT C:\Users\hp omen\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1095.pk
-INPUT C:\Users\hp omen\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1095.pk
-INPUT C:\Users\hp omen\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1095.pk
-INPUT C:\Users\hp omen\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1095.pk
-INPUT C:\Users\hp omen\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecxc1095.pk
-INPUT C:\Users\hp omen\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecxc1095.pk
-INPUT C:\Users\hp omen\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1000.pk
-INPUT C:\Users\hp omen\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1000.pk
-INPUT C:\Users\hp omen\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecxc2488.pk
-INPUT C:\Users\hp omen\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecxc2488.pk
-INPUT C:\Users\hp omen\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecoc1095.pk
-INPUT C:\Users\hp omen\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecoc1095.pk
-INPUT C:\Users\hp omen\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0900.pk
-INPUT C:\Users\hp omen\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0900.pk
-INPUT C:\Users\hp omen\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1728.pk
-INPUT C:\Users\hp omen\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1728.pk
-INPUT C:\Users\hp omen\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1095.pk
-INPUT C:\Users\hp omen\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1095.pk
-INPUT C:\Users\hp omen\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk
-INPUT C:\Users\hp omen\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk
-INPUT C:\Users\hp omen\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk
-INPUT C:\Users\hp omen\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk
-INPUT C:\Users\hp omen\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2074.pk
-INPUT C:\Users\hp omen\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2074.pk
-INPUT C:\Users\hp omen\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk
-INPUT C:\Users\hp omen\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk
-INPUT C:\Users\hp omen\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk
-INPUT C:\Users\hp omen\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk
-INPUT C:\Users\hp omen\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk
-INPUT C:\Users\hp omen\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk
-INPUT C:\Users\hp omen\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecxc1728.pk
-INPUT C:\Users\hp omen\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecxc1728.pk
-INPUT C:\Users\hp omen\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx0900.pk
-INPUT C:\Users\hp omen\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx0900.pk
-INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\type1\public\arabi\ae_almateen.pfb
-INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\type1\public\arabi\ae_almateen.pfb
 INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\type1\public\arabi\ae_almohanad_bold.pfb
 INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\type1\public\arabi\ae_almohanad_bold.pfb
 INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\type1\urw\courier\ucrr8a.pfb
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\type1\urw\courier\ucrr8a.pfb
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmb8a.pfb
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmb8a.pfb
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmbi8a.pfb
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmbi8a.pfb
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmr8a.pfb
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmr8a.pfb
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmri8a.pfb
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmri8a.pfb

@@ -20,7 +20,7 @@
   \entry{avaxia}{misc}{}{}
     \field{labeltitlesource}{title}
     \field{howpublished}{\url{https://www.avaxiagroup.com/fr/}}
-    \field{note}{[En ligne;Accès le 2-sep-2023]}
+    \field{note}{[En ligne;Accès le 17-fev-2024]}
     \field{title}{Presentation Avaxia}
     \field{year}{2023}
   \endentry
@@ -28,9 +28,127 @@
   \entry{serAvaxia}{misc}{}{}
     \field{labeltitlesource}{title}
     \field{howpublished}{\url{https://www.avaxiagroup.com/fr/services}}
-    \field{note}{[En ligne;Accès le 2-sep-2023]}
+    \field{note}{[En ligne;Accès le 17-fev-2024]}
     \field{title}{Services Avaxia}
     \field{year}{2023}
+  \endentry
+
+  \entry{origine}{misc}{}{}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{\url{https://www.glowbl.com/blog/methode-kanban/}}
+    \field{note}{[En ligne;Accès le 20-fev-2023]}
+    \field{title}{Origine Kanban}
+    \field{year}{2017}
+  \endentry
+
+  \entry{kanban}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=RM}{%
+         family={REHKOPF},
+         familyi={R\bibinitperiod},
+         given={MAX},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RM1}
+    \strng{fullhash}{RM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{\url{https://www.atlassian.com/fr/agile/kanban/}}
+    \field{note}{[En ligne;Accès le 23-fev-2023]}
+    \field{title}{La méthodologie Kanban}
+    \field{year}{2017}
+  \endentry
+
+  \entry{tableau}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=NP}{%
+         family={Naydenov},
+         familyi={N\bibinitperiod},
+         given={Pavel},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{NP1}
+    \strng{fullhash}{NP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+  \field{howpublished}{\url{https://businessmap.io/fr/ressources/debuter-avec/tableau-kanban}}
+    \field{note}{[En ligne;Accès le 23-fev-2023]}
+    \field{title}{Les specificités des tableaux Kanban}
+    \field{year}{2017}
+  \endentry
+
+  \entry{snowflake}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=JM}{%
+         family={Jumelle},
+         familyi={J\bibinitperiod},
+         given={Maxime},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{JM1}
+    \strng{fullhash}{JM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{\url{https://blent.ai/blog/a/snowflake-tout-savoir}}
+    \field{note}{[En ligne;Accès le 10-Mars-2024]}
+    \field{title}{Platforme Snowflake}
+    \field{year}{2024}
+  \endentry
+
+  \entry{dagdef}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=sc}{%
+         prefix={snowflake},
+         prefixi={s\bibinitperiod},
+         family={community},
+         familyi={c\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{cs1}
+    \strng{fullhash}{cs1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{\url{https://docs.snowflake.com/fr/user-guide/}}
+    \field{note}{[En ligne;Accès le 10-Mars-2024]}
+    \field{title}{DAG}
+    \field{year}{2024}
+  \endentry
+
+  \entry{monitoring}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=o}{%
+         family={ocineo},
+         familyi={o\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{o1}
+    \strng{fullhash}{o1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+  \field{howpublished}{\url{https://ocineo.com/quel-est-limportance-du-monitoring-informatique-pour-les-entreprises}}
+    \field{note}{[En ligne;Accès le 10-Mars-2024]}
+    \field{title}{Solution de monitoring}
+    \field{year}{2024}
+  \endentry
+
+  \entry{analyse}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=q}{%
+         family={questionpro},
+         familyi={q\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{q1}
+    \strng{fullhash}{q1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+  \field{howpublished}{\url{https://www.questionpro.com/blog/fr/quest-ce-que-lanalyse-de-donnees/}}
+    \field{note}{[En ligne;Accès le 10-Mars-2024]}
+    \field{title}{Analyse des données}
+    \field{year}{2024}
   \endentry
 
   \entry{blog}{misc}{}{}
@@ -45,7 +163,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
   \field{howpublished}{\url{https://www.nutcache.com/fr/blog/quest-ce-quun-backlog-scrum/}}
-    \field{note}{[En ligne;Accès le 2-sep-2023]}
+    \field{note}{[En ligne;Accès le 14-Mars-2024]}
     \field{title}{backlog produit}
     \field{year}{2019}
   \endentry
@@ -64,7 +182,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
   \field{howpublished}{\url{https://blog.myagilepartner.fr/index.php/2019/10/16/backlog-kanban/}}
-    \field{note}{[En ligne;Accès le 19-sep-2023]}
+    \field{note}{[En ligne;Accès le 20-fev-2023]}
     \field{title}{difference backlog Kanban /backlog SCRUM}
     \field{year}{2017}
   \endentry
@@ -561,6 +679,14 @@
   \field{howpublished}{\url{https://www.tice-education.fr/tous-les-articles-er-ressources/articles-internet/819-draw-io-un-outil-pour-dessiner-des-diagrammes-en-ligne}}
     \field{note}{[En ligne;Accès le 01-Mai-2024]}
     \field{title}{Draw.io}
+    \field{year}{2024}
+  \endentry
+
+  \entry{auto}{misc}{}{}
+    \field{labeltitlesource}{title}
+  \field{howpublished}{\url{https://community.snowflake.com/s/article/Why-are-tasks-suspended-automatically}}
+    \field{note}{[En ligne;Accès le 01-Mai-2024]}
+    \field{title}{Auto suspend des tâches Snowflake}
     \field{year}{2024}
   \endentry
 \enddatalist

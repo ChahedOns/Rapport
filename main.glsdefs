@@ -1,0 +1,532 @@
+
+Package glossaries Warning: Entry `UML' has already been defined in the preamble (in which case remove the duplicate definition) or you have just updated to glossaries.sty v4.47 (in which case delete `main.glsdefs') on input line 9.
+
+
+Package glossaries Warning: Entry `UX' has already been defined in the preamble (in which case remove the duplicate definition) or you have just updated to glossaries.sty v4.47 (in which case delete `main.glsdefs') on input line 10.
+
+
+Package glossaries Warning: Entry `IDE' has already been defined in the preamble (in which case remove the duplicate definition) or you have just updated to glossaries.sty v4.47 (in which case delete `main.glsdefs') on input line 11.
+
+
+Package glossaries Warning: Entry `API' has already been defined in the preamble (in which case remove the duplicate definition) or you have just updated to glossaries.sty v4.47 (in which case delete `main.glsdefs') on input line 12.
+
+
+Package glossaries Warning: Entry `WSGI' has already been defined in the preamble (in which case remove the duplicate definition) or you have just updated to glossaries.sty v4.47 (in which case delete `main.glsdefs') on input line 13.
+
+
+Package glossaries Warning: Entry `OGTS' has already been defined in the preamble (in which case remove the duplicate definition) or you have just updated to glossaries.sty v4.47 (in which case delete `main.glsdefs') on input line 14.
+
+
+Package glossaries Warning: Entry `GSM' has already been defined in the preamble (in which case remove the duplicate definition) or you have just updated to glossaries.sty v4.47 (in which case delete `main.glsdefs') on input line 15.
+
+
+Package glossaries Warning: Entry `GPS' has already been defined in the preamble (in which case remove the duplicate definition) or you have just updated to glossaries.sty v4.47 (in which case delete `main.glsdefs') on input line 16.
+
+
+Package glossaries Warning: Entry `HTML' has already been defined in the preamble (in which case remove the duplicate definition) or you have just updated to glossaries.sty v4.47 (in which case delete `main.glsdefs') on input line 17.
+
+Chapitre \textLR{1}.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 1.
+
+
+LaTeX Font Warning: Font shape `T1/ptm/b/scit' undefined
+(Font)              using `T1/ptm/b/it' instead on input line 1.
+
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 3.
+
+
+
+LaTeX Warning: Citation 'avaxia' on page 3 undefined on input line 19.
+
+
+LaTeX Warning: Citation 'serAvaxia' on page 3 undefined on input line 22.
+
+
+LaTeX Warning: Reference `fig:SAU' on page 6 undefined on input line 100.
+
+
+LaTeX Warning: Reference `fig:info' on page 6 undefined on input line 111.
+
+
+LaTeX Warning: Reference `fig:BQ' on page 7 undefined on input line 122.
+
+
+LaTeX Warning: Reference `fig:RS' on page 7 undefined on input line 134.
+
+
+LaTeX Warning: Citation 'origine' on page 10 undefined on input line 185.
+
+Chapitre \textLR{2}.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 1.
+
+
+LaTeX Font Warning: Font shape `T1/ptm/b/scit' undefined
+(Font)              using `T1/ptm/b/it' instead on input line 1.
+
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 4.
+
+
+LaTeX Warning: Reference `fig:BPMN' on page 15 undefined on input line 84.
+
+
+LaTeX Warning: Citation 'blog' on page 16 undefined on input line 110.
+
+
+LaTeX Warning: Citation 'BPK' on page 16 undefined on input line 112.
+
+
+LaTeX Warning: Reference `tab:backlog_produit' on page 16 undefined on input line 114.
+
+Chapitre \textLR{3}.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 1.
+
+
+LaTeX Font Warning: Font shape `T1/ptm/b/scit' undefined
+(Font)              using `T1/ptm/b/it' instead on input line 1.
+
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 4.
+
+
+LaTeX Warning: Citation 'archi_log' on page 21 undefined on input line 35.
+
+
+LaTeX Warning: Reference `fig:arch_log' on page 21 undefined on input line 36.
+
+
+LaTeX Warning: Citation 'design_pattern' on page 23 undefined on input line 86.
+
+
+LaTeX Warning: Citation 'CQRS' on page 24 undefined on input line 90.
+
+
+LaTeX Warning: Citation 'facade' on page 24 undefined on input line 94.
+
+
+LaTeX Warning: Citation 'observer' on page 24 undefined on input line 97.
+
+
+LaTeX Warning: Citation 'SRP' on page 24 undefined on input line 101.
+
+
+LaTeX Warning: Citation 'DAO' on page 24 undefined on input line 105.
+
+
+LaTeX Warning: Citation 'archi_phy' on page 25 undefined on input line 111.
+
+
+LaTeX Warning: Reference `fig:arch_phy' on page 25 undefined on input line 114.
+
+
+LaTeX Warning: Citation 'diag_pack' on page 26 undefined on input line 148.
+
+
+LaTeX Warning: Reference `fig:e_a' on page 27 undefined on input line 150.
+
+
+LaTeX Warning: Citation 'diag_class' on page 27 undefined on input line 161.
+
+
+LaTeX Warning: Reference `fig:class' on page 27 undefined on input line 164.
+
+
+LaTeX Warning: Citation 'use_case' on page 28 undefined on input line 174.
+
+
+LaTeX Warning: Reference `fig:use' on page 29 undefined on input line 175.
+
+
+LaTeX Warning: Citation 'descp' on page 30 undefined on input line 188.
+
+
+LaTeX Warning: Citation 'diag_act' on page 32 undefined on input line 269.
+
+
+LaTeX Warning: Reference `fig:act' on page 32 undefined on input line 270.
+
+
+LaTeX Warning: Citation 'diag_act' on page 34 undefined on input line 297.
+
+
+LaTeX Warning: Reference `fig:seq1' on page 34 undefined on input line 298.
+
+
+LaTeX Warning: Reference `fig:seq2' on page 37 undefined on input line 328.
+
+
+LaTeX Warning: Reference `fig:seq3' on page 38 undefined on input line 353.
+
+
+LaTeX Warning: Reference `fig:seq4' on page 40 undefined on input line 374.
+
+Chapitre \textLR{4}.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 1.
+
+
+LaTeX Font Warning: Font shape `T1/ptm/b/scit' undefined
+(Font)              using `T1/ptm/b/it' instead on input line 1.
+
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 4.
+
+
+LaTeX Warning: Citation 'fastapi' on page 43 undefined on input line 17.
+
+
+LaTeX Warning: Citation 'fastapi' on page 43 undefined on input line 21.
+
+
+LaTeX Warning: Citation 'react' on page 43 undefined on input line 35.
+
+
+LaTeX Warning: Citation 'react' on page 43 undefined on input line 38.
+
+
+LaTeX Warning: Citation 'pg' on page 44 undefined on input line 55.
+
+
+LaTeX Warning: Citation 'pg' on page 44 undefined on input line 58.
+
+
+LaTeX Warning: Citation 'mqtt' on page 44 undefined on input line 74.
+
+
+LaTeX Warning: Citation 'mqtt' on page 44 undefined on input line 77.
+
+
+LaTeX Warning: Citation 'rest' on page 44 undefined on input line 89.
+
+
+LaTeX Warning: Citation 'rest' on page 44 undefined on input line 92.
+
+
+LaTeX Warning: Citation 'sncn' on page 44 undefined on input line 110.
+
+
+LaTeX Warning: Citation 'sncn' on page 44 undefined on input line 114.
+
+
+LaTeX Warning: Citation 'psycopg' on page 45 undefined on input line 126.
+
+
+LaTeX Warning: Citation 'psycopg' on page 45 undefined on input line 130.
+
+
+LaTeX Warning: Citation 'pandas' on page 45 undefined on input line 144.
+
+
+LaTeX Warning: Citation 'pandas' on page 45 undefined on input line 147.
+
+
+LaTeX Warning: Citation 'gmqtt' on page 45 undefined on input line 155.
+
+
+LaTeX Warning: Citation 'os' on page 45 undefined on input line 163.
+
+
+LaTeX Warning: Citation 'scheduler' on page 46 undefined on input line 168.
+
+
+LaTeX Warning: Citation 'requests' on page 46 undefined on input line 171.
+
+
+LaTeX Warning: Citation 'postman' on page 46 undefined on input line 183.
+
+
+LaTeX Warning: Citation 'postman' on page 46 undefined on input line 188.
+
+
+LaTeX Warning: Citation 'mqttx' on page 46 undefined on input line 198.
+
+
+LaTeX Warning: Citation 'mqttx' on page 46 undefined on input line 202.
+
+
+LaTeX Warning: Citation 'git' on page 47 undefined on input line 216.
+
+
+LaTeX Warning: Citation 'git' on page 47 undefined on input line 220.
+
+
+LaTeX Warning: Citation 'github' on page 47 undefined on input line 230.
+
+
+LaTeX Warning: Citation 'github' on page 47 undefined on input line 233.
+
+
+LaTeX Warning: Citation 'swagger' on page 47 undefined on input line 246.
+
+
+LaTeX Warning: Citation 'swagger' on page 47 undefined on input line 250.
+
+
+LaTeX Warning: Citation 'latex' on page 47 undefined on input line 260.
+
+
+LaTeX Warning: Citation 'latex' on page 47 undefined on input line 265.
+
+
+LaTeX Warning: Citation 'draw' on page 47 undefined on input line 274.
+
+
+LaTeX Warning: Citation 'draw' on page 47 undefined on input line 278.
+
+
+LaTeX Warning: Reference `fig:etl' on page 48 undefined on input line 288.
+
+
+LaTeX Warning: Reference `fig:launcher' on page 48 undefined on input line 295.
+
+
+LaTeX Warning: Reference `fig:mqtt' on page 49 undefined on input line 304.
+
+
+LaTeX Warning: Reference `fig:result' on page 49 undefined on input line 305.
+
+
+LaTeX Warning: Reference `fig:apiAuth' on page 51 undefined on input line 325.
+
+
+LaTeX Warning: Reference `fig:signup' on page 52 undefined on input line 333.
+
+
+LaTeX Warning: Reference `fig:login' on page 53 undefined on input line 343.
+
+
+LaTeX Warning: Reference `fig:logout' on page 53 undefined on input line 351.
+
+
+LaTeX Warning: Reference `fig:apiWare' on page 54 undefined on input line 364.
+
+
+LaTeX Warning: Reference `fig:warehouse1' on page 55 undefined on input line 373.
+
+
+LaTeX Warning: Reference `fig:warehouse2' on page 56 undefined on input line 382.
+
+
+LaTeX Warning: Reference `fig:warehouse3' on page 56 undefined on input line 382.
+
+
+LaTeX Warning: Reference `fig:apiquery' on page 58 undefined on input line 437.
+
+
+LaTeX Warning: Reference `fig:listqueries' on page 59 undefined on input line 446.
+
+
+LaTeX Warning: Reference `fig:queriesglob' on page 60 undefined on input line 459.
+
+
+LaTeX Warning: Reference `fig:select' on page 61 undefined on input line 468.
+
+
+LaTeX Warning: Reference `fig:queriesdash1' on page 61 undefined on input line 475.
+
+
+LaTeX Warning: Reference `fig:queriesdash2' on page 61 undefined on input line 482.
+
+
+LaTeX Warning: Reference `fig:apiData' on page 62 undefined on input line 499.
+
+
+LaTeX Warning: Reference `fig:dblist' on page 63 undefined on input line 508.
+
+
+LaTeX Warning: Reference `fig:schemas' on page 64 undefined on input line 516.
+
+
+LaTeX Warning: Reference `fig:objects' on page 64 undefined on input line 525.
+
+
+LaTeX Warning: Reference `fig:dashdata' on page 65 undefined on input line 534.
+
+
+LaTeX Warning: Reference `fig:apiAccess' on page 66 undefined on input line 551.
+
+
+LaTeX Warning: Reference `fig:accesslist' on page 67 undefined on input line 560.
+
+
+LaTeX Warning: Reference `fig:acess1' on page 67 undefined on input line 572.
+
+
+LaTeX Warning: Reference `fig:acess2' on page 67 undefined on input line 572.
+
+
+LaTeX Warning: Reference `fig:show' on page 69 undefined on input line 593.
+
+
+LaTeX Warning: Reference `fig:sus' on page 69 undefined on input line 600.
+
+
+LaTeX Warning: Reference `fig:resume' on page 70 undefined on input line 607.
+
+
+LaTeX Warning: Reference `fig:sus' on page 70 undefined on input line 614.
+
+
+LaTeX Warning: Reference `fig:executing' on page 71 undefined on input line 630.
+
+
+LaTeX Warning: Reference `fig:success' on page 71 undefined on input line 637.
+
+
+LaTeX Warning: Reference `fig:final' on page 72 undefined on input line 645.
+
+
+LaTeX Warning: Reference `fig:error' on page 72 undefined on input line 646.
+
+
+LaTeX Warning: Citation 'auto' on page 73 undefined on input line 660.
+
+
+LaTeX Warning: Reference `fig:autosus' on page 73 undefined on input line 661.
+
+
+LaTeX Warning: Reference `fig:dagerror' on page 73 undefined on input line 668.
+
+
+LaTeX Warning: Reference `fig:root' on page 74 undefined on input line 675.
+
+
+LaTeX Warning: Reference `fig:roles' on page 74 undefined on input line 675.
+
+
+LaTeX Warning: Reference `fig:root' on page 74 undefined on input line 675.
+
+
+LaTeX Warning: Reference `fig:step1' on page 75 undefined on input line 694.
+
+
+LaTeX Warning: Reference `fig:step2' on page 75 undefined on input line 701.
+
+
+LaTeX Warning: Reference `fig:step3' on page 76 undefined on input line 709.
+
+
+LaTeX Warning: Reference `fig:step4' on page 76 undefined on input line 716.
+
+
+LaTeX Warning: Reference `fig:global1' on page 77 undefined on input line 734.
+
+
+LaTeX Warning: Reference `fig:global2' on page 77 undefined on input line 741.
+
+
+LaTeX Warning: Reference `fig:global3' on page 78 undefined on input line 749.
+
+
+LaTeX Warning: Reference `fig:global4' on page 78 undefined on input line 757.
+
+
+LaTeX Warning: Empty bibliography on input line 82.
+
+
+Package biblatex Warning: No localisation for language 'arabic' loaded.
+(biblatex)                Please rerun LaTeX to ensure languages can
+(biblatex)                be requested properly.
+
+
+LaTeX Font Warning: Font shape `LAE/ptm/m/n' undefined
+(Font)              using `LAE/cmr/m/n' instead on input line 21.
+
+
+LaTeX Font Warning: Font shape `LAE/ptm/b/n' undefined
+(Font)              using `LAE/ptm/m/n' instead on input line 23.
+
+
+Package minitoc(hints) Warning: W0033
+(minitoc(hints))                The caption package should be 
+(minitoc(hints))                loaded BEFORE the minitoc package.
+
+
+Package minitoc(hints) Warning: W0024
+(minitoc(hints))                Some hints have been written 
+(minitoc(hints))                in the main.log file.
+
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 5.08003pt, for example:
+(fancyhdr)                \setlength{\footskip}{5.08003pt}.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+
+Package biblatex Warning: Please (re)run BibTeX on the file(s):
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+

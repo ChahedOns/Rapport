@@ -178,6 +178,7 @@
   \end{itemize}%
 }
 
+
 %================= Defining Custom Colors =================%
 \usepackage[table]{xcolor}
 \definecolor{isiBlue}{RGB}{31, 78, 121}
@@ -352,4 +353,8 @@
 \usepackage{graphics}
 \usepackage{float}
 \usepackage{subfig}
-\usepackage{hyperref}
+\usepackage{times}
+\usepackage{acronym}
+
+
+\usepackage{colortbl}

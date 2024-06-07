@@ -6,281 +6,139 @@
 
 \section{Choix technologiques}
 \par  Dans cette partie, nous explorerons les décisions stratégiques que nous avons prises concernant les technologies et les outils que nous avons choisis pour la réalisation de notre solution.     
-\subsection {Frameworks}   
+\subsection{Frameworks et base de données}
     \begin{itemize}
-        \item \textbf{FastAPI: }
-        %code image
-        \begin{figure}[!htb]\centering
-            \begin{minipage}{0.30\textwidth}
-            \centering
-              {\includegraphics[width = 2cm , height=2cm]{img/techno/fast.png}}
-              \caption{ \\ FastAPI logo \cite{fastapi}}\label{Fig:Data1}
-            \end{minipage}
-            \begin {minipage}{0.60\textwidth}
+        \item\textbf{FastAPI : }
             \par FastAPI est un framework web moderne et rapide (à haute performance) pour la création d'API avec Python,
-            basé sur les annotations de type standard de Python\cite{fastapi}. \\
+            basé sur les annotations de type standard de Python\cite{fastapi}. 
             \par Dans la réalisation de ce projet, nous avons opté pour le choix de FastApi comme notre backend framework vue ces performances extrêmement élevées, comparables à celles de NodeJS et Go, grâce à l'utilisation de Starlette et Pydantic.
-            FastAPI est l'un des frameworks Python les plus rapides.\\
+            FastAPI est l'un des frameworks Python les plus rapides.
             \par Sa Robustesse aussi, car il permet de produire un code prêt pour la production avec une documentation interactive et automatique.
-            
-            \end{minipage}
-        \end{figure}
-        %fin
-        \item \textbf{React: }
-            %code image
-            \begin{figure}[!htb]\centering
-                \begin{minipage}{0.30\textwidth}
-                \centering
-                {\includegraphics[width = 2cm , height=2cm]{img/techno/react.png}}
-                \caption{\\ React logo \cite{react}}\label{Fig:Data1}
-                \end{minipage}
-                \begin{minipage}{0.60\textwidth}
-                    \par React est une bibliothèque JavaScript destinée à la création d'interfaces utilisateur (UI) \cite{react}. \\
+        \item\textbf{React : }
+                    \par React est une bibliothèque JavaScript destinée à la création d'interfaces utilisateur (UI) \cite{react}. 
                     \par Dans la réalisation de ce projet, nous avons opté pour React comme étant notre frontend framework car il  permet de créer des interfaces utilisateur dynamiques et réactives avec une efficacité accrue grâce à sa gestion intelligente des mises à jour via le DOM virtuel.
-                \end{minipage}
+                    \item\textbf{PostgreSQL : }
+                    \par PostgreSQL est un puissant système de base de données relationnelle objet open source, développé activement depuis plus de 35 ans, qui lui a valu une solide réputation en termes de fiabilité, de robustesse des fonctionnalités et de performances\cite{pg}. 
+                    \par Dans la réalisation de ce projet, nous avons opté pour le choix de PostgreSQL comme étant notre SGBD vue qu'il est est souvent perçu comme un système plus fiable et plus robuste que MySQL pour gérer de grands volumes de données sans risque de corruption.
+                    \par De plus, il permet de stocker des informations de manière plus structurée grâce à une meilleure gestion des relations et des contraintes.
+                \end{itemize}
 
-            \end{figure}
-        %fin
-    \end{itemize}
-    \subsection {Bases de données}
-    \newpage
-    \begin{itemize}
-        \item \textbf{PostgreSQL: }
-    
-        %code image
-        \begin{figure}[!htb]\centering
-           \begin{minipage}{0.30\textwidth}
-           \centering
-             {\includegraphics[width = 3cm , height=3cm]{img/techno/postgresql.png}}
-             \caption{ \\ PostgreSQL logo \cite{pg}}\label{Fig:Data2}
-           \end{minipage}
-           \begin {minipage}{0.60\textwidth}
-           \par PostgreSQL est un puissant système de base de données relationnelle objet open source, développé activement depuis plus de 35 ans, qui lui a valu une solide réputation en termes de fiabilité, de robustesse des fonctionnalités et de performances\cite{pg}. \\
-           \par Dans la réalisation de ce projet, nous avons opté pour le choix de PostgreSQL comme étant notre SGBD vue qu'il est est souvent perçu comme un système plus fiable et plus robuste que MySQL pour gérer de grands volumes de données sans risque de corruption.\\
-           \par De plus, il permet de stocker des informations de manière plus structurée grâce à une meilleure gestion des relations et des contraintes.
-           \end{minipage}
-       \end{figure}
-    
-\end{itemize}
 \subsection{Outils de communication}
 \begin{itemize}
-
-    \item \textbf{MQTT: }
-        %code image
-            \begin{figure}[!htb]\centering
-            \begin{minipage}{0.30\textwidth}
-            \centering
-                {\includegraphics[width = 2cm , height=2cm]{img/techno/mqtt.png}}
-                \caption{\\ MQTT logo \cite{mqtt}}\label{Fig:Data1}
-            \end{minipage}
-            \begin{minipage}{0.60\textwidth}
-                \par MQTT est un protocole de messagerie basé sur des normes, ou un ensemble de règles, utilisé pour la communication de machine à machine \cite{mqtt}. \\
+    \item\textbf{MQTT : }
+                \par MQTT est un protocole de messagerie basé sur des normes, ou un ensemble de règles, utilisé pour la communication de machine à machine \cite{mqtt}. 
                 \par Dans la réalisation de ce projet, nous avons opté pour MQTT comme étant un systéme de notification car il MQTT facilite le chiffrement des messages 
-                via TLS et l'authentification des clients à l'aide de protocoles d'authentification modernes, tels que OAuth. \\
+                via TLS et l'authentification des clients à l'aide de protocoles d'authentification modernes, tels que OAuth. 
                 \par De plus, sa Légèreté et efficacité car les clients MQTT sont très petits, ils nécessitent peu de ressources. Les en-têtes des messages MQTT sont de petite taille afin d'optimiser la bande passante du réseau.
-            \end{minipage}
-    \end{figure}
-    \item\textbf{RESTful APIs:}
-    %code image 
-     \begin{figure}[!htb]\centering
-        \begin{minipage}{0.30\textwidth}
-        \centering
-            {\includegraphics[width = 2cm , height=2cm]{img/techno/rest.png}}
-            \caption{\\ REST logo \cite{rest}}\label{Fig:Data1}
-        \end{minipage}
-        \begin{minipage}{0.60\textwidth}
-            \par REST (REpresentational State Transfer) constitue un style architectural et un mode de communication fréquemment utilisé dans le développement de services Web \cite{rest}. \\
+
+    \item\textbf{RESTful APIs :}
+    
+            \par REST (REpresentational State Transfer) constitue un style architectural et un mode de communication fréquemment utilisé dans le développement de services Web \cite{rest}. 
             \par Dans la réalisation de ce projet, nous avons opté pour RESTful API comme étant le mode de communiction entre les différents microservices du systéme car ils sont faciles à utiliser avec la plupart des outils. 
             \par De plus REST s'impose progressivement comme le standard pour l'interaction entre systèmes. 
-          
-        \end{minipage}
-    \end{figure}
 
     \end{itemize}
-
-    \subsection{Bibliothèques pour l'analyse et la manipulation des données}
+\subsection{Bibliothèques pour l'analyse et la manipulation des données}
     \begin{itemize}
-        \item \textbf{Snowflake-connector-python: }
-       
-        %code image 
-         \begin{figure}[!htb]\centering
-             \begin{minipage}{0.30\textwidth}
-             \centering
-                 {\includegraphics[width = 2cm , height=2cm]{img/techno/snowflake.png}}
-                 \caption{\\ Snowflake logo \cite{sncn}}\label{Fig:Data1}
-             \end{minipage}
-             \begin{minipage}{0.60\textwidth}
+        \item\textbf{snowflake.connector : }
                  \par Le connecteur Snowflake pour Python fournit une interface pour le développement d'applications Python
-                  qui peuvent se connecter à Snowflake et effectuer toutes les opérations standard.\cite{sncn}. \\
+                  qui peuvent se connecter à Snowflake et effectuer toutes les opérations standard.\cite{sncn}. 
                  \par Il a été conçu pour pour gérer les ressources principales de Snowflake, y compris les bases de données, les schémas, les tables, les tâches et les entrepôts, sans utiliser le langage SQL.
-        
-             \end{minipage}
-         \end{figure}
-    \item \textbf{psycopg: }
-       
-       %code image 
-        \begin{figure}[!htb]\centering
-            \begin{minipage}{0.30\textwidth}
-            \centering
-                {\includegraphics[width = 2cm , height=2cm]{img/techno/psycopg.png}}
-                \caption{\\ Psycopg logo \cite{psycopg}}\label{Fig:Data1}
-            \end{minipage}
-            \begin{minipage}{0.60\textwidth}
+        \item\textbf{psycopg : }
                 \par Psycopg est l'adaptateur de base de données PostgreSQL le plus populaire pour le langage de programmation Python. 
-                Il est écrit en C et fournit un moyen d'effectuer toute la gamme des opérations SQL sur les bases de données PostgreSQL\cite{psycopg}. \\
+                Il est écrit en C et fournit un moyen d'effectuer toute la gamme des opérations SQL sur les bases de données PostgreSQL\cite{psycopg}. 
                 \par Il a été conçu pour les applications fortement multithreadées qui créent et détruisent de nombreux curseurs et effectuent un grand nombre d'« INSERT “s ou d” »UPDATE « s simultanés. C'est le principal raison pour lequel nous avons choisi cet librairie pour toute interaction avec postgresql.
-            
-            \end{minipage}
-        \end{figure}
-        %fin
-
-    \item \textbf{Pandas: }
-       
-             %code image
-             \begin{figure}[!htb]\centering
-                \begin{minipage}{0.30\textwidth}
-                \centering
-                    {\includegraphics[width = 2cm , height=2cm]{img/techno/pandas.png}}
-                    \caption{\\ Pandas logo \cite{pandas}}\label{Fig:Data1}
-                \end{minipage}
-                \begin{minipage}{0.60\textwidth}
-                    \par  Pandas est une bibliothèque de manipulation de données Python qui fournit des structures de données flexibles pour l'analyse des données\cite{pandas}. \\
+        \item\textbf{Pandas : }
+                    \par  Pandas est une bibliothèque de manipulation de données Python qui fournit des structures de données flexibles pour l'analyse des données\cite{pandas}. 
                     \par Il a été conçu pour facilite l'importation, la manipulation et l'analyse des données, ce qui en fait un choix idéal pour notre projet.
-                
-                \end{minipage}
-            \end{figure}
-        %fin
-    \item \textbf{GMQTT: }
-       
-        \par Gmqtt est une bibliothèque de broker MQTT flexible et performante qui implémente entièrement le protocole MQTT V3.x et V5 en golang \cite{gmqtt}. 
-   %fin
-       
+        \item \textbf{GMQTT : }
+            \par Gmqtt est une bibliothèque de broker MQTT flexible et performante qui implémente entièrement le protocole MQTT V3.x et V5 en golang \cite{gmqtt}. 
    \end{itemize}
 \subsection{Bibliothèques d'interaction avec le système d'exploitation}
 \begin{itemize}
-    \item \textbf{OS: }
+    \item\textbf{OS : }
         \par Un module intégré à Python qui permet d'interagir avec le système d'exploitation sous-jacent sur lequel Python est exécuté. 
         Il peut être utilisé pour manipuler le système de fichiers, gérer les variables d'environnement, contrôler les processus, et bien plus encore\cite{os}.
 
-    \item \textbf{Scheduler: }
-        \par C'est une bibliothèque simple d'ordonnancement en python avec asyncio, threading ainsi que la prise en charge des fuseaux horaires.\\
+    \item \textbf{Scheduler : }
+        \par C'est une bibliothèque simple d'ordonnancement en python avec asyncio, threading ainsi que la prise en charge des fuseaux horaires.
          Elle permet de planifiez des tâches en fonction de leurs cycles temporels, d'heures fixes, de jours de la semaine,
          de dates, de poids, de décalages et de comptes d'exécution, et automatisez les tâches\cite{scheduler}.
-    \item \textbf{Requests: }
+    \item \textbf{Requests : }
         \par est un standard Python permettant d'effectuer des requêtes HTTP.
-         Elle dissimule les subtilités des requêtes derrière une API simple, ce qui vous permet de vous concentrer sur l'interaction avec les services et la consommation de données dans votre application\cite{requests}.
+         Elle dissimule les subtilités des requêtes derrière une API simple, ce qui vous permet de vous concentrer sur l'interaction avec les services et la consommation de données dans l'application\cite{requests}.
     
 \end{itemize}
 \subsection{Outils de test}
 \begin{itemize}
-
-    \item \textbf{Postman: }
-        %code image
-            \begin{figure}[!htb]\centering
-            \begin{minipage}{0.30\textwidth}
-            \centering
-                {\includegraphics[width = 2cm , height=2cm]{img/techno/postman.png}}
-                \caption{\\ Postman logo \cite{postman}}\label{Fig:Data1}
-            \end{minipage}
-            \begin{minipage}{0.60\textwidth}
+    \item \textbf{Postman : }
                 \par  Postman agit en tant que client et constitue un excellent outil pour tester des API RESTful. Il offre une interface utilisateur élégante pour effectuer des requêtes HTTP,
-                 sans avoir à écrire beaucoup de code uniquement pour tester les fonctionnalités d'une API. \\
-                 Postman permet également d'analyser les réponses et de visualiser clairement les en-têtes, le corps et le statut HTTP \cite{postman}. \\
-                
-            \end{minipage}
-    \end{figure}
-    \item\textbf{MQTTX:}
-    %code image 
-     \begin{figure}[!htb]\centering
-        \begin{minipage}{0.30\textwidth}
-        \centering
-            {\includegraphics[width = 2cm , height=2cm]{img/techno/mqttx.png}}
-            \caption{\\ MQTTX logo \cite{mqttx}}\label{Fig:Data1}
-        \end{minipage}
-        \begin{minipage}{0.60\textwidth}
-            \par MQTTX est un client de bureau MQTT 5.0 open-source et multiplateforme initialement développé par EMQ, qui peut fonctionner sur n'importe quel systéme d'exploitation.\\
+                 sans avoir à écrire beaucoup de code uniquement pour tester les fonctionnalités d'une API. 
+                 Postman permet également d'analyser les réponses et de visualiser clairement les en-têtes, le corps et le statut HTTP \cite{postman}. 
+    \item\textbf{MQTTX :}
+            \par MQTTX est un client de bureau MQTT 5.0 open-source et multiplateforme initialement développé par EMQ, qui peut fonctionner sur n'importe quel systéme d'exploitation.
             \par il rend le développement et le test d'applications MQTT plus rapides et plus faciles\cite{mqttx}.
-        \end{minipage}
-    \end{figure}
     \end{itemize}
     \newpage
     \subsection{Outils de versionning}
     \begin{itemize}
-    
-        \item \textbf{Git: }
-            %code image
-                \begin{figure}[!htb]\centering
-                \begin{minipage}{0.30\textwidth}
-                \centering
-                    {\includegraphics[width = 2cm , height=2cm]{img/techno/git.png}}
-                    \caption{\\ Git logo \cite{git}}\label{Fig:Data1}
-                \end{minipage}
-                \begin{minipage}{0.60\textwidth}
-                    \par Git est, de loin, le système de contrôle de version le plus largement utilisé aujourd'hui. C'est un projet open source avancé, activement maintenu. \\
-                     Grâce à sa structure décentralisée, Git illustre parfaitement ce qu'est un système de contrôle de version décentralisé (DVCS)\cite{git}.\\
-                    
-                \end{minipage}
-        \end{figure}
-        \item\textbf{Github:}
-        %code image 
-         \begin{figure}[!htb]\centering
-            \begin{minipage}{0.30\textwidth}
-            \centering
-                {\includegraphics[width = 2cm , height=2cm]{img/techno/github.png}}
-                \caption{\\ Github logo \cite{github}}\label{Fig:Data1}
-            \end{minipage}
-            \begin{minipage}{0.60\textwidth}
-                \par GitHub est un service d’hébergement Open-Source, permettant aux programmeurs et aux développeurs de partager le code informatique de leurs projets afin de travailler dessus de façon collaborative. On peut le considérer comme un Cloud dédié au code informatique\cite{github}.
-            \end{minipage}
-        \end{figure}
+        \item \textbf{Git : }
+                    \par Git est, de loin, le système de contrôle de version le plus largement utilisé aujourd'hui. C'est un projet open source avancé, activement maintenu. 
+                     Grâce à sa structure décentralisée, Git illustre parfaitement ce qu'est un système de contrôle de version décentralisé (DVCS)\cite{git}.
+        \item\textbf{Github :}
+                \par GitHub est un service d'hébergement Open-Source, permettant aux programmeurs et aux développeurs de partager le code informatique de leurs projets afin de travailler dessus de façon collaborative. On peut le considérer comme un Cloud dédié au code informatique\cite{github}.
         \end{itemize}
     \subsection{Outils de documentation}
         \begin{itemize}
-        
-            \item \textbf{Swagger: }
-                %code image
-                    \begin{figure}[!htb]\centering
-                    \begin{minipage}{0.30\textwidth}
-                    \centering
-                        {\includegraphics[width = 2cm , height=2cm]{img/techno/swagger.png}}
-                        \caption{\\ Swagger logo \cite{swagger}}\label{Fig:Data1}
-                    \end{minipage}
-                    \begin{minipage}{0.60\textwidth}
-                        \par Swagger est un outil spécialisé qui génère automatiquement la documentation des API RESTful de votre application. \\ 
-                        Son principal avantage réside dans la possibilité de consulter tous les points de terminaison de l'application et de les tester immédiatement en envoyant des requêtes et en recevant des réponses\cite{swagger}.\\
-                        
-                    \end{minipage}
-            \end{figure}
-            \item\textbf{Latex:}
-            %code image 
-             \begin{figure}[!htb]\centering
-                \begin{minipage}{0.30\textwidth}
-                \centering
-                    {\includegraphics[width = 2cm , height=2cm]{img/techno/latex.png}}
-                    \caption{\\ Latex logo \cite{latex}}\label{Fig:Data1}
-                \end{minipage}
-                \begin{minipage}{0.60\textwidth}
+            \item\textbf{Swagger : }
+                        \par Swagger est un outil spécialisé qui génère automatiquement la documentation des API RESTful des application.  
+                        Son principal avantage réside dans la possibilité de consulter tous les points de terminaison de l'application et de les tester immédiatement en envoyant des requêtes et en recevant des réponses\cite{swagger}.
+            \item\textbf{Latex :}
+
                     \par LaTeX est à la fois un langage de balisage et un logiciel de composition de documents,
-                     largement utilisé par la communauté scientifique.\\
+                     largement utilisé par la communauté scientifique.
                       il facilite la rédaction de documents volumineux comme les mémoires et les thèses\cite{latex}.
-                \end{minipage}
-            \end{figure}
             \item\textbf{Draw.io:}
-            %code image 
-             \begin{figure}[!htb]\centering
-                \begin{minipage}{0.30\textwidth}
-                \centering
-                    {\includegraphics[width = 2cm , height=2cm]{img/techno/draw.png}}
-                    \caption{\\ Draw.io logo \cite{draw}}\label{Fig:Data1}
-                \end{minipage}
-                \begin{minipage}{0.60\textwidth}
-                    \par Draw.io est une application en ligne gratuite, accessible via un navigateur web (protocole https), permettant de dessiner des diagrammes et des organigrammes. \\
+                    \par Draw.io est une application en ligne gratuite, accessible via un navigateur web (protocole https), permettant de dessiner des diagrammes et des organigrammes. 
                     Cet outil offre la possibilité de concevoir toutes sortes de diagrammes et de dessins vectoriels, de les enregistrer au format XML, puis de les exporter \cite{draw}.
-                    \end{minipage}
-            \end{figure}
             \end{itemize}
 \section{Réalisation}
 \par Dans cette section, nous allons présenter la réalisation de ce projet en illustant chaque partie avec des captures explicatifs.
+\subsection{Micro-service << ETL\_Service >>}
+\par Le micro-service ETL\_Service est responsable de l'extraction, de la transformation et du chargement des données de Snowflake vers la base de données PostgreSQL de cette application.
+\par Ce micro-service représente une tâche planifiée (cron job), il est programmée de s'éxécuter quotidiennement (chaque 12/24 heurs par exemple) pour mettre à jours les données à monitorer. 
+% % \par La figure \textbf{\ref{fig:etl}} représente le resultat de l'api déclancheur de ce micro-service :
+% % \begin{figure}[H]
+% %     \centering
+% %     \includegraphics[width =1\linewidth]{img/captures/etl/api.PNG}
+% %     \caption{API déclancheur du microservice <<Athentification\_service>> }
+% %         \label{fig:etl}
+% % \end{figure}
+% \par ce micro-service représente une tâche planifiée(cron job) à son tour déclanche le plannificateur de l'exécution en arriére plan comme l'indique la figure \textbf{\ref{fig:launcher}} suivante :
+% \begin{figure}[H]
+%     \centering
+%     \includegraphics[width =1\linewidth]{img/captures/etl/launcher.PNG}
+%     \caption{Déclanchement du plannificateur ETL}
+%         \label{fig:launcher}
+% \end{figure}
+\par Dans le cas où la plannification est atteinte, l'exécution du process ETL se commance par l'archivage des ancienes données pour garantir la disponibilité de la platforme en cas d'échéance de la base de données principale.  
+Ensuite, il va extraire les nouvelles données de chaque table systéme de Snowflake en faisant le nettoyage et la transformation sur ces derniers. 
+\par  La figure \textbf{\ref{fig:result}} illustre les affichages retournés par le microservice : 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width =1\linewidth]{img/captures/etl/results.PNG}
+    \caption{Exécution de l'ETL}
+        \label{fig:result}
+\end{figure}
+\par Enfin, il stocke les nouvelles données dans les tables appriories et il publie un message dans le MQTT Broker pour notifier les utilisateurs du compte que les mise à jours sont faites avec succés comme l'indique la figure \textbf{\ref{fig:mqtt}}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width =1\linewidth]{img/captures/etl/mqtt.PNG}
+    \caption{La publication du message dans MQTT Broker}
+        \label{fig:mqtt}
+\end{figure}
+
 \subsection{Micro-service << Authentification\_Service >>}
 \par Le micro-service << Authentification\_Service >> est responsable du système d'authentification de notre application 
 \begin{itemize}
@@ -319,6 +177,7 @@
                         \label{fig:logout}
                     \end{figure}
             \end{itemize}
+\par En conclusion, ce microservice joue un rôle crucial dans la sécurité et la fiabilité de l'application. En implémentant le protocole OAuth 2.0, il garantit une authentification et une autorisation robustes, permettant aux utilisateurs de se connecter en toute sécurité et d'accéder uniquement aux fonctionnalités et aux données auxquelles ils sont autorisés. Ce service agit comme un gardien de la confidentialité et de l'intégrité des données, assurant que seuls les utilisateurs légitimes puissent interagir avec le système. 
 \subsection{Micro-service << Warehouse\_Monitoring >>}
 \par Le micro-service << Monitoring\_Service >> est le service chargé de la surveillance de l'utilisation des entrepôts de données Snowflake.
 \begin{itemize}
@@ -554,20 +413,186 @@
 \par Dans cette section, nous allons surveiller l'éxécution d'un ensemble des tâches en temps réelle. 
 \\ Ces tâches la sont deja crées dans notre compte Snowflake de test,La figure \textbf{\ref{fig:show}} illustre la liste des tâches, dont nous allons monitorer, dans snowflake qui apparâitre en exécutant la command << Show TASKS >>:
     \begin{figure}[H]
-            \centering
-            \includegraphics[width =1\linewidth]{img/captures/dag/show.PNG}
-            \caption{Résultat du command <<Show tasks>> }
-                \label{fig:show}
-        \end{figure}
-    \par Simultanément, dans notre application, les tâches sont illustrés par la figure \textbf{\ref{fig:sus}} dans le même état <<SUSPENDED>> que dans snowflake:
+        \centering
+        \includegraphics[width =1\linewidth]{img/captures/dag/show.PNG}
+        \caption{Résultat du command <<Show tasks>> }
+        \label{fig:show}
+    \end{figure}
+\par Simultanément, dans notre application, les tâches sont illustrés par la figure \textbf{\ref{fig:sus}} dans le même état <<SUSPENDED>> que dans snowflake:
     \begin{figure}[H]
         \centering
         \includegraphics[width =1\linewidth]{img/captures/dag/1/ok/0.png}
-        \caption{Etat initial du DAG}
-            \label{fig:sus}
+        \caption{Etape 0 : état initial du DAG}
+        \label{fig:sus}
     \end{figure}
+\par Une fois nous résumons l'exécution des tâches dans snowflake avec les commandes de la figure \textbf{\ref{fig:resume}} :
+\begin{figure}[H]
+    \centering
+    \includegraphics[width =1\linewidth]{img/captures/dag/resume.png}
+    \caption{Lancement de l'éxécution des tâches}
+    \label{fig:resume}
+\end{figure}
+\par La visualisation du DAG commance à s'animer comme l'indique la figure \textbf{\ref{fig:sus}} suivante telque:
+\begin{itemize}
+    \item Les tâches qui représentent les racines de DAG doivent être toujours programmées pour qu'elles se lancent d'une façon séquencielle,
+    \item Les sous-tâches suitent l'exécution de la tâche racine,
+    \item L'état courant des sous tâches lorsque la racine est programmée préserve le dernier état aprés la derniére éxecution,
+\end{itemize}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width =1\linewidth]{img/captures/dag/scheduled.png}
+    \caption{Etape 1 : Lancement des têches}
+    \label{fig:sus}
+\end{figure}
+\par Maintenant, nous allons superviser le DAG du tâche \textbf{<<Load roles>>}. \\
+Initialement, cette tâche est \textbf{programmée} chaque 5 minutes, elle est colorée en \textbf{<< violet >>} et tous ces sous-tâches sont colorées en \textbf{<< vert >>} pour indiquer que leurs dernier état était un success. \\
+Aprés 5 minutes, l'état de la tâche racine se modifie de \textbf{programée} (<<Scheduled>> ) vers \textbf{en exécution} (<<Executing>>) et sa couleur devenue \textbf{<< bleu>> }. \\
+Parallélement, les sous-tâches du premier niveau, \textbf{<<Load grant\_to\_roles>>}, \textbf{<<Load users>>}, \textbf{<<Load databases>>} deviennent \textbf{programmées} mais pour quelques instants car une fois la tâche supérieure compléte son éxécution ces tâches s'éxécutent directement.
+La figure \textbf{\ref{fig:executing}} illustre ce qui précéde:
+    \begin{figure}[H]
+    \centering
+    \includegraphics[width =1\linewidth]{img/captures/dag/final/1.png}
+    \caption{Etape 3 : Execution de la racine}
+    \label{fig:executing}
+    \end{figure}
+\par Une fois la tâche << Load roles >> est \textbf{éxecutée avec success}, ses sous-tâches s'exécutent à leurs tour aussi comme l'indique la figure \textbf{\ref{fig:success}}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width =1\linewidth]{img/captures/dag/final/2.jpg}
+    \caption{Etape 4 : Exécution des sous-tâches de niveau I}
+    \label{fig:success}
+    \end{figure}
+
+\par Ce cycle ce répete d'un niveau à un autre jusqu'à avoir un succées par tout dans le DAG comme l'indique la figure \textbf{\ref{fig:final}} suivante.\\
+ À cet instant là, l'etat du DAG revient à l'etape 1 du cycle si aucune malveuillance est produite, sinon la tâche erronée va être colorée en \textbf{<<rouge>>}  et en affichant le message d'erreur (présent dans la figure \textbf{\ref{fig:error}}), ce qui le cas de la tâche \textbf{<<load test>>} dans la même figure. 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width =1\linewidth]{img/captures/dag/final/failed.png}
+    \caption{Etape 5 : Succes dans tous les branches du DAG <<Load Roles>>}
+    \label{fig:final}
+    \end{figure}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width =1\linewidth]{img/captures/dag/final/reason.png}
+        \caption{Message d'erreur de la tâche <<Load test>>}
+        \label{fig:final}
+        \end{figure}
+\par Il faut noter que, si l'erreur d'une tâche persiste, Snowlfake va suspendu cette tâche pour ne pas affectée les tâches en relations avec elle. 
+Bien évidament, si cette tâche erronée est présente dans une DAG, la tâche racine de se DAG va être auto-suspendu directement ce qui va empécher l'execution de tout les autres sous-tâches \cite{auto}. 
+\par la figure \textbf{\ref{fig:autosus}} montre l'auto-suspend de la tâche <<load test>> aprés exactement 10 tentative d'éssai (un paramêtre par défaut dans Sonwflake fixé à 10)qui ont donné des erreurs.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width =1\linewidth]{img/captures/dag/final/error.png}
+    \caption{Auto-suspend de la tâche}
+    \label{fig:autosus}
+    \end{figure}
+\par Nous allons prendre l' exemple si la tâche <<Load schemas>> est erronée:  La figure \textbf{\ref{fig:dagerror}} illustre l'état du DAG à cet instant. 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width =1\linewidth]{img/captures/dag/final/schemaerror.png}
+    \caption{DAG erronée}
+    \label{fig:autosus}
+    \end{figure}
+\par Aprés 10 tentatives, la racine du DAG est suspendu automatiquement à cause de cette tâche ce qui est illustré par les figures \textbf{\ref{fig:root}} et \textbf{\ref{fig:roles}}. De plus, les autres tâches vont conserver leurs derniers états comme l'indique la figure \textbf{\ref{fig:root}}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width =1\linewidth]{img/captures/dag/final/auto_suspend_root.png}
+    \caption{La racine de Dag est suspendu automatiquement}
+    \label{fig:root}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width =1\linewidth]{img/captures/dag/final/roles.png}
+    \caption{Détails de suspend de la racine}
+    \label{fig:roles}
+\end{figure}
+\par En conclusion, ce microservice offre une vue d'ensemble détaillée et interconnectée du suivi des Tâches et des DAGs au sein du compte Snowflake.
+Cette approche intégrée donne aux administrateurs une compréhension globale de l'environnement, facilitant la détection rapide des problèmes, le diagnostic des causes et la mise en place de mesures correctives pour assurer la fiabilité et l'efficacité des données qui circule dans les entrepôts de données ainsi que l'environnement Snowflake.
+\subsection{Micro-service <<Notifications\_Launcher>>}
+\par Ce micro-service est responsable de l'envoi des notifications aux utilisateurs concernés selon l'évenement qui peut apparaitre.
+\begin{itemize}
+    \item \textbf{Si les mise à jours sont efféctuées :}
+        \par Dans le cas où les mise à jours sont efféctuées pour un compte, et comme nous avons déjà préciser dans le  microservice d'authentification, une fois le process ETL termine sont exécution il lance une notification à MQTT Broker, la figure \textbf{\ref{fig:step1}} rillustre une autre fois cette partie: 
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width =1\linewidth]{img/captures/notifications/updatelaunch.png}
+            \caption{Exécution de l'ETL}
+            \label{fig:step1}
+        \end{figure}
+        \par la publication de cette nouvelle notification dans MQTT est illustrée par la figure \textbf{\ref{fig:step2}} suivante :
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width =1\linewidth]{img/captures/notifications/mqtt.png}
+            \caption{Publication dans le topic <<Mqtt/updates>>}
+            \label{fig:step2}
+        \end{figure}
+        \par Simultanément, dans notre application, une popup s'affiche pour notifier les utilisateur connecté à ce compte que un mise à jour a était effectuée.
+        La figure \textbf{\ref{fig:step3}} illustre la récéption de la nouvelle notification : 
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width =1\linewidth]{img/captures/notifications/new_update.png}
+            \caption{Réception de la nouvelle notification de mise à jour dans <<Snowflake Monitoring Application>>}
+            \label{fig:step3}
+        \end{figure}
+        \par une fois nous cliquons sur l'icon de notification, la liste des notifications pour cet utilisateur s'affiche, comme l'indique la figure \textbf{\ref{fig:step4}} : 
+        \begin{figure}[H]
+            \centering
+            \begin{tabular}[b]{c}
+            \includegraphics[width=0.3\linewidth ,height=7cm]{img/captures/notifications/notif.png} \\
+            
+            \end{tabular} 
+            \begin{tabular}[b]{c}
+            \includegraphics[width=0.3\linewidth ,height=7cm]{img/captures/notifications/update2.png} \\
+            
+            \end{tabular}
+            \caption{Consultation des notifications}
+        \label{fig:step4}
+        \end{figure}
+
+    \item \textbf{Si les limites de consommation sont atteinte :}
+    \par Dans le cas où les limites de consommation sont atteintes pour un des entrepôt de données, une notification est lancée. 
+    \par Nous prenons l'exemple de modification de limites à 50\$ dans les paramêtres globaux et nous allons surveiller ce que va se passer dans notre application. 
+    \par La figure \textbf{\ref{fig:global1}} illustre la modification des paramêtres pour surveiller le lancement des notifications:
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.3\linewidth ,height=8cm]{img/captures/notifications/settings.png}
+        \caption{Modification de limites}
+        \label{fig:global1}
+    \end{figure}
+    \par Une fois la modification est effectuée, nous allons simuler une publication dans le topic <<mqtt/credits>> comme l'indique la figure \textbf{\ref{fig:global2}}. 
+    \\ Cette fois ci, la publication dans MQTT est faite par le frontend de ce microservice.
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width =1\linewidth]{img/captures/notifications/mqtt_global.png}
+        \caption{Publication dans le topic <<Mqtt/credits>>}
+        \label{fig:global2}
+    \end{figure}
+    \par Parallélement, Une notification est reçue dans l'application et une popup s'affiche pour indiquer la reception de cette dernière. La figure \textbf{\ref{fig:global3}} illustre la récéption de la notification:
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width =1\linewidth]{img/captures/notifications/newglobal.png}
+        \caption{Récéption de la nouvelle notification}
+        \label{fig:global3}
+    \end{figure}
+    \par Une fois nous cliquons sur l'icon de notification, la liste des notifications s'affiche avec la nouvelle notification.
+    \par La figure \textbf{\ref{fig:global4}} représente la nouvelle liste des notifications:
+    \begin{figure}[H]
+        \centering
+        \begin{tabular}[b]{c}
+        \includegraphics[width=0.3\linewidth ,height=7cm]{img/captures/notifications/newLimit.png} \\
+        
+        \end{tabular} 
+        \begin{tabular}[b]{c}
+        \includegraphics[width=0.3\linewidth ,height=7cm]{img/captures/notifications/notifglobal.png} \\
+        
+        \end{tabular}
+        \caption{Consultation des notifications}
+    \label{fig:global4}
+    \end{figure}
+\end{itemize}
+\par En conclusion, ce microservice joue un rôle essentiel dans la chaîne de valeur de l'application. En agissant comme une passerelle entre le service ETL et les utilisateurs finaux, il garantit que les informations critiques sont rapidement et efficacement communiquées.  
 
 \section*{Conclusion}
 \addcontentsline{toc}{section}{Conclusion }
-    Ce chapitre résume le travail accompli pour donner forme à notre projet. Les choix techniques et le workflow nous ont fourni un cadre solide pour concrétiser notre vision. Chaque étape de ce processus s'avère cruciale pour l'atteinte de nos objectifs.
-    \par Dans la conclusion générale à venir, nous réunirons l'ensemble de notre travail et soulignerons les perspectives pour l'avenir.
+Ce chapitre résume le travail accompli pour donner forme à notre projet. Les choix techniques que nous avons adoptés et détaillés nous ont permis de concrétiser notre vision. De plus, nous avons pu présenter la réalisation de ce projet en illustrant chaque partie avec des captures explicatives, montrant ainsi le cheminement de notre démarche. 
+\\Dans la conclusion générale, nous réunissons l'ensemble de notre travail et soulignons les perspectives pour l'avenir. 
