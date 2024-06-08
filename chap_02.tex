@@ -156,9 +156,25 @@ comprendre les fonctionnalités que le système va fournir.
                 \end{enumerate}
         \item \textbf{Archivage des données: }Les données historiques doivent être archivées de manière efficace pour garantir l'intégrité des données.
   \end{itemize}
+  \subsection{Diagramme de cas d'utilisation global}
+  \par Le diagramme de cas d'utilisation permet d'identifier les possibilités d'interaction entre le système et les acteurs (intervenants extérieurs au système), c'est-à-dire toutes les fonctionnalités
+  que doit fournir le système. L'idée forte est de dire que l'utilisateur d'un système logiciel a un objectif quand il utilise le système \cite{use_case}.
+  \par La figure \textbf{\ref{fig:use}} qui suit représente le diagramme de cas d'utilisation global de notre système:     
+    %code image
+        \begin{figure}[H]
+            \centering
+            \includegraphics[ width=1\linewidth]{img/conception/use_case.png}
+            \caption{Diagramme de cas d'utilisation globale <<Snowflake Monitoring Application>>}
+            \label{fig:use}
+            \end{figure}
+\par Le diagramme de cas d'utilisation global présenté ci-dessus offre une vue d'ensemble des interactions potentielles entre les utilisateurs et le système de monitoring Snowflake. 
+En identifiant clairement les objectifs des utilisateurs et les fonctionnalités requises, ce diagramme joue un rôle crucial dans la définition des exigences du système. 
+En somme, ce diagramme est un outil essentiel pour garantir que le système final réponde aux besoins des utilisateurs de manière efficace et cohérente.
+
+
   \section{Flux de travail}
-  
-  \par Durant la réalisation de notre projet, ce processus a été notre fil conducteur, nous permettantpermettons de passer par plusieurs étapes clés pour atteindre notre objectif. La figure \textbf{\ref{fig:BPMN}} suivante illustre notre processus métier :
+  \par Durant la réalisation de notre projet, ce processus a été notre fil conducteur, nous permettantpermettons de passer par plusieurs étapes clés pour atteindre notre objectif. 
+La figure \textbf{\ref{fig:BPMN}} suivante illustre notre processus métier :
     %code image
         \begin{figure}[H]
         \centering
@@ -167,7 +183,8 @@ comprendre les fonctionnalités que le système va fournir.
         \label{fig:BPMN}
         \end{figure}
     %fin
-  \par Maintenant, nous allons explorer en détail le flux de travail que nous avons suivi, en soulignant l'importance de chaque étape et en expliquant comment elles se sont complétées pour aboutir à une solution complète. Ensuite, nous examinerons chaque étape de manière approfondie pour comprendre comment elles ont contribué à notre succès global.
+  \par Maintenant, nous allons explorer en détail le flux de travail que nous avons suivi, en soulignant l'importance de chaque étape et en expliquant comment elles se sont complétées pour aboutir à une solution complète. 
+  Ensuite, nous examinerons chaque étape de manière approfondie pour comprendre comment elles ont contribué à notre succès global.
   \par Passons maintenant à l'examen détaillé de chacune de ces étapes.
 
   \begin{itemize}
@@ -212,7 +229,7 @@ comprendre les fonctionnalités que le système va fournir.
         \rowcolor{blue!18}\textbf{ID} & \textbf{User Story} &  \textbf{Priorité} & \textbf{Estimation (points)} \\
         \hline
         \endfirsthead
-        US1 &  En tant qu'utilisateur, je veux un tableau de bord global pour surveiller les performances générales de l'entrepôt de données, y compris les temps de réponse des requêtes, l'utilisation des ressources et les erreurs éventuelles. & Haute & 8 \\
+        US1 &  En tant qu'administrateur, je veux un tableau de bord global pour surveiller les performances générales de l'entrepôt de données, y compris les temps de réponse des requêtes, l'utilisation des ressources et les erreurs éventuelles. & Haute & 8 \\
         
         \hline
         
@@ -220,7 +237,7 @@ comprendre les fonctionnalités que le système va fournir.
         
         \hline
         
-        US3 &  En tant qu'administrateur, je veux surveiller l'utilisation des ressources (CPU, stockage, etc.) de l'entrepôt de données pour identifier les goulots d'étranglement et les problèmes de capacité. & Haute & 9 \\
+        US3 &  En tant qu'administrateur, je veux surveiller l'utilisation des ressources (CPU, stockage, etc.) des bases de données pour identifier les goulots d'étranglement et les problèmes de capacité. & Haute & 9 \\
         
         \hline
         
@@ -228,7 +245,7 @@ comprendre les fonctionnalités que le système va fournir.
         
         \hline
         
-        US5 & En tant qu'utilisateur, je veux générer des rapports de charge pour analyser la consommation de crédits, le coût par requête et l'utilisation des ressources au fil du temps. & Moyenne & 6 \\
+        US5 & En tant qu'utilisateur, je veux surveillance la consommation de crédits, le coût par requête et l'utilisation des ressources au fil du temps. & Moyenne & 6 \\
         
         \hline
         
@@ -244,11 +261,11 @@ comprendre les fonctionnalités que le système va fournir.
         
         \hline
         
-        US9 &  En tant que développeur, je veux accéder à des recommandations d'optimisation des requêtes SQL pour améliorer les performances et réduire les coûts. & Faible & 9 \\
+        US9 &  En tant que utilisateur, je veux accéder à des recommandations d'optimisation des requêtes SQL pour améliorer les performances et réduire les coûts. & Faible & 9 \\
         
         \hline
         
-        US10& En tant qu'administrateur, je veux surveiller l'exécution des tâches planifiées (comme les pipelines de chargement) pour détecter les retards ou les échecs. & Moyenne & 6 \\
+        US10& En tant qu'administrateur, je veux surveiller l'exécution des tâches planifiées (comme les pipelines de chargement) pour détecter les retards ou les échecs. & Haute & 21 \\
         
         \hline
         
@@ -259,19 +276,33 @@ comprendre les fonctionnalités que le système va fournir.
         US12 & En tant qu'utilisateur, je veux s'authentifier d'une façon sécurisée pour accéeder a la platforme de monitoring & Moyenne & 5 \\
         
         \hline
-        US13 & En tant qu'administrateur, je veux suivre en temps réelle l'execution des taches programmés  & haute & 13 \\
+        US13 & En tant qu'administrateur, je veux suivre en temps réelle l'execution des taches en temps réel avec une visualisation compléte du DAG, ainsi les différents états des tâches  & haute & 13 \\
+        
+        \hline
+        US14 & En tant qu'administrateur, je veux suivre l'historique des journaux d'accès au entrepôt des données & haute & 9 \\
+        
+        \hline
+        US15 & En tant qu'administrateur, je veux paramétrer les visualisations, les alertes, les limites du coûts selon les besoins ou/et les rôles & faible & 9 \\
         
         \hline
         
         \caption{Backlog de Produit}
         \label{tab:backlog_produit}
     \end{longtable}
+    \par 
 
 \end{center}
-
+\par En conclusion, le backlog du produit joue un rôle essentiel dans notre projet en fournissant une vue d'ensemble claire et priorisée des fonctionnalités à développer et des tâches à accomplir. 
+En utilisant la méthodologie Kanban, nous avons pu gérer efficacement ces éléments, ajuster nos priorités en temps réel et assurer une progression continue vers nos objectifs.
 
 %%%%%table
 \vspace{-1cm}
 \section*{Conclusion}
 \addcontentsline{toc}{section}{Conclusion}
- Au terme de ce chapitre, nous avons obtenu une vision approfondie des besoins inhérents au projet. Cette analyse détaillée assure que notre solution est en phase avec les attentes et les exigences d'Avaxia Group. Dans le prochain chapitre, nous explorerons les aspects architecturaux et conceptuels de notre projet.
+ \par Ce chapitre a établi les fondations de notre projet.  Nous avons commencé par une introduction détaillée des concepts clés et des technologies qui sous-tendent notre solution, garantissant ainsi une compréhension solide de notre domaine d'application. 
+ Ensuite, nous avons effectué les besoins fonctionnels et non fonctionnels, et présenté le diagramme de cas d'utilisation global pour illustrer les interactions entre utilisateurs et système. 
+
+\par Nous avons également détaillé le flux de travail, de l'extraction à la visualisation des données, et élaboré un backlog de produit structuré et priorisé, 
+garantissant une progression continue du projet. 
+En résumé, ce chapitre a formalisé les bases nécessaires pour le développement et la mise en œuvre de notre solution de monitoring, assurant ainsi une réponse cohérente aux besoins des utilisateurs. Dans le prochain chapitre, nous explorerons les aspects architecturaux et conceptuels de notre projet.
+

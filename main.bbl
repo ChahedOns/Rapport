@@ -151,6 +151,23 @@
     \field{year}{2024}
   \endentry
 
+  \entry{use_case}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=l}{%
+         family={lucidchart},
+         familyi={l\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{l1}
+    \strng{fullhash}{l1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+  \field{howpublished}{\url{https://www.lucidchart.com/pages/fr/diagramme-de-cas-dutilisation-uml}}
+    \field{note}{[En ligne;Accès le 09-Avril-2024]}
+    \field{title}{Diagramme de cas d'utilisation}
+    \field{year}{2024}
+  \endentry
+
   \entry{blog}{misc}{}{}
     \name{author}{1}{}{%
       {{hash=n}{%
@@ -201,7 +218,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
   \field{howpublished}{\url{https://www.softfluent.fr/blog/architecture-logicielle-pour-application}}
-    \field{note}{[En ligne;Accès le 21-Mars-2024]}
+    \field{note}{[En ligne;Accès le 07-Avril-2024]}
     \field{title}{Architecture Logique des systémes}
     \field{year}{2023}
   \endentry
@@ -220,7 +237,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
   \field{howpublished}{\url{https://refactoring.guru/fr/design-patterns/what-is-pattern}}
-    \field{note}{[En ligne;Accès le 21-Mars-2024]}
+    \field{note}{[En ligne;Accès le 07-Avril-2024]}
     \field{title}{Patrons de conception}
     \field{year}{2023}
   \endentry
@@ -239,7 +256,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{howpublished}{\url{https://www.invivoo.com/le-pattern-cqrs/}}
-    \field{note}{[En ligne;Accès le 21-Mars-2024]}
+    \field{note}{[En ligne;Accès le 07-Avril-2024]}
     \field{title}{CQRS}
     \field{year}{2023}
   \endentry
@@ -258,7 +275,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
   \field{howpublished}{\url{https://refactoring.guru/fr/design-patterns/facade}}
-    \field{note}{[En ligne;Accès le 21-Mars-2024]}
+    \field{note}{[En ligne;Accès le 07-Avril-2024]}
     \field{title}{Patron façade}
     \field{year}{2023}
   \endentry
@@ -277,7 +294,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
   \field{howpublished}{\url{https://refactoring.guru/fr/design-patterns/observer}}
-    \field{note}{[En ligne;Accès le 21-Mars-2024]}
+    \field{note}{[En ligne;Accès le 07-Avril-2024]}
     \field{title}{Patron observer}
     \field{year}{2023}
   \endentry
@@ -285,7 +302,7 @@
   \entry{SRP}{misc}{}{}
     \field{labeltitlesource}{title}
   \field{howpublished}{\url{https://www.ionos.fr/digitalguide/sites-internet/developpement-web/quest-ce-que-le-factory-pattern/}}
-    \field{note}{[En ligne;Accès le 21-Mars-2024]}
+    \field{note}{[En ligne;Accès le 07-Avril-2024]}
     \field{title}{Single Responsability Principal}
     \field{year}{2022}
   \endentry
@@ -302,7 +319,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
   \field{howpublished}{\url{https://www.geeksforgeeks.org/data-access-object-pattern/}}
-    \field{note}{[En ligne;Accès le 21-Mars-2024]}
+    \field{note}{[En ligne;Accès le 07-Avril-2024]}
     \field{title}{Data Access Object}
     \field{year}{2024}
   \endentry
@@ -319,7 +336,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
   \field{howpublished}{\url{https://www.redhat.com/fr/topics/cloud-native-apps/what-is-an-application-architecture}}
-    \field{note}{[En ligne;Accès le 22-Mars-2024]}
+    \field{note}{[En ligne;Accès le 08-Avril-2024]}
     \field{title}{architecture physique}
     \field{year}{2023}
   \endentry
@@ -336,7 +353,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
   \field{howpublished}{\url{https://www.lucidchart.com/pages/fr/diagramme-package-uml}}
-    \field{note}{[En ligne;Accès le 22-Mars-2024]}
+    \field{note}{[En ligne;Accès le 08-Avril-2024]}
     \field{title}{Diagramme de package}
     \field{year}{2024}
   \endentry
@@ -353,25 +370,8 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
   \field{howpublished}{\url{https://www.lucidchart.com/pages/fr/diagramme-de-classes-uml}}
-    \field{note}{[En ligne;Accès le 22-Mars-2024]}
+    \field{note}{[En ligne;Accès le 08-Avril-2024]}
     \field{title}{Diagramme de package}
-    \field{year}{2024}
-  \endentry
-
-  \entry{use_case}{misc}{}{}
-    \name{author}{1}{}{%
-      {{hash=l}{%
-         family={lucidchart},
-         familyi={l\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{l1}
-    \strng{fullhash}{l1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-  \field{howpublished}{\url{https://www.lucidchart.com/pages/fr/diagramme-de-cas-dutilisation-uml}}
-    \field{note}{[En ligne;Accès le 23-Mars-2024]}
-    \field{title}{Diagramme de cas d'utilisation}
     \field{year}{2024}
   \endentry
 
@@ -389,7 +389,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
   \field{howpublished}{\url{https://laurent-audibert.developpez.com/Cours-UML/?page=diagramme-cas-utilisation}}
-    \field{note}{[En ligne;Accès le 23-Mars-2024]}
+    \field{note}{[En ligne;Accès le 09-Avril-2024]}
     \field{title}{description textuelle de diagramme de cas d'utilisation}
     \field{year}{2021}
   \endentry
@@ -406,8 +406,25 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
   \field{howpublished}{\url{https://www.ibm.com/docs/fr/dmrt/9.5?topic=diagrams-activity}}
-    \field{note}{[En ligne;Accès le 22-Mars-2024]}
+    \field{note}{[En ligne;Accès le 08-Avril-2024]}
     \field{title}{Diagramme d'activité}
+    \field{year}{2024}
+  \endentry
+
+  \entry{seq}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=l}{%
+         family={lucidchart},
+         familyi={l\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{l1}
+    \strng{fullhash}{l1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+  \field{howpublished}{\url{https://www.lucidchart.com/pages/fr/diagramme-de-sequence-uml}}
+    \field{note}{[En ligne;Accès le 08-Avril-2024]}
+    \field{title}{Diagramme de séquence}
     \field{year}{2024}
   \endentry
 
@@ -425,7 +442,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{howpublished}{\url{https://fastapi.tiangolo.com/fr/}}
-    \field{note}{[En ligne;Accès le 01-Mai-2024]}
+    \field{note}{[En ligne;Accès le 28-Mai-2024]}
     \field{title}{Fastapi}
     \field{year}{2024}
   \endentry
@@ -444,7 +461,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{howpublished}{\url{https://fr.legacy.reactjs.org/}}
-    \field{note}{[En ligne;Accès le 01-Mai-2024]}
+    \field{note}{[En ligne;Accès le 28-Mai-2024]}
     \field{title}{React}
     \field{year}{2024}
   \endentry
@@ -463,7 +480,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{howpublished}{\url{https://www.postgresql.org/}}
-    \field{note}{[En ligne;Accès le 01-Mai-2024]}
+    \field{note}{[En ligne;Accès le 28-Mai-2024]}
     \field{title}{PostgresSQL}
     \field{year}{2024}
   \endentry
@@ -482,7 +499,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{howpublished}{\url{https://mqtt.org/}}
-    \field{note}{[En ligne;Accès le 01-Mai-2024]}
+    \field{note}{[En ligne;Accès le 28-Mai-2024]}
     \field{title}{MQTT}
     \field{year}{2024}
   \endentry
@@ -501,7 +518,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{howpublished}{\url{https://www.lemagit.fr/definition/REST}}
-    \field{note}{[En ligne;Accès le 01-Mai-2024]}
+    \field{note}{[En ligne;Accès le 28-Mai-2024]}
     \field{title}{REST}
     \field{year}{2024}
   \endentry
@@ -520,7 +537,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
   \field{howpublished}{\url{https://docs.snowflake.com/en/developer-guide/python-connector/python-connector}}
-    \field{note}{[En ligne;Accès le 01-Mai-2024]}
+    \field{note}{[En ligne;Accès le 28-Mai-2024]}
     \field{title}{Python Snowflake Connector}
     \field{year}{2024}
   \endentry
@@ -539,7 +556,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{howpublished}{\url{https://pypi.org/project/psycopg2/}}
-    \field{note}{[En ligne;Accès le 01-Mai-2024]}
+    \field{note}{[En ligne;Accès le 28-Mai-2024]}
     \field{title}{PSYCOPG}
     \field{year}{2024}
   \endentry
@@ -547,7 +564,7 @@
   \entry{pandas}{misc}{}{}
     \field{labeltitlesource}{title}
     \field{howpublished}{\url{https://pandas.pydata.org/}}
-    \field{note}{[En ligne;Accès le 01-Mai-2024]}
+    \field{note}{[En ligne;Accès le 28-Mai-2024]}
     \field{title}{pandas}
     \field{year}{2024}
   \endentry
@@ -566,7 +583,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{howpublished}{\url{https://github.com/wialon/gmqtt}}
-    \field{note}{[En ligne;Accès le 01-Mai-2024]}
+    \field{note}{[En ligne;Accès le 28-Mai-2024]}
     \field{title}{GMQTT}
     \field{year}{2024}
   \endentry
@@ -574,7 +591,7 @@
   \entry{os}{misc}{}{}
     \field{labeltitlesource}{title}
     \field{howpublished}{\url{https://docs.python.org/3/library/os.html}}
-    \field{note}{[En ligne;Accès le 01-Mai-2024]}
+    \field{note}{[En ligne;Accès le 28-Mai-2024]}
     \field{title}{OS Module}
     \field{year}{2024}
   \endentry
@@ -591,7 +608,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{howpublished}{\url{https://pypi.org/project/scheduler/}}
-    \field{note}{[En ligne;Accès le 01-Mai-2024]}
+    \field{note}{[En ligne;Accès le 28-Mai-2024]}
     \field{title}{Scheduler}
     \field{year}{2024}
   \endentry
@@ -599,7 +616,7 @@
   \entry{requests}{misc}{}{}
     \field{labeltitlesource}{title}
     \field{howpublished}{\url{https://pypi.org/project/requests/}}
-    \field{note}{[En ligne;Accès le 01-Mai-2024]}
+    \field{note}{[En ligne;Accès le 28-Mai-2024]}
     \field{title}{requests}
     \field{year}{2024}
   \endentry
@@ -618,7 +635,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{howpublished}{\url{https://welovedevs.com/fr/articles/postman}}
-    \field{note}{[En ligne;Accès le 01-Mai-2024]}
+    \field{note}{[En ligne;Accès le 28-Mai-2024]}
     \field{title}{Postman}
     \field{year}{2021}
   \endentry
@@ -626,7 +643,7 @@
   \entry{mqttx}{misc}{}{}
     \field{labeltitlesource}{title}
     \field{howpublished}{\url{https://mqttx.app/docs}}
-    \field{note}{[En ligne;Accès le 01-Mai-2024]}
+    \field{note}{[En ligne;Accès le 28-Mai-2024]}
     \field{title}{MQTTX}
     \field{year}{2024}
   \endentry
@@ -634,7 +651,7 @@
   \entry{git}{misc}{}{}
     \field{labeltitlesource}{title}
   \field{howpublished}{\url{https://www.atlassian.com/fr/git/tutorials/what-is-git}}
-    \field{note}{[En ligne;Accès le 01-Mai-2024]}
+    \field{note}{[En ligne;Accès le 28-Mai-2024]}
     \field{title}{Git}
     \field{year}{2024}
   \endentry
@@ -653,7 +670,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{howpublished}{\url{https://datascientest.com/github-tout-savoir}}
-    \field{note}{[En ligne;Accès le 01-Mai-2024]}
+    \field{note}{[En ligne;Accès le 28-Mai-2024]}
     \field{title}{Github}
     \field{year}{2021}
   \endentry
@@ -661,7 +678,7 @@
   \entry{swagger}{misc}{}{}
     \field{labeltitlesource}{title}
   \field{howpublished}{\url{https://appmaster.io/university/fr/tutorials/endpoints/quest-ce-que-swagger-et-comment-lutiliser}}
-    \field{note}{[En ligne;Accès le 01-Mai-2024]}
+    \field{note}{[En ligne;Accès le 28-Mai-2024]}
     \field{title}{Swagger}
     \field{year}{2024}
   \endentry
@@ -669,7 +686,7 @@
   \entry{latex}{misc}{}{}
     \field{labeltitlesource}{title}
     \field{howpublished}{\url{https://dms.umontreal.ca/wiki/index.php/LaTeX}}
-    \field{note}{[En ligne;Accès le 01-Mai-2024]}
+    \field{note}{[En ligne;Accès le 28-Mai-2024]}
     \field{title}{Latex}
     \field{year}{2024}
   \endentry
@@ -677,7 +694,7 @@
   \entry{draw}{misc}{}{}
     \field{labeltitlesource}{title}
   \field{howpublished}{\url{https://www.tice-education.fr/tous-les-articles-er-ressources/articles-internet/819-draw-io-un-outil-pour-dessiner-des-diagrammes-en-ligne}}
-    \field{note}{[En ligne;Accès le 01-Mai-2024]}
+    \field{note}{[En ligne;Accès le 28-Mai-2024]}
     \field{title}{Draw.io}
     \field{year}{2024}
   \endentry
@@ -685,7 +702,7 @@
   \entry{auto}{misc}{}{}
     \field{labeltitlesource}{title}
   \field{howpublished}{\url{https://community.snowflake.com/s/article/Why-are-tasks-suspended-automatically}}
-    \field{note}{[En ligne;Accès le 01-Mai-2024]}
+    \field{note}{[En ligne;Accès le 31-Mai-2024]}
     \field{title}{Auto suspend des tâches Snowflake}
     \field{year}{2024}
   \endentry

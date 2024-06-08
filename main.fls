@@ -1055,15 +1055,15 @@ INPUT dedicaces.tex
 INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8t.vf
 INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8t.tfm
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb8t.vf
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8t.vf
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT .\remerciement.tex
 INPUT .\remerciement.tex
 INPUT .\remerciement.tex
 INPUT .\remerciement.tex
 INPUT remerciement.tex
-INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb8t.vf
-INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
-INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8t.vf
-INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8t.vf
 INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT main.toc
@@ -1170,6 +1170,13 @@ INPUT main.mtc3
 INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri8t.tfm
 INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmri8t.vf
 INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
+INPUT .\img\conception\use_case.png
+INPUT .\img\conception\use_case.png
+INPUT .\img\conception\use_case.png
+INPUT .\img\conception\use_case.png
+INPUT .\img\conception\use_case.png
+INPUT .\img\conception\use_case.png
+INPUT .\img\conception\use_case.png
 INPUT .\img\conception\BPMN.png
 INPUT .\img\conception\BPMN.png
 INPUT .\img\conception\BPMN.png
@@ -1212,20 +1219,48 @@ INPUT .\img\conception\diag_pack.png
 INPUT .\img\conception\diag_pack.png
 INPUT .\img\conception\diag_pack.png
 INPUT .\img\conception\diag_pack.png
-INPUT .\img\conception\class.png
-INPUT .\img\conception\class.png
-INPUT .\img\conception\class.png
-INPUT .\img\conception\class.png
-INPUT .\img\conception\class.png
-INPUT .\img\conception\class.png
-INPUT .\img\conception\class.png
-INPUT .\img\conception\use_case.png
-INPUT .\img\conception\use_case.png
-INPUT .\img\conception\use_case.png
-INPUT .\img\conception\use_case.png
-INPUT .\img\conception\use_case.png
-INPUT .\img\conception\use_case.png
-INPUT .\img\conception\use_case.png
+INPUT .\img\conception\class_auth_notif.png
+INPUT .\img\conception\class_auth_notif.png
+INPUT .\img\conception\class_auth_notif.png
+INPUT .\img\conception\class_auth_notif.png
+INPUT .\img\conception\class_auth_notif.png
+INPUT .\img\conception\class_auth_notif.png
+INPUT .\img\conception\class_auth_notif.png
+INPUT .\img\conception\class_warehouse.png
+INPUT .\img\conception\class_warehouse.png
+INPUT .\img\conception\class_warehouse.png
+INPUT .\img\conception\class_warehouse.png
+INPUT .\img\conception\class_warehouse.png
+INPUT .\img\conception\class_warehouse.png
+INPUT .\img\conception\class_warehouse.png
+INPUT .\img\conception\class_dag.png
+INPUT .\img\conception\class_dag.png
+INPUT .\img\conception\class_dag.png
+INPUT .\img\conception\class_dag.png
+INPUT .\img\conception\class_dag.png
+INPUT .\img\conception\class_dag.png
+INPUT .\img\conception\class_dag.png
+INPUT .\img\conception\class_database.png
+INPUT .\img\conception\class_database.png
+INPUT .\img\conception\class_database.png
+INPUT .\img\conception\class_database.png
+INPUT .\img\conception\class_database.png
+INPUT .\img\conception\class_database.png
+INPUT .\img\conception\class_database.png
+INPUT .\img\conception\class_access.png
+INPUT .\img\conception\class_access.png
+INPUT .\img\conception\class_access.png
+INPUT .\img\conception\class_access.png
+INPUT .\img\conception\class_access.png
+INPUT .\img\conception\class_access.png
+INPUT .\img\conception\class_access.png
+INPUT .\img\conception\class_query.png
+INPUT .\img\conception\class_query.png
+INPUT .\img\conception\class_query.png
+INPUT .\img\conception\class_query.png
+INPUT .\img\conception\class_query.png
+INPUT .\img\conception\class_query.png
+INPUT .\img\conception\class_query.png
 INPUT .\img\conception\diag_act_1.png
 INPUT .\img\conception\diag_act_1.png
 INPUT .\img\conception\diag_act_1.png
@@ -1632,6 +1667,48 @@ INPUT .\img\captures\notifications\notifglobal.png
 INPUT .\img\captures\notifications\notifglobal.png
 INPUT .\img\captures\notifications\notifglobal.png
 INPUT .\img\captures\notifications\notifglobal.png
+INPUT .\img\captures\dark\5.jpg
+INPUT .\img\captures\dark\5.jpg
+INPUT .\img\captures\dark\5.jpg
+INPUT .\img\captures\dark\5.jpg
+INPUT .\img\captures\dark\5.jpg
+INPUT .\img\captures\dark\5.jpg
+INPUT .\img\captures\dark\5.jpg
+INPUT .\img\captures\dark\7.jpg
+INPUT .\img\captures\dark\7.jpg
+INPUT .\img\captures\dark\7.jpg
+INPUT .\img\captures\dark\7.jpg
+INPUT .\img\captures\dark\7.jpg
+INPUT .\img\captures\dark\7.jpg
+INPUT .\img\captures\dark\7.jpg
+INPUT .\img\captures\dark\2.jpg
+INPUT .\img\captures\dark\2.jpg
+INPUT .\img\captures\dark\2.jpg
+INPUT .\img\captures\dark\2.jpg
+INPUT .\img\captures\dark\2.jpg
+INPUT .\img\captures\dark\2.jpg
+INPUT .\img\captures\dark\2.jpg
+INPUT .\img\captures\dark\4.jpg
+INPUT .\img\captures\dark\4.jpg
+INPUT .\img\captures\dark\4.jpg
+INPUT .\img\captures\dark\4.jpg
+INPUT .\img\captures\dark\4.jpg
+INPUT .\img\captures\dark\4.jpg
+INPUT .\img\captures\dark\4.jpg
+INPUT .\img\captures\dark\1.jpg
+INPUT .\img\captures\dark\1.jpg
+INPUT .\img\captures\dark\1.jpg
+INPUT .\img\captures\dark\1.jpg
+INPUT .\img\captures\dark\1.jpg
+INPUT .\img\captures\dark\1.jpg
+INPUT .\img\captures\dark\1.jpg
+INPUT .\img\captures\dark\3.jpg
+INPUT .\img\captures\dark\3.jpg
+INPUT .\img\captures\dark\3.jpg
+INPUT .\img\captures\dark\3.jpg
+INPUT .\img\captures\dark\3.jpg
+INPUT .\img\captures\dark\3.jpg
+INPUT .\img\captures\dark\3.jpg
 INPUT .\conclusion.tex
 INPUT .\conclusion.tex
 INPUT .\conclusion.tex
