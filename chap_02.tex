@@ -5,79 +5,86 @@
     \par {\huge L}a réussite de toute étude dépend de la qualité de la phase de démarrage. 
     De ce fait, l'étape d'analyse des besoins constitue la base de départ de notre travail 
     ainsi qu'une étape déterminante pour la suite. 
-    Dans ce chapitre, nous évoquerons tout d'abord les besoins fonctionnels et non
-    fonctionnels de notre solution. Ensuite Nous définissons clairement le flux de travail 
-    qu'oon va élaborer tout au long de ce projet. Finalement, nous allons dresser le backlog produit qui contient toutes les fonctionnalités que nous
-    allons utiliser comme étant la base essentielle de la phases suivantes de planification et de développement.
+    Dans ce chapitre, commançerons par la définition des concepts de bases que nous entamer tout au long du projet et nous évoquerons tout d'abord les besoins fonctionnels et non
+    fonctionnels de notre solution. Ensuite Nous définisserons clairement le flux de travail 
+    que nous allons élaborer tout au long de ce projet. Finalement, nous allons dresser le backlog produit qui contient toutes les fonctionnalités que nous
+    allons utiliser comme étant la base essentielle des phases suivantes de planification et de développement.
     \section{Concepts de base}
 
-    Dans cette section, nous définissons et expliquons les principaux concepts et technologies essentiels à notre projet de monitoring des opérations sur Snowflake. La compréhension de ces concepts est cruciale pour saisir le fonctionnement et les objectifs de notre solution.
+    Dans cette section, nous définisserons et expliquerons les principaux concepts et technologies essentiels à notre projet de monitoring des opérations sur Snowflake. 
+    La compréhension de ces concepts est primordiale pour saisir le fonctionnement et les objectifs de notre solution.
     
     \subsection{La platforme Snowflake }
     
-    \textbf{Snowflake} est une plateforme de data warehousing cloud conçue pour le stockage et l'analyse de données à grande échelle.
-    Elle offre des capacités de traitement massivement parallèle, permettant une scalabilité pratiquement illimitée. 
+    \textbf{Snowflake} est une plateforme de data warehousing cloud conçue pour le stockage et l'analyse des données à grande échelle.
+    Elle offre des capacités de traitement massivement parallèles, permettant une scalabilité pratiquement illimitée. 
     Snowflake se distingue par la séparation des couches de stockage et de calcul, offrant ainsi des avantages en termes de flexibilité, de performance et de coût \cite{snowflake}.
     
     \textbf{Fonctionnalités clés de Snowflake :}
     \begin{itemize}
-        \item \textit{Stockage des données} : Utilisation de la compression et de la partition pour optimiser le stockage ;
-        \item \textit{Calcul élastique} : Possibilité de redimensionner les ressources de calcul en fonction des besoins ;
-        \item \textit{Partage sécurisé des données} : Facilite le partage des données entre différentes organisations tout en assurant la sécurité ;
-        \item \textit{Support SQL complet} : Prise en charge des commandes SQL standards pour la manipulation des données.
+        \item \textbf{Stockage des données} : utilisation de la compression et de la partition pour optimiser le stockage ;
+        \item \textbf{Calcul élastique} : possibilité de redimensionner les ressources de calcul en fonction des besoins ;
+        \item \textbf{Partage sécurisé des données} : facilite le partage des données entre différentes organisations tout en assurant la sécurité ;
+        \item \textbf{Support SQL complet} : prise en charge des commandes SQL standards pour la manipulation des données.
     \end{itemize}
     
     \subsection{Directed Acyclic Graph (DAG)}
     
-    Un \textbf{DAG (Directed Acyclic Graph)} est une structure de données qui représente un ensemble de tâches et leurs dépendances sous forme
+    Un \textbf{DAG} est une structure de données qui représente un ensemble de tâches et leurs dépendances sous forme
      de graphe dirigé sans cycles\cite{dagdef}. Dans le contexte des pipelines de données, un DAG est souvent utilisé pour définir les étapes de traitement des données et leur ordre d'exécution.
     
     \textbf{Utilisation des DAGs :}
     \begin{itemize}
-        \item \textit{Planification des tâches} : Détermination de l'ordre dans lequel les tâches doivent être exécutées ; 
-        \item \textit{Gestion des dépendances} : Assure que les tâches dépendantes sont exécutées dans le bon ordre ;
-        \item \textit{Parallélisme} : Permet l'exécution simultanée de tâches indépendantes.
+        \item \textbf{Planification des tâches} : détermination de l'ordre dans lequel les tâches doivent être exécutées ; 
+        \item \textbf{Gestion des dépendances} : assure que les tâches dépendantes sont exécutées dans le bon ordre ;
+        \item \textbf{Parallélisme} : permet l'exécution simultanée de tâches indépendantes.
     \end{itemize}
     
     \subsection{Solution de Monitoring}
     
     Une \textbf{solution de monitoring} est un ensemble d'outils et de pratiques conçus pour surveiller les performances,
-     la disponibilité et la santé des systèmes informatiques. Elle collecte, analyse et affiche des métriques et des logs 
+     la disponibilité et la santé des systèmes informatiques. Elle collecte, analyse et affiche des métriques et des journaux d'utilisation (logs)  
      pour aider les administrateurs à détecter et résoudre les problèmes\cite{monitoring}.
     
     \textbf{Caractéristiques d'une solution de monitoring efficace :}
     \begin{itemize}
-        \item \textit{Collecte de métriques en temps réel} : Surveillance continue des performances et des ressources ;
-        \item \textit{Alertes et notifications} : Système d'alerte en cas d'anomalies ou de dépassement de seuils définis ;
-        \item \textit{Visualisation des données} : Tableaux de bord interactifs pour l'analyse des métriques et des tendances ;
-        \item \textit{Reporting} : Génération de rapports détaillés pour le suivi et l'analyse historique.
+        \item \textbf{Collecte de métriques en temps réel} : surveillance continue des performances et des ressources ;
+        \item \textbf{Alertes et notifications} : système d'alerte en cas d'anomalies ou de dépassement de seuils définis ;
+        \item \textbf{Visualisation des données} : tableaux de bord interactifs pour l'analyse des métriques et des tendances ;
+        \item \textbf{Reporting} : génération de rapports détaillés pour le suivi et l'analyse historique.
     \end{itemize}
     
     \subsection{Analyse des Données}
     
-    L'\textbf{analyse des données} est la science qui consiste à examiner les données pour en tirer des informations permettant de prendre des décisions ou d'approfondir les connaissances sur divers sujets \cite{analyse}. Elle vise à comprendre et exploiter les données pour des prises de décision éclairées.
+    L'\textbf{analyse des données} est la science qui consiste à examiner les données pour en tirer des informations permettant 
+    de prendre des décisions ou d'approfondir les connaissances sur divers sujets \cite{analyse}.
+     Elle vise à comprendre et exploiter les données pour des prises de décision éclairées.
     
     \textbf{Étapes de l'analyse des données :}
     \begin{itemize}
-        \item \textit{Collecte des données} : Réunir les données pertinentes à partir de diverses sources.
-        \item \textit{Préparation des données} : Nettoyage et transformation des données brutes en un format utilisable.
-        \item \textit{Modélisation} : Utilisation de modèles statistiques et algorithmiques pour analyser les données.
-        \item \textit{Interprétation et visualisation} : Présentation des résultats sous forme de graphiques et de rapports compréhensibles.
+        \item \textbf{Collecte des données} : réunir les données pertinentes à partir de diverses sources ;
+        \item \textbf{Préparation des données} : nettoyage et transformation des données brutes en un format utilisable ;
+        \item \textbf{Modélisation} : utilisation de modèles statistiques et algorithmiques pour analyser les données ;
+        \item \textbf{Interprétation et visualisation} : présentation des résultats sous forme de graphiques et de rapports compréhensibles.
     \end{itemize}
     
     \subsection{L'ingénierie des données}
     
-    L'\textbf{ingénierie des données} est la discipline consistant à concevoir, construire et maintenir des systèmes et des architectures pour collecter, stocker et analyser des données. Elle se concentre sur la création de l'infrastructure permettant l'exploitation des données par les analystes pour des prises de décision éclairées.
+    L'\textbf{ingénierie des données} est la discipline consistant à concevoir, construire et maintenir des systèmes et des architectures 
+    pour collecter, stocker et analyser des données. 
+    Elle se concentre sur la création de l'infrastructure permettant l'exploitation des données par les analystes pour des prises de décision éclairées.
     
-    \textbf{Responsabilités du l'ingénierie des données :}
+    \textbf{Responsabilités de l'ingénierie des données :}
     \begin{itemize}
-        \item \textit{Conception de pipelines de données} : Définir et implémenter les processus de collecte, de transformation et de stockage des données.
-        \item \textit{Gestion des bases de données} : Assurer la performance, la sécurité et l'intégrité des bases de données.
-        \item \textit{Optimisation des requêtes} : Améliorer les requêtes pour une exécution plus rapide et efficace.
-        \item \textit{Intégration de données} : Combiner les données provenant de diverses sources pour une vue unifiée.
+        \item \textbf{Conception de pipelines de données} : définir et implémenter les processus de collecte, de transformation et de stockage des données ;
+        \item \textbf{Gestion des bases de données} : assurer la performance, la sécurité et l'intégrité des bases de données ;
+        \item \textbf{Optimisation des requêtes} : améliorer les requêtes pour une exécution plus rapide et efficace ;
+        \item \textbf{Intégration de données} : combiner les données provenant de diverses sources pour une vue unifiée.
     \end{itemize}
     
-    Cette section vise à établir une compréhension claire des concepts et des technologies essentiels utilisés dans notre projet. Cela permettra de mieux appréhender les choix de conception et les décisions techniques prises tout au long du développement de la solution de monitoring des opérations sur Snowflake.
+    Cette section vise à établir une compréhension claire des concepts et des technologies essentiels utilisés dans notre projet. 
+    Cela permettra de mieux comprendre les choix de conception et les décisions techniques prises tout au long du développement de 
+    la solution de monitoring des opérations sur Snowflake.
     
 \section{Capture des besoins}
 \par La capture des besoins est une phase fondamentale dans la réalisation du projet puisque elle doit
@@ -85,23 +92,27 @@ permettre aux utilisateurs finaux et au maître d'ouvrage de bien exprimer leurs
 comprendre les fonctionnalités que le système va fournir.
     % Une sous section
     \subsection{Besoins fonctionnels}
-        \par Cette section décrit en détail les besoins fonctionnels du projet de monitoring des opérations Snowflake.
-        Ces besoins ont été identifiés à partir des exigences de l'entreprise et des utilisateurs, et sont essentiels pour le développement d'une solution efficace et adaptée aux besoins de l'entreprise.
+        \par Cette section décrit en détail les besoins fonctionnels du projet.
+        Ces besoins ont été identifiés à partir des exigences de l'entreprise et des utilisateurs, sont essentiels pour le développement d'une solution efficace et adaptée aux besoins de l'entreprise.
     \begin{itemize}
             \item \textbf{La collecte automatique des données de Snowflake} :
-            Le système doit être capable de collecter automatiquement les données de Snowflake, y compris les requêtes exécutées et leurs informations, l'utilisation des ressources (CPU, mémoire, stockage), les bases de données et leurs objets ( tâches, tables, tubes, etc. ), les statistiques sur les entrepôts de données, etc... ;
+            Le système doit être capable de collecter automatiquement les données de Snowflake, y compris les requêtes exécutées et leurs informations, l'utilisation des ressources (CPU, mémoire, stockage), 
+            les bases de données et leurs objets (tâches, tables, tubes, etc.), les statistiques sur les entrepôts de données, etc. ;
             
             \item \textbf{La surveillance en temps réel des requêtes SQL} :
-            Le système doit surveiller en temps réel les requêtes SQL exécutées sur Snowflake, enregistrant ces informations détaillées, les erreurs éventuelles, et en identifiant les requêtes lentes ou mal optimisées ;
+            Le système doit surveiller en temps réel les requêtes SQL exécutées sur Snowflake, enregistrant ces informations détaillées, 
+            les erreurs éventuelles en identifiant les requêtes lentes ou mal optimisées ;
             
             \item \textbf{La surveillance en temps réel des entrepôts de données} :
-            Le système doit surveiller en temps réel les métriques des entrepôts de données, y compris l'utilisation de l'espace disque, la répartition de la charge de travail et la consommation de ressources ;
+            Le système doit surveiller en temps réel les métriques des entrepôts de données, y compris l'utilisation de l'espace disque,
+             la répartition de la charge de travail et la consommation des ressources ;
             
             \item \textbf{L'élaboration des tableaux de bord interactifs pour les métriques clés} :
-            Le système doit fournir des tableaux de bord interactifs permettant de visualiser les métriques clés de performance de Snowflake, y compris les temps de réponse des requêtes, l'utilisation des ressources et les statistiques sur les entrepôts de données ;
+            Le système doit fournir des tableaux de bord interactifs permettant de visualiser les métriques clés de performance de Snowflake, 
+            y compris les temps de réponse des requêtes, l'utilisation des ressources et les statistiques sur les entrepôts de données ;
             
             \item \textbf{Suivi des tâches et leurs DAGs} :
-            Le système doit permettre le suivi des tâches et des DAGs exécutées dans Snowflake, enregistrant les étapes effectuées, les tous leurs informations et les erreurs éventuelles ;
+            Le système doit permettre le suivi des tâches et des DAGs exécutées dans Snowflake, enregistrant les étapes effectuées, tous leurs informations et les erreurs éventuelles ;
             
             \item \textbf{La surveillance de l'utilisation des crédits} :
             Le système doit surveiller l'utilisation des crédits de calcul sur Snowflake, enregistrant les crédits utilisés par chaque requête ou chaque tâche, ainsi que les tendances d'utilisation au fil du temps ;
@@ -113,48 +124,47 @@ comprendre les fonctionnalités que le système va fournir.
             Le système doit générer des alertes et des notifications en temps réel en cas d'anomalies ou de situations critiques, telles qu'une augmentation soudaine du temps de réponse des requêtes ou une utilisation anormale des ressources; 
             
             \item \textbf{Personnalisation des tableaux de bord} :
-            Le système doit permettre aux utilisateurs de personnaliser les tableaux de bord en fonction de leurs besoins spécifiques, en sélectionnant les métriques à afficher et en configurant les seuils d'alerte.
+            Le système doit permettre aux utilisateurs de personnaliser les tableaux de bord en fonction de leurs besoins spécifiques, en sélectionnant les métriques à afficher et en configurant les seuils d'alertes.
         \end{itemize}        
     % Une deuxième sous section
     \subsection{Besoins non fonctionnels}
-  \par Cette section détaille les besoins non fonctionnels du projet de monitoring des opérations Snowflake. 
-  Ces besoins concernent principalement les aspects de performance, de sécurité, d'évolutivité et d'expérience utilisateur de la solution. 
+  \par Ces besoins concernent principalement les aspects de performance, de sécurité, d'évolutivité et d'expérience utilisateur de la solution. 
   Ils sont essentiels pour garantir que le système répond aux attentes de l'entreprise en termes de qualité et de fiabilité.
 
   \begin{itemize}
         \item\textbf{Besoins en Performance}
 
                 \begin{enumerate}
-                    \item[1.] \textbf{Temps de réponse} : Le système doit fournir des temps de réponse rapides pour l'affichage des tableaux de bord, afin de garantir une expérience utilisateur fluide ;
+                    \item[1.] \textbf{Temps de réponse} : le système doit fournir des temps de réponse rapides pour l'affichage des tableaux de bord, afin de garantir une expérience utilisateur fluide ;
                     
-                    \item[2.] \textbf{Évolutivité} : Le système doit être capable de gérer une grande quantité de données et de trafic sans compromettre ses performances, en s'adaptant de manière transparente à l'augmentation de la charge.
+                    \item[2.] \textbf{Évolutivité} : le système doit être capable de gérer une grande quantité de données et de trafic sans compromettre ses performances, en s'adaptant de manière transparente à l'augmentation de la charge.
                 \end{enumerate}
     
         \item\textbf{Besoins en Sécurité}
     
                 \begin{enumerate}
-                    \item[1.] \textbf{Confidentialité des données} : Le système doit garantir la confidentialité des données collectées, en assurant leur cryptage lors du stockage et de la transmission ;
+                    \item[1.] \textbf{Confidentialité des données} : le système doit garantir la confidentialité des données collectées, en assurant leurs cryptage lors du stockage et de la transmission ;
                     
-                    \item[2.] \textbf{Authentification et autorisation} : Le système doit mettre en place des mécanismes d'authentification robustes pour vérifier l'identité des utilisateurs 
+                    \item[2.] \textbf{Authentification et autorisation} : le système doit mettre en place des mécanismes d'authentification robustes pour vérifier l'identité des utilisateurs 
                     et des administrateurs, ainsi que des contrôles d'autorisation pour limiter l'accès aux données sensibles.
                 \end{enumerate}
     
         \item\textbf{Besoins en Disponibilité}
     
                 \begin{enumerate}
-                    \item[1.] \textbf{Disponibilité} : Le système doit être disponible en permanence, avec un temps de fonctionnement maximal et une reprise rapide en cas de panne ;
+                    \item[1.] \textbf{Disponibilité} : le système doit être disponible en permanence, avec un temps de fonctionnement maximal et une reprise rapide en cas de panne ;
                     
-                    \item[2.] \textbf{Tolérance aux pannes} : Le système doit être capable de résister aux pannes matérielles ou logicielles, en assurant la redondance des composants critiques et la sauvegarde des données.
+                    \item[2.] \textbf{Tolérance aux pannes} : le système doit être capable de résister aux pannes matérielles ou logicielles, en assurant la redondance des composants critiques et la sauvegarde des données.
                 \end{enumerate}
     
         \item\textbf{Besoins en Expérience Utilisateur}
     
                 \begin{enumerate}
-                    \item[1.] \textbf{Facilité d'utilisation} : Le système doit être intuitif et convivial, avec une interface utilisateur bien conçue et une navigation facile ;
+                    \item[1.] \textbf{Facilité d'utilisation} : le système doit être intuitif et convivial, avec une interface utilisateur bien conçue et une navigation facile ;
                     
-                    \item[2.] \textbf{Personnalisation} : Le système doit permettre aux utilisateurs de personnaliser leur expérience, en configurant les préférences d'affichage et les paramètres de notification.
+                    \item[2.] \textbf{Personnalisation} : le système doit permettre aux utilisateurs de personnaliser leur expérience, en configurant les préférences d'affichage et les paramètres de notification.
                 \end{enumerate}
-        \item \textbf{Archivage des données: }Les données historiques doivent être archivées de manière efficace pour garantir l'intégrité des données.
+        \item \textbf{Archivage des données } : les données historiques doivent être archivées de manière efficace pour garantir l'intégrité des données.
   \end{itemize}
   \subsection{Diagramme de cas d'utilisation global}
   \par Le diagramme de cas d'utilisation permet d'identifier les possibilités d'interaction entre le système et les acteurs (intervenants extérieurs au système), c'est-à-dire toutes les fonctionnalités
@@ -167,13 +177,14 @@ comprendre les fonctionnalités que le système va fournir.
             \caption{Diagramme de cas d'utilisation globale <<Snowflake Monitoring Application>>}
             \label{fig:use}
             \end{figure}
-\par Le diagramme de cas d'utilisation global présenté ci-dessus offre une vue d'ensemble des interactions potentielles entre les utilisateurs et le système de monitoring Snowflake. 
-En identifiant clairement les objectifs des utilisateurs et les fonctionnalités requises, ce diagramme joue un rôle crucial dans la définition des exigences du système. 
-En somme, ce diagramme est un outil essentiel pour garantir que le système final réponde aux besoins des utilisateurs de manière efficace et cohérente.
+\par Le diagramme de cas d'utilisation global présenté ci-dessus offre une vue d'ensemble des interactions potentielles entre les utilisateurs et notre système. 
+En identifiant clairement les objectifs des utilisateurs et les fonctionnalités requises, ce diagramme joue un rôle primordial dans la définition des exigences du système. 
+En somme, ce diagramme est un outil essentiel pour garantir que le système final répond aux besoins des utilisateurs de manière efficace et cohérente.
 
 
   \section{Flux de travail}
-  \par Durant la réalisation de notre projet, ce processus a été notre fil conducteur, nous permettantpermettons de passer par plusieurs étapes clés pour atteindre notre objectif. 
+  \par Durant la réalisation de notre projet, ce processus a été notre fil conducteur, nous permettons de passer par plusieurs étapes clés pour atteindre notre objectif. 
+\newpage
 La figure \textbf{\ref{fig:BPMN}} suivante illustre notre processus métier :
     %code image
         \begin{figure}[H]
@@ -190,37 +201,38 @@ La figure \textbf{\ref{fig:BPMN}} suivante illustre notre processus métier :
   \begin{itemize}
   
   \item \textbf{Extraction des données :}
-  \par Cette étape consistait à recueillir des informations provenant des différentes vues du système Snowflake. 
+  \par Cette étape consiste à recueillir des informations provenant des différentes vues du système Snowflake. 
   L'objectif principal est de collecter les données nécessaires à notre analyse. 
-  L'extraction de données est une phase cruciale dans l'ingénierie des données, car elle constitue le point de départ de tout projet d'analyse. 
-  Les techniques d'extraction comprenaient des requêtes SQL avancées et l'automatisation des processus d'extraction pour garantir une collecte fiable et régulière.
+  L'extraction de données est une phase primordiale dans l'ingénierie des données, car elle constitue le point de départ de tout projet d'analyse. 
+  Les techniques d'extraction comprenanent des requêtes SQL avancées et l'automatisation des processus d'extraction pour garantir une collecte fiable et régulière ;
 
   \item \textbf{Transformation des données :}
   \par L'objectif principal de cette étape est de nettoyer et structurer les données. Car, ces données brutes pouvaient contenir des erreurs, des doublons, des incohérences et/ou des valeurs manquantes. 
   Nous allons appliquer des techniques de nettoyage, telles que l'imputation des valeurs manquantes, la déduplication et la normalisation des données.
-   De plus, des processus de transformation ont été utilisés pour convertir les données dans des formats appropriés pour l'étape suivante.
+   De plus, des processus de transformation ont été utilisés pour convertir les données dans des formats appropriés pour l'étape suivante ;
 
   \item \textbf{Chargement des données :}
-  \par Une fois les données nettoyées et préparées, elles sont acheminées vers une base de données ou un entrepôt de données. Le chargement vise à stocker les données de manière centralisée pour une accessibilité et une analyse ultérieures.
-   Cette phase garantit que les données sont correctement indexées, partitionnées et optimisées pour des requêtes rapides et efficaces.
+  \par Une fois les données sont nettoyées et préparées, elles sont acheminées vers une base de données. 
+  Le chargement vise à stocker les données de manière centralisée pour une accessibilité et une analyse ultérieures.
+   Cette phase garantit que les données sont correctement indexées, partitionnées et optimisées pour des requêtes rapides et efficaces ;
 
   \item \textbf{Analyse des données :}
   \par Cette phase consiste à explorer les données pour en extraire des informations significatives. 
   L'analyse des données utilise des méthodes statistiques, des techniques de modélisation, des calculs de corrélation, etc., pour comprendre les tendances et les relations entre les données.
-   Cette étape est essentielle pour transformer les données brutes en informations exploitables.
+   Cette étape est essentielle pour transformer les données brutes en informations exploitables;
 
   \item \textbf{Visualisation des données :}
-  \par L'analyse des données est souvent présentée de manière visuelle sous forme de tableaux de bord interactifs, de graphiques ou bien des diagrammes.En effet, ces visualisations permettent aux utilisateurs de comprendre rapidement les résultats de l'analyse. 
+  \par L'analyse des données est souvent présentée de manière visuelle sous forme de tableaux de bord interactifs, de graphiques ou bien des diagrammes. En effet, ces visualisations permettent aux utilisateurs de comprendre rapidement les résultats de l'analyse. 
 
   \end{itemize}
   \par Ces phases constituent un flux de travail complet pour gérer les données, les transformer en informations exploitables et les présenter de manière efficace pour aider nos utilisateurs finaux à surveiller leurs données de manière concrète.
 
   \section{Le backlog du produit}
-\par Le backlog de produit est destiné à recueillir tous les besoins du client pour l'équipe projet. Il contient la liste des fonctionnalités inclues dans un produit, ainsi que les éléments nécessitant l'intervention de l'équipe projet. Le backlog Scrum classe les éléments par priorité pour indiquer leur ordre de réalisation.\cite{blog}.
+\par Le backlog du produit est destiné à recueillir tous les besoins du client pour l'équipe projet. Il contient la liste des fonctionnalités inclues dans un produit, ainsi que les éléments nécessitant l'intervention de l'équipe projet. Le backlog Scrum classe les éléments par priorité pour indiquer leur ordre de réalisation.\cite{blog}.
 
  \par Le backlog en KANBAN n'est pas si différent d'un backlog scrum en réalité. La différence réside surtout sur les règles de sa gestion \cite{BPK}.  
     
-    \par la table \textbf{\ref{tab:backlog_produit}} suivante présente le backlog de produit de notre projet. 
+    \par la table \textbf{\ref{tab:backlog_produit}} suivante présente le backlog du produit de notre projet :
 %%%%%table
 \begin{center}
 
@@ -273,16 +285,16 @@ La figure \textbf{\ref{fig:BPMN}} suivante illustre notre processus métier :
         
         \hline
         
-        US12 & En tant qu'utilisateur, je veux s'authentifier d'une façon sécurisée pour accéeder a la platforme de monitoring & Moyenne & 5 \\
+        US12 & En tant qu'utilisateur, je veux s'authentifier d'une façon sécurisée pour accéeder a la platforme de monitoring. & Moyenne & 5 \\
         
         \hline
-        US13 & En tant qu'administrateur, je veux suivre en temps réelle l'execution des taches en temps réel avec une visualisation compléte du DAG, ainsi les différents états des tâches  & haute & 13 \\
+        US13 & En tant qu'administrateur, je veux suivre en temps réelle l'execution des taches en temps réel avec une visualisation compléte du DAG, ainsi les différents états des tâches.  & haute & 13 \\
         
         \hline
-        US14 & En tant qu'administrateur, je veux suivre l'historique des journaux d'accès au entrepôt des données & haute & 9 \\
+        US14 & En tant qu'administrateur, je veux suivre l'historique des journaux d'accès au entrepôt des données. & haute & 9 \\
         
         \hline
-        US15 & En tant qu'administrateur, je veux paramétrer les visualisations, les alertes, les limites du coûts selon les besoins ou/et les rôles & faible & 9 \\
+        US15 & En tant qu'administrateur, je veux paramétrer les visualisations, les alertes, les limites du coûts selon les besoins ou/et les rôles. & faible & 9 \\
         
         \hline
         
@@ -296,13 +308,13 @@ La figure \textbf{\ref{fig:BPMN}} suivante illustre notre processus métier :
 En utilisant la méthodologie Kanban, nous avons pu gérer efficacement ces éléments, ajuster nos priorités en temps réel et assurer une progression continue vers nos objectifs.
 
 %%%%%table
-\vspace{-1cm}
 \section*{Conclusion}
 \addcontentsline{toc}{section}{Conclusion}
  \par Ce chapitre a établi les fondations de notre projet.  Nous avons commencé par une introduction détaillée des concepts clés et des technologies qui sous-tendent notre solution, garantissant ainsi une compréhension solide de notre domaine d'application. 
  Ensuite, nous avons effectué les besoins fonctionnels et non fonctionnels, et présenté le diagramme de cas d'utilisation global pour illustrer les interactions entre utilisateurs et système. 
 
-\par Nous avons également détaillé le flux de travail, de l'extraction à la visualisation des données, et élaboré un backlog de produit structuré et priorisé, 
+\par Nous avons également détaillé le flux de travail, de l'extraction à la visualisation des données, et élaboré un backlog du produit structuré et priorisé, 
 garantissant une progression continue du projet. 
-En résumé, ce chapitre a formalisé les bases nécessaires pour le développement et la mise en œuvre de notre solution de monitoring, assurant ainsi une réponse cohérente aux besoins des utilisateurs. Dans le prochain chapitre, nous explorerons les aspects architecturaux et conceptuels de notre projet.
+En résumé, ce chapitre a formalisé les bases nécessaires pour le développement et la mise en œuvre de notre solution de monitoring, assurant ainsi une réponse cohérente aux besoins des utilisateurs.
+ Dans le prochain chapitre, nous explorerons les aspects architecturaux et conceptuels de notre projet.
 

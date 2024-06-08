@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.8)  8 JUN 2024 06:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.8)  9 JUN 2024 00:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1367,19 +1367,7 @@ Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'french'.
 (main.aux (tpl/cover_page_black.aux)
 
-LaTeX Warning: Label `fig:objects' multiply defined.
-
-
-LaTeX Warning: Label `fig:acess1' multiply defined.
-
-
 LaTeX Warning: Label `fig:sus' multiply defined.
-
-
-LaTeX Warning: Label `fig:final' multiply defined.
-
-
-LaTeX Warning: Label `fig:autosus' multiply defined.
 
 (C:\Users\hp omen\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/ar\babel-arabic.tex
 Package babel Info: Importing font and identification data for arabic
@@ -2047,6 +2035,11 @@ Overfull \hbox (18.0758pt too wide) in paragraph at lines 18--20
 
 
 [4]
+Overfull \hbox (11.08894pt too wide) in paragraph at lines 73--76
+[]\T1/ptm/m/n/10.95 Avec l'avè-ne-ment des tech-no-lo-gies de cloud com-pu-ting et des en-tre-pôts de don-nées mo-dernes telque Snow-flake,
+ []
+
+
 
 [5]
 Overfull \hbox (3.27132pt too wide) in paragraph at lines 76--78
@@ -2061,8 +2054,8 @@ Overfull \hbox (5.70135pt too wide) in paragraph at lines 92--93
 
 
 [6]
-Overfull \hbox (4.31041pt too wide) in paragraph at lines 97--100
-\T1/ptm/m/n/10.95 opé-ra-tions pas-sées, per-met-tant aux uti-li-sa-teurs de com-prendre l'his-to-rique d'uti-li-sa-tion de la pla-te-forme. 
+Overfull \hbox (5.98566pt too wide) in paragraph at lines 97--100
+\T1/ptm/m/n/10.95 opé-ra-tions pas-sées, per-met-tant aux uti-li-sa-teurs de com-prendre l'his-to-rique d'uti-li-sa-tion de la pla-te-forme ; 
  []
 
 <img/captures/account_usage.png, id=623, 1416.04031pt x 653.44125pt>
@@ -2091,66 +2084,71 @@ Package pdftex.def Info: img/captures/redshift.jpg  used on input line 138.
 
 
 [8 <./img/captures/info.png> <./img/captures/bigquery.png>]
+Overfull \hbox (7.4087pt too wide) in paragraph at lines 147--150
+\T1/ptm/m/n/10.95 uti-li-sa-turs de Snow-flake de dé-tec-ter les ano-ma-lies s'ils savent pas com-ment le ma-ni-pu-ler tech-ni-que-ment.) 
+ []
+
+
 Overfull \hbox (1.20598pt too wide) in paragraph at lines 151--153
 \T1/ptm/m/n/10.95 li-mi-tées. Par exemple, Google Big-Query pro-pose des fonc-tion-na-li-tés avan-cées, mais la per-son-na-li-sa-tion
  []
 
 
-Overfull \hbox (40.1086pt too wide) in paragraph at lines 154--155
+Overfull \hbox (40.1086pt too wide) in paragraph at lines 154--156
 []\T1/ptm/b/n/10.95 Coûts sup-plé-men-taires : \T1/ptm/m/n/10.95 cer-tains ou-tils, comme Ama-zon Red-shift, peuvent en-traî-ner des coûts sup-plé-men-taires
  []
 
 
-Overfull \hbox (18.92773pt too wide) in paragraph at lines 154--155
-\T1/ptm/m/n/10.95 une bar-rière fi-nan-cière pour les pe-tites et moyennes en-tre-prises sou-hai-tant uti-li-ser ces ou-tils de sur-veillance ; 
+Overfull \hbox (17.25249pt too wide) in paragraph at lines 154--156
+\T1/ptm/m/n/10.95 une bar-rière fi-nan-cière pour les pe-tites et moyennes en-tre-prises sou-hai-tant uti-li-ser ces ou-tils de sur-veillance. 
  []
 
 
 
 [9 <./img/captures/redshift.jpg>]
-Overfull \hbox (12.32983pt too wide) in paragraph at lines 159--161
+Overfull \hbox (12.32983pt too wide) in paragraph at lines 160--162
 \T1/ptm/m/n/10.95 som-mets en termes de per-for-mance, de ren-ta-bi-lité et d'ef-fi-ca-cité. Le dé-ve-lop-pe-ment de cette nou-velle pla-te-forme
  []
 
 
-Overfull \hbox (1.36464pt too wide) in paragraph at lines 173--175
+Overfull \hbox (1.36464pt too wide) in paragraph at lines 174--176
 []\T1/ptm/m/n/10.95 Utilisation de tech-niques d'ana-lyse avan-cée des don-nées opé-ra-tion-nelles pour per-mettre aux uti-li-sa-teurs
  []
 
 
-Overfull \hbox (3.63123pt too wide) in paragraph at lines 175--176
+Overfull \hbox (3.63123pt too wide) in paragraph at lines 176--177
 []\T1/ptm/m/n/10.95 Développement d'al-go-rithmes d'op-ti-mi-sa-tion des re-quêtes SQL afin de de ré-duire les temps d'exé-cu-tion
  []
 
 
 
 [10]
-Overfull \hbox (1.78944pt too wide) in paragraph at lines 190--190
+Overfull \hbox (1.78944pt too wide) in paragraph at lines 191--191
 []|[]| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--202
+Underfull \hbox (badness 10000) in paragraph at lines 203--203
 []|\T1/ptm/b/n/10.95 Utilisation des
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 205--206
+Underfull \hbox (badness 10000) in paragraph at lines 206--207
 []|\T1/ptm/m/n/10.95 Les ta-bleaux Kan-ban sont plus
  []
 
 
-Underfull \hbox (badness 7685) in paragraph at lines 205--206
+Underfull \hbox (badness 7685) in paragraph at lines 206--207
 \T1/ptm/m/n/10.95 flexibles en termes de tâches et
  []
 
 
-Underfull \hbox (badness 1092) in paragraph at lines 205--206
+Underfull \hbox (badness 1092) in paragraph at lines 206--207
 \T1/ptm/m/n/10.95 hié-rar-chi-sées à nou-veau, ré-as-si-gnées
  []
 
 
-Overfull \hbox (12.28374pt too wide) in paragraph at lines 188--210
+Overfull \hbox (12.28374pt too wide) in paragraph at lines 189--211
  [][] 
  []
 
@@ -2159,7 +2157,7 @@ Overfull \hbox (12.28374pt too wide) in paragraph at lines 188--210
 [11]
 
 [12]
-Overfull \hbox (13.71829pt too wide) in paragraph at lines 251--253
+Overfull \hbox (13.71829pt too wide) in paragraph at lines 253--255
 []\T1/ptm/b/n/10.95 Un ta-bleau Kan-ban phy-sique \T1/ptm/m/n/10.95 : est la forme la plus ba-sique, les équipes uti-lisent des Post-its (re-pré-sen-tant
  []
 
@@ -2204,149 +2202,135 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 
 
 [15]
-Overfull \hbox (4.7728pt too wide) in paragraph at lines 74--75
-[]\T1/ptm/m/it/10.95 Conception de pi-pe-lines de don-nées \T1/ptm/m/n/10.95 : Dé-fi-nir et im-plé-men-ter les pro-ces-sus de col-lecte, de trans-for-ma-tion
+
+[16]
+Overfull \hbox (10.29095pt too wide) in paragraph at lines 79--80
+[]\T1/ptm/b/n/10.95 Conception de pi-pe-lines de don-nées \T1/ptm/m/n/10.95 : dé-fi-nir et im-plé-men-ter les pro-ces-sus de col-lecte, de trans-for-ma-tion
  []
 
 
 
-[16]
-
 [17]
-Overfull \hbox (0.31438pt too wide) in paragraph at lines 103--105
-\T1/ptm/m/n/10.95 dans Snow-flake, en-re-gis-trant les étapes ef-fec-tuées, les tous leurs in-for-ma-tions et les er-reurs éven-tuelles ; 
+Overfull \hbox (14.7582pt too wide) in paragraph at lines 148--150
+[]\T1/ptm/b/n/10.95 Authentification et au-to-ri-sa-tion \T1/ptm/m/n/10.95 : le sys-tème doit mettre en place des mé-ca-nismes d'au-then-ti-fi-ca-tion
  []
 
 
 
 [18]
-Overfull \hbox (18.40463pt too wide) in paragraph at lines 138--140
-[]\T1/ptm/b/n/10.95 Authentification et au-to-ri-sa-tion \T1/ptm/m/n/10.95 : Le sys-tème doit mettre en place des mé-ca-nismes d'au-then-ti-fi-ca-tion
- []
-
-
-Overfull \hbox (0.20377pt too wide) in paragraph at lines 160--162
+Overfull \hbox (0.20377pt too wide) in paragraph at lines 170--172
 \T1/ptm/m/n/10.95 ac-teurs (in-ter-ve-nants ex-té-rieurs au sys-tème), c'est-à-dire toutes les fonc-tion-na-li-tés que doit four-nir le sys-tème.
  []
 
-<img/conception/use_case.png, id=717, 2035.605pt x 1940.24875pt>
+<img/conception/use_case.png, id=716, 2035.605pt x 1940.24875pt>
 File: img/conception/use_case.png Graphic file (type png)
 <use img/conception/use_case.png>
-Package pdftex.def Info: img/conception/use_case.png  used on input line 166.
+Package pdftex.def Info: img/conception/use_case.png  used on input line 176.
 (pdftex.def)             Requested size: 472.31575pt x 450.1854pt.
 
 
 [19]
-Overfull \hbox (0.77596pt too wide) in paragraph at lines 170--173
-\T1/ptm/m/n/10.95 po-ten-tielles entre les uti-li-sa-teurs et le sys-tème de mo-ni-to-ring Snow-flake. En iden-ti-fiant clai-re-ment les ob-jec-tifs
- []
-
-<img/conception/BPMN.png, id=724, 1115.16624pt x 203.76125pt>
-File: img/conception/BPMN.png Graphic file (type png)
-<use img/conception/BPMN.png>
-Package pdftex.def Info: img/conception/BPMN.png  used on input line 181.
-(pdftex.def)             Requested size: 472.31436pt x 99.58582pt.
-
 
 [20 <./img/conception/use_case.png>]
-Overfull \hbox (7.75003pt too wide) in paragraph at lines 186--188
+<img/conception/BPMN.png, id=729, 1115.16624pt x 203.76125pt>
+File: img/conception/BPMN.png Graphic file (type png)
+<use img/conception/BPMN.png>
+Package pdftex.def Info: img/conception/BPMN.png  used on input line 192.
+(pdftex.def)             Requested size: 472.31436pt x 99.58582pt.
+
+Overfull \hbox (7.75003pt too wide) in paragraph at lines 197--199
 \T1/ptm/m/n/10.95 En-suite, nous exa-mi-ne-rons chaque étape de ma-nière ap-pro-fon-die pour com-prendre com-ment elles ont contri-bué
  []
 
 
-Overfull \hbox (4.13496pt too wide) in paragraph at lines 193--197
-[]\T1/ptm/m/n/10.95 Cette étape consis-tait à re-cueillir des in-for-ma-tions pro-ve-nant des dif-fé-rentes vues du sys-tème Snow-flake.
- []
-
-
-Overfull \hbox (28.17143pt too wide) in paragraph at lines 199--202
+Overfull \hbox (28.17143pt too wide) in paragraph at lines 210--213
 \T1/ptm/m/n/10.95 al-lons ap-pli-quer des tech-niques de net-toyage, telles que l'im-pu-ta-tion des va-leurs man-quantes, la dé-du-pli-ca-tion
  []
 
 
-Overfull \hbox (2.74792pt too wide) in paragraph at lines 204--206
-\T1/ptm/m/n/10.95 ac-ces-si-bi-lité et une ana-lyse ul-té-rieures. Cette phase ga-ran-tit que les don-nées sont cor-rec-te-ment in-dexées,
+Overfull \hbox (1.90546pt too wide) in paragraph at lines 215--218
+\T1/ptm/m/n/10.95 ul-té-rieures. Cette phase ga-ran-tit que les don-nées sont cor-rec-te-ment in-dexées, par-ti-tion-nées et op-ti-mi-sées
  []
 
 
-Overfull \hbox (3.9278pt too wide) in paragraph at lines 208--211
+Overfull \hbox (3.9278pt too wide) in paragraph at lines 220--223
 \T1/ptm/m/n/10.95 des don-nées uti-lise des mé-thodes sta-tis-tiques, des tech-niques de mo-dé-li-sa-tion, des cal-culs de cor-ré-la-tion,
  []
 
 
 
 [21 <./img/conception/BPMN.png>]
-Overfull \hbox (4.59576pt too wide) in paragraph at lines 213--214
-\T1/ptm/m/n/10.95 in-ter-ac-tifs, de gra-phiques ou bien des dia-grammes.En ef-fet, ces vi-sua-li-sa-tions per-mettent aux uti-li-sa-teurs
+Overfull \hbox (6.68019pt too wide) in paragraph at lines 225--226
+\T1/ptm/m/n/10.95 in-ter-ac-tifs, de gra-phiques ou bien des dia-grammes. En ef-fet, ces vi-sua-li-sa-tions per-mettent aux uti-li-sa-teurs
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 229--230
+Underfull \hbox (badness 10000) in paragraph at lines 241--242
 []|\T1/ptm/b/n/10.95 Estimation
  []
 
 
-Overfull \hbox (21.65495pt too wide) in alignment at lines 227--231
+Overfull \hbox (21.65495pt too wide) in alignment at lines 239--243
  [] [] [] [] 
  []
 
 
-Underfull \hbox (badness 3189) in paragraph at lines 260--260
+Underfull \hbox (badness 3189) in paragraph at lines 272--272
 []|\T1/ptm/m/n/10.95 En tant qu'ad-mi-nis-tra-teur, je veux pou-voir dé-fi-nir des alertes
  []
 
 
-Underfull \hbox (badness 1019) in paragraph at lines 264--264
+Underfull \hbox (badness 1019) in paragraph at lines 276--276
 []|\T1/ptm/m/n/10.95 En tant que uti-li-sa-teur, je veux ac-cé-der à des re-com-man-da-tions
  []
 
 
-Overfull \hbox (1.32674pt too wide) in paragraph at lines 268--268
+Overfull \hbox (1.32674pt too wide) in paragraph at lines 280--280
 []|\T1/ptm/m/n/10.95 US10| 
  []
 
 
-Overfull \hbox (1.32674pt too wide) in paragraph at lines 272--272
+Overfull \hbox (1.32674pt too wide) in paragraph at lines 284--284
 []|\T1/ptm/m/n/10.95 US11| 
  []
 
 
-Underfull \hbox (badness 3058) in paragraph at lines 272--272
+Underfull \hbox (badness 3058) in paragraph at lines 284--284
 []|\T1/ptm/m/n/10.95 En tant qu'uti-li-sa-teur, je veux pou-voir ana-ly-ser les ten-dances
  []
 
 
-Underfull \hbox (badness 1715) in paragraph at lines 272--272
+Underfull \hbox (badness 1715) in paragraph at lines 284--284
 \T1/ptm/m/n/10.95 his-to-riques des per-for-mances pour iden-ti-fier les sché-mas et les
  []
 
 
-Overfull \hbox (1.32674pt too wide) in paragraph at lines 276--276
+Overfull \hbox (1.32674pt too wide) in paragraph at lines 288--288
 []|\T1/ptm/m/n/10.95 US12| 
  []
 
 
-Overfull \hbox (1.32674pt too wide) in paragraph at lines 279--279
+Overfull \hbox (1.32674pt too wide) in paragraph at lines 291--291
 []|\T1/ptm/m/n/10.95 US13| 
  []
 
 
-Overfull \hbox (1.32674pt too wide) in paragraph at lines 282--282
+Overfull \hbox (1.32674pt too wide) in paragraph at lines 294--294
 []|\T1/ptm/m/n/10.95 US14| 
  []
 
 
-Overfull \hbox (1.32674pt too wide) in paragraph at lines 285--285
+Overfull \hbox (1.32674pt too wide) in paragraph at lines 297--297
 []|\T1/ptm/m/n/10.95 US15| 
  []
 
 
-Overfull \hbox (21.65495pt too wide) in alignment at lines 231--291
+Overfull \hbox (21.65495pt too wide) in alignment at lines 243--303
  [] [] [] [] 
  []
 
 [22] [23]
-Overfull \hbox (4.32251pt too wide) in paragraph at lines 295--297
+Overfull \hbox (4.32251pt too wide) in paragraph at lines 307--309
 []\T1/ptm/m/n/10.95 En conclu-sion, le ba-ck-log du pro-duit joue un rôle es-sen-tiel dans notre pro-jet en four-nis-sant une vue d'en-semble
  []
 
@@ -2393,7 +2377,7 @@ Overfull \hbox (9.40321pt too wide) in paragraph at lines 11--13
 []\T1/ptm/m/n/10.95 Dans cette sec-tion, nous exa-mi-ne-rons en pro-fon-deur l'ar-chi-tec-ture du sys-tème, cou-vrant à la fois ses di-men-sions
  []
 
-<img/conception/archi.png, id=763, 2098.84125pt x 954.56625pt>
+<img/conception/archi.png, id=762, 2098.84125pt x 954.56625pt>
 File: img/conception/archi.png Graphic file (type png)
 <use img/conception/archi.png>
 Package pdftex.def Info: img/conception/archi.png  used on input line 27.
@@ -2498,7 +2482,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 119--120
 
  []
 
-<img/conception/archi_phy.png, id=802, 1113.15875pt x 758.835pt>
+<img/conception/archi_phy.png, id=801, 1113.15875pt x 758.835pt>
 File: img/conception/archi_phy.png Graphic file (type png)
 <use img/conception/archi_phy.png>
 Package pdftex.def Info: img/conception/archi_phy.png  used on input line 136.
@@ -2527,7 +2511,7 @@ Overfull \hbox (16.24599pt too wide) in paragraph at lines 159--161
 []\T1/ptm/m/n/10.95 Cette ar-chi-tec-ture en n-tiers offre plu-sieurs avan-tages clés, tels que la sé-pa-ra-tion des pré-oc-cu-pa-tions, l'évo-lu-ti-vité,
  []
 
-<img/conception/diag_pack.png, id=818, 1477.52pt x 864.22874pt>
+<img/conception/diag_pack.png, id=817, 1477.52pt x 864.22874pt>
 File: img/conception/diag_pack.png Graphic file (type png)
 <use img/conception/diag_pack.png>
 Package pdftex.def Info: img/conception/diag_pack.png  used on input line 173.
@@ -2539,15 +2523,15 @@ Overfull \hbox (5.68968pt too wide) in paragraph at lines 179--181
 \T1/ptm/m/n/10.95 Ils mo-dé-lisent les classes du sys-tème, leurs at-tri-buts, leurs opé-ra-tions ainsi que les re-la-tions entre les ob-jets[[]22[]]. 
  []
 
-<img/conception/class_auth_notif.png, id=827, 1115.16624pt x 783.92876pt>
+<img/conception/class_auth_notif.png, id=826, 1115.16624pt x 783.92876pt>
 File: img/conception/class_auth_notif.png Graphic file (type png)
 <use img/conception/class_auth_notif.png>
 Package pdftex.def Info: img/conception/class_auth_notif.png  used on input line 189.
-(pdftex.def)             Requested size: 377.84128pt x 227.6206pt.
+(pdftex.def)             Requested size: 377.84128pt x 284.53471pt.
 
 
 [34 <./img/conception/diag_pack.png>]
-<img/conception/class_warehouse.png, id=836, 1958.31625pt x 1235.61626pt>
+<img/conception/class_warehouse.png, id=835, 1958.31625pt x 1235.61626pt>
 File: img/conception/class_warehouse.png Graphic file (type png)
 <use img/conception/class_warehouse.png>
 Package pdftex.def Info: img/conception/class_warehouse.png  used on input line 198.
@@ -2555,7 +2539,7 @@ Package pdftex.def Info: img/conception/class_warehouse.png  used on input line 
 
 
 [35 <./img/conception/class_auth_notif.png> <./img/conception/class_warehouse.png>]
-<img/conception/class_dag.png, id=844, 1748.5325pt x 964.60374pt>
+<img/conception/class_dag.png, id=843, 1748.5325pt x 964.60374pt>
 File: img/conception/class_dag.png Graphic file (type png)
 <use img/conception/class_dag.png>
 Package pdftex.def Info: img/conception/class_dag.png  used on input line 207.
@@ -2565,12 +2549,12 @@ Overfull \hbox (20.98994pt too wide) in paragraph at lines 203--210
 []\T1/ptm/b/n/10.95 Package <<Dag&tasks>> \T1/ptm/m/n/10.95 : la fi-gure [][]\T1/ptm/b/n/10.95 3.6[][] \T1/ptm/m/n/10.95 qui suit re-pré-sente le dia-gramme de classe du pa-ckage \T1/ptm/b/n/10.95 <<Dag&tasks>> \T1/ptm/m/n/10.95 : 
  []
 
-<img/conception/class_database.png, id=846, 1717.41624pt x 1417.295pt>
+<img/conception/class_database.png, id=845, 1717.41624pt x 1417.295pt>
 File: img/conception/class_database.png Graphic file (type png)
 <use img/conception/class_database.png>
 Package pdftex.def Info: img/conception/class_database.png  used on input line 215.
 (pdftex.def)             Requested size: 377.83275pt x 341.43369pt.
-<img/conception/class_access.png, id=848, 1607.00375pt x 1506.62875pt>
+<img/conception/class_access.png, id=847, 1607.00375pt x 1506.62875pt>
 File: img/conception/class_access.png Graphic file (type png)
 <use img/conception/class_access.png>
 Package pdftex.def Info: img/conception/class_access.png  used on input line 223.
@@ -2583,7 +2567,7 @@ Overfull \hbox (37.98347pt too wide) in paragraph at lines 219--226
 
 
 [36 <./img/conception/class_dag.png> <./img/conception/class_database.png>]
-<img/conception/class_query.png, id=856, 1447.4075pt x 1105.12875pt>
+<img/conception/class_query.png, id=855, 1447.4075pt x 1105.12875pt>
 File: img/conception/class_query.png Graphic file (type png)
 <use img/conception/class_query.png>
 Package pdftex.def Info: img/conception/class_query.png  used on input line 231.
@@ -2622,7 +2606,7 @@ Overfull \vbox (3.65773pt too high) has occurred while \output is active []
 
 
 [41]
-<img/conception/diag_act_1.png, id=885, 1075.01625pt x 1180.41pt>
+<img/conception/diag_act_1.png, id=884, 1075.01625pt x 1180.41pt>
 File: img/conception/diag_act_1.png Graphic file (type png)
 <use img/conception/diag_act_1.png>
 Package pdftex.def Info: img/conception/diag_act_1.png  used on input line 361.
@@ -2634,7 +2618,7 @@ Overfull \hbox (4.61792pt too wide) in paragraph at lines 368--370
 \T1/ptm/b/n/10.95 <<es-ta-blish_-connec-tion()>>\T1/ptm/m/n/10.95 , qui à sa part connecte notre ser-vice avec le compte Snow-flake dont nous sou-hai-tons
  []
 
-<img/conception/seq1.png, id=895, 1316.92pt x 1727.45375pt>
+<img/conception/seq1.png, id=894, 1316.92pt x 1727.45375pt>
 File: img/conception/seq1.png Graphic file (type png)
 <use img/conception/seq1.png>
 Package pdftex.def Info: img/conception/seq1.png  used on input line 389.
@@ -2668,7 +2652,7 @@ Overfull \hbox (8.49129pt too wide) in paragraph at lines 413--414
 []\T1/ptm/b/n/10.95 NB : \T1/ptm/m/n/10.95 Il faut bien pré-ci-ser que le dé-clan-che-ment de ce cas d'uti-li-sa-tion né-ces-site l'au-then-ti-fi-ca-tion de l'uti-li-sa-teur
  []
 
-<img/conception/seq2.png, id=912, 1357.07pt x 924.45375pt>
+<img/conception/seq2.png, id=911, 1357.07pt x 924.45375pt>
 File: img/conception/seq2.png Graphic file (type png)
 <use img/conception/seq2.png>
 Package pdftex.def Info: img/conception/seq2.png  used on input line 419.
@@ -2676,7 +2660,7 @@ Package pdftex.def Info: img/conception/seq2.png  used on input line 419.
 
 
 [46 <./img/conception/seq2.png>]
-<img/conception/signup.png, id=919, 994.71625pt x 1044.90375pt>
+<img/conception/signup.png, id=918, 994.71625pt x 1044.90375pt>
 File: img/conception/signup.png Graphic file (type png)
 <use img/conception/signup.png>
 Package pdftex.def Info: img/conception/signup.png  used on input line 443.
@@ -2690,7 +2674,7 @@ Overfull \hbox (20.18854pt too wide) in paragraph at lines 458--459
 []\T1/ptm/m/n/10.95 -Le contrô-leur ren-voie un mes-sage d'er-reur au fron-tend en in-di-quant que les don-nées sai-sies n'ap-par-tiennent
  []
 
-<img/conception/login.png, id=930, 1024.82875pt x 964.60374pt>
+<img/conception/login.png, id=929, 1024.82875pt x 964.60374pt>
 File: img/conception/login.png Graphic file (type png)
 <use img/conception/login.png>
 Package pdftex.def Info: img/conception/login.png  used on input line 465.
@@ -2741,19 +2725,14 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 4.
 
 
-Overfull \hbox (7.80377pt too wide) in paragraph at lines 8--9
-[]\T1/ptm/m/n/10.95 Dans cette par-tie, nous ex-plo-re-rons les dé-ci-sions stra-té-giques que nous avons prises concer-nant les tech-no-lo-gies
- []
-
-
 
 [52]
-Overfull \hbox (15.45811pt too wide) in paragraph at lines 37--38
+Overfull \hbox (15.45811pt too wide) in paragraph at lines 44--45
 []\T1/ptm/m/n/10.95 Dans la réa-li-sa-tion de ce pro-jet, nous avons opté pour RES-T-ful API comme étant le mode de com-mu-nic-tion
  []
 
 
-Overfull \hbox (24.73209pt too wide) in paragraph at lines 48--50
+Overfull \hbox (24.73209pt too wide) in paragraph at lines 55--57
 []\T1/ptm/m/n/10.95 Psycopg est l'adap-ta-teur de base de don-nées Post-greSQL le plus po-pu-laire pour le lan-gage de pro-gram-ma-tion
  []
 
@@ -2762,521 +2741,500 @@ Overfull \hbox (24.73209pt too wide) in paragraph at lines 48--50
 [53]
 
 [54]
-
-[55]
-Overfull \hbox (3.67523pt too wide) in paragraph at lines 94--96
+Overfull \hbox (3.67523pt too wide) in paragraph at lines 100--102
 \T1/ptm/m/n/10.95 de l'ap-pli-ca-tion et de les tes-ter im-mé-dia-te-ment en en-voyant des re-quêtes et en re-ce-vant des ré-ponses[[]42[]]. 
  []
 
 
-Overfull \hbox (0.71152pt too wide) in paragraph at lines 102--104
-\T1/ptm/m/n/10.95 per-met-tant de des-si-ner des dia-grammes et des or-ga-ni-grammes. Cet ou-til offre la pos-si-bi-lité de conce-voir
- []
 
-
-
-[56]
-<img/captures/etl/results.PNG, id=1010, 485.4135pt x 466.1415pt>
+[55]
+<img/captures/etl/results.PNG, id=1004, 485.4135pt x 466.1415pt>
 File: img/captures/etl/results.PNG Graphic file (type png)
 <use img/captures/etl/results.PNG>
-Package pdftex.def Info: img/captures/etl/results.PNG  used on input line 129.
-(pdftex.def)             Requested size: 472.31575pt x 453.56502pt.
-
-
-[57]
-<img/captures/etl/mqtt.PNG, id=1016, 1173.183pt x 545.6385pt>
+Package pdftex.def Info: img/captures/etl/results.PNG  used on input line 135.
+(pdftex.def)             Requested size: 472.31708pt x 341.43983pt.
+<img/captures/etl/mqtt.PNG, id=1006, 1173.183pt x 545.6385pt>
 File: img/captures/etl/mqtt.PNG Graphic file (type png)
 <use img/captures/etl/mqtt.PNG>
-Package pdftex.def Info: img/captures/etl/mqtt.PNG  used on input line 137.
+Package pdftex.def Info: img/captures/etl/mqtt.PNG  used on input line 143.
 (pdftex.def)             Requested size: 472.31575pt x 219.6669pt.
 
 
-[58 <./img/captures/etl/results.PNG>]
-Overfull \hbox (13.68298pt too wide) in paragraph at lines 143--145
+[56 <./img/captures/etl/results.PNG>]
+Overfull \hbox (13.68298pt too wide) in paragraph at lines 149--151
 []\T1/ptm/m/n/10.95 Le micro-service << Au-then-ti-fi-ca-tion_-Ser-vice >> est res-pon-sable du sys-tème d'au-then-ti-fi-ca-tion de notre ap-pli-ca-tion 
  []
 
-<img/captures/auth_apis.PNG, id=1023, 589.60275pt x 289.08pt>
+<img/captures/auth_apis.PNG, id=1014, 589.60275pt x 289.08pt>
 File: img/captures/auth_apis.PNG Graphic file (type png)
 <use img/captures/auth_apis.PNG>
-Package pdftex.def Info: img/captures/auth_apis.PNG  used on input line 149.
-(pdftex.def)             Requested size: 472.32161pt x 312.99571pt.
+Package pdftex.def Info: img/captures/auth_apis.PNG  used on input line 155.
+(pdftex.def)             Requested size: 472.32161pt x 256.08942pt.
 
 
-[59 <./img/captures/etl/mqtt.PNG>]
-<img/captures/auth/signup.png, id=1029, 1859.94875pt x 869.2475pt>
+[57 <./img/captures/etl/mqtt.PNG> <./img/captures/auth_apis.PNG>]
+<img/captures/auth/signup.png, id=1021, 1859.94875pt x 869.2475pt>
 File: img/captures/auth/signup.png Graphic file (type png)
 <use img/captures/auth/signup.png>
-Package pdftex.def Info: img/captures/auth/signup.png  used on input line 157.
-(pdftex.def)             Requested size: 472.31575pt x 220.73335pt.
+Package pdftex.def Info: img/captures/auth/signup.png  used on input line 163.
+(pdftex.def)             Requested size: 472.30821pt x 199.16669pt.
 
+Overfull \hbox (3.45712pt too wide) in paragraph at lines 167--169
+\T1/ptm/m/n/10.95 avec les don-nées spé-ci-fiques à son compte Snow-flake (nom d'uti-li-sa-teur,mot de passe,l'url de connexion
+ []
 
-[60 <./img/captures/auth_apis.PNG> <./img/captures/auth/signup.png (PNG copy)>]
-<img/captures/auth/login.png, id=1036, 1132.83224pt x 529.37775pt>
+<img/captures/auth/login.png, id=1023, 1132.83224pt x 529.37775pt>
 File: img/captures/auth/login.png Graphic file (type png)
 <use img/captures/auth/login.png>
-Package pdftex.def Info: img/captures/auth/login.png  used on input line 167.
-(pdftex.def)             Requested size: 472.31575pt x 220.71353pt.
-<img/captures/auth/logout.png, id=1038, 621.522pt x 472.76625pt>
+Package pdftex.def Info: img/captures/auth/login.png  used on input line 173.
+(pdftex.def)             Requested size: 472.3119pt x 199.16237pt.
+
+
+[58 <./img/captures/auth/signup.png (PNG copy)> <./img/captures/auth/login.png>]
+<img/captures/auth/logout.png, id=1030, 621.522pt x 292.6935pt>
 File: img/captures/auth/logout.png Graphic file (type png)
 <use img/captures/auth/logout.png>
-Package pdftex.def Info: img/captures/auth/logout.png  used on input line 175.
-(pdftex.def)             Requested size: 377.85403pt x 287.42033pt.
-
-
-[61 <./img/captures/auth/login.png>]
-<img/captures/warehouses_apis.PNG, id=1045, 585.98924pt x 489.62926pt>
+Package pdftex.def Info: img/captures/auth/logout.png  used on input line 181.
+(pdftex.def)             Requested size: 472.31575pt x 222.4315pt.
+<img/captures/warehouses_apis.PNG, id=1032, 585.98924pt x 489.62926pt>
 File: img/captures/warehouses_apis.PNG Graphic file (type png)
 <use img/captures/warehouses_apis.PNG>
-Package pdftex.def Info: img/captures/warehouses_apis.PNG  used on input line 188.
+Package pdftex.def Info: img/captures/warehouses_apis.PNG  used on input line 194.
 (pdftex.def)             Requested size: 472.31575pt x 394.65503pt.
 
 
-[62 <./img/captures/auth/logout.png>]
-<img/captures/warehouse/liste.png, id=1053, 1152.10425pt x 410.7345pt>
+[59 <./img/captures/auth/logout.png>]
+<img/captures/warehouse/liste.png, id=1039, 1152.10425pt x 410.7345pt>
 File: img/captures/warehouse/liste.png Graphic file (type png)
 <use img/captures/warehouse/liste.png>
-Package pdftex.def Info: img/captures/warehouse/liste.png  used on input line 197.
+Package pdftex.def Info: img/captures/warehouse/liste.png  used on input line 203.
 (pdftex.def)             Requested size: 472.31575pt x 168.38342pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 201--202
+Underfull \hbox (badness 10000) in paragraph at lines 207--208
 
  []
 
 
 
-[63 <./img/captures/warehouses_apis.PNG> <./img/captures/warehouse/liste.png>]
-<img/captures/warehouse/warehouse_dash.png, id=1062, 1143.0705pt x 524.55975pt>
+[60 <./img/captures/warehouses_apis.PNG> <./img/captures/warehouse/liste.png>]
+<img/captures/warehouse/warehouse_dash.png, id=1048, 1143.0705pt x 524.55975pt>
 File: img/captures/warehouse/warehouse_dash.png Graphic file (type png)
 <use img/captures/warehouse/warehouse_dash.png>
-Package pdftex.def Info: img/captures/warehouse/warehouse_dash.png  used on input line 206.
+Package pdftex.def Info: img/captures/warehouse/warehouse_dash.png  used on input line 212.
 (pdftex.def)             Requested size: 472.31575pt x 216.74374pt.
-<img/captures/warehouse/compute.png, id=1063, 1140.05925pt x 524.55975pt>
+<img/captures/warehouse/compute.png, id=1049, 1140.05925pt x 524.55975pt>
 File: img/captures/warehouse/compute.png Graphic file (type png)
 <use img/captures/warehouse/compute.png>
-Package pdftex.def Info: img/captures/warehouse/compute.png  used on input line 212.
+Package pdftex.def Info: img/captures/warehouse/compute.png  used on input line 218.
 (pdftex.def)             Requested size: 472.31575pt x 217.32004pt.
 
-Overfull \hbox (2.27513pt too wide) in paragraph at lines 216--217
-\T1/ptm/m/n/10.95 l'uti-li-sa-tion des en-tre-pôts, no-tam-ment le nombre de bases de don-nées, nombre des even-ments ef-fec-tuées
+Overfull \hbox (2.71304pt too wide) in paragraph at lines 222--223
+\T1/ptm/m/n/10.95 l'uti-li-sa-tion des en-tre-pôts, no-tam-ment le nombre de bases de don-nées, nombre des évén-ments ef-fec-tuées
  []
 
 
 
-[64 <./img/captures/warehouse/warehouse_dash.png> <./img/captures/warehouse/compute.png>]
-<img/captures/warehouse/global_set_role.png, id=1070, 569.7285pt x 522.15076pt>
+[61 <./img/captures/warehouse/warehouse_dash.png> <./img/captures/warehouse/compute.png>]
+<img/captures/warehouse/global_set_role.png, id=1056, 569.7285pt x 522.15076pt>
 File: img/captures/warehouse/global_set_role.png Graphic file (type png)
 <use img/captures/warehouse/global_set_role.png>
-Package pdftex.def Info: img/captures/warehouse/global_set_role.png  used on input line 226.
+Package pdftex.def Info: img/captures/warehouse/global_set_role.png  used on input line 233.
 (pdftex.def)             Requested size: 141.69284pt x 142.26534pt.
-<img/captures/warehouse/sysorg.png, id=1071, 1142.46825pt x 529.98pt>
+<img/captures/warehouse/sysorg.png, id=1057, 1142.46825pt x 529.98pt>
 File: img/captures/warehouse/sysorg.png Graphic file (type png)
 <use img/captures/warehouse/sysorg.png>
-Package pdftex.def Info: img/captures/warehouse/sysorg.png  used on input line 230.
+Package pdftex.def Info: img/captures/warehouse/sysorg.png  used on input line 237.
 (pdftex.def)             Requested size: 283.38498pt x 142.26355pt.
-<img/captures/warehouse/global_set_credits.png, id=1072, 427.5975pt x 529.98pt>
+<img/captures/warehouse/global_set_credits.png, id=1058, 427.5975pt x 529.98pt>
 File: img/captures/warehouse/global_set_credits.png Graphic file (type png)
 <use img/captures/warehouse/global_set_credits.png>
-Package pdftex.def Info: img/captures/warehouse/global_set_credits.png  used on input line 240.
+Package pdftex.def Info: img/captures/warehouse/global_set_credits.png  used on input line 247.
 (pdftex.def)             Requested size: 94.45668pt x 156.4883pt.
-<img/captures/warehouse/90.png, id=1073, 1152.7065pt x 470.9595pt>
+<img/captures/warehouse/90.png, id=1059, 1152.7065pt x 470.9595pt>
 File: img/captures/warehouse/90.png Graphic file (type png)
 <use img/captures/warehouse/90.png>
-Package pdftex.def Info: img/captures/warehouse/90.png  used on input line 244.
+Package pdftex.def Info: img/captures/warehouse/90.png  used on input line 251.
 (pdftex.def)             Requested size: 330.61784pt x 156.48785pt.
 
 
-[65 <./img/captures/warehouse/global_set_role.png> <./img/captures/warehouse/sysorg.png> <./img/captures/warehouse/global_set_credits.png> <./img/captures/warehouse/90.png>]
-<img/captures/queries_apis.PNG, id=1082, 384.83775pt x 466.74374pt>
+[62 <./img/captures/warehouse/global_set_role.png> <./img/captures/warehouse/sysorg.png>]
+<img/captures/queries_apis.PNG, id=1067, 384.83775pt x 466.74374pt>
 File: img/captures/queries_apis.PNG Graphic file (type png)
 <use img/captures/queries_apis.PNG>
-Package pdftex.def Info: img/captures/queries_apis.PNG  used on input line 261.
+Package pdftex.def Info: img/captures/queries_apis.PNG  used on input line 270.
 (pdftex.def)             Requested size: 472.31575pt x 572.87355pt.
 
 
-[66]
-<img/captures/queries/queries_list.png, id=1088, 1150.89975pt x 511.9125pt>
+[63 <./img/captures/warehouse/global_set_credits.png> <./img/captures/warehouse/90.png>]
+<img/captures/queries/queries_list.png, id=1075, 1150.89975pt x 511.9125pt>
 File: img/captures/queries/queries_list.png Graphic file (type png)
 <use img/captures/queries/queries_list.png>
-Package pdftex.def Info: img/captures/queries/queries_list.png  used on input line 270.
+Package pdftex.def Info: img/captures/queries/queries_list.png  used on input line 279.
 (pdftex.def)             Requested size: 472.31575pt x 210.08076pt.
 
 
-[67 <./img/captures/queries_apis.PNG>]
-<img/captures/queries/global_queries_dash.png, id=1095, 1153.30875pt x 524.55975pt>
+[64 <./img/captures/queries_apis.PNG>]
+<img/captures/queries/global_queries_dash.png, id=1082, 1153.30875pt x 524.55975pt>
 File: img/captures/queries/global_queries_dash.png Graphic file (type png)
 <use img/captures/queries/global_queries_dash.png>
-Package pdftex.def Info: img/captures/queries/global_queries_dash.png  used on input line 283.
+Package pdftex.def Info: img/captures/queries/global_queries_dash.png  used on input line 292.
 (pdftex.def)             Requested size: 472.31575pt x 214.82275pt.
-<img/captures/queries/queries_selection_warehouse.png, id=1097, 1153.30875pt x 443.85825pt>
+<img/captures/queries/queries_selection_warehouse.png, id=1084, 1153.30875pt x 443.85825pt>
 File: img/captures/queries/queries_selection_warehouse.png Graphic file (type png)
 <use img/captures/queries/queries_selection_warehouse.png>
-Package pdftex.def Info: img/captures/queries/queries_selection_warehouse.png  used on input line 292.
+Package pdftex.def Info: img/captures/queries/queries_selection_warehouse.png  used on input line 301.
 (pdftex.def)             Requested size: 472.31575pt x 181.77309pt.
 
 
-[68 <./img/captures/queries/queries_list.png> <./img/captures/queries/global_queries_dash.png>]
-<img/captures/queries/monitoring_dash.png, id=1106, 1151.502pt x 530.58224pt>
+[65 <./img/captures/queries/queries_list.png> <./img/captures/queries/global_queries_dash.png>]
+<img/captures/queries/monitoring_dash.png, id=1092, 1151.502pt x 530.58224pt>
 File: img/captures/queries/monitoring_dash.png Graphic file (type png)
 <use img/captures/queries/monitoring_dash.png>
-Package pdftex.def Info: img/captures/queries/monitoring_dash.png  used on input line 299.
+Package pdftex.def Info: img/captures/queries/monitoring_dash.png  used on input line 308.
 (pdftex.def)             Requested size: 472.31575pt x 217.62918pt.
-<img/captures/queries/compute_dash.png, id=1108, 1148.49075pt x 522.753pt>
+<img/captures/queries/compute_dash.png, id=1094, 1148.49075pt x 522.753pt>
 File: img/captures/queries/compute_dash.png Graphic file (type png)
 <use img/captures/queries/compute_dash.png>
-Package pdftex.def Info: img/captures/queries/compute_dash.png  used on input line 306.
+Package pdftex.def Info: img/captures/queries/compute_dash.png  used on input line 315.
 (pdftex.def)             Requested size: 472.31575pt x 214.98419pt.
 
 
-[69 <./img/captures/queries/queries_selection_warehouse.png> <./img/captures/queries/monitoring_dash.png>]
-<img/captures/database_apis.PNG, id=1115, 381.8265pt x 354.123pt>
+[66 <./img/captures/queries/queries_selection_warehouse.png> <./img/captures/queries/monitoring_dash.png>]
+<img/captures/database_apis.PNG, id=1101, 381.8265pt x 354.123pt>
 File: img/captures/database_apis.PNG Graphic file (type png)
 <use img/captures/database_apis.PNG>
-Package pdftex.def Info: img/captures/database_apis.PNG  used on input line 323.
+Package pdftex.def Info: img/captures/database_apis.PNG  used on input line 334.
 (pdftex.def)             Requested size: 472.31575pt x 438.05968pt.
 
 
-[70 <./img/captures/queries/compute_dash.png>]
-<img/captures/database/1.png, id=1122, 1152.7065pt x 519.74174pt>
+[67 <./img/captures/queries/compute_dash.png>]
+<img/captures/database/1.png, id=1108, 1152.7065pt x 519.74174pt>
 File: img/captures/database/1.png Graphic file (type png)
 <use img/captures/database/1.png>
-Package pdftex.def Info: img/captures/database/1.png  used on input line 332.
+Package pdftex.def Info: img/captures/database/1.png  used on input line 343.
 (pdftex.def)             Requested size: 472.31575pt x 212.96068pt.
 
 
-[71 <./img/captures/database_apis.PNG>]
-<img/captures/database/2.png, id=1129, 1153.30875pt x 520.94624pt>
+[68 <./img/captures/database_apis.PNG>]
+<img/captures/database/2.png, id=1116, 1153.30875pt x 520.94624pt>
 File: img/captures/database/2.png Graphic file (type png)
 <use img/captures/database/2.png>
-Package pdftex.def Info: img/captures/database/2.png  used on input line 340.
+Package pdftex.def Info: img/captures/database/2.png  used on input line 351.
 (pdftex.def)             Requested size: 472.31575pt x 213.34293pt.
-<img/captures/database/3.png, id=1131, 1150.2975pt x 519.74174pt>
+
+Overfull \hbox (9.23865pt too wide) in paragraph at lines 356--357
+[]\T1/ptm/m/n/10.95 Ensuite, pour que nous puis-sons lis-ter les ob-jets pré-sents et créées dans cette base de don-nées, l'uti-li-sa-teur
+ []
+
+<img/captures/database/3.png, id=1118, 1150.2975pt x 519.74174pt>
 File: img/captures/database/3.png Graphic file (type png)
 <use img/captures/database/3.png>
-Package pdftex.def Info: img/captures/database/3.png  used on input line 349.
+Package pdftex.def Info: img/captures/database/3.png  used on input line 360.
 (pdftex.def)             Requested size: 472.31575pt x 213.40479pt.
 
 
-[72 <./img/captures/database/1.png> <./img/captures/database/2.png>]
-
-LaTeX Warning: Reference `fig:dashdata' on page 73 undefined on input line 355.
-
-<img/captures/database/database_dash.png, id=1138, 1151.502pt x 523.9575pt>
+[69 <./img/captures/database/1.png> <./img/captures/database/2.png>]
+<img/captures/database/database_dash.png, id=1126, 1151.502pt x 523.9575pt>
 File: img/captures/database/database_dash.png Graphic file (type png)
 <use img/captures/database/database_dash.png>
-Package pdftex.def Info: img/captures/database/database_dash.png  used on input line 358.
+Package pdftex.def Info: img/captures/database/database_dash.png  used on input line 369.
 (pdftex.def)             Requested size: 472.31575pt x 214.91191pt.
 
-Overfull \hbox (0.38976pt too wide) in paragraph at lines 362--365
+Overfull \hbox (0.38976pt too wide) in paragraph at lines 373--376
 \T1/ptm/m/n/10.95 com-plète des prin-ci-pales mé-triques liées à l'uti-li-sa-tion et à la ges-tion des don-nées dans l'en-vi-ron-ne-ment
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 362--365
+Underfull \hbox (badness 10000) in paragraph at lines 373--376
 
  []
 
 
 
-[73 <./img/captures/database/3.png> <./img/captures/database/database_dash.png>]
-<img/captures/access_apis.PNG, id=1146, 557.6835pt x 377.61075pt>
+[70 <./img/captures/database/3.png> <./img/captures/database/database_dash.png>]
+<img/captures/access_apis.PNG, id=1134, 557.6835pt x 377.61075pt>
 File: img/captures/access_apis.PNG Graphic file (type png)
 <use img/captures/access_apis.PNG>
-Package pdftex.def Info: img/captures/access_apis.PNG  used on input line 375.
+Package pdftex.def Info: img/captures/access_apis.PNG  used on input line 386.
 (pdftex.def)             Requested size: 472.31575pt x 319.81827pt.
 
 
-[74 <./img/captures/access_apis.PNG>]
-<img/captures/user/history.png, id=1154, 1151.502pt x 519.1395pt>
+[71 <./img/captures/access_apis.PNG>]
+<img/captures/user/history.png, id=1141, 1151.502pt x 519.1395pt>
 File: img/captures/user/history.png Graphic file (type png)
 <use img/captures/user/history.png>
-Package pdftex.def Info: img/captures/user/history.png  used on input line 384.
-(pdftex.def)             Requested size: 472.31575pt x 212.9357pt.
+Package pdftex.def Info: img/captures/user/history.png  used on input line 395.
+(pdftex.def)             Requested size: 472.31216pt x 398.34447pt.
 
-Overfull \hbox (4.93391pt too wide) in paragraph at lines 388--392
+Overfull \hbox (4.93391pt too wide) in paragraph at lines 399--403
 []\T1/ptm/m/n/10.95 Cette in-ter-face d'his-to-rique des ac-cès four-nit une tra-ça-bi-lité com-plète des ac-ti-vi-tés dans l'en-vi-ron-ne-ment
  []
 
-
-LaTeX Warning: Reference `fig:acess2' on page 75 undefined on input line 393.
-
-<img/captures/user/1.png, id=1156, 1135.8435pt x 528.17325pt>
+<img/captures/user/1.png, id=1144, 1135.8435pt x 528.17325pt>
 File: img/captures/user/1.png Graphic file (type png)
 <use img/captures/user/1.png>
-Package pdftex.def Info: img/captures/user/1.png  used on input line 396.
+Package pdftex.def Info: img/captures/user/1.png  used on input line 407.
 (pdftex.def)             Requested size: 472.31575pt x 219.63107pt.
-<img/captures/user/2.png, id=1157, 1141.26375pt x 526.96875pt>
+<img/captures/user/2.png, id=1145, 1141.26375pt x 526.96875pt>
 File: img/captures/user/2.png Graphic file (type png)
 <use img/captures/user/2.png>
-Package pdftex.def Info: img/captures/user/2.png  used on input line 402.
+Package pdftex.def Info: img/captures/user/2.png  used on input line 413.
 (pdftex.def)             Requested size: 472.31575pt x 218.08488pt.
 
 
-[75 <./img/captures/user/history.png>]
-Overfull \hbox (23.57121pt too wide) in paragraph at lines 406--409
+[72 <./img/captures/user/history.png>]
+Overfull \hbox (23.57121pt too wide) in paragraph at lines 417--420
 \T1/ptm/m/n/10.95 L'historique dé-taillé des ses-sions et des re-quêtes au-to-ri-sées com-plète ce ta-bleau, don-nant aux ad-mi-nis-tra-teurs
  []
 
 
-Overfull \hbox (3.9157pt too wide) in paragraph at lines 406--409
+Overfull \hbox (3.9157pt too wide) in paragraph at lines 417--420
 \T1/ptm/m/n/10.95 aux équipes opé-ra-tion-nelles les in-for-ma-tions né-ces-saires pour prendre des dé-ci-sions éclai-rées en ma-tière
  []
 
 
 
-[76 <./img/captures/user/1.png> <./img/captures/user/2.png>]
-<img/captures/dag/show.PNG, id=1170, 1154.51324pt x 536.60475pt>
+[73 <./img/captures/user/1.png> <./img/captures/user/2.png>]
+<img/captures/dag/show.PNG, id=1158, 1154.51324pt x 536.60475pt>
 File: img/captures/dag/show.PNG Graphic file (type png)
 <use img/captures/dag/show.PNG>
-Package pdftex.def Info: img/captures/dag/show.PNG  used on input line 417.
+Package pdftex.def Info: img/captures/dag/show.PNG  used on input line 428.
 (pdftex.def)             Requested size: 472.31575pt x 219.52628pt.
-<img/captures/dag/1/ok/0.png, id=1172, 1147.8885pt x 528.7755pt>
+<img/captures/dag/1/ok/0.png, id=1160, 1147.8885pt x 528.7755pt>
 File: img/captures/dag/1/ok/0.png Graphic file (type png)
 <use img/captures/dag/1/ok/0.png>
-Package pdftex.def Info: img/captures/dag/1/ok/0.png  used on input line 424.
+Package pdftex.def Info: img/captures/dag/1/ok/0.png  used on input line 435.
 (pdftex.def)             Requested size: 472.31575pt x 217.57393pt.
 
-Overfull \hbox (27.8207pt too wide) in paragraph at lines 421--427
+Overfull \hbox (27.8207pt too wide) in paragraph at lines 432--438
 []\T1/ptm/m/n/10.95 Simultanément, dans notre ap-pli-ca-tion, les tâches sont illus-trés par la fi-gure [][]\T1/ptm/b/n/10.95 4.31[][] \T1/ptm/m/n/10.95 dans le même état <<SUS-PEN-DED>>
  []
 
 
 
-[77 <./img/captures/dag/show.PNG>]
-<img/captures/dag/resume.png, id=1179, 1153.911pt x 466.74374pt>
+[74 <./img/captures/dag/show.PNG>]
+<img/captures/dag/resume.png, id=1168, 1153.911pt x 466.74374pt>
 File: img/captures/dag/resume.png Graphic file (type png)
 <use img/captures/dag/resume.png>
-Package pdftex.def Info: img/captures/dag/resume.png  used on input line 431.
+Package pdftex.def Info: img/captures/dag/resume.png  used on input line 442.
 (pdftex.def)             Requested size: 472.31575pt x 191.04568pt.
-<img/captures/dag/scheduled.png, id=1181, 1149.69525pt x 525.162pt>
+<img/captures/dag/scheduled.png, id=1170, 1149.69525pt x 525.162pt>
 File: img/captures/dag/scheduled.png Graphic file (type png)
 <use img/captures/dag/scheduled.png>
-Package pdftex.def Info: img/captures/dag/scheduled.png  used on input line 443.
+Package pdftex.def Info: img/captures/dag/scheduled.png  used on input line 454.
 (pdftex.def)             Requested size: 472.31575pt x 215.74252pt.
 
 
-[78 <./img/captures/dag/1/ok/0.png> <./img/captures/dag/resume.png>]
-<img/captures/dag/final/1.png, id=1189, 1914.15125pt x 875.27pt>
+[75 <./img/captures/dag/1/ok/0.png> <./img/captures/dag/resume.png>]
+<img/captures/dag/final/1.png, id=1178, 1914.15125pt x 875.27pt>
 File: img/captures/dag/final/1.png Graphic file (type png)
 <use img/captures/dag/final/1.png>
-Package pdftex.def Info: img/captures/dag/final/1.png  used on input line 454.
+Package pdftex.def Info: img/captures/dag/final/1.png  used on input line 465.
 (pdftex.def)             Requested size: 472.31575pt x 215.97223pt.
 
-Overfull \hbox (1.72932pt too wide) in paragraph at lines 447--457
-\T1/ptm/m/n/10.95 Parallélement, les sous-tâches du pre-mier ni-veau, \T1/ptm/b/n/10.95 <<Load grant_-to_-roles>>\T1/ptm/m/n/10.95 , \T1/ptm/b/n/10.95 <<Load users>>\T1/ptm/m/n/10.95 , \T1/ptm/b/n/10.95 <<Load da-ta-bases>>
+Overfull \hbox (12.37187pt too wide) in paragraph at lines 458--468
+\T1/ptm/m/n/10.95 Parallélement, les sous-tâches du pre-mier ni-veau, \T1/ptm/b/n/10.95 <<Load_-grant_-to_-roles>>\T1/ptm/m/n/10.95 , \T1/ptm/b/n/10.95 <<Load users>> \T1/ptm/m/n/10.95 et \T1/ptm/b/n/10.95 <<Load da-ta-bases>>
  []
 
 
-Overfull \hbox (2.14232pt too wide) in paragraph at lines 447--457
+Overfull \hbox (2.14232pt too wide) in paragraph at lines 458--468
 \T1/ptm/m/n/10.95 de-viennent \T1/ptm/b/n/10.95 pro-gram-mées \T1/ptm/m/n/10.95 mais pour quelques ins-tants car une fois la tâche su-pé-rieure com-pléte son éxé-cu-tion
  []
 
-<img/captures/dag/final/2.jpg, id=1191, 1914.15125pt x 875.27pt>
+<img/captures/dag/final/2.jpg, id=1180, 1914.15125pt x 875.27pt>
 File: img/captures/dag/final/2.jpg Graphic file (type jpg)
 <use img/captures/dag/final/2.jpg>
-Package pdftex.def Info: img/captures/dag/final/2.jpg  used on input line 461.
+Package pdftex.def Info: img/captures/dag/final/2.jpg  used on input line 472.
 (pdftex.def)             Requested size: 472.31575pt x 215.97223pt.
 
 
-[79 <./img/captures/dag/scheduled.png> <./img/captures/dag/final/1.png>]
-
-LaTeX Warning: Reference `fig:error' on page 80 undefined on input line 467.
-
-<img/captures/dag/final/failed.png, id=1199, 1149.093pt x 527.571pt>
+[76 <./img/captures/dag/scheduled.png> <./img/captures/dag/final/1.png>]
+<img/captures/dag/final/failed.png, id=1189, 1149.093pt x 527.571pt>
 File: img/captures/dag/final/failed.png Graphic file (type png)
 <use img/captures/dag/final/failed.png>
-Package pdftex.def Info: img/captures/dag/final/failed.png  used on input line 470.
+Package pdftex.def Info: img/captures/dag/final/failed.png  used on input line 481.
 (pdftex.def)             Requested size: 472.31575pt x 216.85292pt.
-<img/captures/dag/final/reason.png, id=1200, 1152.10425pt x 528.7755pt>
+<img/captures/dag/final/reason.png, id=1190, 1152.10425pt x 528.7755pt>
 File: img/captures/dag/final/reason.png Graphic file (type png)
 <use img/captures/dag/final/reason.png>
-Package pdftex.def Info: img/captures/dag/final/reason.png  used on input line 476.
+Package pdftex.def Info: img/captures/dag/final/reason.png  used on input line 487.
 (pdftex.def)             Requested size: 472.31575pt x 216.77515pt.
 
 
-[80 <./img/captures/dag/final/2.jpg> <./img/captures/dag/final/failed.png>]
-<img/captures/dag/final/error.png, id=1209, 1011.78pt x 528.17325pt>
+[77 <./img/captures/dag/final/2.jpg> <./img/captures/dag/final/failed.png>]
+<img/captures/dag/final/error.png, id=1198, 1011.78pt x 528.17325pt>
 File: img/captures/dag/final/error.png Graphic file (type png)
 <use img/captures/dag/final/error.png>
-Package pdftex.def Info: img/captures/dag/final/error.png  used on input line 485.
+Package pdftex.def Info: img/captures/dag/final/error.png  used on input line 496.
 (pdftex.def)             Requested size: 472.31575pt x 246.56512pt.
-
-
-LaTeX Warning: Reference `fig:dagerror' on page 81 undefined on input line 489.
-
-<img/captures/dag/final/schemaerror.png, id=1210, 1148.49075pt x 521.5485pt>
+<img/captures/dag/final/schemaerror.png, id=1200, 1148.49075pt x 521.5485pt>
 File: img/captures/dag/final/schemaerror.png Graphic file (type png)
 <use img/captures/dag/final/schemaerror.png>
-Package pdftex.def Info: img/captures/dag/final/schemaerror.png  used on input line 492.
+Package pdftex.def Info: img/captures/dag/final/schemaerror.png  used on input line 503.
 (pdftex.def)             Requested size: 472.31575pt x 214.48883pt.
 
 
-[81 <./img/captures/dag/final/reason.png> <./img/captures/dag/final/error.png>]
-<img/captures/dag/final/auto_suspend_root.png, id=1221, 1148.49075pt x 522.753pt>
+[78 <./img/captures/dag/final/reason.png> <./img/captures/dag/final/error.png>]
+<img/captures/dag/final/auto_suspend_root.png, id=1211, 1148.49075pt x 522.753pt>
 File: img/captures/dag/final/auto_suspend_root.png Graphic file (type png)
 <use img/captures/dag/final/auto_suspend_root.png>
-Package pdftex.def Info: img/captures/dag/final/auto_suspend_root.png  used on input line 499.
+Package pdftex.def Info: img/captures/dag/final/auto_suspend_root.png  used on input line 510.
 (pdftex.def)             Requested size: 472.31575pt x 214.98419pt.
-<img/captures/dag/final/roles.png, id=1222, 819.66225pt x 425.1885pt>
+<img/captures/dag/final/roles.png, id=1212, 819.66225pt x 425.1885pt>
 File: img/captures/dag/final/roles.png Graphic file (type png)
 <use img/captures/dag/final/roles.png>
-Package pdftex.def Info: img/captures/dag/final/roles.png  used on input line 505.
+Package pdftex.def Info: img/captures/dag/final/roles.png  used on input line 516.
 (pdftex.def)             Requested size: 472.31575pt x 245.007pt.
 
 
-[82 <./img/captures/dag/final/schemaerror.png> <./img/captures/dag/final/auto_suspend_root.png>]
-Overfull \hbox (9.58194pt too wide) in paragraph at lines 509--511
+[79 <./img/captures/dag/final/schemaerror.png> <./img/captures/dag/final/auto_suspend_root.png>]
+Overfull \hbox (9.58194pt too wide) in paragraph at lines 520--522
 \T1/ptm/m/n/10.95 des DAGs au sein du compte Snow-flake. Cette ap-proche in-té-grée donne aux ad-mi-nis-tra-teurs une com-pré-hen-sion
  []
 
-<img/captures/notifications/updatelaunch.png, id=1230, 481.8pt x 88.53075pt>
+<img/captures/notifications/updatelaunch.png, id=1220, 481.8pt x 88.53075pt>
 File: img/captures/notifications/updatelaunch.png Graphic file (type png)
 <use img/captures/notifications/updatelaunch.png>
-Package pdftex.def Info: img/captures/notifications/updatelaunch.png  used on input line 518.
+Package pdftex.def Info: img/captures/notifications/updatelaunch.png  used on input line 529.
 (pdftex.def)             Requested size: 472.31575pt x 86.79057pt.
-<img/captures/notifications/mqtt.png, id=1232, 695.59875pt x 351.11176pt>
+<img/captures/notifications/mqtt.png, id=1222, 695.59875pt x 351.11176pt>
 File: img/captures/notifications/mqtt.png Graphic file (type png)
 <use img/captures/notifications/mqtt.png>
-Package pdftex.def Info: img/captures/notifications/mqtt.png  used on input line 525.
+Package pdftex.def Info: img/captures/notifications/mqtt.png  used on input line 536.
 (pdftex.def)             Requested size: 472.31575pt x 238.40459pt.
 
 
-[83 <./img/captures/dag/final/roles.png> <./img/captures/notifications/updatelaunch.png>]
-<img/captures/notifications/new_update.png, id=1240, 728.12025pt x 186.6975pt>
+[80 <./img/captures/dag/final/roles.png> <./img/captures/notifications/updatelaunch.png>]
+<img/captures/notifications/new_update.png, id=1231, 728.12025pt x 186.6975pt>
 File: img/captures/notifications/new_update.png Graphic file (type png)
 <use img/captures/notifications/new_update.png>
-Package pdftex.def Info: img/captures/notifications/new_update.png  used on input line 533.
+Package pdftex.def Info: img/captures/notifications/new_update.png  used on input line 544.
 (pdftex.def)             Requested size: 472.31575pt x 121.10979pt.
-<img/captures/notifications/notif.png, id=1242, 198.7425pt x 249.93375pt>
+<img/captures/notifications/notif.png, id=1233, 198.7425pt x 249.93375pt>
 File: img/captures/notifications/notif.png Graphic file (type png)
 <use img/captures/notifications/notif.png>
-Package pdftex.def Info: img/captures/notifications/notif.png  used on input line 541.
+Package pdftex.def Info: img/captures/notifications/notif.png  used on input line 552.
 (pdftex.def)             Requested size: 141.6995pt x 199.1769pt.
-<img/captures/notifications/update2.png, id=1243, 317.38576pt x 326.4195pt>
+<img/captures/notifications/update2.png, id=1234, 317.38576pt x 326.4195pt>
 File: img/captures/notifications/update2.png Graphic file (type png)
 <use img/captures/notifications/update2.png>
-Package pdftex.def Info: img/captures/notifications/update2.png  used on input line 545.
+Package pdftex.def Info: img/captures/notifications/update2.png  used on input line 556.
 (pdftex.def)             Requested size: 141.69872pt x 199.17535pt.
 
 
-[84 <./img/captures/notifications/mqtt.png> <./img/captures/notifications/new_update.png>]
-<img/captures/notifications/settings.png, id=1251, 356.532pt x 526.96875pt>
+[81 <./img/captures/notifications/mqtt.png> <./img/captures/notifications/new_update.png>]
+<img/captures/notifications/settings.png, id=1242, 356.532pt x 526.96875pt>
 File: img/captures/notifications/settings.png Graphic file (type png)
 <use img/captures/notifications/settings.png>
-Package pdftex.def Info: img/captures/notifications/settings.png  used on input line 558.
+Package pdftex.def Info: img/captures/notifications/settings.png  used on input line 569.
 (pdftex.def)             Requested size: 141.70174pt x 227.62137pt.
-<img/captures/notifications/mqtt_global.png, id=1253, 697.4055pt x 277.63725pt>
+<img/captures/notifications/mqtt_global.png, id=1244, 697.4055pt x 277.63725pt>
 File: img/captures/notifications/mqtt_global.png Graphic file (type png)
 <use img/captures/notifications/mqtt_global.png>
-Package pdftex.def Info: img/captures/notifications/mqtt_global.png  used on input line 566.
+Package pdftex.def Info: img/captures/notifications/mqtt_global.png  used on input line 577.
 (pdftex.def)             Requested size: 472.31575pt x 188.0325pt.
 
 
-[85 <./img/captures/notifications/notif.png> <./img/captures/notifications/update2.png> <./img/captures/notifications/settings.png>]
-<img/captures/notifications/newglobal.png, id=1262, 693.792pt x 190.311pt>
+[82 <./img/captures/notifications/notif.png> <./img/captures/notifications/update2.png> <./img/captures/notifications/settings.png>]
+<img/captures/notifications/newglobal.png, id=1253, 693.792pt x 190.311pt>
 File: img/captures/notifications/newglobal.png Graphic file (type png)
 <use img/captures/notifications/newglobal.png>
-Package pdftex.def Info: img/captures/notifications/newglobal.png  used on input line 573.
+Package pdftex.def Info: img/captures/notifications/newglobal.png  used on input line 584.
 (pdftex.def)             Requested size: 472.31575pt x 129.55785pt.
-<img/captures/notifications/newLimit.png, id=1264, 234.8775pt x 368.577pt>
+<img/captures/notifications/newLimit.png, id=1255, 234.8775pt x 368.577pt>
 File: img/captures/notifications/newLimit.png Graphic file (type png)
 <use img/captures/notifications/newLimit.png>
-Package pdftex.def Info: img/captures/notifications/newLimit.png  used on input line 582.
+Package pdftex.def Info: img/captures/notifications/newLimit.png  used on input line 593.
 (pdftex.def)             Requested size: 141.69455pt x 199.17482pt.
-<img/captures/notifications/notifglobal.png, id=1265, 301.125pt x 311.9655pt>
+<img/captures/notifications/notifglobal.png, id=1256, 301.125pt x 311.9655pt>
 File: img/captures/notifications/notifglobal.png Graphic file (type png)
 <use img/captures/notifications/notifglobal.png>
-Package pdftex.def Info: img/captures/notifications/notifglobal.png  used on input line 586.
+Package pdftex.def Info: img/captures/notifications/notifglobal.png  used on input line 597.
 (pdftex.def)             Requested size: 141.69876pt x 199.17645pt.
 
 
-[86 <./img/captures/notifications/mqtt_global.png> <./img/captures/notifications/newglobal.png>]
-<img/captures/dark/5.jpg, id=1274, 169.23225pt x 184.2885pt>
+[83 <./img/captures/notifications/mqtt_global.png> <./img/captures/notifications/newglobal.png>]
+<img/captures/dark/5.jpg, id=1264, 169.23225pt x 184.2885pt>
 File: img/captures/dark/5.jpg Graphic file (type jpg)
 <use img/captures/dark/5.jpg>
-Package pdftex.def Info: img/captures/dark/5.jpg  used on input line 604.
+Package pdftex.def Info: img/captures/dark/5.jpg  used on input line 615.
 (pdftex.def)             Requested size: 141.7048pt x 85.35863pt.
-<img/captures/dark/7.jpg, id=1275, 184.89075pt x 169.23225pt>
+<img/captures/dark/7.jpg, id=1265, 184.89075pt x 169.23225pt>
 File: img/captures/dark/7.jpg Graphic file (type jpg)
 <use img/captures/dark/7.jpg>
-Package pdftex.def Info: img/captures/dark/7.jpg  used on input line 607.
+Package pdftex.def Info: img/captures/dark/7.jpg  used on input line 618.
 (pdftex.def)             Requested size: 141.70613pt x 85.3596pt.
 
-Overfull \hbox (8.24205pt too wide) in paragraph at lines 596--611
-[]\T1/ptm/m/n/10.95 Dans ce pro-jet, nous avons in-té-gré des fonc-tion-na-li-tés de per-son-na-li-sa-tion avan-cées pour amé-lio-rer l'ex-pé-rience
+Overfull \hbox (15.31543pt too wide) in paragraph at lines 607--622
+[]\T1/ptm/m/n/10.95 Dans ce pro-jet, nous avons in-té-gré des fonc-tion-na-li-tés de per-son-na-li-sa-tion pour amé-lio-rer l'ex-pé-rience uti-li-sa-teur,
  []
 
 
-Overfull \hbox (10.46774pt too wide) in paragraph at lines 596--611
+Overfull \hbox (10.46774pt too wide) in paragraph at lines 607--622
 \T1/ptm/m/n/10.95 en fonc-tion de leurs pré-fé-rences ou des condi-tions de lu-mi-no-sité am-biante. Le thème clair offre une vi-sua-li-sa-tion
  []
 
 
 
-[87 <./img/captures/notifications/newLimit.png> <./img/captures/notifications/notifglobal.png> <./img/captures/dark/5.jpg> <./img/captures/dark/7.jpg>]
-<img/captures/dark/2.jpg, id=1283, 1155.1155pt x 513.117pt>
+[84 <./img/captures/notifications/newLimit.png> <./img/captures/notifications/notifglobal.png> <./img/captures/dark/5.jpg> <./img/captures/dark/7.jpg>]
+<img/captures/dark/2.jpg, id=1273, 1155.1155pt x 513.117pt>
 File: img/captures/dark/2.jpg Graphic file (type jpg)
 <use img/captures/dark/2.jpg>
-Package pdftex.def Info: img/captures/dark/2.jpg  used on input line 617.
-(pdftex.def)             Requested size: 472.31575pt x 209.80777pt.
-<img/captures/dark/4.jpg, id=1284, 1150.2975pt x 509.5035pt>
+Package pdftex.def Info: img/captures/dark/2.jpg  used on input line 628.
+(pdftex.def)             Requested size: 472.31375pt x 284.53276pt.
+<img/captures/dark/4.jpg, id=1274, 1150.2975pt x 509.5035pt>
 File: img/captures/dark/4.jpg Graphic file (type jpg)
 <use img/captures/dark/4.jpg>
-Package pdftex.def Info: img/captures/dark/4.jpg  used on input line 620.
-(pdftex.def)             Requested size: 472.31575pt x 209.20097pt.
+Package pdftex.def Info: img/captures/dark/4.jpg  used on input line 631.
+(pdftex.def)             Requested size: 472.30957pt x 284.52702pt.
 
-Overfull \hbox (12.0pt too wide) in paragraph at lines 616--622
+Overfull \hbox (11.998pt too wide) in paragraph at lines 627--633
  [][] 
  []
 
 
-Overfull \hbox (12.0pt too wide) in paragraph at lines 616--622
+Overfull \hbox (11.99382pt too wide) in paragraph at lines 627--633
  [] 
  []
 
 
 
-[88 <./img/captures/dark/2.jpg> <./img/captures/dark/4.jpg>]
-<img/captures/dark/1.jpg, id=1290, 1151.502pt x 521.5485pt>
+[85 <./img/captures/dark/2.jpg> <./img/captures/dark/4.jpg>]
+<img/captures/dark/1.jpg, id=1280, 1151.502pt x 521.5485pt>
 File: img/captures/dark/1.jpg Graphic file (type jpg)
 <use img/captures/dark/1.jpg>
-Package pdftex.def Info: img/captures/dark/1.jpg  used on input line 630.
+Package pdftex.def Info: img/captures/dark/1.jpg  used on input line 641.
 (pdftex.def)             Requested size: 472.31216pt x 199.16934pt.
-<img/captures/dark/3.jpg, id=1291, 1156.32pt x 501.67426pt>
+<img/captures/dark/3.jpg, id=1281, 1156.32pt x 501.67426pt>
 File: img/captures/dark/3.jpg Graphic file (type jpg)
 <use img/captures/dark/3.jpg>
-Package pdftex.def Info: img/captures/dark/3.jpg  used on input line 633.
+Package pdftex.def Info: img/captures/dark/3.jpg  used on input line 644.
 (pdftex.def)             Requested size: 472.31223pt x 199.16577pt.
 
-Overfull \hbox (11.99641pt too wide) in paragraph at lines 629--635
+Overfull \hbox (11.99641pt too wide) in paragraph at lines 640--646
  [][] 
  []
 
 
-Overfull \hbox (11.99648pt too wide) in paragraph at lines 629--635
+Overfull \hbox (11.99648pt too wide) in paragraph at lines 640--646
  [] 
  []
 
 )
 
-[89 <./img/captures/dark/1.jpg> <./img/captures/dark/3.jpg>] (conclusion.tex
-Overfull \hbox (7.04749pt too wide) in paragraph at lines 27--30
+[86 <./img/captures/dark/1.jpg> <./img/captures/dark/3.jpg>] (conclusion.tex
+Overfull \hbox (7.04749pt too wide) in paragraph at lines 30--33
 \T1/ptm/m/n/10.95 en-vi-ron-ne-ment opé-ra-tion-nel, mais aussi son in-té-gra-tion avec d'autres sys-tèmes et ou-tils uti-li-sés par l'en-tre-prise,
  []
 
+)
+
+[87
 
 
-[90
+]
 
-
-])
-Overfull \hbox (10.31166pt too wide) in paragraph at lines 31--74
-\T1/ptm/m/n/10.95 convain-cus que ces évo-lu-tions contri-bue-ront à main-te-nir Avaxia Group à la pointe de l'in-no-va-tion tech-no-lo-gique
- []
-
-
-
-[91]
+[88]
 LaTeX Font Info:    Trying to load font information for T1+pcr on input line 80.
  (C:\Users\hp omen\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
@@ -3297,7 +3255,7 @@ $\T1/pcr/m/n/10.95 monitoring -[] informatique -[] pour -[] les -[] entreprises$
 
 
 
-[92
+[89
 
 
 ]
@@ -3312,7 +3270,7 @@ $\T1/pcr/m/n/10.95 native -[] apps / what -[] is -[] an -[] application -[] arch
 
 
 
-[93]
+[90]
 Overfull \hbox (12.54343pt too wide) in paragraph at lines 80--80
 []\T1/ptm/m/n/10.95 R. []\T1/ptm/m/sc/10.95 community[]\T1/ptm/m/n/10.95 , \T1/ptm/m/it/10.95 React\T1/ptm/m/n/10.95 , []$\T1/pcr/m/n/10.95 https : / / fr . legacy . reactjs . org/$[]\T1/ptm/m/n/10.95 , [En ligne ;Ac-cès le 28-Mai-2024],
  []
@@ -3339,7 +3297,7 @@ Overfull \hbox (12.83244pt too wide) in paragraph at lines 80--80
 
 
 
-[94]
+[91]
 Overfull \hbox (0.96255pt too wide) in paragraph at lines 80--80
 []\T1/ptm/m/it/10.95 Swagger\T1/ptm/m/n/10.95 , []$\T1/pcr/m/n/10.95 https : / / appmaster . io / university / fr / tutorials / endpoints / quest -[]$
  []
@@ -3356,7 +3314,7 @@ $\T1/pcr/m/n/10.95 articles -[] internet / 819 -[] draw -[] io -[] un -[] outil 
 
 
 
-[95] (tpl/resume.tex
+[92] (tpl/resume.tex
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -3398,8 +3356,6 @@ LaTeX Font Warning: Font shape `LAE/ptm/b/n' undefined
 
 LaTeX Font Info:    Font shape `LAE/ptm/m/n' will be
 (Font)              scaled to size 12.5pt on input line 26.
-Missing character: There is no o in font aealmohanadb!
-Missing character: There is no e in font aealmohanadb!
 LaTeX Font Info:    Font shape `LAE/ptm/b/n' will be
 (Font)              scaled to size 13.68748pt on input line 30.
 )
@@ -3469,7 +3425,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 5.08003pt, for example:
 (fancyhdr)                \setlength{\footskip}{5.08003pt}.
 
-[96
+[93
 
 
 
@@ -3500,17 +3456,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42741 strings out of 473937
- 804832 string characters out of 5726391
+ 42738 strings out of 473937
+ 804811 string characters out of 5726391
  1955893 words of memory out of 5000000
  64439 multiletter control sequences out of 15000+600000
  649007 words of font info for 104 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  109i,14n,131p,1947b,4155s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/hp omen/AppData/Local/Programs/MiKTeX/fonts/type1/public/arabi/ae_almohanad_bold.pfb><C:/Users/hp omen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/hp omen/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/hp omen/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/hp omen/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/hp omen/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/hp omen/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (113 pages, 9772185 bytes).
+Output written on main.pdf (110 pages, 9764772 bytes).
 PDF statistics:
- 1504 PDF objects out of 1728 (max. 8388607)
- 333 named destinations out of 1000 (max. 500000)
+ 1495 PDF objects out of 1728 (max. 8388607)
+ 330 named destinations out of 1000 (max. 500000)
  940 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -2,10 +2,11 @@
 	
 \section*{Introduction}
 \addcontentsline{toc}{section}{Introduction }
-    Le quatrième chapitre se consacre à la mise en œuvre concrète du projet. Nous explorons les choix techniques que nous avons adoptés et détaillons le travail effectué pour donner vie à notre solution.
+    Le quatrième chapitre sera consacré à la mise en œuvre concrète du projet.
+     Nous explorerons les choix techniques que nous avons adoptés et détaillerons le travail effectué pour donner vie à notre solution.
 
 \section{Choix technologiques}
-\par  Dans cette partie, nous explorerons les décisions stratégiques que nous avons prises concernant les technologies et les outils que nous avons choisis pour la réalisation de notre solution.     
+\par  Dans cette partie, nous explorerons les décisions stratégiques que nous avons pris concernant les technologies et les outils choisises pour la réalisation de notre solution.     
 \subsection{Frameworks et base de données}
     \begin{itemize}
         \item\textbf{FastAPI : }
@@ -14,26 +15,32 @@
             \par Dans la réalisation de ce projet, nous avons opté pour le choix de FastApi comme notre backend framework vue ces performances extrêmement élevées, comparables à celles de NodeJS et Go, grâce à l'utilisation de Starlette et Pydantic.
             FastAPI est l'un des frameworks Python les plus rapides.
             \par Sa Robustesse aussi, car il permet de produire un code prêt pour la production avec une documentation interactive et automatique.
-        \item\textbf{React : }
+        \item\textbf{ReactJS : }
                     \par React est une bibliothèque JavaScript destinée à la création d'interfaces utilisateur (UI) \cite{react}. 
-                    \par Dans la réalisation de ce projet, nous avons opté pour React comme étant notre frontend framework car il  permet de créer des interfaces utilisateur dynamiques et réactives avec une efficacité accrue grâce à sa gestion intelligente des mises à jour via le DOM virtuel.
-                    \item\textbf{PostgreSQL : }
-                    \par PostgreSQL est un puissant système de base de données relationnelle objet open source, développé activement depuis plus de 35 ans, qui lui a valu une solide réputation en termes de fiabilité, de robustesse des fonctionnalités et de performances\cite{pg}. 
-                    \par Dans la réalisation de ce projet, nous avons opté pour le choix de PostgreSQL comme étant notre SGBD vue qu'il est est souvent perçu comme un système plus fiable et plus robuste que MySQL pour gérer de grands volumes de données sans risque de corruption.
-                    \par De plus, il permet de stocker des informations de manière plus structurée grâce à une meilleure gestion des relations et des contraintes.
+                    \par Dans la réalisation de ce projet, nous avons opté pour React comme étant notre frontend framework car il 
+                    permet de créer des interfaces utilisateur dynamiques et réactives avec une efficacité accrue grâce à sa gestion 
+                    intelligente des mises à jour via le DOM virtuel.
+        \item\textbf{PostgreSQL : }
+                    \par PostgreSQL est un puissant système de gestion base de données relationnelle (SGBD) objet open source, développé activement depuis plus 
+                    de 35 ans, qui lui a valu une solide réputation en termes de fiabilité, de robustesse des fonctionnalités et de performances\cite{pg}. 
+                    \par Dans la réalisation de ce projet, nous avons opté pour le choix de PostgreSQL comme étant notre SGBD vue qu'il est souvent perçu comme un 
+                    système plus fiable et plus robuste que MySQL pour gérer de grands volumes de données sans risque de corruption.
+                    \par De plus, il permet de stocker des informations de manière plus structurée grâce à une meilleure gestion des relations et
+                     des contraintes.
                 \end{itemize}
 
 \subsection{Outils de communication}
 \begin{itemize}
     \item\textbf{MQTT : }
-                \par MQTT est un protocole de messagerie basé sur des normes, ou un ensemble de règles, utilisé pour la communication de machine à machine \cite{mqtt}. 
-                \par Dans la réalisation de ce projet, nous avons opté pour MQTT comme étant un systéme de notification car il MQTT facilite le chiffrement des messages 
+                \par Message Queuing Telemetry Transport (MQTT) est un protocole de messagerie basé sur des normes, ou un ensemble de règles, utilisé pour la communication de machine à machine \cite{mqtt}. 
+                \par Dans la réalisation de ce projet, nous avons opté pour MQTT comme étant un systéme de notification car il facilite le chiffrement des messages 
                 via TLS et l'authentification des clients à l'aide de protocoles d'authentification modernes, tels que OAuth. 
-                \par De plus, sa Légèreté et efficacité car les clients MQTT sont très petits, ils nécessitent peu de ressources. Les en-têtes des messages MQTT sont de petite taille afin d'optimiser la bande passante du réseau.
+                \par De plus, sa Légèreté et efficacité car les clients MQTT sont très petits, ils nécessitent peu de ressources. 
+                Les en-têtes des messages MQTT sont de petite taille afin d'optimiser la bande passante du réseau.
 
     \item\textbf{RESTful APIs :}
     
-            \par REST (REpresentational State Transfer) constitue un style architectural et un mode de communication fréquemment utilisé dans le développement de services Web \cite{rest}. 
+            \par REpresentational State Transfer (REST) constitue un style architectural et un mode de communication fréquemment utilisé dans le développement de services Web \cite{rest}. 
             \par Dans la réalisation de ce projet, nous avons opté pour RESTful API comme étant le mode de communiction entre les différents microservices du systéme car ils sont faciles à utiliser avec la plupart des outils. 
             \par De plus REST s'impose progressivement comme le standard pour l'interaction entre systèmes. 
 
@@ -43,16 +50,16 @@
         \item\textbf{snowflake.connector : }
                  \par Le connecteur Snowflake pour Python fournit une interface pour le développement d'applications Python
                   qui peuvent se connecter à Snowflake et effectuer toutes les opérations standard.\cite{sncn}. 
-                 \par Il a été conçu pour pour gérer les ressources principales de Snowflake, y compris les bases de données, les schémas, les tables, les tâches et les entrepôts, sans utiliser le langage SQL.
+                 \par Il a été conçu pour gérer les ressources principales de Snowflake, y compris les bases de données, les schémas, les tables, les tâches et les entrepôts, sans utiliser le langage SQL.
         \item\textbf{psycopg : }
                 \par Psycopg est l'adaptateur de base de données PostgreSQL le plus populaire pour le langage de programmation Python. 
                 Il est écrit en C et fournit un moyen d'effectuer toute la gamme des opérations SQL sur les bases de données PostgreSQL\cite{psycopg}. 
-                \par Il a été conçu pour les applications fortement multithreadées qui créent et détruisent de nombreux curseurs et effectuent un grand nombre d'« INSERT “s ou d” »UPDATE « s simultanés. C'est le principal raison pour lequel nous avons choisi cet librairie pour toute interaction avec postgresql.
+                \par Il a été conçu pour les applications fortement multithreadées qui créent et détruisent de nombreux curseurs et effectuent un grand nombre d'<<INSERT>>s ou d' <<UPDATE>>s simultanés. C'est le principal raison pour lequel nous avons choisi cet librairie pour toute interaction avec postgresql.
         \item\textbf{Pandas : }
                     \par  Pandas est une bibliothèque de manipulation de données Python qui fournit des structures de données flexibles pour l'analyse des données\cite{pandas}. 
-                    \par Il a été conçu pour facilite l'importation, la manipulation et l'analyse des données, ce qui en fait un choix idéal pour notre projet.
+                    \par Il a été conçu pour faciliter l'importation, la manipulation et l'analyse des données, ce qui en fait un choix idéal pour notre projet.
         \item \textbf{GMQTT : }
-            \par Gmqtt est une bibliothèque de broker MQTT flexible et performante qui implémente entièrement le protocole MQTT V3.x et V5 en golang \cite{gmqtt}. 
+            \par GMQTT est une bibliothèque de broker MQTT flexible et performante qui implémente entièrement le protocole MQTT V3.x et V5 en golang \cite{gmqtt}. 
    \end{itemize}
 \subsection{Bibliothèques d'interaction avec le système d'exploitation}
 \begin{itemize}
@@ -61,12 +68,12 @@
         Il peut être utilisé pour manipuler le système de fichiers, gérer les variables d'environnement, contrôler les processus, et bien plus encore\cite{os}.
 
     \item \textbf{Scheduler : }
-        \par C'est une bibliothèque simple d'ordonnancement en python avec asyncio, threading ainsi que la prise en charge des fuseaux horaires.
-         Elle permet de planifiez des tâches en fonction de leurs cycles temporels, d'heures fixes, de jours de la semaine,
-         de dates, de poids, de décalages et de comptes d'exécution, et automatisez les tâches\cite{scheduler}.
+        \par C'est une bibliothèque d'ordonnancement en python avec asyncio, threading ainsi que la prise en charge des fuseaux horaires.
+         Elle permet de planifier des tâches en fonction de leurs cycles temporels, d'heures fixes, de jours de la semaine,
+         de dates, de poids, de décalages et de comptes d'exécution, et automatiser les tâches\cite{scheduler}.
     \item \textbf{Requests : }
-        \par est un standard Python permettant d'effectuer des requêtes HTTP.
-         Elle dissimule les subtilités des requêtes derrière une API simple, ce qui vous permet de vous concentrer sur l'interaction avec les services et la consommation de données dans l'application\cite{requests}.
+        \par c'est un standard Python permettant d'effectuer des requêtes HTTP.
+         Elle cache les subtilités des requêtes derrière une API simple, ce qui permet de concentrer sur l'interaction avec les services et la consommation de données dans l'application\cite{requests}.
     
 \end{itemize}
 \subsection{Outils de test}
@@ -79,7 +86,6 @@
             \par MQTTX est un client de bureau MQTT 5.0 open-source et multiplateforme initialement développé par EMQ, qui peut fonctionner sur n'importe quel systéme d'exploitation.
             \par il rend le développement et le test d'applications MQTT plus rapides et plus faciles\cite{mqttx}.
     \end{itemize}
-    \newpage
     \subsection{Outils de versionning}
     \begin{itemize}
         \item \textbf{Git : }
@@ -99,14 +105,14 @@
                      largement utilisé par la communauté scientifique.
                       il facilite la rédaction de documents volumineux comme les mémoires et les thèses\cite{latex}.
             \item\textbf{Draw.io:}
-                    \par Draw.io est une application en ligne gratuite, accessible via un navigateur web (protocole https), permettant de dessiner des diagrammes et des organigrammes. 
+                    \par Draw.io est une application en ligne gratuite, accessible via un navigateur web, permettant de dessiner des diagrammes et des organigrammes. 
                     Cet outil offre la possibilité de concevoir toutes sortes de diagrammes et de dessins vectoriels, de les enregistrer au format XML, puis de les exporter \cite{draw}.
             \end{itemize}
 \section{Réalisation}
-\par Dans cette section, nous allons présenter la réalisation de ce projet en illustant chaque partie avec des captures explicatifs.
+\par Dans cette section, nous allons présenter la réalisation de ce projet en illustrant chaque partie avec des captures explicatifs.
 \subsection{Micro-service << ETL\_Service >>}
 \par Le micro-service ETL\_Service est responsable de l'extraction, de la transformation et du chargement des données de Snowflake vers la base de données PostgreSQL de cette application.
-\par Ce micro-service représente une tâche planifiée (cron job), il est programmée de s'éxécuter quotidiennement (chaque 12/24 heurs par exemple) pour mettre à jours les données à monitorer. 
+\par Ce micro-service représente une tâche planifiée (cron job), il est programmée de s'éxécuter quotidiennement (chaque 12 ou 24 heurs par exemple) pour mettre à jours les données à monitorer. 
 % % \par La figure \textbf{\ref{fig:etl}} représente le resultat de l'api déclancheur de ce micro-service :
 % % \begin{figure}[H]
 % %     \centering
@@ -121,12 +127,12 @@
 %     \caption{Déclanchement du plannificateur ETL}
 %         \label{fig:launcher}
 % \end{figure}
-\par Dans le cas où la plannification est atteinte, l'exécution du process ETL se commance par l'archivage des ancienes données pour garantir la disponibilité de la platforme en cas d'échéance de la base de données principale.  
+\par Dans le cas où la plannification est atteinte, l'exécution du process ETL se commence par l'archivage des anciennes données pour garantir la disponibilité de la platforme en cas d'échéance de la base de données principale.  
 Ensuite, il va extraire les nouvelles données de chaque table systéme de Snowflake en faisant le nettoyage et la transformation sur ces derniers. 
 \par  La figure \textbf{\ref{fig:result}} illustre les affichages retournés par le microservice : 
 \begin{figure}[H]
     \centering
-    \includegraphics[width =1\linewidth]{img/captures/etl/results.PNG}
+    \includegraphics[width =1\linewidth ,height=12cm]{img/captures/etl/results.PNG}
     \caption{Exécution de l'ETL}
         \label{fig:result}
 \end{figure}
@@ -146,7 +152,7 @@ Ensuite, il va extraire les nouvelles données de chaque table systéme de Snowf
         \par La liste des APIs présents dans le micro-service d'authentification, documentée par Swagger, sont representés par la figure \textbf{\ref{fig:apiAuth}} suivante:
         \begin{figure}[H]
             \centering
-            \includegraphics[width =1\linewidth, height=11cm]{img/captures/auth_apis.PNG}
+            \includegraphics[width =1\linewidth, height=9cm]{img/captures/auth_apis.PNG}
             \caption{Liste des APIs du microservice <<Athentification\_service>> }
                 \label{fig:apiAuth}
         \end{figure}
@@ -154,32 +160,32 @@ Ensuite, il va extraire les nouvelles données de chaque table systéme de Snowf
         \par L'interface de << Sign up>> est representée par la figure \textbf{\ref{fig:signup}} suivante:
         \begin{figure}[H]
             \centering
-            \includegraphics[width =1\linewidth]{img/captures/auth/signup.png}
+            \includegraphics[width =1\linewidth, height=7cm]{img/captures/auth/signup.png}
             \caption{Interface de Création de compte <<Sign up>> }
                 \label{fig:signup}
             \end{figure}
-            \par Afin de créer un compte, l'utilisateur accède à cette interface en remplissant un formulaire d'inscription avec les données spécifiques à son compte Snowflake (username,mot de passe,l'url de connexion de son compte snowflake).
+            \par Afin de créer un compte, l'utilisateur accède à cette interface en remplissant un formulaire d'inscription avec les données spécifiques à son compte Snowflake (nom d'utilisateur,mot de passe,l'url de connexion de son compte snowflake).
             Une fois l'utilisateur clique sur le bouton <<SINGUP>>, si les données sont valides: le système redirige l'utilisateur vers la page d'authentification. Sinon, il relance cette interface.
             \item \textbf{Interface d'authentification  <<Login>>:}
             \par L'interface de <<Login>> est representée par la figure \textbf{\ref{fig:login}} suivante:
             \begin{figure}[H]
                 \centering
-                \includegraphics[width =1\linewidth]{img/captures/auth/login.png}
+                \includegraphics[width =1\linewidth , height=7cm]{img/captures/auth/login.png}
                 \caption{Interface d'authentification  <<Login>>}
                     \label{fig:login}
                 \end{figure}
-                \par Pour accéder a son compte, l'utilisateur remplit le formulaire avec son <<username>> et <<mot de passe>>. Une fois les données sont valides, le système attribut une token d'accées à cet utilisateur et le redirige vers la page d'acceuil. Sinon, il relance la page de <<login>> en indiquant l'erreur.
+                \par Pour accéder a son compte, l'utilisateur remplit le formulaire avec son <<nom d'utilisateur>> et <<mot de passe>>. Une fois les données sont valides, le système attribut une token d'accées à cet utilisateur et le redirige vers la page d'acceuil. Sinon, il relance la page de <<login>> en indiquant l'erreur.
                 \par Si l'utilisateur est authentifié et clique sur le bouton <<Logout>>, indiqué dans la figure \textbf{\ref{fig:logout}}, il est redirigé vers l'interface de login automatiquement.
                 \begin{figure}[H]
                     \centering
-                    \includegraphics[width =0.8\linewidth]{img/captures/auth/logout.png}
+                    \includegraphics[width =1\linewidth]{img/captures/auth/logout.png}
                     \caption{ <<Logout>>}
                         \label{fig:logout}
-                    \end{figure}
+                    \end{figure}s
             \end{itemize}
-\par En conclusion, ce microservice joue un rôle crucial dans la sécurité et la fiabilité de l'application. En implémentant le protocole OAuth 2.0, il garantit une authentification et une autorisation robustes, permettant aux utilisateurs de se connecter en toute sécurité et d'accéder uniquement aux fonctionnalités et aux données auxquelles ils sont autorisés. Ce service agit comme un gardien de la confidentialité et de l'intégrité des données, assurant que seuls les utilisateurs légitimes puissent interagir avec le système. 
+\par En conclusion, ce microservice joue un rôle essentiel dans la sécurité et la fiabilité de l'application. En implémentant le protocole OAuth 2.0, il garantit une authentification et une autorisation robustes, permettant aux utilisateurs de se connecter en toute sécurité et d'accéder uniquement aux fonctionnalités et aux données auxquelles ils sont autorisés. Ce service agit comme un gardien de la confidentialité et de l'intégrité des données, assurant que seuls les utilisateurs légitimes puissent interagir avec le système. 
 \subsection{Micro-service << Warehouse\_Monitoring >>}
-\par Le micro-service << Monitoring\_Service >> est le service chargé de la surveillance de l'utilisation des entrepôts de données Snowflake.
+\par Le micro-service << Warehouse\_monitoring >> est le service chargé de la surveillance de l'utilisation des entrepôts de données Snowflake.
 \begin{itemize}
     \item \textbf{La liste des APIs:}
         \par La liste des APIs présents dans ce micro-service, documentée par Swagger, sont representés par la figure \textbf{\ref{fig:apiWare}} suivante:
@@ -213,11 +219,12 @@ Ensuite, il va extraire les nouvelles données de chaque table systéme de Snowf
                     \caption{Tableau de bord du surveillance d l'entrepôts des données <<Compute\_WH>>}
                         \label{fig:warehouse3}
                 \end{figure}
-                \par Ces tableaux de bord des entrepôts Snowflake offrent un aperçu complet des activités et de l'utilisation de l'infrastructure de données. Ils présentent des informations clés sur la taille, la composition et l'utilisation des entrepôts, notamment le nombre de bases de données, nombre des evenments effectuées dans l'entrepôt ainsi que le nombre de rôles et d'utilisateurs.
+                \par Ces tableaux de bord des entrepôts Snowflake offrent un aperçu complet des activités et de l'utilisation de l'infrastructure de données. Ils présentent des informations clés sur la taille, la composition et l'utilisation des entrepôts, notamment le nombre de bases de données, nombre des événments effectuées dans l'entrepôt ainsi que le nombre de rôles et d'utilisateurs.
                 
                  
             \item \textbf{Changement des variables globaux}
-            \par Le changement des paramétres globaux peut reflecter les vues de ce micro service une fenêtre s'affiche lorsque on clique sur le bouton <<Settings>> du topbar. Selon les besoins de l'utilisateur/administrateur  :
+            \par Le changement des paramétres globaux peut reflecter les vues de ce micro service, une fenêtre s'affiche lorsqu'on clique sur le bouton <<Settings>> du topbar.
+            Selon les besoins de l'utilisateur/administrateur les changements qui peuvent être appliqueés :
                 \begin{enumerate}
                     \item[-] \textbf{Changement du rôle d'utilisateur/Administrateur:}
                     \begin{figure}[H]
@@ -246,13 +253,15 @@ Ensuite, il va extraire les nouvelles données de chaque table systéme de Snowf
                         \end{tabular}
                         \caption{Changement de seuil de credits vers <<90\$>>                    }
                     \end{figure}
-                    \par Lorsque l'utilisateur modifie les paramètres globaux, notamment le seuil de crédits maximum utilisés, une notification permanente devrait être affichée si les crédits utilisées de l'un des entrepôt de donneés à depacer cette seuil pour informer l'utilisateur de cette malveuillance.
+                    \par Lorsque l'utilisateur modifie les paramètres globaux, notamment le seuil de crédits maximum utilisés,
+                     une notification permanente devrait être affichée si les crédits utilisés de l'un des entrepôt de donneés à dépacer cette seuil 
+                     pour informer l'utilisateur de cette malveillance.
             \end{enumerate}
 
 \end{itemize}
-\par Dans l'ensemble, cet microservice offre une visibilité essentielle sur les performances et l'utilisation des entrepôts, facilitant la prise de décisions éclairées pour l'infrastructure de données.
+\par Dans l'ensemble, ce microservice offre une visibilité essentielle sur les performances et l'utilisation des entrepôts, facilitant la prise de décisions éclairées pour l'infrastructure de données.
 \subsection{Micro-service << Query\_Performance >>}
-\par Le micro-service << Monitoring\_Service >> est le service chargé de la surveillance des requêtes SQL effectuées au sein du compte Snowflake.
+\par Le micro-service << Query\_Performance  >> est le service chargé de la surveillance des requêtes SQL effectuées au sein du compte Snowflake.
 \begin{itemize}
     \item \textbf{La liste des APIs:}
         \par La liste des APIs présents dans ce micro-service, documentée par Swagger, sont representés par la figure \textbf{\ref{fig:apiquery}} suivante:
@@ -263,7 +272,7 @@ Ensuite, il va extraire les nouvelles données de chaque table systéme de Snowf
                 \label{fig:apiquery}
         \end{figure}
 
-        \item \textbf{Interface de historique des requêtes de l'utilisateur:}
+        \item \textbf{Interface de l'historique des requêtes de l'utilisateur:}
         \par L'interface de la liste des entrepôts de données est representée par la figure \textbf{\ref{fig:listqueries}} suivante:
         \begin{figure}[H]
             \centering
@@ -273,7 +282,7 @@ Ensuite, il va extraire les nouvelles données de chaque table systéme de Snowf
             \end{figure}
             \par Cette vue représente l'historique des requêtes dans l'application de surveillance Snowflake.
              Elle fournit un aperçu détaillé de chaque requête exécutée. \\ 
-             Cet l'historique permet aux administrateurs de surveiller en détail les requêtes exécutées afin de pouvoir identifier les éventuels problèmes liés aux ces derniers dans le compte Snowflake en question.
+             Cet historique permet aux administrateurs de surveiller en détail les requêtes exécutées afin de pouvoir identifier les éventuels problèmes liés aux ces derniers dans le compte Snowflake en question.
             \item \textbf{Tableaux de bord du surveillance des Requêtes SQL}
             \begin{enumerate}
                 \item[-] \textbf{Les informations générale sur la totalité des requêtes dans le compte de l'utilisateur:  }
@@ -312,11 +321,13 @@ Ensuite, il va extraire les nouvelles données de chaque table systéme de Snowf
             \end{enumerate}
 
 \end{itemize}
-\par Le service  << Query\_Performance >> constitue un outil essentiel pour les équipes en charge de l'exploitation et de l'optimisation de l'infrastructure Snowflake. Il offre une visibilité complète sur les activités de requêtes, permettant de prendre des décisions éclairées afin d'améliorer la fiabilité, les performances et la rentabilité globale du système.
+\par Le service  << Query\_Performance >> constitue un outil essentiel pour les équipes en charge de l'exploitation et 
+de l'optimisation de l'infrastructure Snowflake. Il offre une visibilité complète sur les activités de requêtes, 
+permettant de prendre des décisions éclairées afin d'améliorer la fiabilité, les performances et la rentabilité globale du système.
 \subsection{Micro-service << Databases\_Statistics >>}
 \par Le micro-service << Databases\_Statistics >> est le service chargé de la surveillance des base de données créees au sein du compte Snowflake.
 \begin{itemize}
-    \item \textbf{La liste des APIs:}
+    \item \textbf{La liste des APIs :}
         \par La liste des APIs présents dans ce micro-service, documentée par Swagger, sont representés par la figure \textbf{\ref{fig:apiData}} suivante:
         \begin{figure}[H]
             \centering
@@ -325,8 +336,8 @@ Ensuite, il va extraire les nouvelles données de chaque table systéme de Snowf
                 \label{fig:apiData}
         \end{figure}
 
-        \item \textbf{La liste des bases de données et ces diffrents schémas:}
-        \par L'interface de la liste des bases de données et ces diffrents schémas est representée par la figure \textbf{\ref{fig:dblist}} suivante:
+        \item \textbf{La liste des bases de données et ses différents schémas :}
+        \par L'interface de la liste des bases de données et ses différents schémas est representée par la figure \textbf{\ref{fig:dblist}} suivante:
         \begin{figure}[H]
             \centering
             \includegraphics[width =1\linewidth]{img/captures/database/1.png}
@@ -334,7 +345,7 @@ Ensuite, il va extraire les nouvelles données de chaque table systéme de Snowf
                 \label{fig:dblist}
             \end{figure}
             \par La section "List of Databases" affiche les détails des différentes bases de données, y compris leur ID, leur nom, leur propriétaire et leurs dates de création et de dernière modification.\\ 
-            Une fois l'utilisateur selectionne une base de données, La liste des schémas d'affiche comme l'indique la figure \textbf{\ref{fig:schemas}} suivante:
+            Une fois l'utilisateur selectionne une base de données, la liste des schémas s'affiche comme l'indique la figure \textbf{\ref{fig:schemas}} suivante:
                 \begin{figure}[H]
                 \centering
                 \includegraphics[width =1\linewidth]{img/captures/database/2.png}
@@ -342,8 +353,8 @@ Ensuite, il va extraire les nouvelles données de chaque table systéme de Snowf
                     \label{fig:schemas}
                 \end{figure}
 
-             Ensuite, pour qu'on puisse lister les objets présents et créeés dans cette base de données, l'utilisateur selectionne le schéma appriori pour lister ces objets.
-            \par La figure \textbf{\ref{fig:objects}} ilusstre cette action:
+             Ensuite, pour que nous puissons lister les objets présents et créées dans cette base de données, l'utilisateur selectionne le schéma appriori pour lister ces objets.
+            \par La figure \textbf{\ref{fig:objects}} illustre cette action :
             \begin{figure}[H]
                 \centering
                 \includegraphics[width =1\linewidth]{img/captures/database/3.png}
@@ -351,13 +362,13 @@ Ensuite, il va extraire les nouvelles données de chaque table systéme de Snowf
                     \label{fig:objects}
                 \end{figure}
             \par Ces informations permettent aux administrateurs de l'application de surveiller et de gérer son compte Snowflake, en ayant une vue d'ensemble des bases de données, des schémas et des objets utilisés dans le système de surveillance.
-             \item \textbf{Tableaux de bord du surveillance des bases de données:}
-             \par La figure \textbf{\ref{fig:dashdata}} représente le tableau de bord du surveillance des bases de données:
+             \item \textbf{Tableaux de bord du surveillance des bases de données :}
+             \par La figure \textbf{\ref{fig:database}} représente le tableau de bord du surveillance des bases de données:
              \begin{figure}[H]
                 \centering
                 \includegraphics[width =1\linewidth]{img/captures/database/database_dash.png}
                 \caption{Tableaux de bord du surveillance des bases de données}
-                    \label{fig:objects}
+                    \label{fig:database}
                 \end{figure}
                 \par Cette interface de tableau de bord des statistiques des bases de données fournit une vue d'ensemble complète des principales métriques liées à l'utilisation et à la gestion des données dans l'environnement Snowflake. 
                 Elle présente des indicateurs clés tels que le nombre de tables, le coût total des bases de données, le stockage total utilisé et le nombre total de requêtes affectées.
@@ -366,7 +377,7 @@ Ensuite, il va extraire les nouvelles données de chaque table systéme de Snowf
 \end{itemize}
 \par Ce microservice  offre aux administrateurs un outil complet et puissant pour surveiller les performances des bases de données, identifier les tendances clés et prendre des décisions éclairées afin d'optimiser l'utilisation et la gestion des coûts de leurs comptes.
 \subsection{Micro-service << Access\_Statistics >>}
-\par Le micro-service << Access\_Statistics >>  est le service chargé de la surveillance des access aux comptes Snowflake.
+\par Le micro-service << Access\_Statistics >>  est le service chargé de la surveillance des accées aux comptes Snowflake.
 \begin{itemize}
     \item \textbf{La liste des APIs:}
         \par La liste des APIs présents dans ce micro-service, documentée par Swagger, sont representés par la figure \textbf{\ref{fig:apiAccess}} suivante:
@@ -377,11 +388,11 @@ Ensuite, il va extraire les nouvelles données de chaque table systéme de Snowf
                 \label{fig:apiAccess}
         \end{figure}
 
-        \item \textbf{L'historique des accées de l'utilisateur ONS CHAHED:}
-        \par L'interface de l'historique d'accées est representée par la figure \textbf{\ref{fig:accesslist}} suivante:
+        \item \textbf{L'historique des accés de l'utilisateur ONS CHAHED :}
+        \par L'interface de l'historique d'accés est representée par la figure \textbf{\ref{fig:accesslist}} suivante:
         \begin{figure}[H]
             \centering
-            \includegraphics[width =1\linewidth]{img/captures/user/history.png}
+            \includegraphics[width =1\linewidth,height =14cm]{img/captures/user/history.png}
             \caption{Historique des accées}
                 \label{fig:accesslist}
             \end{figure}
@@ -390,18 +401,18 @@ Ensuite, il va extraire les nouvelles données de chaque table systéme de Snowf
             Ce journal d'activité exhaustif représente un outil de gouvernance et de surveillance essentiel pour les administrateurs. 
             Il leur permet de suivre les mouvements des différents acteurs au sein du système, de détecter d'éventuelles activités suspectes et d'assurer la sécurité globale de l'infrastructure.
             \item \textbf{Tableaux de bord du surveillance des accéess des utilisateurs:}
-             \par Les figures \textbf{\ref{fig:acess1}} et \textbf{\ref{fig:acess2}} représentent les tableaux de bord du surveillance des accées de l'utilisateur <<ONS CHAHED>> et l'utilisateur système <<Snowflake>>:
+             \par Les figures \textbf{\ref{fig:acess1}} et \textbf{\ref{fig:acess2}} représentent les tableaux de bord du surveillance des accés de l'utilisateur <<ONS CHAHED>> et l'utilisateur système <<Snowflake>>:
              \begin{figure}[H]
                 \centering
                 \includegraphics[width =1\linewidth]{img/captures/user/1.png}
-                \caption{Tableau de bord du surveillance des accéess de l'utilisateur <<ONS CHAHED>>}
+                \caption{Tableau de bord du surveillance des accés de l'utilisateur <<ONS CHAHED>>}
                     \label{fig:acess1}
                 \end{figure}
                 \begin{figure}[H]
                     \centering
                     \includegraphics[width =1\linewidth]{img/captures/user/2.png}
-                    \caption{Tableau de bord du surveillance des accéess de l'utilisateur <<SNOWFLAKE>>}
-                        \label{fig:acess1}
+                    \caption{Tableau de bord du surveillance des accés de l'utilisateur <<SNOWFLAKE>>}
+                        \label{fig:acess2}
                     \end{figure}
                 \par Ces tableaux de bord offrent une visibilité complète sur l'activité des différents utilisateurs au sein de l'environnement Snowflake. Ils permettent de suivre des indicateurs clés tels que le nombre de sessions, de requêtes exécutées, d'applications utilisées et les coûts associés. Ces données quantitatives fournissent une image détaillée de l'utilisation du système par chaque utilisateur.
                 \\ L'historique détaillé des sessions et des requêtes autorisées complète ce tableau, donnant aux administrateurs une traçabilité exhaustive des actions entreprises par chaque utilisateur. Cet outil de suivi leur permet de détecter les éventuelles anomalies et de s'assurer du respect des politiques d'accès.
@@ -409,9 +420,9 @@ Ensuite, il va extraire les nouvelles données de chaque table systéme de Snowf
 \end{itemize}
 \par Ce microservice de surveillance des accès est bien plus qu'un simple registre. C'est un levier puissant pour les équipes en charge de la gouvernance et de l'exploitation des systèmes de données, leur permettant de prendre des décisions éclairées et de maintenir la fiabilité et la résilience de l'environnement Snowflake dans le temps.
 \subsection{Micro-service << DAG\_Monitoring >>}
-\par C'est le service responsable du suivi et de la surveillance en temps réelle des flux de taches (<<DAG>>) exécutés et programmées dans Snowflake. 
+\par C'est le service responsable du suivi et de la surveillance en temps réelle des flux de tâches (<<DAG>>) exécutées et programmées dans Snowflake. 
 \par Dans cette section, nous allons surveiller l'éxécution d'un ensemble des tâches en temps réelle. 
-\\ Ces tâches la sont deja crées dans notre compte Snowflake de test,La figure \textbf{\ref{fig:show}} illustre la liste des tâches, dont nous allons monitorer, dans snowflake qui apparâitre en exécutant la command << Show TASKS >>:
+\\ Ces tâches là sont déjà créées dans notre compte Snowflake de test, la figure \textbf{\ref{fig:show}} illustre la liste des tâches dont nous allons monitorer dans snowflake, qui apparaître en exécutant la command << Show TASKS >>:
     \begin{figure}[H]
         \centering
         \includegraphics[width =1\linewidth]{img/captures/dag/show.PNG}
@@ -432,11 +443,11 @@ Ensuite, il va extraire les nouvelles données de chaque table systéme de Snowf
     \caption{Lancement de l'éxécution des tâches}
     \label{fig:resume}
 \end{figure}
-\par La visualisation du DAG commance à s'animer comme l'indique la figure \textbf{\ref{fig:sus}} suivante telque:
+\par La visualisation du DAG commence à s'animer comme l'indique la figure \textbf{\ref{fig:sus}} suivante telque :
 \begin{itemize}
-    \item Les tâches qui représentent les racines de DAG doivent être toujours programmées pour qu'elles se lancent d'une façon séquencielle,
-    \item Les sous-tâches suitent l'exécution de la tâche racine,
-    \item L'état courant des sous tâches lorsque la racine est programmée préserve le dernier état aprés la derniére éxecution,
+    \item Les tâches qui représentent les racines de DAG doivent être toujours programmées pour qu'elles se lancent d'une façon séquentielle ;
+    \item Les sous-tâches suitent l'exécution de la tâche racine ;
+    \item L'état courant des sous tâches lorsque la racine est programmée préserve le dernier état aprés la derniére éxecution.
 \end{itemize}
 \begin{figure}[H]
     \centering
@@ -445,9 +456,9 @@ Ensuite, il va extraire les nouvelles données de chaque table systéme de Snowf
     \label{fig:sus}
 \end{figure}
 \par Maintenant, nous allons superviser le DAG du tâche \textbf{<<Load roles>>}. \\
-Initialement, cette tâche est \textbf{programmée} chaque 5 minutes, elle est colorée en \textbf{<< violet >>} et tous ces sous-tâches sont colorées en \textbf{<< vert >>} pour indiquer que leurs dernier état était un success. \\
+Initialement, cette tâche est \textbf{programmée} chaque 5 minutes, elle est colorée en \textbf{<< violet >>} et tous ces sous-tâches sont colorées en \textbf{<< vert >>} pour indiquer que leurs dernier état était un succés. \\
 Aprés 5 minutes, l'état de la tâche racine se modifie de \textbf{programée} (<<Scheduled>> ) vers \textbf{en exécution} (<<Executing>>) et sa couleur devenue \textbf{<< bleu>> }. \\
-Parallélement, les sous-tâches du premier niveau, \textbf{<<Load grant\_to\_roles>>}, \textbf{<<Load users>>}, \textbf{<<Load databases>>} deviennent \textbf{programmées} mais pour quelques instants car une fois la tâche supérieure compléte son éxécution ces tâches s'éxécutent directement.
+Parallélement, les sous-tâches du premier niveau, \textbf{<<Load\_grant\_to\_roles>>}, \textbf{<<Load users>>} et \textbf{<<Load databases>>} deviennent \textbf{programmées} mais pour quelques instants car une fois la tâche supérieure compléte son éxécution ces tâches s'éxécutent directement.
 La figure \textbf{\ref{fig:executing}} illustre ce qui précéde:
     \begin{figure}[H]
     \centering
@@ -455,7 +466,7 @@ La figure \textbf{\ref{fig:executing}} illustre ce qui précéde:
     \caption{Etape 3 : Execution de la racine}
     \label{fig:executing}
     \end{figure}
-\par Une fois la tâche << Load roles >> est \textbf{éxecutée avec success}, ses sous-tâches s'exécutent à leurs tour aussi comme l'indique la figure \textbf{\ref{fig:success}}
+\par Une fois la tâche << Load roles >> est \textbf{éxecutée avec succés}, ses sous-tâches s'exécutent à leurs tour aussi comme l'indique la figure \textbf{\ref{fig:success}}
 \begin{figure}[H]
     \centering
     \includegraphics[width =1\linewidth]{img/captures/dag/final/2.jpg}
@@ -463,8 +474,8 @@ La figure \textbf{\ref{fig:executing}} illustre ce qui précéde:
     \label{fig:success}
     \end{figure}
 
-\par Ce cycle ce répete d'un niveau à un autre jusqu'à avoir un succées par tout dans le DAG comme l'indique la figure \textbf{\ref{fig:final}} suivante.\\
- À cet instant là, l'etat du DAG revient à l'etape 1 du cycle si aucune malveuillance est produite, sinon la tâche erronée va être colorée en \textbf{<<rouge>>}  et en affichant le message d'erreur (présent dans la figure \textbf{\ref{fig:error}}), ce qui le cas de la tâche \textbf{<<load test>>} dans la même figure. 
+\par Ce cycle ce répete d'un niveau à un autre jusqu'à avoir un succés par tout dans le DAG comme l'indique la figure \textbf{\ref{fig:final}} suivante.\\
+ À cet instant là, l'état du DAG revient à l'etape 1 du cycle si aucune malveillance est produite, sinon la tâche erronée va être colorée en \textbf{<<rouge>>}  et en affichant le message d'erreur (présent dans la figure \textbf{\ref{fig:error}}), ce qui le cas de la tâche \textbf{<<load test>>} dans la même figure. 
 \begin{figure}[H]
     \centering
     \includegraphics[width =1\linewidth]{img/captures/dag/final/failed.png}
@@ -475,11 +486,11 @@ La figure \textbf{\ref{fig:executing}} illustre ce qui précéde:
         \centering
         \includegraphics[width =1\linewidth]{img/captures/dag/final/reason.png}
         \caption{Message d'erreur de la tâche <<Load test>>}
-        \label{fig:final}
+        \label{fig:error}
         \end{figure}
 \par Il faut noter que, si l'erreur d'une tâche persiste, Snowlfake va suspendu cette tâche pour ne pas affectée les tâches en relations avec elle. 
-Bien évidament, si cette tâche erronée est présente dans une DAG, la tâche racine de se DAG va être auto-suspendu directement ce qui va empécher l'execution de tout les autres sous-tâches \cite{auto}. 
-\par la figure \textbf{\ref{fig:autosus}} montre l'auto-suspend de la tâche <<load test>> aprés exactement 10 tentative d'éssai (un paramêtre par défaut dans Sonwflake fixé à 10)qui ont donné des erreurs.
+Bien évidement, si cette tâche erronée est présente dans une DAG, la tâche racine va être auto-suspendu directement ce qui va empécher l'execution de tout les autres sous-tâches \cite{auto}. 
+\par la figure \textbf{\ref{fig:autosus}} montre l'auto-suspend de la tâche <<load test>> aprés exactement 10 tentative d'éssai (un paramêtre par défaut dans Sonwflake fixé à 10) qui ont donné des erreurs.
 \begin{figure}[H]
     \centering
     \includegraphics[width =1\linewidth]{img/captures/dag/final/error.png}
@@ -491,7 +502,7 @@ Bien évidament, si cette tâche erronée est présente dans une DAG, la tâche 
     \centering
     \includegraphics[width =1\linewidth]{img/captures/dag/final/schemaerror.png}
     \caption{DAG erronée}
-    \label{fig:autosus}
+    \label{fig:dagerror}
     \end{figure}
 \par Aprés 10 tentatives, la racine du DAG est suspendu automatiquement à cause de cette tâche ce qui est illustré par les figures \textbf{\ref{fig:root}} et \textbf{\ref{fig:roles}}. De plus, les autres tâches vont conserver leurs derniers états comme l'indique la figure \textbf{\ref{fig:root}}
 \begin{figure}[H]
@@ -509,10 +520,10 @@ Bien évidament, si cette tâche erronée est présente dans une DAG, la tâche 
 \par En conclusion, ce microservice offre une vue d'ensemble détaillée et interconnectée du suivi des Tâches et des DAGs au sein du compte Snowflake.
 Cette approche intégrée donne aux administrateurs une compréhension globale de l'environnement, facilitant la détection rapide des problèmes, le diagnostic des causes et la mise en place de mesures correctives pour assurer la fiabilité et l'efficacité des données qui circule dans les entrepôts de données ainsi que l'environnement Snowflake.
 \subsection{Micro-service <<Notifications\_Launcher>>}
-\par Ce micro-service est responsable de l'envoi des notifications aux utilisateurs concernés selon l'évenement qui peut apparaitre.
+\par Ce micro-service est responsable de l'envoi des notifications aux utilisateurs concernés selon l'évenement qui peut apparaître.
 \begin{itemize}
-    \item \textbf{Si les mise à jours sont efféctuées :}
-        \par Dans le cas où les mise à jours sont efféctuées pour un compte, et comme nous avons déjà préciser dans le  microservice d'authentification, une fois le process ETL termine sont exécution il lance une notification à MQTT Broker, la figure \textbf{\ref{fig:step1}} rillustre une autre fois cette partie: 
+    \item \textbf{Si les mise à jours sont effectuées :}
+        \par Dans le cas où les mise à jours sont effectuées pour un compte, et comme nous avons déjà préciser dans le  microservice d'authentification, une fois le process ETL termine sont exécution il lance une notification à MQTT Broker, la figure \textbf{\ref{fig:step1}} rillustre une autre fois cette partie: 
         \begin{figure}[H]
             \centering
             \includegraphics[width =1\linewidth]{img/captures/notifications/updatelaunch.png}
@@ -526,7 +537,7 @@ Cette approche intégrée donne aux administrateurs une compréhension globale d
             \caption{Publication dans le topic <<Mqtt/updates>>}
             \label{fig:step2}
         \end{figure}
-        \par Simultanément, dans notre application, une popup s'affiche pour notifier les utilisateur connecté à ce compte que un mise à jour a était effectuée.
+        \par Simultanément, dans notre application, une popup s'affiche pour notifier les utilisateurs connectés à ce compte qu'un mise à jour a était effectuée.
         La figure \textbf{\ref{fig:step3}} illustre la récéption de la nouvelle notification : 
         \begin{figure}[H]
             \centering
@@ -534,7 +545,7 @@ Cette approche intégrée donne aux administrateurs une compréhension globale d
             \caption{Réception de la nouvelle notification de mise à jour dans <<Snowflake Monitoring Application>>}
             \label{fig:step3}
         \end{figure}
-        \par une fois nous cliquons sur l'icon de notification, la liste des notifications pour cet utilisateur s'affiche, comme l'indique la figure \textbf{\ref{fig:step4}} : 
+        \par une fois nous cliquons sur l'icône de notification, la liste des notifications pour cet utilisateur s'affiche, comme l'indique la figure \textbf{\ref{fig:step4}} : 
         \begin{figure}[H]
             \centering
             \begin{tabular}[b]{c}
@@ -549,10 +560,10 @@ Cette approche intégrée donne aux administrateurs une compréhension globale d
         \label{fig:step4}
         \end{figure}
 
-    \item \textbf{Si les limites de consommation sont atteinte :}
+    \item \textbf{Si les limites de consommation sont atteintes :}
     \par Dans le cas où les limites de consommation sont atteintes pour un des entrepôt de données, une notification est lancée. 
-    \par Nous prenons l'exemple de modification de limites à 50\$ dans les paramêtres globaux et nous allons surveiller ce que va se passer dans notre application. 
-    \par La figure \textbf{\ref{fig:global1}} illustre la modification des paramêtres pour surveiller le lancement des notifications:
+    \par Nous prenons l'exemple de modification de limites à 50\$ dans les paramétres globaux et nous allons surveiller ce que va se passer dans notre application. 
+    \par La figure \textbf{\ref{fig:global1}} illustre la modification des paramétres pour surveiller le lancement des notifications:
     \begin{figure}[H]
         \centering
         \includegraphics[width=0.3\linewidth ,height=8cm]{img/captures/notifications/settings.png}
@@ -567,15 +578,15 @@ Cette approche intégrée donne aux administrateurs une compréhension globale d
         \caption{Publication dans le topic <<Mqtt/credits>>}
         \label{fig:global2}
     \end{figure}
-    \par Parallélement, Une notification est reçue dans l'application et une popup s'affiche pour indiquer la reception de cette dernière. La figure \textbf{\ref{fig:global3}} illustre la récéption de la notification:
+    \par Parallélement, Une notification est reçue dans l'application et une popup s'affiche pour indiquer la reception de cette dernière. La figure \textbf{\ref{fig:global3}} illustre la récéption de la notification :
     \begin{figure}[H]
         \centering
         \includegraphics[width =1\linewidth]{img/captures/notifications/newglobal.png}
         \caption{Récéption de la nouvelle notification}
         \label{fig:global3}
     \end{figure}
-    \par Une fois nous cliquons sur l'icon de notification, la liste des notifications s'affiche avec la nouvelle notification.
-    \par La figure \textbf{\ref{fig:global4}} représente la nouvelle liste des notifications:
+    \par Une fois nous cliquons sur l'icône de notification, la liste s'affiche avec la nouvelle notification.
+    \par La figure \textbf{\ref{fig:global4}} représente la nouvelle liste des notifications :
     \begin{figure}[H]
         \centering
         \begin{tabular}[b]{c}
@@ -593,7 +604,7 @@ Cette approche intégrée donne aux administrateurs une compréhension globale d
 \par En conclusion, ce microservice joue un rôle essentiel dans la chaîne de valeur de l'application. En agissant comme une passerelle entre le service ETL et les utilisateurs finaux, il garantit que les informations 
 critiques sont rapidement et efficacement communiquées.  
 \subsection{Personnalisation de l'interface utilisateur : thèmes clair et sombre}
-\par Dans ce projet, nous avons intégré des fonctionnalités de personnalisation avancées pour améliorer l'expérience utilisateur, notamment le développement de thèmes clair et sombre. \\ Cette double option permet aux 
+\par Dans ce projet, nous avons intégré des fonctionnalités de personnalisation pour améliorer l'expérience utilisateur, notamment le développement de thèmes clair et sombre. \\ Cette double option permet aux 
 utilisateurs de choisir entre une interface lumineuse et une interface sombre, en fonction de leurs préférences ou des conditions de luminosité ambiante. Le thème clair offre une visualisation nette et claire idéale
  pour les environnements bien éclairés, tandis que le thème sombre réduit la fatigue oculaire lors d'une utilisation prolongée dans des conditions de faible luminosité. Cette flexibilité assure une meilleure ergonomie 
  et accessibilité de notre application, répondant ainsi aux attentes variées de notre base d'utilisateurs diversifiée.
@@ -614,10 +625,10 @@ utilisateurs de choisir entre une interface lumineuse et une interface sombre, e
  \begin{figure}[H]
     \centering
     \begin{tabular}[b]{c}
-        \includegraphics[width=1\linewidth ]{img/captures/dark/2.jpg}
+        \includegraphics[width=1\linewidth,height= 10cm]{img/captures/dark/2.jpg}
         \end{tabular}
         \begin{tabular}[b]{c}
-            \includegraphics[width=1\linewidth]{img/captures/dark/4.jpg}
+            \includegraphics[width=1\linewidth ,height= 10cm]{img/captures/dark/4.jpg}
             \end{tabular}
             \caption{Interfaces <<Databases Dashboard >> et <<Database Objects List >> en thème sombre}
             \label{fig:dark1}
@@ -639,5 +650,7 @@ utilisateurs de choisir entre une interface lumineuse et une interface sombre, e
 
 \section*{Conclusion}
 \addcontentsline{toc}{section}{Conclusion }
-Ce chapitre résume le travail accompli pour donner forme à notre projet. Les choix techniques que nous avons adoptés et détaillés nous ont permis de concrétiser notre vision. De plus, nous avons pu présenter la réalisation de ce projet en illustrant chaque partie avec des captures explicatives, montrant ainsi le cheminement de notre démarche. 
-\\Dans la conclusion générale, nous réunissons l'ensemble de notre travail et soulignons les perspectives pour l'avenir. 
+Ce chapitre résume le travail accompli pour donner forme à notre projet. Les choix techniques que nous avons adoptés et 
+détaillés nous ont permis de concrétiser notre vision. De plus, nous avons pu présenter la réalisation de ce projet en
+ illustrant chaque partie avec des captures explicatives, montrant ainsi le cheminement de notre démarche. 
+\\Dans la conclusion générale, nous réunisserons l'ensemble de notre travail et soulignerons les perspectives pour l'avenir. 

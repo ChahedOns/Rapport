@@ -75,23 +75,23 @@
 \contentsline {subsection}{\numberline {\if@rl \I {3.1.4}\else \textLR {4.1.3}\fi }Bibliothèques pour l'analyse et la manipulation des données}{53}{subsection.4.1.3}%
 \contentsline {subsection}{\numberline {\if@rl \I {4.1.4}\else \textLR {4.1.4}\fi }Bibliothèques d'interaction avec le système d'exploitation}{54}{subsection.4.1.4}%
 \contentsline {subsection}{\numberline {\if@rl \I {5.1.4}\else \textLR {4.1.5}\fi }Outils de test}{54}{subsection.4.1.5}%
-\contentsline {subsection}{\numberline {\if@rl \I {6.1.4}\else \textLR {4.1.6}\fi }Outils de versionning}{56}{subsection.4.1.6}%
-\contentsline {subsection}{\numberline {\if@rl \I {7.1.4}\else \textLR {4.1.7}\fi }Outils de documentation}{56}{subsection.4.1.7}%
-\contentsline {section}{\numberline {\filterminitoc {4.}2}Réalisation}{56}{section.4.2}%
-\contentsline {subsection}{\numberline {\if@rl \I {1.2.4}\else \textLR {4.2.1}\fi }Micro-service << ETL\_Service >>}{57}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {\if@rl \I {2.2.4}\else \textLR {4.2.2}\fi }Micro-service << Authentification\_Service >>}{59}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {\if@rl \I {3.2.4}\else \textLR {4.2.3}\fi }Micro-service << Warehouse\_Monitoring >>}{62}{subsection.4.2.3}%
-\contentsline {subsection}{\numberline {\if@rl \I {4.2.4}\else \textLR {4.2.4}\fi }Micro-service << Query\_Performance >>}{66}{subsection.4.2.4}%
-\contentsline {subsection}{\numberline {\if@rl \I {5.2.4}\else \textLR {4.2.5}\fi }Micro-service << Databases\_Statistics >>}{70}{subsection.4.2.5}%
-\contentsline {subsection}{\numberline {\if@rl \I {6.2.4}\else \textLR {4.2.6}\fi }Micro-service << Access\_Statistics >>}{74}{subsection.4.2.6}%
-\contentsline {subsection}{\numberline {\if@rl \I {7.2.4}\else \textLR {4.2.7}\fi }Micro-service << DAG\_Monitoring >>}{77}{subsection.4.2.7}%
-\contentsline {subsection}{\numberline {\if@rl \I {8.2.4}\else \textLR {4.2.8}\fi }Micro-service <<Notifications\_Launcher>>}{83}{subsection.4.2.8}%
-\contentsline {subsection}{\numberline {\if@rl \I {9.2.4}\else \textLR {4.2.9}\fi }Personnalisation de l'interface utilisateur : thèmes clair et sombre}{87}{subsection.4.2.9}%
-\contentsline {section}{Conclusion }{89}{figure.caption.88}%
+\contentsline {subsection}{\numberline {\if@rl \I {6.1.4}\else \textLR {4.1.6}\fi }Outils de versionning}{55}{subsection.4.1.6}%
+\contentsline {subsection}{\numberline {\if@rl \I {7.1.4}\else \textLR {4.1.7}\fi }Outils de documentation}{55}{subsection.4.1.7}%
+\contentsline {section}{\numberline {\filterminitoc {4.}2}Réalisation}{55}{section.4.2}%
+\contentsline {subsection}{\numberline {\if@rl \I {1.2.4}\else \textLR {4.2.1}\fi }Micro-service << ETL\_Service >>}{56}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {\if@rl \I {2.2.4}\else \textLR {4.2.2}\fi }Micro-service << Authentification\_Service >>}{57}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {\if@rl \I {3.2.4}\else \textLR {4.2.3}\fi }Micro-service << Warehouse\_Monitoring >>}{59}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {\if@rl \I {4.2.4}\else \textLR {4.2.4}\fi }Micro-service << Query\_Performance >>}{63}{subsection.4.2.4}%
+\contentsline {subsection}{\numberline {\if@rl \I {5.2.4}\else \textLR {4.2.5}\fi }Micro-service << Databases\_Statistics >>}{67}{subsection.4.2.5}%
+\contentsline {subsection}{\numberline {\if@rl \I {6.2.4}\else \textLR {4.2.6}\fi }Micro-service << Access\_Statistics >>}{71}{subsection.4.2.6}%
+\contentsline {subsection}{\numberline {\if@rl \I {7.2.4}\else \textLR {4.2.7}\fi }Micro-service << DAG\_Monitoring >>}{74}{subsection.4.2.7}%
+\contentsline {subsection}{\numberline {\if@rl \I {8.2.4}\else \textLR {4.2.8}\fi }Micro-service <<Notifications\_Launcher>>}{80}{subsection.4.2.8}%
+\contentsline {subsection}{\numberline {\if@rl \I {9.2.4}\else \textLR {4.2.9}\fi }Personnalisation de l'interface utilisateur : thèmes clair et sombre}{84}{subsection.4.2.9}%
+\contentsline {section}{Conclusion }{86}{figure.caption.88}%
 \select@language {french}
-\contentsline {chapter}{Conclusion générale}{90}{chapter*.89}%
+\contentsline {chapter}{Conclusion générale}{87}{chapter*.89}%
 \select@language {french}
-\contentsline {chapter}{Bibliographie}{92}{chapter*.90}%
+\contentsline {chapter}{Bibliographie}{89}{chapter*.90}%
 \babel@toc {arabic}{}\relax 
 \babel@toc {french}{}\relax 
 \babel@toc {english}{}\relax 

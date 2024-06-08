@@ -2,15 +2,15 @@
 \section*{Introduction}
 \addcontentsline{toc}{section}{Introduction }
 \par {\huge C}e chapitre introductif sera le départ pour la compréhension de notre projet. 
-Nous commençons la première partie par le cadre et le contexte de notre projet. 
-Ensuite, nous étudions les solutions existantes afin de cibler les insuffisances et l'embauche de notre nouvelle solution.
+Nous commençerons la première partie par le cadre et le contexte de notre projet. 
+Ensuite, nous allons étudier les solutions existantes afin de cibler les insuffisances et l'embauche de notre nouvelle solution.
 % Une section
 
 % Exemple d'une section qui porte une référence à une bibliographie
 % NB: il faut bien suivre le syntaxe pour ne pas tomber dans le cas où il y a une référence dans la table des matières.
 \section{Context général du projet}
-\par Ce projet Ce travail s'inscrit dans le cadre d'un sujet de fin d'études en vue de l'obtention du diplôme national d'ingénieur sein de L'\textbf{I}nstitut \textbf{S}upérieur de l'\textbf{I}nformatique \textbf{(ISI)}.
- Durant un stage de quatres mois effectués chez \textbf{Avaxia group}, notre mission consiste à concevoir et implémenter une platforme analytique pour les méta-données de la platforme Snowflake.
+\par Ce travail s'inscrit dans le cadre d'un sujet de fin d'études en vue de l'obtention du diplôme national d'ingénieur au sein de L'\textbf{I}nstitut \textbf{S}upérieur de l'\textbf{I}nformatique \textbf{(ISI)}.
+ Durant un stage de quatres mois effectués chez \textbf{Avaxia group}, notre mission consiste à concevoir et implémenter une platforme analytique pour les méta-données de la Snowflake.
 \section[Organisme d'accueil]{Organisme d'accueil}
 \par Dans cette section, nous allons présenter l'organisme d'accueil \textbf{Avaxia Group}. 
 \subsection{Présentation générale de Avaxia Group}
@@ -68,11 +68,11 @@ L'entreprise propose une gamme diversifiée de services, notamment les suivants\
 
 
 \section{\'Etude du projet}
-\par Dans cette section, nous explorons en détail l'étude de ce projet toutes en commmançant par la problématique qui a menée à sa réalisation,et les spécifications de cette derniére ainsi que son objectif.
+\par Dans cette section, nous explorons en détail l'étude de ce projet toutes en commmançant par la problématique qui a menée à sa réalisation, les spécifications de cette derniére ainsi que son objectif.
 \subsection{Problématique}
-\par Avec l'avènement des technologies de cloud computing et des entrepôts de données modernes tels que Snowflake, les entreprises disposent désormais d'une flexibilité 
+\par Avec l'avènement des technologies de cloud computing et des entrepôts de données modernes telque Snowflake, les entreprises disposent désormais d'une flexibilité 
 et d'une évolutivité inégalées pour la gestion et l'analyse de leurs données. 
-Cependant, cette transition vers le cloud présente des défis spécifiques en termes de performance, de coûts, et de surveillance des opérations. 
+Cependant, cette transition vers le cloud présente des défis spécifiques en termes de performance, de coûts et de surveillance des opérations. 
 \par Dans ce contexte, Avaxia Group ainsi que ces clients, se trouvent confronter à des problématiques particulières liées à l'utilisation de Snowflake, leurs entrepôt de données principal, telque : 
 \begin{itemize}
     \item \textbf{Gestion des performances : } \par - Avaxia Group constate des délais dans l'exécution des requêtes et des temps de traitement prolongés lors de l'utilisation de Snowflake. 
@@ -84,7 +84,7 @@ Cependant, cette transition vers le cloud présente des défis spécifiques en t
     \item \textbf{Maîtrise des coûts :} \par - les coûts associés à l'utilisation de Snowflake peuvent rapidement augmenter en raison d'une gestion inadéquate des ressources. 
     Avaxia Group doit donc trouver des moyens de maîtriser les coûts tout en garantissant des performances optimales pour ses opérations ;
 
-    \item \textbf{Surveillance et analyse des opération :} \par - pour assurer le bon fonctionnement de ses opérations Snowflake, Avaxia Group a besoin d'une solution de surveillance avancée pour détecter les anomalies, identifier les goulets d'étranglement et optimiser les performances.
+    \item \textbf{Surveillance et analyse des opérations :} \par - pour assurer le bon fonctionnement de ses opérations Snowflake, Avaxia Group a besoin d'une solution de surveillance avancée pour détecter les anomalies, identifier les goulets d'étranglement et optimiser les performances.
     \par De plus, une analyse approfondie des métriques opérationnelles telles que le temps d'exécution des requêtes, l'utilisation des ressources et les performances des entrepôts sont essentielles pour optimiser l'efficacité et l'efficience des opérations. 
 \end{itemize}
 
@@ -92,12 +92,12 @@ Cependant, cette transition vers le cloud présente des défis spécifiques en t
 Dans cette section, nous passerons en revue les fonctionnalités, les avantages de chaque solution existante, tout en mettant en lumière les lacunes qui ont conduit au développement de notre propre solution de monitoring des opérations Snowflake.
 \subsubsection{Analyse de l'existant}
 \par L'analyse de l'existant est une étape cruciale dans le processus de développement de notre solution.
-C'est pour céla, nous allons entammer l'analyse les outils existants utilisés pour surveiller et analyser les opérations sur les divers plateformes de l'analyse des données et le cloud data warehousing.
+C'est pour cela, nous allons entammer l'analyse des outils existants utilisés pour surveiller les opérations sur les divers plateformes de l'analyse des données et le cloud data warehousing.
 \begin{itemize}
     \item\textbf{Snowflake account usage dashboard :}  est un tableau de bord intégré dans snowflake qui fournit des informations sur l'utilisation de Snowflake, telles que le nombre de sessions utilisateur, 
     la quantité de données stockées et le temps \textbf{C}entral \textbf{P}rocessing \textbf{U}nit (\textbf{CPU}) utilisé.
-    Il offre une vue rétrospective des opérations passées, permettant aux utilisateurs de comprendre l'historique d'utilisation de la plateforme. 
-    \par La figure \textbf{\ref{fig:SAU}} suivante illustre une partie de cette dashboard:
+    Il offre une vue rétrospective des opérations passées, permettant aux utilisateurs de comprendre l'historique d'utilisation de la plateforme ;
+    \par La figure \textbf{\ref{fig:SAU}} suivante illustre une partie de cette dashboard :
         %code image
             \begin{figure}[H]
             \centering
@@ -107,8 +107,8 @@ C'est pour céla, nous allons entammer l'analyse les outils existants utilisés 
             \end{figure}
         %fin
     \item\textbf{Snowflake Information Schema :} est une collection de vues système qui fournissent des métadonnées sur les objets et les opérations effectuées dans un compte Snowflake. 
-    Ces vues offrent une granularité élevée pour examiner les détails des requêtes SQL exécutées, les performances des entrepôts de données et d'autres aspects des opérations Snowflake. 
-    \par La figure \textbf{\ref{fig:info}} suivante illustre une partie de cette vue:
+    Ces vues offrent une granularité élevée pour examiner les détails des requêtes SQL exécutées, les performances des entrepôts de données et d'autres aspects des opérations Snowflake ;
+    \par La figure \textbf{\ref{fig:info}} suivante illustre une partie de cette vue :
         %code image
             \begin{figure}[H]
             \centering
@@ -118,7 +118,7 @@ C'est pour céla, nous allons entammer l'analyse les outils existants utilisés 
             \end{figure}
         %fin
     \item\textbf{Google BigQuery :} est une autre option populaire pour le stockage et l'analyse des données dans le cloud. 
-    Il offre des fonctionnalités avancées telles que le traitement massivement parallèle et la capacité à exécuter des requêtes SQL complexes sur de grands ensembles de données. 
+    Il offre des fonctionnalités avancées telles que le traitement massivement parallèle et la capacité à exécuter des requêtes SQL complexes sur des grands ensembles de données ;
     \par La figure \textbf{\ref{fig:BQ}} suivante illustre une partie de tableau de bord de BigQuery :
         %code image
             \begin{figure}[H]
@@ -130,8 +130,8 @@ C'est pour céla, nous allons entammer l'analyse les outils existants utilisés 
         %fin
 
     \item\textbf{Amazon Redshift :} est un entrepôt de données cloud basé sur PostgreSQL, conçu pour gérer de gros volumes de données et exécuter des analyses complexes.
-    Il offre des performances élevées et une extensibilité, mais son modèle de tarification basé sur l'utilisation des ressources peut entraîner des coûts supplémentaires pour les entreprises.
-    \par La figure \textbf{\ref{fig:RS}} suivante illustre le tableau de bord de ResShift:
+    Il offre des performances élevées et une extensibilité, mais son modèle de tarification basé sur l'utilisation des ressources peut entraîner des coûts supplémentaires pour les entreprises ;
+    \par La figure \textbf{\ref{fig:RS}} suivante illustre le tableau de bord de RedShift:
         %code image
             \begin{figure}[H]
             \centering
@@ -144,22 +144,23 @@ C'est pour céla, nous allons entammer l'analyse les outils existants utilisés 
 \subsubsection{Critique de l'existant}
 \par Dans cette section, nous allons examiner de manière critique les solutions actuellement utilisés dans le domaine de l'analyse de données, afin de fournir une base solide pour concevoir une solution qui surmonte les limitations et offre une valeur ajoutée significative à nos parties prenantes.
 \begin{itemize}
-    \item\textbf{Complexité des solutions : }les solutions de surveillance existants, comme le Snowflake Information Schema, sont souvent complexes à utiliser et nécessitent des compétences techniques avancées pour interpréter les données fournies. 
+    \item\textbf{Complexité des solutions : }les solutions de surveillance existants, comme le <<Snowflake Information Schema>>, sont souvent complexes à utiliser et nécessitent des compétences techniques avancées pour interpréter les données fournies. 
     Cette complexité peut rendre difficile la compréhension des métriques et la prise de décisions éclairées par les équipes opérationnelles ;
-    (par exemple dans un flux de travail si une certaine tache est échouée, les indicateurs disponibles sur snowflake ne peuvent pas identifier ou exactement le workflow est suspendu de façon à rendre les choses plus compliqué pour les utilisaturs de Snowflake de détecter les anomalies si ils savent pas comment le manipuler techniquement.)
+    (par exemple dans un flux de travail si une certaine tache est échouée, les indicateurs disponibles sur snowflake ne peuvent pas identifier ou exactement le flux de travail est suspendu de façon à rendre les choses plus compliqués pour les utilisaturs de Snowflake de détecter les anomalies s'ils savent pas comment le manipuler techniquement.)
 
     \item\textbf{Personnalisation limitée : }les options de personnalisation offertes par les outils existants sont souvent limitées. 
     Par exemple, Google BigQuery propose des fonctionnalités avancées, mais la personnalisation des tableaux de bord et des rapports est restreinte. Cela peut être un obstacle pour les entreprises ayant des besoins spécifiques en matière de surveillance et d'analyse des performances ;
 
-    \item\textbf{Coûts supplémentaires : }certains outils, comme Amazon Redshift, peuvent entraîner des coûts supplémentaires importants pour les entreprises. La tarification basée sur l'utilisation des ressources peut rapidement augmenter, surtout si les entreprises ne surveillent pas activement leur utilisation. Cela peut constituer une barrière financière pour les petites et moyennes entreprises souhaitant utiliser ces outils de surveillance ;
+    \item\textbf{Coûts supplémentaires : }certains outils, comme Amazon Redshift, peuvent entraîner des coûts supplémentaires importants pour les entreprises. La tarification basée sur l'utilisation des ressources peut rapidement augmenter, surtout si les entreprises ne surveillent pas activement leur utilisation. 
+    Cela peut constituer une barrière financière pour les petites et moyennes entreprises souhaitant utiliser ces outils de surveillance.
 
 \end{itemize}
 
 \subsection{Objectif du projet}
 \par  L'objectif principal de ce projet est de propulser les opérations Snowflake d'Avaxia Group vers de nouveaux sommets en termes de performance, de rentabilité et d'efficacité. 
 Le développement de cette nouvelle plateforme de surveillance aidera l'équipe d'Avaxia à surmonter ces défis majeurs.
-\par Grâce à cette initiative, Avaxia Group pourra optimiser ses processus, réduire les coûts opérationnels et améliorer la qualité des services offerts à ses clients. En effet, cette nouvelle plateforme 
-permettra de détecter rapidement les problèmes de performance, d'anticiper les besoins en ressources et de garantir une gestion plus efficace des opérations.
+\par Grâce à cette initiative, Avaxia Group pourra optimiser ses processus, réduire les coûts opérationnels et améliorer la qualité des services offerts à ses clients. 
+En effet, cette nouvelle plateforme permettra de détecter rapidement les problèmes de performance, d'anticiper les besoins en ressources et de garantir une gestion plus efficace des opérations.
 \subsection{Solution proposée}
 \par Notre solution repose sur la conception et l'implémentation d'un système de surveillance et d'optimisation des opérations exhaustif. 
 Cette solution se repartie en plusieurs composants clés, chacun ciblant des aspects spécifiques des problématiques identifiées:
@@ -180,7 +181,7 @@ Cette solution se repartie en plusieurs composants clés, chacun ciblant des asp
 \par Dans le but d'aboutir à une solution de qualité qui répond aux besoins exigés dans des
 temps et des coûts prévisibles, le choix du processus de développement convenable est
 une phase primordiale dans tout projet. Nous devons appliquer une méthode rigoureuse
-sur la conduite de notre projet.
+pour la conduite de notre projet.
 \subsection{Différence entre Scrum et Kanban}
 \par La table \textbf{1.1} résume une comparaison entre les méthodes agiles de gestion des projets \textbf{Scrum} et \textbf{Kanban} :
 \begin{table}[H]
@@ -216,48 +217,52 @@ En effet, Kanban, qui tire son origine du terme japonais signifiant << tableau >
 
 \par Dans le cadre de notre projet, Kanban s'impose naturellement comme le choix optimal. 
 Cette méthode permet une gestion visuelle et en temps réel des tâches et des flux de travail, une caractéristique cruciale pour un projet centré sur l'analyse de données et la visualisation.
- Chaque étape de notre processus, de la collecte des données à la présentation des résultats, trouve une représentation claire et concise dans le tableau Kanban.
+Chaque étape de notre processus, de la collecte des données à la présentation des résultats, trouve une représentation claire et concise dans le tableau Kanban.
 
-\par De surcroît, Kanban promeut une approche itérative et progressive, parfaitement en harmonie avec notre objectif d'amélioration continue. 
+\par De surcroît, Kanban favorise une approche itérative et progressive, parfaitement en harmonie avec notre objectif d'amélioration continue. 
 Elle autorise une gestion fluide et adaptable des tâches, offrant la souplesse nécessaire pour ajuster notre plan en fonction des découvertes et des besoins changeants du projet.
+
 \par En optant pour Kanban, nous mettons l'accent sur la transparence et la communication au sein de l'équipe. 
-Chacun dispose d'une vision limpide de l'état d'avancement du projet, favorisant ainsi la collaboration et l'engagement de tous les membres.
+Chacun dispose d'une vision claire de l'état d'avancement du projet, favorisant ainsi la collaboration et l'engagement de tous les membres.
 \subsection{Le tableau Kanban}
 \par Un tableau Kanban est un outil de gestion de projet Agile conçu pour aider à visualiser le travail, limiter le travail en cours et maximiser l'efficacité (ou le flux) \cite{kanban}.
-\par Dans cette section, nous allons s'interésser à la spécificités des tableaux Kanban et leurs types
+\par Dans cette section, nous allons s'interésser à la spécificités des tableaux Kanban et leurs types.
 
 \subsubsection{Composants d'un tableau Kanban}
-\par Dans cette partie, nous allons découvrir les composants d'un tableau Kanban. En effect, Les tableaux Kanban utilisent des cartes, des colonnes, des couloirs et des limites de travail 
-en cours pour permettre aux équipes de visualiser et de gérer efficacement leurs flux de travail. Examinons ces principaux éléments plus en détail:
+\par Dans cette partie, nous allons découvrir les composants d'un tableau Kanban. En effet, Les tableaux Kanban utilisent des cartes, des colonnes, des couloirs et des limites de travail 
+en cours pour permettre aux équipes de visualiser et de gérer efficacement leurs flux de travail. Examinons ces principaux éléments plus en détail :
 
 \begin{itemize}
     \item{\textbf{Carte Kanban}} : c'est une représentation visuelle des tâches. Chaque carte contient des informations importantes sur la tâche, telles que sa description, son statut d'avancement, les personnes impliquées, 
     les échéances, etc\cite{tableau} ;
-    \item {\textbf{Colonne Kanban}}:chaque colonne une étape distincte du processus de travail. Les tâches traversent ces différentes colonnes au fur et à mesure 
+    \item {\textbf{Colonne Kanban}} : chaque colonne une étape distincte du processus de travail. Les tâches traversent ces différentes colonnes au fur et à mesure 
     de leur avancement, jusqu'à ce qu'elles soient complètement terminées. Cette organisation visuelle permet de suivre et de maîtriser le flux de travail de manière efficace \cite{tableau} ;
 
     \item{\textbf{Couloir Kanban}} : sont des bandes horizontales pour séparer différents éléments tels que les activités, les équipes, les classes de service, etc.
      Ces bandes permettent d'organiser visuellement le tableau de manière plus granulaire et de mieux différencier les éléments qui le composent \cite{tableau} ;
 
      \item{\textbf{Limite de travail en cours}} : elles limitent la quantité maximum de tâches dans les différentes étapes du flux de travail.
-      Elles vous permettent de terminer des tâches plus rapidement en aidant votre équipe à ne concentrer que sur les tâches en cours \cite{tableau};
+      Elles permettent de terminer des tâches plus rapidement en aidant l'équipe à ne concentrer que sur les tâches en cours \cite{tableau};
 
     \item{\textbf{Point d'engagement}} : un point d'engagement est un point dans le processus de travail auquel une tâche est prête à être incorporée au système \cite{tableau} ;
     \item{\textbf{Point de livraison }} : point du flux de travail auquel une tâche est considérée comme terminée \cite{tableau}.
 \end{itemize}
     \subsubsection{Types des tableaux Kanban}
-    \par Les tableaux Kanban peuvent être divisés en plusiedeux types :
+    \par Les tableaux Kanban peuvent être divisés en plusieurs types :
     \begin{enumerate}
         \item[1-]\textbf{Un tableau Kanban physique }: est la forme la plus basique, les équipes utilisent des Post-its (représentant des tâches) et un tableau blanc (ou en liège). 
         Les phases de travail sont représentées par des colonnes et les Post-its sont déplacés d'une étape à une autre \cite{tableau}.
-        \item[2-]\textbf{Un tableau Kanban numérique }: est une solution logicielle, ce qui le rend plus accessible que son pendant physique. Il peut vous fournir une visibilité sur la progression du travail depuis quasiment n'importe où, ce qui facilite la collaboration d'équipe. 
+        \item[2-]\textbf{Un tableau Kanban numérique }: est une solution logicielle, ce qui le rend plus accessible que le tableau physique. Il peut fournir une visibilité sur la progression du travail depuis quasiment 
+        n'importe où, ce qui facilite la collaboration d'équipe. 
         Certaines solutions numériques s'avèrent très souples, permettant aux responsables de suivre plusieurs flux de travail et d'organiser leur travail en différentes catégories \cite{tableau}.
     \end{enumerate}
 \par Pour la gestion de notre projet, nous avons choisi \textbf{<< Trello >>} qui est une platforme rapide et simple pour la création d'un tableau Kanban numérique.
 
 
-\par En résumé, la méthode Kanban s'impose comme un choix stratégique judicieux pour notre projet, offrant un cadre solide pour une gestion efficace, transparente et itérative, tout en servant l'objectif fondamental d'amélioration continue de la performance de l'équipe.
+\par En résumé, la méthode Kanban s'impose comme un choix stratégique judicieux pour notre projet, offrant un cadre solide pour une gestion efficace, transparente et itérative, tout en servant l'objectif fondamental d'amélioration continue.
 
 \section*{Conclusion}
 \addcontentsline{toc}{section}{Conclusion}
-   À la clôture de ce chapitre initial, nous avons jeté les fondements pour la compréhension complète de la sphère du projet. Cette phase est cruciale pour cadrer les enjeux et les perspectives qui guident notre travail. Dans le prochain chapitre, nous explorerons en détail l'analyse et la spécification des besoins, une étape essentielle pour la réalisation de notre projet.
+   À la clôture de ce chapitre initial, nous avons posé les fondements pour la compréhension complète de la sphère du projet.
+Cette phase est cruciale pour cadrer les enjeux qui guident notre travail. 
+Dans le prochain chapitre, nous explorerons en détail l'analyse et la spécification des besoins qui est une étape essentielle pour la réalisation de notre projet.

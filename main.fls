@@ -1167,9 +1167,6 @@ INPUT .\main.mtc
 INPUT main.mtc
 OUTPUT main.mtc
 INPUT main.mtc3
-INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri8t.tfm
-INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmri8t.vf
-INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
 INPUT .\img\conception\use_case.png
 INPUT .\img\conception\use_case.png
 INPUT .\img\conception\use_case.png
@@ -1714,10 +1711,13 @@ INPUT .\conclusion.tex
 INPUT .\conclusion.tex
 INPUT .\conclusion.tex
 INPUT conclusion.tex
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri8t.tfm
 INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\t1pcr.fd
 INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\t1pcr.fd
 INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\t1pcr.fd
 INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\courier\pcrr8t.tfm
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmri8t.vf
+INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
 INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\courier\pcrr8t.vf
 INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\courier\pcrr8r.tfm
 INPUT C:\Users\hp omen\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmrc8t.vf

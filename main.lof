@@ -28,56 +28,56 @@
 \contentsline {figure}{\numberline {\if@rl \I {14.3}\else \textLR {3.14}\fi }{\ignorespaces Diagrammme de séquence de cas d'utilisation <<S'authentifier>> }}{49}{figure.caption.37}%
 \addvspace {10\p@ }
 \contentsline {xchapter}{Réalisation}{52}{chapter.4}%
-\contentsline {figure}{\numberline {\if@rl \I {1.4}\else \textLR {4.1}\fi }{\ignorespaces Exécution de l'ETL}}{58}{figure.caption.39}%
-\contentsline {figure}{\numberline {\if@rl \I {2.4}\else \textLR {4.2}\fi }{\ignorespaces La publication du message dans MQTT Broker}}{59}{figure.caption.40}%
-\contentsline {figure}{\numberline {\if@rl \I {3.4}\else \textLR {4.3}\fi }{\ignorespaces Liste des APIs du microservice <<Athentification\_service>> }}{60}{figure.caption.41}%
-\contentsline {figure}{\numberline {\if@rl \I {4.4}\else \textLR {4.4}\fi }{\ignorespaces Interface de Création de compte <<Sign up>> }}{60}{figure.caption.42}%
-\contentsline {figure}{\numberline {\if@rl \I {5.4}\else \textLR {4.5}\fi }{\ignorespaces Interface d'authentification <<Login>>}}{61}{figure.caption.43}%
-\contentsline {figure}{\numberline {\if@rl \I {6.4}\else \textLR {4.6}\fi }{\ignorespaces <<Logout>>}}{62}{figure.caption.44}%
-\contentsline {figure}{\numberline {\if@rl \I {7.4}\else \textLR {4.7}\fi }{\ignorespaces Liste des APIs du microservice <<Warehouse\_Monitoring>> }}{63}{figure.caption.45}%
-\contentsline {figure}{\numberline {\if@rl \I {8.4}\else \textLR {4.8}\fi }{\ignorespaces Interface de la liste des entrepôts de données}}{63}{figure.caption.46}%
-\contentsline {figure}{\numberline {\if@rl \I {9.4}\else \textLR {4.9}\fi }{\ignorespaces Tableau de bord du surveillance d l'entrepôts des données <<Monitoring\_warehouse>>}}{64}{figure.caption.47}%
-\contentsline {figure}{\numberline {\if@rl \I {10.4}\else \textLR {4.10}\fi }{\ignorespaces Tableau de bord du surveillance d l'entrepôts des données <<Compute\_WH>>}}{64}{figure.caption.48}%
-\contentsline {figure}{\numberline {\if@rl \I {11.4}\else \textLR {4.11}\fi }{\ignorespaces Changement du role de l'utilisateur de <<ACCOUNT ADMIN>> vers <<ORGADMIN>> }}{65}{figure.caption.49}%
-\contentsline {figure}{\numberline {\if@rl \I {12.4}\else \textLR {4.12}\fi }{\ignorespaces Changement de seuil de credits vers <<90\$>> }}{65}{figure.caption.50}%
-\contentsline {figure}{\numberline {\if@rl \I {13.4}\else \textLR {4.13}\fi }{\ignorespaces Liste des APIs du microservice <<Warehouse\_Monitoring>> }}{67}{figure.caption.51}%
-\contentsline {figure}{\numberline {\if@rl \I {14.4}\else \textLR {4.14}\fi }{\ignorespaces Interface de la liste des entrepôts de données}}{68}{figure.caption.52}%
-\contentsline {figure}{\numberline {\if@rl \I {15.4}\else \textLR {4.15}\fi }{\ignorespaces Tableau de bord du surveillance des entrepôts des données}}{68}{figure.caption.53}%
-\contentsline {figure}{\numberline {\if@rl \I {16.4}\else \textLR {4.16}\fi }{\ignorespaces Tableau de bord du surveillance des entrepôts des données}}{69}{figure.caption.54}%
-\contentsline {figure}{\numberline {\if@rl \I {17.4}\else \textLR {4.17}\fi }{\ignorespaces Tableau de bord du surveillance de l'entrepôt des données <<Monitoring\_Warehouse>> }}{69}{figure.caption.55}%
-\contentsline {figure}{\numberline {\if@rl \I {18.4}\else \textLR {4.18}\fi }{\ignorespaces Tableau de bord du surveillance de l'entrepôt des données <<Compute\_WH>>}}{70}{figure.caption.56}%
-\contentsline {figure}{\numberline {\if@rl \I {19.4}\else \textLR {4.19}\fi }{\ignorespaces Liste des APIs du microservice<< Databases\_Statistics >> }}{71}{figure.caption.57}%
-\contentsline {figure}{\numberline {\if@rl \I {20.4}\else \textLR {4.20}\fi }{\ignorespaces La liste des bases de données}}{72}{figure.caption.58}%
-\contentsline {figure}{\numberline {\if@rl \I {21.4}\else \textLR {4.21}\fi }{\ignorespaces Liste des schémas de base de données}}{72}{figure.caption.59}%
-\contentsline {figure}{\numberline {\if@rl \I {22.4}\else \textLR {4.22}\fi }{\ignorespaces Liste des objets dans la base de données}}{73}{figure.caption.60}%
-\contentsline {figure}{\numberline {\if@rl \I {23.4}\else \textLR {4.23}\fi }{\ignorespaces Tableaux de bord du surveillance des bases de données}}{73}{figure.caption.61}%
-\contentsline {figure}{\numberline {\if@rl \I {24.4}\else \textLR {4.24}\fi }{\ignorespaces Liste des APIs du microservice << Access\_Statistics >> }}{74}{figure.caption.62}%
-\contentsline {figure}{\numberline {\if@rl \I {25.4}\else \textLR {4.25}\fi }{\ignorespaces Historique des accées}}{75}{figure.caption.63}%
-\contentsline {figure}{\numberline {\if@rl \I {26.4}\else \textLR {4.26}\fi }{\ignorespaces Tableau de bord du surveillance des accéess de l'utilisateur <<ONS CHAHED>>}}{76}{figure.caption.64}%
-\contentsline {figure}{\numberline {\if@rl \I {27.4}\else \textLR {4.27}\fi }{\ignorespaces Tableau de bord du surveillance des accéess de l'utilisateur <<SNOWFLAKE>>}}{76}{figure.caption.65}%
-\contentsline {figure}{\numberline {\if@rl \I {28.4}\else \textLR {4.28}\fi }{\ignorespaces Résultat du command <<Show tasks>> }}{77}{figure.caption.66}%
-\contentsline {figure}{\numberline {\if@rl \I {29.4}\else \textLR {4.29}\fi }{\ignorespaces Etape 0 : état initial du DAG}}{78}{figure.caption.67}%
-\contentsline {figure}{\numberline {\if@rl \I {30.4}\else \textLR {4.30}\fi }{\ignorespaces Lancement de l'éxécution des tâches}}{78}{figure.caption.68}%
-\contentsline {figure}{\numberline {\if@rl \I {31.4}\else \textLR {4.31}\fi }{\ignorespaces Etape 1 : Lancement des têches}}{79}{figure.caption.69}%
-\contentsline {figure}{\numberline {\if@rl \I {32.4}\else \textLR {4.32}\fi }{\ignorespaces Etape 3 : Execution de la racine}}{79}{figure.caption.70}%
-\contentsline {figure}{\numberline {\if@rl \I {33.4}\else \textLR {4.33}\fi }{\ignorespaces Etape 4 : Exécution des sous-tâches de niveau I}}{80}{figure.caption.71}%
-\contentsline {figure}{\numberline {\if@rl \I {34.4}\else \textLR {4.34}\fi }{\ignorespaces Etape 5 : Succes dans tous les branches du DAG <<Load Roles>>}}{80}{figure.caption.72}%
-\contentsline {figure}{\numberline {\if@rl \I {35.4}\else \textLR {4.35}\fi }{\ignorespaces Message d'erreur de la tâche <<Load test>>}}{81}{figure.caption.73}%
-\contentsline {figure}{\numberline {\if@rl \I {36.4}\else \textLR {4.36}\fi }{\ignorespaces Auto-suspend de la tâche}}{81}{figure.caption.74}%
-\contentsline {figure}{\numberline {\if@rl \I {37.4}\else \textLR {4.37}\fi }{\ignorespaces DAG erronée}}{82}{figure.caption.75}%
-\contentsline {figure}{\numberline {\if@rl \I {38.4}\else \textLR {4.38}\fi }{\ignorespaces La racine de Dag est suspendu automatiquement}}{82}{figure.caption.76}%
-\contentsline {figure}{\numberline {\if@rl \I {39.4}\else \textLR {4.39}\fi }{\ignorespaces Détails de suspend de la racine}}{83}{figure.caption.77}%
-\contentsline {figure}{\numberline {\if@rl \I {40.4}\else \textLR {4.40}\fi }{\ignorespaces Exécution de l'ETL}}{83}{figure.caption.78}%
-\contentsline {figure}{\numberline {\if@rl \I {41.4}\else \textLR {4.41}\fi }{\ignorespaces Publication dans le topic <<Mqtt/updates>>}}{84}{figure.caption.79}%
-\contentsline {figure}{\numberline {\if@rl \I {42.4}\else \textLR {4.42}\fi }{\ignorespaces Réception de la nouvelle notification de mise à jour dans <<Snowflake Monitoring Application>>}}{84}{figure.caption.80}%
-\contentsline {figure}{\numberline {\if@rl \I {43.4}\else \textLR {4.43}\fi }{\ignorespaces Consultation des notifications}}{85}{figure.caption.81}%
-\contentsline {figure}{\numberline {\if@rl \I {44.4}\else \textLR {4.44}\fi }{\ignorespaces Modification de limites}}{85}{figure.caption.82}%
-\contentsline {figure}{\numberline {\if@rl \I {45.4}\else \textLR {4.45}\fi }{\ignorespaces Publication dans le topic <<Mqtt/credits>>}}{86}{figure.caption.83}%
-\contentsline {figure}{\numberline {\if@rl \I {46.4}\else \textLR {4.46}\fi }{\ignorespaces Récéption de la nouvelle notification}}{86}{figure.caption.84}%
-\contentsline {figure}{\numberline {\if@rl \I {47.4}\else \textLR {4.47}\fi }{\ignorespaces Consultation des notifications}}{87}{figure.caption.85}%
-\contentsline {figure}{\numberline {\if@rl \I {48.4}\else \textLR {4.48}\fi }{\ignorespaces Modification du théme}}{87}{figure.caption.86}%
-\contentsline {figure}{\numberline {\if@rl \I {49.4}\else \textLR {4.49}\fi }{\ignorespaces Interfaces <<Databases Dashboard >> et <<Database Objects List >> en thème sombre}}{88}{figure.caption.87}%
-\contentsline {figure}{\numberline {\if@rl \I {50.4}\else \textLR {4.50}\fi }{\ignorespaces Interfaces en <<Queries Dashboard >> et <<Warehouses List >> thème sombre}}{89}{figure.caption.88}%
+\contentsline {figure}{\numberline {\if@rl \I {1.4}\else \textLR {4.1}\fi }{\ignorespaces Exécution de l'ETL}}{56}{figure.caption.39}%
+\contentsline {figure}{\numberline {\if@rl \I {2.4}\else \textLR {4.2}\fi }{\ignorespaces La publication du message dans MQTT Broker}}{57}{figure.caption.40}%
+\contentsline {figure}{\numberline {\if@rl \I {3.4}\else \textLR {4.3}\fi }{\ignorespaces Liste des APIs du microservice <<Athentification\_service>> }}{57}{figure.caption.41}%
+\contentsline {figure}{\numberline {\if@rl \I {4.4}\else \textLR {4.4}\fi }{\ignorespaces Interface de Création de compte <<Sign up>> }}{58}{figure.caption.42}%
+\contentsline {figure}{\numberline {\if@rl \I {5.4}\else \textLR {4.5}\fi }{\ignorespaces Interface d'authentification <<Login>>}}{58}{figure.caption.43}%
+\contentsline {figure}{\numberline {\if@rl \I {6.4}\else \textLR {4.6}\fi }{\ignorespaces <<Logout>>}}{59}{figure.caption.44}%
+\contentsline {figure}{\numberline {\if@rl \I {7.4}\else \textLR {4.7}\fi }{\ignorespaces Liste des APIs du microservice <<Warehouse\_Monitoring>> }}{60}{figure.caption.45}%
+\contentsline {figure}{\numberline {\if@rl \I {8.4}\else \textLR {4.8}\fi }{\ignorespaces Interface de la liste des entrepôts de données}}{60}{figure.caption.46}%
+\contentsline {figure}{\numberline {\if@rl \I {9.4}\else \textLR {4.9}\fi }{\ignorespaces Tableau de bord du surveillance d l'entrepôts des données <<Monitoring\_warehouse>>}}{61}{figure.caption.47}%
+\contentsline {figure}{\numberline {\if@rl \I {10.4}\else \textLR {4.10}\fi }{\ignorespaces Tableau de bord du surveillance d l'entrepôts des données <<Compute\_WH>>}}{61}{figure.caption.48}%
+\contentsline {figure}{\numberline {\if@rl \I {11.4}\else \textLR {4.11}\fi }{\ignorespaces Changement du role de l'utilisateur de <<ACCOUNT ADMIN>> vers <<ORGADMIN>> }}{62}{figure.caption.49}%
+\contentsline {figure}{\numberline {\if@rl \I {12.4}\else \textLR {4.12}\fi }{\ignorespaces Changement de seuil de credits vers <<90\$>> }}{63}{figure.caption.50}%
+\contentsline {figure}{\numberline {\if@rl \I {13.4}\else \textLR {4.13}\fi }{\ignorespaces Liste des APIs du microservice <<Warehouse\_Monitoring>> }}{64}{figure.caption.51}%
+\contentsline {figure}{\numberline {\if@rl \I {14.4}\else \textLR {4.14}\fi }{\ignorespaces Interface de la liste des entrepôts de données}}{65}{figure.caption.52}%
+\contentsline {figure}{\numberline {\if@rl \I {15.4}\else \textLR {4.15}\fi }{\ignorespaces Tableau de bord du surveillance des entrepôts des données}}{65}{figure.caption.53}%
+\contentsline {figure}{\numberline {\if@rl \I {16.4}\else \textLR {4.16}\fi }{\ignorespaces Tableau de bord du surveillance des entrepôts des données}}{66}{figure.caption.54}%
+\contentsline {figure}{\numberline {\if@rl \I {17.4}\else \textLR {4.17}\fi }{\ignorespaces Tableau de bord du surveillance de l'entrepôt des données <<Monitoring\_Warehouse>> }}{66}{figure.caption.55}%
+\contentsline {figure}{\numberline {\if@rl \I {18.4}\else \textLR {4.18}\fi }{\ignorespaces Tableau de bord du surveillance de l'entrepôt des données <<Compute\_WH>>}}{67}{figure.caption.56}%
+\contentsline {figure}{\numberline {\if@rl \I {19.4}\else \textLR {4.19}\fi }{\ignorespaces Liste des APIs du microservice<< Databases\_Statistics >> }}{68}{figure.caption.57}%
+\contentsline {figure}{\numberline {\if@rl \I {20.4}\else \textLR {4.20}\fi }{\ignorespaces La liste des bases de données}}{69}{figure.caption.58}%
+\contentsline {figure}{\numberline {\if@rl \I {21.4}\else \textLR {4.21}\fi }{\ignorespaces Liste des schémas de base de données}}{69}{figure.caption.59}%
+\contentsline {figure}{\numberline {\if@rl \I {22.4}\else \textLR {4.22}\fi }{\ignorespaces Liste des objets dans la base de données}}{70}{figure.caption.60}%
+\contentsline {figure}{\numberline {\if@rl \I {23.4}\else \textLR {4.23}\fi }{\ignorespaces Tableaux de bord du surveillance des bases de données}}{70}{figure.caption.61}%
+\contentsline {figure}{\numberline {\if@rl \I {24.4}\else \textLR {4.24}\fi }{\ignorespaces Liste des APIs du microservice << Access\_Statistics >> }}{71}{figure.caption.62}%
+\contentsline {figure}{\numberline {\if@rl \I {25.4}\else \textLR {4.25}\fi }{\ignorespaces Historique des accées}}{72}{figure.caption.63}%
+\contentsline {figure}{\numberline {\if@rl \I {26.4}\else \textLR {4.26}\fi }{\ignorespaces Tableau de bord du surveillance des accés de l'utilisateur <<ONS CHAHED>>}}{73}{figure.caption.64}%
+\contentsline {figure}{\numberline {\if@rl \I {27.4}\else \textLR {4.27}\fi }{\ignorespaces Tableau de bord du surveillance des accés de l'utilisateur <<SNOWFLAKE>>}}{73}{figure.caption.65}%
+\contentsline {figure}{\numberline {\if@rl \I {28.4}\else \textLR {4.28}\fi }{\ignorespaces Résultat du command <<Show tasks>> }}{74}{figure.caption.66}%
+\contentsline {figure}{\numberline {\if@rl \I {29.4}\else \textLR {4.29}\fi }{\ignorespaces Etape 0 : état initial du DAG}}{75}{figure.caption.67}%
+\contentsline {figure}{\numberline {\if@rl \I {30.4}\else \textLR {4.30}\fi }{\ignorespaces Lancement de l'éxécution des tâches}}{75}{figure.caption.68}%
+\contentsline {figure}{\numberline {\if@rl \I {31.4}\else \textLR {4.31}\fi }{\ignorespaces Etape 1 : Lancement des têches}}{76}{figure.caption.69}%
+\contentsline {figure}{\numberline {\if@rl \I {32.4}\else \textLR {4.32}\fi }{\ignorespaces Etape 3 : Execution de la racine}}{76}{figure.caption.70}%
+\contentsline {figure}{\numberline {\if@rl \I {33.4}\else \textLR {4.33}\fi }{\ignorespaces Etape 4 : Exécution des sous-tâches de niveau I}}{77}{figure.caption.71}%
+\contentsline {figure}{\numberline {\if@rl \I {34.4}\else \textLR {4.34}\fi }{\ignorespaces Etape 5 : Succes dans tous les branches du DAG <<Load Roles>>}}{77}{figure.caption.72}%
+\contentsline {figure}{\numberline {\if@rl \I {35.4}\else \textLR {4.35}\fi }{\ignorespaces Message d'erreur de la tâche <<Load test>>}}{78}{figure.caption.73}%
+\contentsline {figure}{\numberline {\if@rl \I {36.4}\else \textLR {4.36}\fi }{\ignorespaces Auto-suspend de la tâche}}{78}{figure.caption.74}%
+\contentsline {figure}{\numberline {\if@rl \I {37.4}\else \textLR {4.37}\fi }{\ignorespaces DAG erronée}}{79}{figure.caption.75}%
+\contentsline {figure}{\numberline {\if@rl \I {38.4}\else \textLR {4.38}\fi }{\ignorespaces La racine de Dag est suspendu automatiquement}}{79}{figure.caption.76}%
+\contentsline {figure}{\numberline {\if@rl \I {39.4}\else \textLR {4.39}\fi }{\ignorespaces Détails de suspend de la racine}}{80}{figure.caption.77}%
+\contentsline {figure}{\numberline {\if@rl \I {40.4}\else \textLR {4.40}\fi }{\ignorespaces Exécution de l'ETL}}{80}{figure.caption.78}%
+\contentsline {figure}{\numberline {\if@rl \I {41.4}\else \textLR {4.41}\fi }{\ignorespaces Publication dans le topic <<Mqtt/updates>>}}{81}{figure.caption.79}%
+\contentsline {figure}{\numberline {\if@rl \I {42.4}\else \textLR {4.42}\fi }{\ignorespaces Réception de la nouvelle notification de mise à jour dans <<Snowflake Monitoring Application>>}}{81}{figure.caption.80}%
+\contentsline {figure}{\numberline {\if@rl \I {43.4}\else \textLR {4.43}\fi }{\ignorespaces Consultation des notifications}}{82}{figure.caption.81}%
+\contentsline {figure}{\numberline {\if@rl \I {44.4}\else \textLR {4.44}\fi }{\ignorespaces Modification de limites}}{82}{figure.caption.82}%
+\contentsline {figure}{\numberline {\if@rl \I {45.4}\else \textLR {4.45}\fi }{\ignorespaces Publication dans le topic <<Mqtt/credits>>}}{83}{figure.caption.83}%
+\contentsline {figure}{\numberline {\if@rl \I {46.4}\else \textLR {4.46}\fi }{\ignorespaces Récéption de la nouvelle notification}}{83}{figure.caption.84}%
+\contentsline {figure}{\numberline {\if@rl \I {47.4}\else \textLR {4.47}\fi }{\ignorespaces Consultation des notifications}}{84}{figure.caption.85}%
+\contentsline {figure}{\numberline {\if@rl \I {48.4}\else \textLR {4.48}\fi }{\ignorespaces Modification du théme}}{84}{figure.caption.86}%
+\contentsline {figure}{\numberline {\if@rl \I {49.4}\else \textLR {4.49}\fi }{\ignorespaces Interfaces <<Databases Dashboard >> et <<Database Objects List >> en thème sombre}}{85}{figure.caption.87}%
+\contentsline {figure}{\numberline {\if@rl \I {50.4}\else \textLR {4.50}\fi }{\ignorespaces Interfaces en <<Queries Dashboard >> et <<Warehouses List >> thème sombre}}{86}{figure.caption.88}%
 \babel@toc {arabic}{}\relax 
 \babel@toc {french}{}\relax 
 \babel@toc {english}{}\relax 

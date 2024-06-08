@@ -186,7 +186,7 @@ Elle nous permet de répondre efficacement aux besoins changeants de nos utilisa
         %code image
             \begin{figure}[H]
                 \centering
-                \includegraphics[width =0.8\linewidth , height =8cm]{img/conception/class_auth_notif.png}
+                \includegraphics[width =0.8\linewidth , height =10cm]{img/conception/class_auth_notif.png}
                 \caption{le diagramme de classe des deux packages <<authentification>> et <<Notification>>}
                 \label{fig :class1}
                 \end{figure}
@@ -246,20 +246,20 @@ Elle nous permet de répondre efficacement aux besoins changeants de nos utilisa
         \centering
             \begin{tabular}{|p{3.5cm}|p{12cm}|}
                 \hline \textbf{Titre} &  Lister les entrepôts de données \\
-                \hline \textbf{Résumé} & L'utilisateur souhaite de lister les données de ses entrepôts de données' \\
+                \hline \textbf{Résumé} & L'utilisateur souhaite de lister les données de ses entrepôts de données \\
                 \hline \textbf{Acteurs} & Utilisateur\\
                 \hline \textbf{Pré conditions }& L'utilisateur est authentifié et autorisé, via une token, à accéder à cette fonctionnalité\\
                 \hline \textbf{Scénarios Nominaux} &
                     \begin{enumerate}
-                        \item [1.] L'utilisateur sélectionne l'option <<Warehouses>> ;
+                        \item [1.] l'utilisateur sélectionne l'option <<Warehouses>> ;
                         \item [2.] l'application récupère la liste des entrepôts et leurs données de la base de données Monitoring\_DB ;
                         \item [3.] l'application affiche les informations détaillées sur chaque entrepôt (nom, taille, performances, etc.) ;
                         \item [4.] l'utilisateur peut consulter les détails de chaque entrepôt.      
                     \end{enumerate}\\
                         \hline \textbf{Scénario alternatif} & 
-                        3.a. \hspace{0.3cm} [«Pas de warehouses»] : Le système retourne un tableaux indiquant que la liste est vide \newline\\
+                        3.a. \hspace{0.3cm} [«Pas de warehouses»] : le système retourne un tableaux indiquant que la liste est vide \newline\\
                 \hline  \textbf{Scénarios d'exceptions} & 
-                    [«Token éxpirée»] : Le système signale l'erreur et redirecte l'utilisateur vers la page de <<login>>.\\
+                    [«Token éxpirée»] : le système signale l'erreur et redirecte l'utilisateur vers la page de <<login>>.\\
                 \hline \textbf{Post conditions} & L'utilisateur a accès à la liste des entrepôts de données et peut consulter leurs informations détaillées.
          \\
                 \hline
@@ -273,21 +273,21 @@ Elle nous permet de répondre efficacement aux besoins changeants de nos utilisa
         \centering
             \begin{tabular}{|p{3.5cm}|p{12cm}|}
                 \hline \textbf{Titre} &  Lister les requêtes SQL \\
-                \hline \textbf{Résumé} & L'utilisateur souhaite de lister les données de ses entrepôts de données' \\
+                \hline \textbf{Résumé} & L'utilisateur souhaite de lister les requêtes SQL\\
                 \hline \textbf{Acteurs} & Utilisateur \\
                 \hline \textbf{Pré conditions }& L'utilisateur est authentifié et autorisé, via une token, à accéder à cette fonctionnalité\\
                 \hline \textbf{Scénarios Nominaux} &
                     \begin{enumerate}
-                        \item [1.] L'utilisateur sélectionne l'option <<<Queries>> ;
+                        \item [1.] l'utilisateur sélectionne l'option <<<Queries>> ;
                         \item [2.] le système récupère la liste des requêtes SQL exécutées par cet utilisateur de la base de données Monitoring\_DB ;
                         \item [3.] le système affiche les informations détaillées sur chaque requête (ID, type, status, etc.) ;
                         \item [4.] l'utilisateur peut consulter les détails de chaque requête.      
                     \end{enumerate}\\
                         \hline \textbf{Scénario alternatif} & 
-                            2.a. \hspace{0.3cm} [«Aucune requête trouvée »] : Le système retourne une liste vide en indiquant qu'il y aucune ligne\\
+                            2.a. \hspace{0.3cm} [«Aucune requête trouvée »] : le système retourne une liste vide en indiquant qu'il y aucune ligne\\
                 \hline  \textbf{Scénarios d'exceptions} & 
-                  [«Token éxpirée»] : Le système signale l'erreur et redirecte l'utilisateur vers la page de <<login>>.\\
-                \hline \textbf{Post conditions} & L'utilisateur a accès à la liste des entrepôts de données et peut consulter leurs informations détaillées.\\
+                  [«Token éxpirée»] : le système signale l'erreur et redirecte l'utilisateur vers la page de <<login>>.\\
+                \hline \textbf{Post conditions} & l'utilisateur a accès à la liste des entrepôts de données et peut consulter leurs informations détaillées.\\
                 \hline 
             \end{tabular}
         \caption{description textuelle de cas d'utilisation <<Lister les requêtes SQL>>}
@@ -306,15 +306,15 @@ Elle nous permet de répondre efficacement aux besoins changeants de nos utilisa
             \hline \textbf{Pré conditions }& L'administrateur est authentifié et avoir le role autorisé, via une token, à accéder à cette fonctionnalité\\
             \hline \textbf{Scénarios Nominaux} &
                 \begin{enumerate}
-                    \item [1.] L'administrateur sélectionne l'option <<<warehouse Monitoring>> ;
+                    \item [1.] l'administrateur sélectionne l'option <<<warehouse Monitoring>> ;
                     \item [2.] le système récupère les données nécéssaires pour afficher le tableau de bord des entrepôts de donnés  ;
                     \item [3.] l'administrateur sélectionne un entrepôt parmis la liste des entrepôts ;
                     \item [4.] le système renvoi les données spécifiques à cet entrepôt et liste ces journaux d'accées ainsi leurs détails dans le tableau de bord.      
                 \end{enumerate}\\
                     \hline \textbf{Scénario alternatif} & 
-                    2.a. \hspace{0.3cm} [«Aucun entrepôt trouvé »] : Le système retourne un tableau de bord vide en indiquant qu'il y a pas de données à monitorer.\\
+                    2.a. \hspace{0.3cm} [«Aucun entrepôt trouvé »] : le système retourne un tableau de bord vide en indiquant qu'il y a pas de données à monitorer.\\
             \hline  \textbf{Scénarios d'exceptions} & 
-              [«Token éxpirée»] : Le système signale l'erreur et redirecte l'administrateur vers la page de <<login>>.\\
+              [«Token éxpirée»] : le système signale l'erreur et redirecte l'administrateur vers la page de <<login>>.\\
             \hline \textbf{Post conditions} & L'administrateur a accès à la liste des journaux d'accès au entrepôt des données leurs informations détaillées.\\
             \hline 
         \end{tabular}
@@ -331,7 +331,7 @@ Elle nous permet de répondre efficacement aux besoins changeants de nos utilisa
             \hline \textbf{Pré conditions }& L'utilisateur est authentifié et autorisé, via une token, à accéder à cette fonctionnalité\\
             \hline \textbf{Scénarios Nominaux} &
                 \begin{enumerate}
-                    \item [1.] L'utilisateur sélectionne l'option <<Databases>> ;
+                    \item [1.] l'utilisateur sélectionne l'option <<Databases>> ;
                     \item [2.] le système récupère la liste des bases de données existants dans le compte Snowflake de l'utilisateur en affichant les détailles de chaque base (Id, nom, date de création, etc.) ;
                     \item [3.] l'utilisateur sélectionne une base de données de la liste ;
                     \item [4.] le système récupére l'ID de cette base et lance une recherche dans la base de données Monitoring\_DB des schémas appartenant à cette base ;
@@ -341,11 +341,11 @@ Elle nous permet de répondre efficacement aux besoins changeants de nos utilisa
                     \item [8.] le système affiche la liste des objets avec tout les détailles.
                 \end{enumerate}\\
                     \hline \textbf{Scénario alternatif} & 
-                    2.a. \hspace{0.3cm} [«Aucune base de données trouvée »] : Le système retourne une liste des base de données vide.
-                    4.a. \hspace{0.3cm} [«Aucun schéma trouvé »] : Le système retourne une liste des schémas vide.
-                    7.a. \hspace{0.3cm} [«Aucun objet trouvé »] : Le système retourne une liste des objets vide.\\
+                    2.a. \hspace{0.3cm} [«Aucune base de données trouvée »] : le système retourne une liste des base de données vide.
+                    4.a. \hspace{0.3cm} [«Aucun schéma trouvé »] : le système retourne une liste des schémas vide.
+                    7.a. \hspace{0.3cm} [«Aucun objet trouvé »] : le système retourne une liste des objets vide.\\
             \hline  \textbf{Scénarios d'exceptions} & 
-              [«Token éxpirée»] : Le système signale l'erreur et redirecte l'utilisateur vers la page de <<login>>.\\
+              [«Token éxpirée»] : le système signale l'erreur et redirecte l'utilisateur vers la page de <<login>>.\\
             \hline \textbf{Post conditions} & L'utilisateur a accès aux listes des base de données, des schémas et des objets ainsi que leurs informations détaillées.\\
             \hline 
         \end{tabular}
